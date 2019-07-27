@@ -47,9 +47,21 @@ a {
  
 /* ----------------------------------------------------- video-container */
 
-.carousel {
+#carousel-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+/* -------------------------------------------------------carousel-1 */
+
+}
+
+#carousel-2 {
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 80px;
     padding-right: 80px;
 }
+
+/* -------------------------------------------------------carousel-2 */
