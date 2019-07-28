@@ -45,7 +45,7 @@ a {
     padding-bottom: 50px;
 }
  
-/* ----------------------------------------------------- video-container */
+/* ----------------------------------------------------- video-container-1 */
 
 #carousel-1 {
     margin-top: 50px;
@@ -60,7 +60,9 @@ a {
 #carouselExampleSlidesOnly {
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-bottom: 50px;
     
 }
 
 /* -------------------------------------------------------carousel-2 */
+
