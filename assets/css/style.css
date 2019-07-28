@@ -85,10 +85,38 @@ a {
     background-color: #ebe234;
     font-family: 'Signika Negative', sans-serif; 
     font-style: oblique;
-    
+  }
+  
+/* ---------------------------------------------------------jumbotron */
+
+
+.jumbotron-fluid-1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: #ebe234;
+    font-family: 'Signika Negative', sans-serif; 
+    font-style: oblique;
 }
 
-/* ---------------------------------------------------------jumbotron */
+/* ---------------------------------------------------------jumbotron-fluid-1 */
+
+.jumbotron-fluid-2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: #ebe234;
+    font-family: 'Signika Negative', sans-serif; 
+    font-style: oblique;
+}
+
+/* ---------------------------------------------------------jumbotron-fluid-2 */
+    
+
 
 .jumbotron-1 {
     margin-top: 100px;
@@ -285,3 +313,32 @@ body {
   background: #00e676;
 }
  /* ---------------------------------------------------- sbuttons */
+ 
+ .jumbotron-6 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: #092e13;
+    font-family: 'Signika Negative', sans-serif; 
+    font-style: oblique;
+ }
+ /* -------------------------------------------------------- jumbotron-6 */
+ 
+ /* -------------------------------------------------------- BOOKS----------------------------*/
+ 
+ .jumbotron-fluid-3 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: #ebe234;
+    font-family: 'Signika Negative', sans-serif; 
+    font-style: oblique;
+}
+
+/* ---------------------------------------------------------jumbotron-fluid-3 */
+ 
+ 
