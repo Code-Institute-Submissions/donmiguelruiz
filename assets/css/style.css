@@ -52,10 +52,10 @@ a {
     margin-bottom: 50px;
     padding-left: 80px;
     padding-right: 80px;
+}
     
 /* -------------------------------------------------------carousel-1 */
 
-}
 
 #carouselExampleSlidesOnly {
     margin-top: 50px;
@@ -91,6 +91,10 @@ a {
 /* ---------------------------------------------------------jumbotron */
 
 .jumbotron-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 100px;
     background-color: #eb8034;
     font-family: 'Signika Negative', sans-serif; 
@@ -100,3 +104,11 @@ a {
 
 /* -------------------------------------------------------- jumbotron-1 */
 
+.carouselExampleControls {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+    
+/* -------------------------------------------------------  carouselExampleControls  */
