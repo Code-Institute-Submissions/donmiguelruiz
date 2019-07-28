@@ -38,160 +38,21 @@ a {
 /* ---------------------------------------------------- navbar */
 
 
-.video-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-}
- 
-/* ----------------------------------------------------- video-container-1 */
-
-#carousel-1 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-    
-/* -------------------------------------------------------carousel-1 */
 
 
-#carouselExampleSlidesOnly {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+/*---------------The Three Questions video interview with don Miguel Ruiz and Barbara Emrys ------------------ */
+
+.sizer {
+  width: 60%;
+  margin-bottom: 100px;
 }
 
-/* -------------------------------------------------------carousel-2 */
- 
-.embed-responsive-item {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 100px;
-}
-
-/* -------------------------------------------------------youtube video */
-
-.jumbotron {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #ebe234;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
-  }
-  
-/* ---------------------------------------------------------jumbotron */
+/*---------------The Three Questions video interview with don Miguel Ruiz and Barbara Emrys ------------------ */
 
 
-.jumbotron-fluid-1 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #ebe234;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
-}
-
-/* ---------------------------------------------------------jumbotron-fluid-1 */
-
-.jumbotron-fluid-2 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #ebe234;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
-}
-
-/* ---------------------------------------------------------jumbotron-fluid-2 */
-    
 
 
-.jumbotron-1 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #eb8034;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
-    
-}
 
-/* -------------------------------------------------------- jumbotron-1 */
-
-.carouselExampleControls {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-    
-/* -------------------------------------------------------  carouselExampleControls  */
-
-.jumbotron-2 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #56fc03;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
-}
-
-/* -------------------------------------------------------- jumbotron-2 */
-
-.jumbotron-3 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #996633;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
-    
-}
-
-/* -------------------------------------------------------- jumbotron-3 */
-
- .jumbotron-4 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #00FFFF;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
- }
- /* -------------------------------------------------------- jumbotron-4 */
- 
-  .jumbotron-5 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #ff4d4d;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
- }
- /* -------------------------------------------------------- jumbotron-5 */
- 
 body {
   height: 100vh;
   background-size: 100% 100%;
@@ -314,17 +175,7 @@ body {
 }
  /* ---------------------------------------------------- sbuttons */
  
- .jumbotron-6 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    background-color: #092e13;
-    font-family: 'Signika Negative', sans-serif; 
-    font-style: oblique;
- }
- /* -------------------------------------------------------- jumbotron-6 */
+ 
  
  /* -------------------------------------------------------- BOOKS----------------------------*/
  
