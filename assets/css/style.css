@@ -330,10 +330,7 @@ body {
  
  .jumbotron-fluid-3 {
     margin-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    margin-bottom: 150px;
     background-color: #ebe234;
     font-family: 'Signika Negative', sans-serif; 
     font-style: oblique;
@@ -341,4 +338,23 @@ body {
 
 /* ---------------------------------------------------------jumbotron-fluid-3 */
  
+ .jumbotron-fluid-4 {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    background-color: #ebe234;
+    font-family: 'Signika Negative', sans-serif; 
+    font-style: oblique;
+}
+
+/* ---------------------------------------------------------jumbotron-fluid-4 */
+
+.jumbotron-fluid-5 {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    background-color: #ebe234;
+    font-family: 'Signika Negative', sans-serif; 
+    font-style: oblique;
+}
+
+/* ---------------------------------------------------------jumbotron-fluid-5 */
  
