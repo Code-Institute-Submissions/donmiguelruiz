@@ -41,8 +41,8 @@ a {
 .video-container {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 35px;
-    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
  
 /* ----------------------------------------------------- video-container-1 */
@@ -60,9 +60,43 @@ a {
 #carouselExampleSlidesOnly {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-bottom: 50px;
-    
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 /* -------------------------------------------------------carousel-2 */
+ 
+.embed-responsive-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+
+/* -------------------------------------------------------youtube video */
+
+.jumbotron {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: #ebe234;
+    font-family: 'Signika Negative', sans-serif; 
+    font-style: oblique;
+    
+}
+
+/* ---------------------------------------------------------jumbotron */
+
+.jumbotron-1 {
+    padding-bottom: 100px;
+    background-color: #eb8034;
+    font-family: 'Signika Negative', sans-serif; 
+    font-style: oblique;
+    
+}
+
+/* -------------------------------------------------------- jumbotron-1 */
 
