@@ -1,29 +1,13 @@
-/* -------------------------------Homepagebackground-wallpaper----------------------------------------- */
-
-.img-fluid{
-    height:100%;
-   width:100%;
-   background-image:url(assets/images/homepagewallpaper.jpg);  
-   background-repeat:no-repeat;  
-   background-size:cover;  
-}
-
-/* -------------------------------Homepagebackground-wallpaper----------------------------------------- */
-
-
-
-
-
-/* --------------------------- Top Left Home-page website logo ------------------------------------------ */
-
-/* --------------------------- Top Left Home-page website logo ------------------------------------------ */
-
 
 
 
 
 
 /* -------------------------------------------Home-page top navigation bar ------------------------------ */
+
+.navbar {
+    float: right;
+}
 
 /* -------------------------------------------Home-page top navigation bar ------------------------------ */
 
