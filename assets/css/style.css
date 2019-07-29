@@ -1,6 +1,6 @@
 /* -------------------------------Homepagebackground-wallpaper----------------------------------------- */
 
-img{
+.img-fluid {
     height:100%;
    width:100%;
    background-image:url(image.jpg);/*your background image*/  
