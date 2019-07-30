@@ -35,19 +35,19 @@ font-family: 'Satisfy', cursive;
 
 /* ------------------------------------ Circle of Fire Event Advert ------------------------------------- */
 
-
-
-
-/* ------------------------------------ Circle of Fire Event Advert ------------------------------------- */
-
 #eventscard {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-#homepagenavpicture {
-    background-position: center;
+
+/* ------------------------------------ Circle of Fire Event Advert ------------------------------------- */
+
+
+
+#navbooks {
     margin-top: 50px;
     margin-bottom: 50px;
+    font-size: 180px;
     
 }
