@@ -1,3 +1,5 @@
+/* aligning has not been completed */
+
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
 body {
@@ -48,10 +50,6 @@ font-family: 'Satisfy', cursive;
 }
 
 
-
-
-
-
 .card-title {
-    font-size: 80px;
+    font-size: 50px;
 }
