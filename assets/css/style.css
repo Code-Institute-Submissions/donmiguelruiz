@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+body {
+font-family: 'Satisfy', cursive;
+}
 
 
 
@@ -35,66 +40,14 @@
 
 /* ------------------------------------ Circle of Fire Event Advert ------------------------------------- */
 
+#eventscard {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-
-
-
-/* ------------------------------------ The Three Questions Image Carousel------------------------------- */
-
-/* ------------------------------------ The Three Questions Image Carousel------------------------------- */
-
-
-
-
-/* ------------------------------------ The Three Questions Write-Up Carousel---------------------------- */
-
-/* ------------------------------------ The Three Questions Write-Up Carousel---------------------------- */
-
-
-
-
-/* ---------------The Three Questions video interview with don Miguel Ruiz and Barbara Emrys ------------ */
-
-/* ---------------The Three Questions video interview with don Miguel Ruiz and Barbara Emrys ------------ */
-
-
-
-
-/* -------------------------The Four Agreements Image Carousel ------------------------------------------ */
-
-/* -------------------------The Four Agreements Image Carousel ------------------------------------------ */
-
-
-
-
-/* -------------------------The Four Agreements Write-Up Carousel --------------------------------------- */
-
-/* -------------------------The Four Agreements Write-Up Carousel --------------------------------------- */
-
-
-
-
-/* -------------------------------don Miguel Ruiz with Maria Shriver ------------------------------------ */
-
-/* -------------------------------don Miguel Ruiz with Maria Shriver ------------------------------------ */
-
-
-
-
-/* ----------------don Miguel Ruiz with his sons don Jose Ruiz (left) and don Miguel Ruiz Jr. (right)---- */
-
-/* ----------------don Miguel Ruiz with his sons don Jose Ruiz (left) and don Miguel Ruiz Jr. (right)---- */
-
-
-
-
-/* ------------------------------------The Toltec Civilisation------------------------------------------- */
-
-/* ------------------------------------The Toltec Civilisation------------------------------------------- */
-
-
-
-
-/* ---------------------------------------- social media buttons ---------------------------------------- */
-
-/* ---------------------------------------- social media buttons ---------------------------------------- */
+#homepagenavpicture {
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
