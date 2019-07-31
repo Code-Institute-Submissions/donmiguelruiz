@@ -18,13 +18,13 @@ body {
     font-family: 'Satisfy', cursive;
 }
 
-.card-title {
-    font-size: 40px;
-    
-}
 
-#book {
-    padding: 50px 50px 50px 50px;
+#navbooks {
+   padding: 50px 50px 50px 50px;
+    }
+    
+#card-img-top {
+   padding: 50px 50px 50px 50px;
 }
 
 .btn {
