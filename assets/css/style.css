@@ -21,17 +21,20 @@ body {
 
 #navbooks {
    padding: 50px 50px 50px 50px;
-    }
-    
-#card-img-top {
-   padding: 50px 50px 50px 50px;
 }
+   
+   
+.card-title {   
+   font-size: 35px;
+    }
+
 
 .btn {
     background-color: #2f6e3d;
     color: white;
     border: none;
     font-size: 30px;
+    margin: 50px 50px 50px 50px;
 
 }
 
