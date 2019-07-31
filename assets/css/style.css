@@ -11,22 +11,21 @@ font-family: 'Satisfy', cursive;
 /* -------------------------------------------Home-page top navigation bar ------------------------------ */
 
 .navbar {
-    margin-top: 20px;
+    margin-top: 200px;
     font-size: 30px;
     margin-bottom: 10px;
     background-color: transparent;
 }
 
 .navbar-brand {
-    float: left;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .nav-item {
-    margin-left:90px;
-    margin-right:90px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 70px;
 }
-
 
 /* -------------------------------------------Home-page top navigation bar ------------------------------ */
 
