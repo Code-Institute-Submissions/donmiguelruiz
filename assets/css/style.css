@@ -67,34 +67,38 @@ img {
 }
 
 #socialmediabtn {
-  margin:0;
-  padding:0;
-  background: #dedede;
+  margin: 100px 1000px 100px 1050px;
+  text-align: center;
+  float: inherit;
+  
 }
 
 ul {
-  position:absolute;
+  position: relative;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
   margin:0;
   padding:0;
-  display:flex;
+  display: flex;
 }
 
 ul li {
-  list-style: none;
+  float: left;
+  padding-left: 10px;
+  list-style-type: none;
 }
 
 ul li a {
   position: relative;
-  width:60px;
-  height:60px;
-  display:block;
+  width:90px;
+  height:90px;
+  font-size: 10px;
+  padding: 6px;
+  display: flex;
   text-align:center;
   margin:0 10px;
   border-radius: 50%;
-  padding: 6px;
   text-decoration:none;
   box-shadow: 0 10px 15px rgba(0,0,0,0.3);
   background: linear-gradient(0deg, #ddd, #fff);
@@ -108,31 +112,31 @@ ul li a:hover {
 ul li a .fab {
   width: 100%;
   height:100%;
-  display:block;
+  display: inline-grid;
   background: linear-gradient(0deg, #fff, #ddd);
   border-radius: 50%;
   line-height: calc(60px - 12px);
-  font-size:24px;
+  font-size:40px;
   color: #262626;
   transition: .5s;
 }
 
-ul li:nth-child(1) a:hover .fa {
+ul li:nth-child(1) a:hover .fab {
   color: #3b5998;
 }
 
-ul li:nth-child(2) a:hover .fa {
+ul li:nth-child(2) a:hover .fab {
   color: #00aced;
 }
 
-ul li:nth-child(3) a:hover .fa {
+ul li:nth-child(3) a:hover .fab {
   color: #dd4b39;
 }
 
-ul li:nth-child(4) a:hover .fa {
+ul li:nth-child(4) a:hover .fab {
   color: #007bb6;
 }
 
-ul li:nth-child(5) a:hover .fa {
+ul li:nth-child(5) a:hover .fab {
   color: #e4405f;
 }
