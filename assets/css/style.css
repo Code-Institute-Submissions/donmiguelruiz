@@ -1,36 +1,11 @@
-.navbar {
-    font-size: 50px;
-    margin-top: 50px;
-}
-
-.nav-item {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-    
-.navbar-brand {
-    font-size: 90px;
-    margin-right: 700px;
-}
-
-
 body {
     font-family: 'Satisfy', cursive;
 }
-
-
-.card-title {   
-   font-size: 35px;
-    }
-
 
 .btn {
     background-color: #2f6e3d;
     color: white;
     border: none;
-    font-size: 30px;
-    margin: 20px 20px 20px 20px;
-
 }
 
 .btn:hover {
@@ -38,115 +13,8 @@ body {
     border: none;
 }
 
-p {
-    font-size: 35px;
-}
-
 img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     padding: 10px;
 }
-
-#navbooks {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    margin: 20px 20px 20px 20px;
-}
-
-#carouselExampleIndicators {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    margin: 20px 20px 20px 20px;
-}
-
-#sitenavpages {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    margin: 50px 0 50px 60px;
-}
-
-#socialmediabtn {
-  margin: 100px 1000px 100px 1050px;
-  text-align: center;
-  float: inherit;
-  
-}
-
-ul {
-  position: relative;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  margin:0;
-  padding:0;
-  display: flex;
-}
-
-ul li {
-  float: left;
-  padding-left: 10px;
-  list-style-type: none;
-}
-
-ul li a {
-  position: relative;
-  width:90px;
-  height:90px;
-  font-size: 10px;
-  padding: 6px;
-  display: flex;
-  text-align:center;
-  margin:0 10px;
-  border-radius: 50%;
-  text-decoration:none;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-  background: linear-gradient(0deg, #ddd, #fff);
-  transition: .5s;
-}
-
-ul li a:hover {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-}
-
-ul li a .fab {
-  width: 100%;
-  height:100%;
-  display: inline-grid;
-  background: linear-gradient(0deg, #fff, #ddd);
-  border-radius: 50%;
-  line-height: calc(60px - 12px);
-  font-size:40px;
-  color: #262626;
-  transition: .5s;
-}
-
-ul li:nth-child(1) a:hover .fab {
-  color: #3b5998;
-}
-
-ul li:nth-child(2) a:hover .fab {
-  color: #00aced;
-}
-
-ul li:nth-child(3) a:hover .fab {
-  color: #dd4b39;
-}
-
-ul li:nth-child(4) a:hover .fab {
-  color: #007bb6;
-}
-
-ul li:nth-child(5) a:hover .fab {
-  color: #e4405f;
-}
-
-#copyright {
-  margin: 100px 1200px 100px 30px;
-  text-align: center;
-  font-size: 40px;
-}
-
-
-
-
