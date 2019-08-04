@@ -25,9 +25,3 @@ img {
 p {
   color: black;
 }
-
-@media screen and (max-width: 600px) {
-  #sitenavpages {
-    width: 100%;
-  }
-}
