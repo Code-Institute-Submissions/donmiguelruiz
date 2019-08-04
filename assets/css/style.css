@@ -22,15 +22,12 @@ img {
     padding-top: 20px;
 }
 
-#picturequotes {
+p {
   color: black;
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  margin-left: -50px;
-  top: 50%;
-  margin-top: -50px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  #sitenavpages {
+    width: 100%;
+  }
 }
