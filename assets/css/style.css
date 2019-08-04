@@ -21,3 +21,16 @@ img {
 .form-group {
     padding-top: 20px;
 }
+
+#picturequotes {
+  color: black;
+  height: 100px;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
