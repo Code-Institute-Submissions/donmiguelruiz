@@ -2,6 +2,11 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .btn {
     background-color: #2f6e3d;
     color: white;
@@ -20,6 +25,10 @@ img {
 
 .form-group {
     padding-top: 20px;
+}
+
+h5 {
+  color: black;
 }
 
 p {
