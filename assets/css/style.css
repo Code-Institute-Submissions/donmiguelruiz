@@ -75,3 +75,11 @@ p {
   color: black;
   font-size: 15px;
 }
+
+.list-inline {
+    margin-left: 1300px;
+ }
+ 
+ #copyright {
+     margin-left: 1200px;
+ }
