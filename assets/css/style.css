@@ -44,9 +44,8 @@ img {
 }
 
 
-.textquotes {
-  text-align: center;
-  display: inline-block;
+h2 {
+    justify-content: center;
 }
 
 p {
