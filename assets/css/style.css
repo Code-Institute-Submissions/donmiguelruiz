@@ -57,4 +57,12 @@ p {
     margin-left: 1300px;
  }
  
- 
+ .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+ }
+
+.col {
+    padding-right: 0;
+    padding-left: 0;
+  }
