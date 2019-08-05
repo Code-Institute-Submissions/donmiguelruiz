@@ -1,40 +1,18 @@
 body {
     font-family: 'Noto Sans', sans-serif;
-    margin:0;
-    padding:0;
 }
-
-html,body {
-    margin:0;
-    padding:0;
-}
-
-.navbar {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #250b5b;
-}
-
-.navbar-brand {
-    font-size: 20px;
-    color: #250b5b;
-}
-
-.nav-item {
-    color: #250b5b;
-}
-
-
 
 .btn {
     background-color: #2f6e3d;
     color: white;
     border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn:hover {
     background-color: #06290e;
     border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {
