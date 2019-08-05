@@ -66,3 +66,7 @@ p {
     padding-right: 0;
     padding-left: 0;
   }
+
+#events {
+    max-height: 450px;
+}
