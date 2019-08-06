@@ -2,6 +2,12 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+html,body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
 .btn {
     background-color: #2f6e3d;
     color: white;
