@@ -75,5 +75,11 @@ p {
   }
 
 #calendar {
-    max-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  } 
+  
+#events {
+    border-radius: 50%;
 }
