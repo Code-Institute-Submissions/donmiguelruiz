@@ -53,6 +53,10 @@ img {
     padding-top: 20px;
 }
 
+#homenav3questions {
+    background-image: url("assets/images/20.jpg")
+}
+
 #carouselExampleControls {
     margin-top: 20px;
     margin-bottom: 20px;
