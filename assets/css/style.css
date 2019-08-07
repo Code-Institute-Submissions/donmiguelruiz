@@ -7,6 +7,10 @@ html,body{
   overflow-y: auto;
 }
 
+#homenav3questions {
+    background-image: url("https://www.freepik.com/premium-photo/dark-red-sparkling-background-from-small-sequins-closeup-brilliant-backdrop_4903274.htm");
+}
+
 
 .btn {
     background-color: #2f6e3d;
