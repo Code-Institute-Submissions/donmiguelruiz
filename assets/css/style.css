@@ -185,7 +185,7 @@ body {
 }
 
 .btn-light:hover .content {
-	transform: rotateY(.5turn) rotateX(-.03turn);
+	transform: rotateY(.5turn); rotateX(-.03turn);
 }
 
 .fa-facebook {
