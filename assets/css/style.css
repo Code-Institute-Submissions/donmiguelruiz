@@ -49,17 +49,7 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
-h2 {
-    justify-content: center;
-}
-
-p {
-  color: black;
-  font-size: 15px;
-}
-
+    
 
  .no-gutters {
   margin-right: 0;
@@ -110,14 +100,15 @@ body {
   flex-wrap: wrap;
 }
 
-.btn btn-light {
+.btn-light {
 	width: 100px;
 	height: 100px;
 	cursor: pointer;
 	border-radius: 50%;
   margin: 10px;
-}
-.btn btn-light .content {
+ }
+ 
+.btn-light .content {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -132,7 +123,9 @@ body {
 	background: radial-gradient(farthest-corner at 20px 20px, #deffde, #92ff92);
 	perspective: 1000px;
 }
-.btn btn-light .content .front {
+
+
+.btn-light .content .front {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -144,7 +137,8 @@ body {
 	backface-visibility: hidden;
 	transform-style: preserve-3d;
 }
-.btn btn-light .content .front .border {
+
+.btn-light .content .front .border {
 	content: '';
 	position: absolute;
 	left: 50%;
@@ -153,11 +147,12 @@ body {
 	height: 80%;
 	width: 80%;
 	border-radius: 50%;
-	border: 4px solid rgba(0, 0, 0, .7);
+	border: 4px solid rgba(0, 0, 0, 0.7);
 	backface-visibility: hidden;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
 }
-.btn btn-light .content .back {
+
+.btn-light .content .back {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -171,13 +166,16 @@ body {
 	backface-visibility: hidden;
 	transform-style: preserve-3d;
 }
-.btn btn-light .content .back p {
+
+.btn-light .content .back p {
 	font-size: .9rem;
 	text-shadow: 2px 1px 2px rgba(0, 0, 0, .2);
 	font-weight: 600;
   color: black;
 }
-.btn btn-light .content .back .border {
+
+.btn-light .content .back .border {
+	content: '';
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -185,26 +183,29 @@ body {
 	height: 80%;
 	width: 80%;
 	border-radius: 50%;
-	border: 3px solid rgba(0, 0, 0, .7);
+	border: 3px solid rgba(0, 0, 0, 0.7);
 	backface-visibility: hidden;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
 }
-.btn btn-light .front i {
+
+.btn-light .front {
 	font-size: 2rem;
 	text-shadow: 0 0 4px rgba(0, 0, 0, .3);
 }
-.btn btn-light:hover .content {
-	transform:  rotateY(.5turn) rotateX(-.03turn);
+
+.btn-light:hover .content {
+	transform: rotateY(.5turn) rotateX(-.03turn);
 }
-#facebook i {
+
+.fa-facebook {
 	color: #00008b;
 }
-#twitter i {
+.fa-twitter {
 	color: #00acee;
 }
-#amazon i {
+.fa-amazon {
 	color: #000000;
 }
-#instagram i {
+.fa-instagram {
 	color: #940094;
 }
