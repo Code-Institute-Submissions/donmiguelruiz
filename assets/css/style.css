@@ -1,5 +1,5 @@
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 html,body{
@@ -16,7 +16,8 @@ html,body{
 }
 
 .navbar-brand {
-	background:url(donmiguelruiz/assets/images/brandlogo.png);
+	background-image:url(donmiguelruiz/assets/images/brandlogo.png);
+	height: 80px;
 }
 
 .navbar-toggler {
