@@ -16,8 +16,11 @@ html,body{
 }
 
 .navbar-brand {
-	background-image:url(donmiguelruiz/assets/images/brandlogo.png);
+	background-image:url("brandlogo.png");
 	height: 80px;
+	margin-bottom: 10px;
+	font-size: 60px;
+	background-color: #ffc0cb;
 }
 
 .navbar-toggler {
@@ -25,6 +28,8 @@ html,body{
     color: white;
     border-color: #5e0010;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 60px;
+    width: 90px;
  }
 
 .nav-item {
@@ -32,6 +37,8 @@ html,body{
     color: white;
     border-color: #5e0010;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 90px;
+    font-size: 50px;
 }
 
 .nav:hover {
@@ -74,7 +81,8 @@ img {
 }
 
 #homenav3questions {
-    background-image: url("assets/images/20.jpg")
+    background-image: url("assets/images/20.jpg");
+    margin-top: 100px;
 }
 
 #carouselExampleControls {
