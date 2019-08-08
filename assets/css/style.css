@@ -8,23 +8,18 @@ html,body{
 }
 
 
-.navbar  {
-	background-color: #ffc0cb;
-    color: white;
-    border-color: #5e0010;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 10px;
-}
-
 .navbar-brand {
 	background-image:url("assets/images/brandlogo.png");
-	background-color: inherit;
+	color: white;
+	border-radius: 20%;
+
 }
 
 .navbar-brand:hover {
-	background-color: #d4d4d4;
+	background-color: #f1f1f1;
     border-color: #f1f1f1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    border-radius: 20%;
 }
 
 .navbar-toggler {
@@ -32,38 +27,38 @@ html,body{
     color: white;
     border-color: #5e0010;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 120px;
-    height: 90px;
-   
+    border-radius: 50%;
  }
+ 
+.navbar-toggler:hover {
+	background-color: #ff4a6a;
+    border-color: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
 
 .nav-item {
 	background-color: #ffc0cb;
     color: white;
     border-color: #5e0010;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    text-align: center;
    
 }
 
-.navbar-toggler:hover {
-	background-color: #ff4a6a;
-    border-color: #5e0010;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
 #hometitle {
 	background-color: #d2f8d2;
-	margin-top: 250px;
-	margin-bottom: 50px;
+	margin-top: 100px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 40px;
 }
 
 #hometitle:hover {
     background-color: #7deb7d;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
 }
 
 
@@ -112,12 +107,14 @@ img {
     color: white;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
 }
 
 .btn-primary:hover {
     background-color: #06290e;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
 }
 
 
