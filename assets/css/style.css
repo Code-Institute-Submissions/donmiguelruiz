@@ -130,7 +130,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)
+  background: radial-gradient(ellipse at bottom, 0%, #090A0F 100%)
 }
 
 .wrapper {
@@ -142,7 +142,7 @@ body {
 }
 
 .btn-container {
-  background: radial-gradient(ellipse at bottom, deeppink 0%, purple 100%);
+  background: radial-gradient(ellipse at bottom, #fdf0f2 0%, #ffdede 100%);
 	width: 80%;
   height: 200px;
   border-radius: 100px;
@@ -155,29 +155,33 @@ body {
   flex-wrap: wrap;
 }
 
-.btn {
+.btn-light {
 	width: 100px;
 	height: 100px;
 	cursor: pointer;
 	border-radius: 50%;
   margin: 10px;
-}
-.btn .content {
+ }
+ 
+.btn-light .content {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
 	cursor: pointer;
 	box-shadow: -2px 2px 10px rgba(0, 0, 0, .3);
+	display: -ms-grid;
 	display: grid;
-	justify-items: center;
+	justify-content: center;
 	align-items: center;
 	position: relative;
 	transition: transform 600ms;
 	transform-style: preserve-3d;
-	background: radial-gradient(farthest-corner at 20px 20px, yellow, orange);
+	background: radial-gradient(farthest-corner at 20px 20px, #deffde, #92ff92);
 	perspective: 1000px;
 }
-.btn .content .front {
+
+
+.btn-light .content .front {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -186,10 +190,12 @@ body {
 	align-items: center;
 	justify-content: center;
 	transform: translateZ(2rem);
-	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
 	transform-style: preserve-3d;
 }
-.btn .content .front .border {
+
+.btn-light .content .front .border {
 	content: '';
 	position: absolute;
 	left: 50%;
@@ -199,10 +205,12 @@ body {
 	width: 80%;
 	border-radius: 50%;
 	border: 4px solid rgba(0, 0, 0, 0.7);
-	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
 }
-.btn .content .back {
+
+.btn-light .content .back {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -213,16 +221,19 @@ body {
 	transform: translateZ(-2rem) rotateY(.5turn);
 	text-align: center;
 	font-family: sans-serif;
-	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
 	transform-style: preserve-3d;
 }
-.btn .content .back p {
+
+.btn-light .content .back p {
 	font-size: .9rem;
 	text-shadow: 2px 1px 2px rgba(0, 0, 0, .2);
 	font-weight: 600;
   color: black;
 }
-.btn .content .back .border {
+
+.btn-light .content .back .border {
 	content: '';
 	position: absolute;
 	left: 50%;
@@ -232,25 +243,29 @@ body {
 	width: 80%;
 	border-radius: 50%;
 	border: 3px solid rgba(0, 0, 0, 0.7);
-	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
 }
-.btn .front i {
+
+.btn-light .front {
 	font-size: 2rem;
 	text-shadow: 0 0 4px rgba(0, 0, 0, .3);
 }
-.btn:hover .content {
+
+.btn-light:hover .content {
 	transform: rotateY(.5turn) rotateX(-.03turn);
 }
-.btn--1 i {
+
+.fa-facebook {
+	color: #00008b;
+}
+.fa-twitter {
 	color: #00acee;
 }
-.btn--2 i {
-	color: #c4302b;
-}
-.btn--3 i {
+.fa-amazon {
 	color: #000000;
 }
-.btn--4 i {
-	color: #000000;
+.fa-instagram {
+	color: #940094;
 }
