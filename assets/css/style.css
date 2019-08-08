@@ -38,8 +38,8 @@ html,body{
     margin-bottom: 10px;
 }
 
-.nav:hover {
-	background-color: #5e0010;
+.navbar-toggler:hover {
+	background-color: #ff4a6a;
     border-color: #5e0010;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
