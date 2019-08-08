@@ -8,6 +8,35 @@ html,body{
 }
 
 
+.navbar  {
+	background-color: #ffc0cb;
+    color: white;
+    border: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.navbar-toggler {
+	background-color: #ffc0cb;
+    color: white;
+    border: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+.nav-item {
+	background-color: #ffc0cb;
+    color: white;
+    border: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav:hover {
+	color: #5e0010;
+    border: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
