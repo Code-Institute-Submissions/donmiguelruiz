@@ -47,6 +47,8 @@ html,body{
    
 }
 
+/* homepagetitle */
+
 #hometitle {
 	background-image:url("lightgreenbackground.jpg");
 	margin-top: 100px;
@@ -61,8 +63,71 @@ html,body{
     margin-top: 100px;
 }
 
+.row  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.justify-content-around {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+#quotecarousel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.flip-box {
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+ max-width: 100%;
+  height: auto;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* homepagetitle */
 
 img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -97,11 +162,6 @@ img {
     padding-top: 20px;
 }
 
-#homenav3questions {
-    background-image: url("assets/images/20.jpg");
-    margin-top: 10px;
-}
-
 .btn-primary {
     background-color: #2f6e3d;
     color: white;
@@ -124,7 +184,7 @@ img {
 }
     
 
- .no-gutters {
+.no-gutters {
   margin-right: 0;
   margin-left: 0;
  }
