@@ -23,7 +23,7 @@ html,body{
 }
 
 .navbar-toggler {
-	background-color: #ffc0cb;
+	background-color: #ffe9ec;
     color: white;
     border-color: #5e0010;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -38,14 +38,19 @@ html,body{
 }
 
 .nav-item {
-	background-color: #ffc0cb;
+	background-color: #ffe9ec;
     color: white;
     border-color: #5e0010;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
     text-align: center;
-   
 }
+
+.nav-item:hover {
+	background-color: #ff4a6a;
+    border-color: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
 
 /* homepagetitle */
 
