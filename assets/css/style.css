@@ -99,8 +99,15 @@ html, body {
 	
 /* homepage3questions */
 
+#threequestionsdetails {
+font-size: 20px;
+background-color: #DBAFFF;
+  color: white;
+  text-align: center;
+}
+
 #threequestionshomepage {
-	background-color: #f8d2e6;
+	background-color: #e2fff2;
     justify-content: center;
     text-align: center;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
