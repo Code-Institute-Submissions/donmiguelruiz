@@ -4,7 +4,56 @@ html, body {
 	font-family: 'Shadows Into Light', cursive;
 	}
 	
-	
+/* navbar styling */
+
+
+.navbar-brand {
+	background-image:url("assets/images/brandlogo.png");
+	color: white;
+	border-radius: 20%;
+
+}
+
+.navbar-brand:hover {
+	background-color: #f1f1f1;
+    border-color: #f1f1f1;
+    color: white;
+    border-radius: 20%;
+}
+
+.navbar-toggler {
+	background-color: #ffe9ec;
+    color: white;
+    border-color: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+ }
+ 
+.navbar-toggler:hover {
+	background-color: #ff4a6a;
+    border-color: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
+
+.nav-item {
+	background-color: #ffe9ec;
+    color: white;
+    border-color: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.nav-item:hover {
+	background-color: #ff4a6a;
+    border-color: #5e0010;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
+
+
+/* navbar styling*/
 	
 	
 /* homepage3questions */
