@@ -11,7 +11,7 @@ html, body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.blink-image {
+#homepage3questionsimage {
     border-radius: 30%;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -40,7 +40,7 @@ html, body {
         opacity:1;
     }
 } 
-.blink-image { /* Firefox */
+#homepage3questionsimage { /* Firefox */
     -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */ /* IE */
     animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
 }/* Firefox old*/ 
@@ -69,9 +69,11 @@ html, body {
         opacity:1;
     }
 } 
-.blink-image { /* Firefox */
+#homepage3questionsimage { /* Firefox */
     -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */ /* IE */
     animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
 }
 
 /* homepage3questions */
+
+
