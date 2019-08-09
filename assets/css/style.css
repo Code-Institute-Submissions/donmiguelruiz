@@ -68,8 +68,6 @@ html, body {
 	margin-bottom: 20px;
   font-size: 100px;
   color: #fff;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
 
