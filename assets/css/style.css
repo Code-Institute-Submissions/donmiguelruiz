@@ -85,7 +85,7 @@ html, body {
 
 #homepageintroduction:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: #7aea7a;
+	background-color: #bcf5bc;
 	text-align: center;
 	border-color: #006400;
 	border-radius: 50%;
@@ -101,7 +101,7 @@ html, body {
 
 #threequestionsdetails {
 font-size: 20px;
-background-color: #DBAFFF;
+background-color: #f2e2ff;
   color: white;
   text-align: center;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
