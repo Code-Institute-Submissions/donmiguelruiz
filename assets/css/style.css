@@ -10,7 +10,8 @@ html, body {
 .navbar-brand {
 	background-image:url("assets/images/brandlogo.png");
 	color: white;
-	border-radius: 20%;
+	border-radius: 40%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 
 }
 
@@ -18,21 +19,22 @@ html, body {
 	background-color: #f1f1f1;
     border-color: #f1f1f1;
     color: white;
-    border-radius: 20%;
+    border-radius: 40%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 .navbar-toggler {
 	background-color: #ffe9ec;
     color: white;
     border-color: #5e0010;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
     border-radius: 50%;
  }
  
 .navbar-toggler:hover {
 	background-color: #ff4a6a;
     border-color: #5e0010;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
     border-radius: 50%;
 }
 
@@ -40,7 +42,7 @@ html, body {
 	background-color: #ffe9ec;
     color: white;
     border-color: #5e0010;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
     border-radius: 50%;
     text-align: center;
 }
@@ -48,12 +50,27 @@ html, body {
 .nav-item:hover {
 	background-color: #ff4a6a;
     border-color: #5e0010;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
     border-radius: 50%;
 }
 
 
 /* navbar styling*/
+
+
+/* homepageintroduction */
+
+#homepageintroduction {
+	background-color: #d2f8d2;
+	text-align: center;
+	border-color: #006400;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* homepageintroduction */
+
 	
 	
 /* homepage3questions */
@@ -61,13 +78,13 @@ html, body {
 #threequestionshomepage {
     justify-content: center;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #homepage3questionsimage {
     border-radius: 30%;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 @-webkit-keyframes blink {
