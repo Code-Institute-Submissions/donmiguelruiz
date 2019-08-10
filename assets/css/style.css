@@ -172,18 +172,11 @@ background-color: #f2e2ff;
 
 /* homepage3questions */
 
-/* homepagemaria */
+/* homepage-withmariashriver */
 
-#homepagemaria {
-    border-radius: 10%;
-    background-color: #FFD4B3;
-    color: white;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
 
 #homepagemariadetails {
     justify-content: center;
-    text-align: center;
 }
     
 #shriverinterviewimage {
@@ -197,8 +190,6 @@ background-color: #f2e2ff;
   width: auto;
   height: auto;
   border: 1px solid white;
-  border-radius: 50%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -239,9 +230,13 @@ background-color: #f2e2ff;
   transform: rotateY(180deg);
 }
 
-/* homepagemaria */
 
-/* mariainterviewpictures */
+/* homepage-withmariashriver */
 
+/* homepagemariaaudio */
 
-/* mariainterviewpictures */
+#homepagemariaaudio {
+   margin: 15px 15px 15px 15px; 
+}
+
+/* homepagemariaaudio */
