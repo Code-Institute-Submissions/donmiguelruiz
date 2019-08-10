@@ -100,6 +100,7 @@ background-color: #f2e2ff;
     justify-content: center;
     text-align: center;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    margin-bottom: 100px;
 }
 
 #homepage3questionsimage {
@@ -215,8 +216,6 @@ background-color: #f2e2ff;
   height: 100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-          margin-top:200px;
-          bottom: 300px;
 }
 
 
@@ -238,7 +237,7 @@ background-color: #f2e2ff;
 /* homepagemariaaudio */
 
 #homepagemariaaudio {
-   margin: 300px 0px 300px 15px; 
+    margin-top: 400px;
 }
 
 /* homepagemariaaudio */
