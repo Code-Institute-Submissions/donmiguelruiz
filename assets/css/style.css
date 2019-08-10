@@ -176,6 +176,7 @@ background-color: #f2e2ff;
 
 #homepagemariadetails {
     justify-content: center;
+    color: #750075;
 }
     
 #shriverinterviewpictures {
@@ -185,10 +186,10 @@ background-color: #f2e2ff;
 }    
 
 .flip-box {
-  background-color: transparent;
+  background-color: #750075;
   width: auto;
   height: auto;
-  border: 1px solid white;
+  border: 1px solid #750075;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -218,14 +219,14 @@ background-color: #f2e2ff;
 
 
 .flip-box-front {
-  background-color: #bbb;
-  color: black;
+  background-color: #750075;
+  color: #750075;
 }
 
 
 .flip-box-back {
-  background-color: white;
-  color: white;
+  background-color: #750075;
+  color: #750075;
   transform: rotateY(180deg);
 }
 
