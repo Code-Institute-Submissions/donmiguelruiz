@@ -187,9 +187,8 @@ background-color: #f2e2ff;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
-/* flip-box images for maria shriver interviews */
-
+    
+    
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   background-color: transparent;
@@ -234,5 +233,3 @@ background-color: #f2e2ff;
   color: white;
   transform: rotateY(180deg);
 }
-
-/* flip-box images for maria shriver interviews */
