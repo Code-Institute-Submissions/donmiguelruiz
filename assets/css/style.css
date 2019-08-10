@@ -178,6 +178,12 @@ background-color: #f2e2ff;
     background-color: #FFA18E;
 }
 
+.btn-danger {
+    border-radius:50%;
+    color: white;
+    background-color:#4F0113;
+}
+
 #homepagemariadetails {
     justify-content: center;
     color: #750075;
