@@ -187,6 +187,7 @@ background-color: #f2e2ff;
 #homepagemariadetails {
     justify-content: center;
     color: #750075;
+    margin: 100px 0px 100px 0px;
 }
     
 #shriverinterviewpictures {
@@ -250,29 +251,8 @@ background-color: #f2e2ff;
 
 /* mariashriver audio */
 
-.container {
-  position: relative;
-  width: 50%;
-}
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 15%;
-}
 
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
-}
 
 
 /* mariashriver audio */
