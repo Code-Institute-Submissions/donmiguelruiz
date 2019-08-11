@@ -186,7 +186,7 @@ background-color: #f2e2ff;
 
 #homepagemariadetails {
     justify-content: center;
-    color: #750075;
+    background-image: linear-gradient(to right top, #f8a9f8, #ffa5ce, #ffb1a4, #ffc688, #f0dc85, #e2df86, #d3e289, #c4e48e, #cfd77c, #d9ca6d, #e3bc63, #ebad5e);
     margin: 100px 0px 100px 0px;
 }
     
@@ -244,10 +244,6 @@ background-color: #f2e2ff;
 
 /* homepage-withmariashriver */
 
-/* homepagemariaaudio */
-
-
-/* homepagemariaaudio */
 
 /* mariashriver audio */
 
@@ -257,3 +253,11 @@ margin: 400px 0px 100px 0px;
 }
 
 /* mariashriver audio */
+
+/* quotecarouseltitle */
+
+#quotecarouseltitle {
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+border-radius: 30%;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
