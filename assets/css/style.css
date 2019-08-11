@@ -206,12 +206,11 @@ html, body {
 	justify-content: center;
 }
 .btn-container {
-	background-image: linear-gradient(to right top, #a3dbf4, #78e4f3, #57ebde, #64eeb7, #91ed85, #98ed7e, #9fed76, #a6ed6e, #7ff394, #57f6b9, #2ff7da, #27f6f6);
+	background-color: white;
 	width: 80%;
 	height: 200px;
-	border-radius: 100px;
+	border-radius: 50%;
 	padding: 0 50px;
-	box-shadow: 0 0 8px rgba(0, 0, 0, .5), -2px 2px 10px rgba(0, 0, 0, .3);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -223,7 +222,7 @@ html, body {
 	height: 100px;
 	cursor: pointer;
 	border-radius: 50%;
-	margin: 10px;
+	margin: 10px 50px 10px 50px;
 }
 .btn .content {
 	width: 100px;
