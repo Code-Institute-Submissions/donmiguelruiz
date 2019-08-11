@@ -101,6 +101,38 @@ background-color: #f2e2ff;
     margin-bottom: 100px;
 }
 
+#homepage3questionsimage 
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
 #homepage3questionsimage {
     border-radius: 30%;
     justify-content: center;
@@ -112,62 +144,7 @@ background-color: #f2e2ff;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
-@-webkit-keyframes blink {
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-}
-/* Opera and prob css3 final iteration */
-@keyframes blink {
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-} 
-#homepage3questionsimage { /* Firefox */
-    -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */ /* IE */
-    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
-}/* Firefox old*/ 
 
-@-webkit-keyframes blink {
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-}
-/* IE */ 
-/* Opera and prob css3 final iteration */
-@keyframes blink {
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-} 
-#homepage3questionsimage { /* Firefox */
-    -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */ /* IE */
-    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
-}
 
 /* homepage3questions */
 
