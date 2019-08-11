@@ -197,3 +197,124 @@ html, body {
 	border-radius: 30%;
 }
 /* quotecarousel */
+/* socialmediabuttons */
+.wrapper {
+	height: 100vh;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+.btn-container {
+	background-image: linear-gradient(to right top, #a3dbf4, #78e4f3, #57ebde, #64eeb7, #91ed85, #98ed7e, #9fed76, #a6ed6e, #7ff394, #57f6b9, #2ff7da, #27f6f6);
+	width: 80%;
+	height: 200px;
+	border-radius: 100px;
+	padding: 0 50px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .5), -2px 2px 10px rgba(0, 0, 0, .3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.btn {
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	border-radius: 50%;
+	margin: 10px;
+}
+.btn .content {
+	width: 100px;
+	height: 100px;
+	border-radius: 30%;
+	cursor: pointer;
+	box-shadow: -2px 2px 10px rgba(0, 0, 0, .3);
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: transform 600ms;
+	transform-style: preserve-3d;
+	background-image: linear-gradient(to right top, #e6eef2, #ccf1f8, #b1f4f3, #9ef6e1, #9df6c4, #a8f1ac, #b7eb95, #c8e37e, #d3d872, #ddce6a, #e6c265, #edb763);
+	perspective: 1000px;
+}
+.btn .content .front {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: translateZ(2rem);
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+}
+.btn .content .front .border {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) translateZ(2rem);
+	height: 80%;
+	width: 80%;
+	border-radius: 50%;
+	border: 4px solid rgba(0, 0, 0, 0.7);
+	backface-visibility: hidden;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+}
+.btn .content .back {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: translateZ(-2rem) rotateY(.5turn);
+	text-align: center;
+	font-family: sans-serif;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+}
+.btn .content .back p {
+	font-size: .9rem;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, .2);
+	font-weight: 600;
+	color: black;
+}
+.btn .content .back .border {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) translateZ(-1rem);
+	height: 80%;
+	width: 80%;
+	border-radius: 50%;
+	border: 3px solid rgba(0, 0, 0, 0.7);
+	backface-visibility: hidden;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+}
+.btn .front i {
+	font-size: 2rem;
+	text-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+.btn:hover .content {
+	transform: rotateY(.5turn) rotateX(-.03turn);
+}
+.btn--1 i {
+	color: #00acee;
+}
+.btn--2 i {
+	color: #00008b;
+}
+.btn--3 i {
+	color: #800080;
+}
+.btn--4 i {
+	color: #000000;
+}
+/* socialmediabuttons */
