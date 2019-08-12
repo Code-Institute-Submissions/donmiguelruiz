@@ -256,11 +256,11 @@ label {
 /* books */
 
 #buybooks {
-	margin-top: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-bottom: 20px;
 }
 
 #bookcoverpicture {
@@ -269,11 +269,14 @@ label {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 #bookcoveramazon {
 	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.76);
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 #bookcoveramazon:hover {
