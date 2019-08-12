@@ -357,3 +357,88 @@ label {
 	transform: scale(1.5);
 }
 /* books */
+/* about.html */
+
+#donmiguelruiztitle {
+    margin: 0px 10px 0px 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20%;
+}
+
+#aboutcardimagetop {
+	height: 500px;
+	width: 500px;
+    border-radius: 20%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.flip-box {
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20%;
+}
+
+.flip-box-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    justify-content: center;
+	align-items: center;
+	border-radius: 20%;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20%;
+}
+
+.flip-box-front, .flip-box-back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20%;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20%;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateX(180deg);
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20%;
+}
+
+#miguelruizwriteup {
+	margin: 500px 0 100px 0;
+}
+/* about.html */
