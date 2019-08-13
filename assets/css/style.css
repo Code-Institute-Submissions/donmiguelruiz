@@ -220,26 +220,29 @@ label {
 /* contactform */
 /* books */
 #buybooks {
-	background: transparent;
 	max-width: 100%;
 	height: auto;
+	background: transparent;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
 #bookcoverpicture {
+	max-width: 100%;
+	height: auto;
 	border-radius: 50%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	max-width: 100%;
-	height: auto;
 }
 #bookcoveramazon {
-	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.76);
 	max-width: 100%;
 	height: auto;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.76);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 #bookcoveramazon:hover {
 	-webkit-animation: shake 0.5s;
