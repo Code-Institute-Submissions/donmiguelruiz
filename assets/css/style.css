@@ -461,32 +461,32 @@ label {
 	background-color: transparent;
 	font-weight: bold;
 	color: #001800;
-	font-size: 0.7rem;
+	font-size: 1rem;
 	align-items: center;
 	text-align: center;
 }
 
 @media (min-width: 576px) {
 	.writeuptext {
-		font-size: 0.5rem;
+		font-size: 1rem;
 	}	
 }
 	
 @media (min-width: 768px) {
 	.writeuptext {
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 	}	
 }
 	
 @media (min-width: 992px) {
 	.writeuptext {
-		font-size: 1rem;
+		font-size: 1.4rem;
 	}	
 }
 
 @media (min-width: 1200px) {
 	.writeuptext {
-		font-size: 1.2rem;
+		font-size: 1.6rem;
 	}	
 }
 
