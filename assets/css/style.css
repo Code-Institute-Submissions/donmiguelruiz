@@ -240,9 +240,8 @@ label {
 	text-align: center;
 }
 #bookcoverpicture {
-	max-width: 100%;
-	height: auto;
-	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	justify-content: center;
 	align-items: center;
@@ -460,7 +459,6 @@ label {
 	font-weight: bold;
 	color: #001800;
 	font-size:1rem;
-	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
