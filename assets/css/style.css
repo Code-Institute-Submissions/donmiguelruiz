@@ -441,7 +441,7 @@ label {
 }
 .writeuptext {
 	background-color: transparent;
-	font-weight: normal;
+	font-weight: bold;
 	color: #001800;
 	font-size:3vw;
 	justify-content: center;
