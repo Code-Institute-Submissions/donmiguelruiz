@@ -135,41 +135,6 @@ html, body {
 	border-radius: 50%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-.flip-box {
-	background-color: #750075;
-	width: auto;
-	height: auto;
-	border: 1px solid #750075;
-	perspective: 1000px;
-	/* Remove this if you don't want the 3D effect */
-}
-.flip-box-inner {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	transition: transform 0.8s;
-	transform-style: preserve-3d;
-}
-.flip-box:hover .flip-box-inner {
-	transform: rotateY(180deg);
-}
-.flip-box-front, .flip-box-back {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.flip-box-front {
-	background-color: #750075;
-	color: #750075;
-}
-.flip-box-back {
-	background-color: #750075;
-	color: #750075;
-	transform: rotateY(180deg);
-}
 /* homepage-withmariashriver */
 /* mariashriver audio */
 #homepagemariaaudio {
@@ -358,109 +323,88 @@ label {
 }
 /* books */
 /* about.html */
-
 #donmiguelruiztitle {
-    margin: 100px 10px 100px 10px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-    justify-content: center;
-	align-items: center;
-	text-align: center;
-	border-radius: 20%;
-}
-
-#aboutcardimagetop {
-	height: 500px;
-	width: 500px;
-    border-radius: 20%;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: transparent;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-
-.flip-box {
-  background-color: transparent;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-    justify-content: center;
+.img-hover-zoom--zoom-n-pan-h img {
+	transition: transform .5s ease-in-out;
+	transform: scale(1.4);
+	transform-origin: 100% 0;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 	border-radius: 20%;
 }
-
-.flip-box-inner {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-    justify-content: center;
-	align-items: center;
-	border-radius: 20%;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateX(180deg);
-    justify-content: center;
+.img-hover-zoom--zoom-n-pan-h:hover img {
+	transform: scale(1.5) translateX(30%);
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
 	align-items: center;
 	text-align: center;
+	border-radius: 20%;
+}
+#abouttitleimage {
+	max-width: 100%;
+	height: auto;
 	border-radius: 20%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-
-.flip-box-front, .flip-box-back {
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-    justify-content: center;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#aboutcardimagetop {
+	max-width: 100%;
+	height: auto;
 	border-radius: 20%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-
-.flip-box-front {
-  background-color: #bbb;
-  color: black;
-    justify-content: center;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
-	border-radius: 20%;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-
-.flip-box-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateX(180deg);
-    justify-content: center;
-	align-items: center;
-	text-align: center;
-	border-radius: 20%;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-
 #miguelruizwriteup {
-	margin: 700px 0 100px 0;
+	margin: 100px 0 100px 0;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20%;
+	max-width: 100%;
+	height: auto;
 }
-
+.container-fluid {
+	max-width: 100%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 #miguelruizaboutimages {
-	position: relative;
-	width: 50%;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20%;
 }
-
 #aboutpageimagewriteup {
 	opacity: 1;
 	display: block;
-	width: 100%;
-	height: auto;
 	transition: .5s ease;
+	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-	height: 500px;
-	width: 500px;
+	max-width: 100%;
+	height: auto;
 	border-radius: 20%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	justify-content: center;
@@ -477,10 +421,10 @@ label {
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
 }
-#miguelruizaboutimages:hover .image {
+.container-fluid:hover #writeupimage {
 	opacity: 0.3;
 }
-#miguelruizaboutimages:hover .middle {
+.container-fluid:hover .middle {
 	opacity: 1;
 }
 .writeuptext {
@@ -488,5 +432,14 @@ label {
 	color: white;
 	font-size: 16px;
 	padding: 16px 32px;
+}
+#writeupimage {
+	max-width: 100%;
+	height: auto;
+	border-radius: 20%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 /* about.html */
