@@ -233,13 +233,13 @@ label {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	max-width: 100%;
+	height: auto;
 }
 #bookcoveramazon {
 	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.76);
-	margin-top: 100px;
-	margin-bottom: 100px;
+	max-width: 100%;
+	height: auto;
 }
 #bookcoveramazon:hover {
 	-webkit-animation: shake 0.5s;
@@ -326,8 +326,8 @@ label {
 /* books */
 /* about.html */
 #donmiguelruiztitle {
-	margin-top: 100px;
-	margin-bottom: 200px;
+	margin-top: 200px;
+	margin-bottom: 100px;
 	background-color: transparent;
 	justify-content: center;
 	align-items: center;
