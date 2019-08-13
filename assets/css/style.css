@@ -185,6 +185,21 @@ html, body {
 }
 /* socialmediabuttons */
 /* books */
+
+#bookspagetitledescription {
+	max-width: 100%;
+	height: auto;
+	color: #578E2C;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 150px 50px 50px 50px;
+	background-image: linear-gradient(to right top, #0a2505, #144211, #236118, #35821d, #4ba41f, #63b721, #7bc922, #94dc23, #aee32b, #c7e935, #dff041, #f6f64d);
+	border-radius: 30%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+
 /* books */
 /* contactform */
 #contactform {
