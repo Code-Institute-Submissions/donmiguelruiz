@@ -294,12 +294,15 @@ label {
 	text-align: center;
 }
 #miguelruizaboutimages {
-	background: transparent;
 	max-width: 100%;
+	border-radius: 15%;
+	background-image: linear-gradient(to right top, #d9e9f6, #dde8f8, #e2e7f8, #e8e5f8, #eee4f6, #f5e0f1, #fbdde9, #ffdbdf, #ffdaca, #ffe0b2, #e6eca8, #b3f8b7);
 	height: auto;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+
 }
 #aboutpageimagewriteup {
 	opacity: 1;
