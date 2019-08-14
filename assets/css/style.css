@@ -6,6 +6,11 @@ html, body {
 }
 
 /* navbar styling */
+
+#navbarwrap {
+	margin-bottom: 150px;
+}
+
 .navbar-brand {
 	color: white;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -501,41 +506,36 @@ label {
 /* about.html */
 
 /* socialmediabuttons */
-
 .fab {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  align-items: center;
+	font-size: 2rem;
+	text-align: center;
+	text-decoration: none;
+	align-items: center;
 	justify-content: center;
+	transition: transform .2s;
+	background-image: linear-gradient(to right top, #110e0f, #343132, #5b5758, #858081, #b1abad, #c0b6b7, #cfc1c0, #deccc8, #ccb9ac, #b3a892, #95997c, #718b6f);
 }
-
 .fab:hover {
-    opacity: 0.7;
-    	align-items: center;
+	opacity: 0.7;
+	align-items: center;
 	justify-content: center;
 	text-align: center;
+	transform: scale(1.5);
+	text-decoration: none;
+	background-image: linear-gradient(to right top, #110e0f, #343132, #5b5758, #858081, #b1abad, #c0b6b7, #cfc1c0, #deccc8, #ccb9ac, #b3a892, #95997c, #718b6f);
 }
-
 .fab-facebook {
-  background: #3B5998;
-  color: white;
-  	
+	background-image: linear-gradient(to right top, #110e0f, #343132, #5b5758, #858081, #b1abad, #c0b6b7, #cfc1c0, #deccc8, #ccb9ac, #b3a892, #95997c, #718b6f);
+	color: white;
 }
-
 .fab-twitter {
-  background: #55ACEE;
-  color: white;
+	background-image: linear-gradient(to right top, #110e0f, #343132, #5b5758, #858081, #b1abad, #c0b6b7, #cfc1c0, #deccc8, #ccb9ac, #b3a892, #95997c, #718b6f);
+	color: white;
 }
-
 .fab-instagram {
-  background: #125688;
-  color: white;
+	background-image: linear-gradient(to right top, #110e0f, #343132, #5b5758, #858081, #b1abad, #c0b6b7, #cfc1c0, #deccc8, #ccb9ac, #b3a892, #95997c, #718b6f);
+	color: white;
 }
-
 #social {
 	background: transparent;
 	max-width: 100%;
@@ -544,7 +544,4 @@ label {
 	justify-content: center;
 	text-align: center;
 }
-
-
 /* socialmediabuttons */
-
