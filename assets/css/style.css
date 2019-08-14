@@ -163,27 +163,6 @@ html, body {
 	border-radius: 30%;
 }
 /* quotecarousel */
-/* socialmediabuttons */
-.socialMediaLinks a {
-	font-size: 30px;
-	margin: 0 20px 0 20px;
-	color: #000000;
-	text-decoration: none;
-	background-color: #d2f8d2;
-	width: 70px;
-	text-align: center;
-	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-	border-radius: 100%;
-}
-.socialMediaLinks a:hover {
-	background-color: #90ee90;
-}
-#socialmediabuttons {
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-/* socialmediabuttons */
 
 
 /* contactform */
@@ -355,15 +334,13 @@ label {
 /* books */
 /* about.html */
 #donmiguelruiztitle {
-	font-weight: bold;
 	max-width: 100%;
 	height: auto;
-	color: #578E2C;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	margin: 150px 50px 50px 50px;
-	background-image: linear-gradient(to right top, #eb6720, #ff705c, #ff828e, #ff9ab8, #ffb4d9, #fbb5da, #f7b6da, #f3b7da, #f09fc1, #ec87a5, #e56f86, #da5864);
+	background: transparent;
 	border-radius: 30%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
@@ -521,3 +498,51 @@ label {
 	text-align: center;
 }
 /* about.html */
+
+/* socialmediabuttons */
+.socialMediaLinks a {
+	font-size: 70px;
+	margin: 20px 20px 20px 20px;
+	color: #000000;
+	text-decoration: none;
+	background-image: linear-gradient(to right top, #39f412, #77f200, #9df000, #bbee04, #d4eb1e, #e7da10, #f5c817, #ffb726, #ff9231, #ff6d43, #f04955, #d82966);
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+#socialmediabuttons {
+	margin: 200px 0 200px 0;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.fab {
+	padding-top: 15px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  transition: transform .2s; 
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.fab:hover {
+	transform: scale(1.5);
+}
+
+a {
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* socialmediabuttons */
+
