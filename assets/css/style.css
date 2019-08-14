@@ -247,17 +247,14 @@ label {
 	background-image: linear-gradient(to right top, #edbda8, #f3c3a2, #f6cb9d, #f6d398, #f2dd95, #eee395, #e8ea96, #e1f099, #dcf39c, #d7f79f, #d2faa3, #ccfda7);
 }
 #bookcoverpicture {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	max-width: 100%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	height: auto;
 	justify-content: center;
 	align-items: center;
-	vertical-align: text-bottom;
+	text-align: center;
 	padding: 10px 10px 10px 10px;
 	border-radius: 10%;
-    display: inline-block;
-    height: auto;
+    max-width: 100%;
 }
 .zoom {
 	transition: transform .2s;
