@@ -235,11 +235,11 @@ label {
 }
 
 #buybooks {
+	height: 100%;
 	margin: 50px 50px 50px 50px;
 	border-radius: 30%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	max-width: 100%;
-	height: auto;
 	background: transparent;
 	justify-content: center;
 	align-items: center;
@@ -248,13 +248,14 @@ label {
 }
 #bookcoverpicture {
 	max-width: 100%;
-	height: auto;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
 	border-radius: 10%;
+    height: 100%;
+    vertical-align: middle;
 }
 #bookcoveramazon {
 	max-width: 100%;
