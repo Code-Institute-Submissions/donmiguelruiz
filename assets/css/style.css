@@ -7,7 +7,7 @@ html, body {
 /* navbar styling */
 
 #navbarwrap {
-	margin-bottom: 150px;
+	margin-bottom: 20px;
 }
 
 .navbar-brand {
@@ -50,6 +50,16 @@ html, body {
 /* navbar styling*/
 
 /* contactform */
+
+#contactpageheader {
+	background: transparent;
+	margin: 80px 20px 20px 20px;
+}
+
+#contactheadimage{
+	border-radius: 15%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
 
 #contactdivider {
 	background: transparent;
