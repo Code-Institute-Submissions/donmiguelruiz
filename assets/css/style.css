@@ -501,22 +501,32 @@ label {
 
 /* socialmediabuttons */
 
+
+.d-flex {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
 .fab {
-	font-size: 70px;
+	margin: 100px 100px 100px 100px;
+	font-size: 1rem;
 	color: black;
-	margin: 20px 20px 20px 20px;
 	background-image: linear-gradient(to right top, #39f412, #77f200, #9df000, #bbee04, #d4eb1e, #e7da10, #f5c817, #ffb726, #ff9231, #ff6d43, #f04955, #d82966);
-	width: 100px;
-	height: 100px;
+	width: 70px;
+	height: 70px;
 	text-align: center;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 	justify-content: center;
 	align-items: center;
 	transition: transform .2s;
+	display:flex;
 }
 	
 .fab:hover {
+	text-decoration: none;
+	color: black;
 	transform: scale(1.5);
 }
 
