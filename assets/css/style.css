@@ -222,6 +222,7 @@ label {
 /* books */
 
 #bookspagetitledescription {
+	font-weight: bold;
 	max-width: 100%;
 	height: auto;
 	color: #578E2C;
@@ -236,7 +237,7 @@ label {
 
 #buybooks {
 	height: auto;
-	margin: 10px 10px 10px 10px;
+	margin: 200px 10px 200px 10px;
 	border-radius: 30%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	max-width: 100%;
@@ -354,12 +355,17 @@ label {
 /* books */
 /* about.html */
 #donmiguelruiztitle {
-	margin-top: 200px;
-	margin-bottom: 100px;
-	background-color: transparent;
+	font-weight: bold;
+	max-width: 100%;
+	height: auto;
+	color: #578E2C;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	margin: 150px 50px 50px 50px;
+	background-image: linear-gradient(to right top, #eb6720, #ff705c, #ff828e, #ff9ab8, #ffb4d9, #fbb5da, #f7b6da, #f3b7da, #f09fc1, #ec87a5, #e56f86, #da5864);
+	border-radius: 30%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 .img-hover-zoom--zoom-n-pan-h img {
 	transition: transform .5s ease-in-out;
@@ -386,8 +392,6 @@ label {
 	margin: 10px 10px 10px 10px;
 }
 #abouttitleimage {
-	width: 100px;
-	height: 100px;
 	border-radius: 20%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	justify-content: center;
@@ -395,6 +399,8 @@ label {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 100%;
+	height: auto;
 }
 #aboutcardimagetop {
 	max-width: 100%;
@@ -406,14 +412,17 @@ label {
 	text-align: center;
 }
 #miguelruizwriteup {
-	margin: 100px 0 100px 0;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font-weight: bold;
+	max-width: 100%;
+	height: auto;
+	color: #578E2C;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	border-radius: 20%;
-	max-width: 100%;
-	height: auto;
+	margin: 150px 50px 50px 50px;
+	background-image: linear-gradient(to right top, #eb6720, #ff705c, #ff828e, #ff9ab8, #ffb4d9, #fbb5da, #f7b6da, #f3b7da, #f09fc1, #ec87a5, #e56f86, #da5864);
+	border-radius: 30%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 .container-fluid {
 	max-width: 100%;
