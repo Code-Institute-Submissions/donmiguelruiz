@@ -137,25 +137,17 @@ label {
 }
 	
 #contactcardtitle {
-	margin: 20px 20px 20px 20px;
+	margin: 50px 50px 50px 50px;
 	border-radius: 10%;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image: linear-gradient(to right top, #d4f0e8, #ceedee, #cee8f2, #d2e3f2, #d9ddef, #e0d9ec, #e6d5e6, #ecd2de, #f2d0d6, #f4d0cc, #f3d1c3, #eed3bb);
+	background-image: linear-gradient(to right top, #28c8cf, #1fc2e9, #5db8f8, #97a9f5, #c699e1, #d291d5, #db89c7, #e382b8, #dc7fbc, #d47cc0, #cb79c4, #c177c8);
 }
 
 #contactcard {
-	background: transparent;
-	border-radius: 10%;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-#contactcardimage {
-	background: transparent;
+	margin: 5px 5px 5px 5px;
 	border-radius: 10%;
 	justify-content: center;
 	align-items: center;
@@ -163,6 +155,20 @@ label {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
+#contactcardimage {
+	border-radius: 10%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#cardwrap {
+	margin: 150px 50px 150px 50px;
+	border-radius: 10%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image: linear-gradient(to right top, #a4e4e7, #a5e0f5, #b3d9fc, #c9d1fa, #dfc8ef, #e6c2ea, #edbde2, #f4b7d9, #f3b1dd, #f0ace1, #eca7e7, #e6a3ed);
+}
 
 /* contactform */
 
