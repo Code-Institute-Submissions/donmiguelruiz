@@ -144,8 +144,26 @@ label {
 	text-align: center;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image: linear-gradient(to right top, #d4f0e8, #ceedee, #cee8f2, #d2e3f2, #d9ddef, #e0d9ec, #e6d5e6, #ecd2de, #f2d0d6, #f4d0cc, #f3d1c3, #eed3bb);
-	
 }
+
+#contactcard {
+	background: transparent;
+	border-radius: 10%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#contactcardimage {
+	background: transparent;
+	border-radius: 10%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+
 /* contactform */
 
 /* books */
