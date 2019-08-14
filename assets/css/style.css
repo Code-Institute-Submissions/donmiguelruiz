@@ -51,10 +51,27 @@ html, body {
 
 /* contactform */
 
+#contactdivider {
+	background: transparent;
+	max-width: 100%;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
 
+#dividerimage {
+	max-width: 100%;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 10%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
 
 #contactform {
-	margin: 150px 50px 250px 50px;
+	margin: 50px 50px 50px 50px;
 	background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 20%;
