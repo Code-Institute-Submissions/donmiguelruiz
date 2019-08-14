@@ -241,6 +241,7 @@ label {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	background-image: linear-gradient(to right top, #edbda8, #f3c3a2, #f6cb9d, #f6d398, #f2dd95, #eee395, #e8ea96, #e1f099, #dcf39c, #d7f79f, #d2faa3, #ccfda7);
 }
 #bookcoverpicture {
 	max-width: 100%;
@@ -250,6 +251,7 @@ label {
 	align-items: center;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
+	border-radius: 10%;
 }
 #bookcoveramazon {
 	max-width: 100%;
@@ -259,6 +261,7 @@ label {
 	align-items: center;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
+	border-radius: 10%;
 }
 #bookcoveramazon:hover {
 	-webkit-animation: shake 0.5s;
