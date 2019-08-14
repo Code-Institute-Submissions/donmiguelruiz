@@ -138,12 +138,17 @@ label {
 	justify-content:center;
 	text-align: center;
 }
-.btn-primary {
-	background-color: #002555;
-	border-color: #002555;
+#contactformbutton {
+	border: black;
+	background-image: linear-gradient(to right top, #230a4a, #211651, #212057, #21295c, #233260, #2a3a66, #32436d, #3a4b73, #47567e, #54618a, #616d95, #6e79a1);
 	border-radius: 50%;
 	color: white;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	transition: 0.2s;
+}
+
+#contactformbutton:hover {
+	opacity: 0.7;
 }
 	
 #contactcardtitle {
