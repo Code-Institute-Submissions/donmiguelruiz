@@ -260,6 +260,7 @@ label {
 	border-radius: 10%;
 }
 #bookcoveramazon:hover {
+	opacity: 0.7;
 	-webkit-animation: shake 0.5s;
 	animation: shake 0.5s;
 	-webkit-animation-iteration-count: infinite;
@@ -353,8 +354,8 @@ label {
 	transition: transform .5s ease-in-out;
 	transform: scale(1.4);
 	transform-origin: 100% 0;
-	max-width: 100%;
-	height: auto;
+	width: 100px;
+	height: 100px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	justify-content: center;
 	align-items: center;
@@ -364,14 +365,14 @@ label {
 }
 .img-hover-zoom--zoom-n-pan-h:hover img {
 	transform: scale(1.5) translateX(30%);
-	max-width: 100%;
-	height: auto;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	border-radius: 20%;
 	margin: 10px 10px 10px 10px;
+	width: 100px;
+	height: 100px;
 }
 #abouttitleimage {
 	border-radius: 20%;
