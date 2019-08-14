@@ -66,7 +66,7 @@ html, body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border-radius: 10%;
+	border-radius: 15%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
@@ -138,7 +138,7 @@ label {
 	
 #contactcardtitle {
 	margin: 50px 50px 50px 50px;
-	border-radius: 10%;
+	border-radius: 15%;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -148,7 +148,7 @@ label {
 
 #contactcard {
 	margin: 5px 5px 5px 5px;
-	border-radius: 10%;
+	border-radius: 15%;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -189,10 +189,10 @@ label {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-}
+
 
 #contactcardimage {
-	border-radius: 10%;
+	border-radius: 15%;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -201,7 +201,7 @@ label {
 
 #cardwrap {
 	margin: 150px 50px 150px 50px;
-	border-radius: 10%;
+	border-radius: 15%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image: linear-gradient(to right top, #a4e4e7, #a5e0f5, #b3d9fc, #c9d1fa, #dfc8ef, #e6c2ea, #edbde2, #f4b7d9, #f3b1dd, #f0ace1, #eca7e7, #e6a3ed);
 }
