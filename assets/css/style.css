@@ -172,7 +172,6 @@ label {
 	height: auto;
 	vertical-align: middle;
 	align-items: center;
-	padding: 10px 10px 10px 10px;
 	border-radius: 10%;
     max-width: 100%;
 }
@@ -190,7 +189,6 @@ label {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding: 10px 10px 10px 10px;
 	border-radius: 10%;
 }
 #bookcoveramazon:hover {
