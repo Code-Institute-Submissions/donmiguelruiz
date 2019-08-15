@@ -566,6 +566,9 @@ label {
 	background-image: linear-gradient(to right top, #760646, #8c235f, #a23a79, #b75195, #cc67b2, #d969b6, #e66ab9, #f36cbb, #f858a0, #f94582, #f63362, #ed2741);
 	color: white;
 	border-color: #760646;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 #aboutsonsbutton:hover {
