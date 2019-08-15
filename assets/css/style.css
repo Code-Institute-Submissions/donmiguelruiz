@@ -221,6 +221,12 @@ label {
 	background-image: linear-gradient(to right top, #a4e4e7, #a5e0f5, #b3d9fc, #c9d1fa, #dfc8ef, #e6c2ea, #edbde2, #f4b7d9, #f3b1dd, #f0ace1, #eca7e7, #e6a3ed);
 }
 
+.card-textcontactpage {
+	background-image: linear-gradient(to right top, #ffc0cb, #ffc7bc, #ffd3b0, #f6e0ad, #e2eeb6, #d0f4c3, #bff9d4, #b1fce7, #adf9f2, #aff5fa, #b6f0fe, #c0ebff);
+	border-radius: 15%;
+	
+}
+
 
 /* contactform */
 
