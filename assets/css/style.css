@@ -240,49 +240,28 @@ label {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
-#threequestionstitle {
-  position: relative;
-  width: 50%;
-}
-
-#booktitledisplayimage {
-  display: block;
-  width: 100%;
+#booktitlecardjumbotron {
+	margin: 150px 10px 5px 10px;
+  max-width: 100%;
   height: auto;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.76);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 10%;
+	background-image: linear-gradient(to right top, #ed569e, #ff6381, #ff7c64, #ff9c4a, #ffbd39, #f4cc33, #e5dc33, #d3eb3d, #c1ec3e, #aded41, #97ee47, #7fee4e);
 }
 
-.booktitledisplayoverlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
-}
-
-#threequestionstitle:hover .booktitledisplayoverlay {
-  bottom: 0;
-  height: 100%;
-}
-
-.booktitledisplaytext {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+#booktitlecard {
+	color: #800080;
+	font-weight: bold;
+	border-radius: 10%;
+	background-color:#def7de;
 }
 
 #buybooks {
 	height: auto;
-	margin: 200px 10px 200px 10px;
+	margin: 20px 10px 200px 10px;
 	border-radius: 30%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	max-width: 100%;
