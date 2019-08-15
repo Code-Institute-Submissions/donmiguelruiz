@@ -383,6 +383,7 @@ label {
 	background: transparent;
 	border-radius: 10%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image: linear-gradient(to right top, #e55fb6, #c94dab, #ac3ca1, #8e2c96, #701d8a, #621a89, #521888, #401787, #3a1f91, #32269a, #252ca4, #0833ae);
 }
 
 #moreshopimage {
@@ -397,7 +398,6 @@ label {
 }
 
 .bookpagezoom {
-  background: transparent;
   transition: transform .2s;
   margin: 0 auto;
 }
