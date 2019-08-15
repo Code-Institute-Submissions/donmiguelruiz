@@ -586,9 +586,14 @@ label {
 }
 
 .flip-box-backjr {
-  background-color: dodgerblue;
-  color: white;
+  background-color: transparent;
+  color: purple;
   transform: rotateY(180deg);
+}
+
+#aboutmigueljrimage {
+	border-radius: 20%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 /* about.html */
