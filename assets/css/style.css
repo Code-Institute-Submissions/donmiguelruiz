@@ -10,6 +10,10 @@ html, body {
 	margin-bottom: 20px;
 }
 
+.navbar fixed-top navbar-light bg-light {
+	background: transparent;
+}
+
 .navbar-brand {
 	color: white;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -48,6 +52,11 @@ html, body {
 	border-radius: 50%;
 }
 /* navbar styling*/
+
+/* homepage */
+
+
+/* homepage */
 
 /* contactform */
 
