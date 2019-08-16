@@ -62,6 +62,7 @@ html, body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	border-radius: 15%;
 }
 
 #hometitlecontainer {
@@ -70,6 +71,7 @@ html, body {
   	justify-content: center;
 	align-items: center;
 	text-align: center;
+	border-radius: 15%;
 }
 
 .titleimagetext {
@@ -77,9 +79,27 @@ html, body {
 	align-items: center;
 	text-align: center;
 	font-size: 1rem;
+	border-radius: 15%;
 }
 
-#hometitlecontainer #titleimage {vertical-align: middle;}
+#hometitlecontainer {
+	vertical-align: middle;
+justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1rem;
+	border-radius: 15%;
+	
+}
+
+#titleimage {
+	vertical-align: middle;
+justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1rem;
+	border-radius: 15%;
+}
 
 
 .centeredhometitlecontent {
@@ -91,6 +111,7 @@ html, body {
 	align-items: center;
 	text-align: center;
 	font-size: 1rem;
+	border-radius: 15%;
 }
 
 
@@ -106,6 +127,7 @@ html, body {
 	align-items: center;
 	text-align: center;
 	overflow-x: none;
+	border-radius: 15%;
 }
 
 /* homepage */
@@ -285,7 +307,10 @@ label {
 .card-textcontactpage {
 	background-image: linear-gradient(to right top, #ffc0cb, #ffc7bc, #ffd3b0, #f6e0ad, #e2eeb6, #d0f4c3, #bff9d4, #b1fce7, #adf9f2, #aff5fa, #b6f0fe, #c0ebff);
 	border-radius: 15%;
-	
+}
+
+#wallpapercontacthtml {
+	background: #ffe7da;
 }
 
 
