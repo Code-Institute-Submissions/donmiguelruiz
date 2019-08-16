@@ -56,6 +56,58 @@ html, body {
 /* homepage */
 
 
+#titleimage {
+	height: 800px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#hometitlecontainer {
+  position: relative;
+  margin: 0 auto;
+  	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.titleimagetext {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1rem;
+}
+
+#hometitlecontainer #titleimage {vertical-align: middle;}
+
+
+.centeredhometitlecontent {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1rem;
+}
+
+
+#hometitlecontainer .centeredhometitlecontent {
+	position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  	justify-content: center;
+	align-items: center;
+	text-align: center;
+	overflow-x: none;
+}
+
 /* homepage */
 
 /* contactform */
