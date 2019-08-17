@@ -164,8 +164,8 @@ justify-content: center;
 }
 
 #homediamondtop {
-	margin-top: 200px;
-	margin-bottom: 120px;
+	margin-top: 180px;
+	margin-bottom: 150px;
 	max-width: 100%;
 	height: auto;
 	justify-content: center;
@@ -195,7 +195,7 @@ justify-content: center;
 
 /* The Transformation */
 .img-hover-zoom--zoom-n-rotate:hover img {
-  transform: scale(1.3) rotate(25deg);
+  transform: scale(1.7) rotate(25deg);
 }
 
 /* homepage */
