@@ -205,7 +205,9 @@ justify-content: center;
 #threequestionsanimations {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	margin-right: 200px;
 	position: relative;
+	border: 10px double #ff8000;
 	-webkit-animation-name: example;
 	        animation-name: example;
   -webkit-animation-duration: 4s;
@@ -935,7 +937,8 @@ label {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 #social {
-	margin-top: 200px;
+	border: 10px double #00ffff;
+	margin-top: 300px;
 	margin-bottom: 200px;
 	background: transparent;
 	max-width: 100%;
