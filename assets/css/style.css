@@ -178,13 +178,18 @@ justify-content: center;
 }
 
 /* Zoom-n-rotate Container */
+
+
 .img-hover-zoom--zoom-n-rotate img {
-	border-style: ridge;
+  transition: transform .5s ease-in-out;
+  border-style: ridge;
     border-color: #ff1493;
 	border-radius: 50%;
-  transition: transform .5s ease-in-out;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	height: 60%;
+	width: 60%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
+
 
 /* The Transformation */
 .img-hover-zoom--zoom-n-rotate:hover img {
