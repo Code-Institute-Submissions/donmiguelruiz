@@ -157,8 +157,38 @@ justify-content: center;
 }
 
 .img-fluid {
-	border-radius: 20%;
+	border-radius: 15%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#homediamondtop {
+	margin-top: 200px;
+	margin-bottom: 120px;
+	max-width: 100%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 15%;
+}
+
+#homepage1 {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Zoom-n-rotate Container */
+.img-hover-zoom--zoom-n-rotate img {
+	border-style: ridge;
+    border-color: #ff1493;
+	border-radius: 50%;
+  transition: transform .5s ease-in-out;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+/* The Transformation */
+.img-hover-zoom--zoom-n-rotate:hover img {
+  transform: scale(1.3) rotate(25deg);
 }
 
 /* homepage */
