@@ -202,8 +202,11 @@ justify-content: center;
 
 
 #threequestionsanimations {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	vertical-align: middle;
+	align-items: flex-start;
+	width: 70%;
+	margin-top: 200px;
+	margin-bottom: 300px;
 	border: 10px double #ff8000;
 	position: relative;
   -webkit-animation-name: example;
@@ -223,7 +226,7 @@ justify-content: center;
   100% {background-color:transparent; left:0px; top:0px;}
 }
 
-/* Standard syntax */
+
 @keyframes example {
   0%   {background-color:transparent; left:0px; top:0px;}
   25%  {background-color:transparent; left:200px; top:0px;}
@@ -231,6 +234,44 @@ justify-content: center;
   75%  {background-color:transparent; left:0px; top:200px;}
   100% {background-color:transparent; left:0px; top:0px;}
 }
+
+
+#fouragreementsanimations {
+	vertical-align: middle;
+  position: relative;
+ 	align-items: flex-start;
+	width: 70%;
+	margin-top: 200px;
+	margin-bottom: 300px;
+	border: 10px double #ff8000;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  animation-direction: reverse;  
+  -webkit-animation-iteration-count: infinite;  
+          animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:200px;}
+  75%  {background-color:transparent; left:0px; top:200px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:200px;}
+  75%  {background-color:transparent; left:0px; top:200px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+
+
 
 /* homepage */
 
