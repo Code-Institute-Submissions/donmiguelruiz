@@ -56,12 +56,7 @@ html, body {
 /* homepage */
 
 
-#titleimage {
-	height: 800px;
-	width: 100%;
-	border-radius: 15%;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
+
 
 #hometitlecontainer {
 	margin-top: 100px;
@@ -80,7 +75,6 @@ height: auto;
 	align-items: center;
 	text-align: center;
 	font-size: 1rem;
-	border-radius: 15%;
 }
 
 
@@ -91,6 +85,9 @@ justify-content: center;
 	text-align: center;
 	font-size: 1rem;
 	border-radius: 15%;
+	height: 800px;
+	width: 100%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #titleimage:hover {
