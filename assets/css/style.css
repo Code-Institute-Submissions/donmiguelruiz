@@ -387,6 +387,14 @@ label {
 	background-image: linear-gradient(to right top, #28c8cf, #1fc2e9, #5db8f8, #97a9f5, #c699e1, #d291d5, #db89c7, #e382b8, #dc7fbc, #d47cc0, #cb79c4, #c177c8);
 }
 
+#contactcardtitlecard {
+	border-radius: 15%;
+}
+
+#contactcard-textcontactpage {
+	border-radius: 15%;
+}
+
 #contactcard {
 	margin: 5px 5px 5px 5px;
 	border-radius: 15%;
@@ -452,9 +460,6 @@ label {
 	border-radius: 15%;
 }
 
-#wallpapercontacthtml {
-	background: #ffe7da;
-}
 
 
 /* contactform */
