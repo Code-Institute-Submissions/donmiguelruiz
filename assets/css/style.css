@@ -937,6 +937,7 @@ label {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 #social {
+	position: fixed;
 	border: 10px double #00ffff;
 	margin-top: 300px;
 	margin-bottom: 200px;
