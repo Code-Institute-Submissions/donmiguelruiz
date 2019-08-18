@@ -294,11 +294,46 @@ border-radius: 15px 70px 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
-#homepagefouragreements {
+#homepagefouragreementstitlejumbotron {
+	margin: 15px 15px 15px 15px;
 	justify-content: center;
 	align-items: center;
   text-align: center;
+  border-radius: 50px 15px;
+  background-color: #ffa500;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
+
+#homepagefouragreementstitlecard {
+	margin: 15px 15px 15px 15px;
+	border-radius: 50px 15px;
+  background-color: #635f2c;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#homepagefouragreementstitlecardbody {
+	margin: 15px 15px 15px 15px;
+	font: black;
+	border-radius: 50px 15px;
+  background-color: #ffffb4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#homepagefouragreementsimagejumbotron {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	align-items: center;
+  text-align: center;
+  background-color: #9d9bf1;
+  border-radius: 50px 15px;
+}
+
+#homepagefouragreementsimage {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 50px 15px;
+}
+
+
 
 /* homepage */
 
