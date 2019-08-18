@@ -1144,6 +1144,19 @@ label {
   from {top: 0px;}
   to {top: 200px;}
 }
+
+/* events.html */
+
+/* media.html */
+
+.embed-responsive {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+/* events.html */
+
 /* socialmediabuttons */
 .fab {
 	color: black;
