@@ -953,6 +953,11 @@ label {
   transform: rotate(180deg);
 }
 
+#eventscarddetailedcard1 {
+	margin-left: auto;
+	margin-right: 0;
+}
+
 /* socialmediabuttons */
 .fab {
 	color: black;
