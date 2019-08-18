@@ -954,9 +954,53 @@ label {
 }
 
 #eventscarddetailedcard1 {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	margin-left: auto;
 	margin-right: 0;
+	margin-bottom: 220px;
+  position: relative;
+  -webkit-animation: mymove 3s;
+          animation: mymove 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
+
+
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+#eventscarddetailedcard2 {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	margin-left: 0;
+	margin-right: auto;
+	margin-bottom: 220px;
+  position: relative;
+  -webkit-animation: mymove 3s;
+          animation: mymove 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
 
 /* socialmediabuttons */
 .fab {
