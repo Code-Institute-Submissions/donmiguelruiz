@@ -260,7 +260,7 @@ color: #ffdbb8;
 #homepagethreequestionsjumbotron {
 	margin: 15px 15px 15px 15px;
 	text-align: center;
-border-radius: 15px 70px 30px;
+	border-radius: 15px 70px 30px;
 	background-color: #a52a2a;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
@@ -284,13 +284,13 @@ border-radius: 15px 70px 30px;
 	justify-content: center;
 	align-items: center;
   text-align: center;
-  border-radius: 15px 50px 30px 5px;
+  border-radius: 15px 70px 30px;
   background-color: #f0e78c;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 } 
 
 #homepagethreequestionsimage {
-	border-radius: 15px 50px 30px 5px;
+	border-radius: 15px 70px 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
