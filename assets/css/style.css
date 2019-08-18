@@ -223,9 +223,10 @@ border-radius: 15px/45px;
 
 
 #quotecarousel {
+	
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 15px/45px;
-	margin: 50px 20px 50px 20px;
+	margin: 50px 20px 200px 20px;
 	font: #ff8f1f;
 	background-color:#d26900;
 }
@@ -251,7 +252,7 @@ border-radius: 15px/45px;
 #quotecarouselcardbody {
 	margin-left: 30px;
 	margin-right: 30px;
-	background: #ffdbb8;
+	background-color: #ffdbb8;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 15px/45px;
 }
@@ -262,6 +263,31 @@ border-radius: 15px/45px;
 
 #carouselExampleIndicators {
 color: #ffdbb8;
+}
+
+#homepagethreequestionsjumbotron {
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #752800;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 15px 50px 30px;
+}
+
+#homepagethreequestionscard {
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #9faf43;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 15px 50px 30px;
+}
+
+#homepagethreequestionscardbody {
+	color:#3b4119;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #bdca75;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 15px 50px 30px;
 }
 
 
