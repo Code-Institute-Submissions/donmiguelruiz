@@ -180,26 +180,6 @@ justify-content: center;
 	border-radius: 200px 10px;
 }
 
-#quotetitle {
-	border-radius: 15px/45px;
-	text-align: center;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-
-#quotetitlejumbotron {
-	border-radius: 15px/45px;
-	background-color: #dbb7ff;
-	margin-left: 30px;
-	margin-right: 30px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-
-#quotetitlecardbody {
-	border-radius: 15px/45px;
-	font: #6100b8;
-	background-color: #f5eaff;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
 
 /* Zoom-n-rotate Container */
 
@@ -218,9 +198,61 @@ justify-content: center;
 	border-radius: 200px 10px;
   transform: scale(1.7) rotate(25deg);
 }
+#quotetitle {
+	text-align: center;
+border-radius: 15px/45px;
+	background-color: #b56bff;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#quotetitlejumbotron {
+	border-radius: 15px/45px;
+	background-color: #6700d3;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#quotetitlecardbody {
+	border-radius: 15px/45px;
+	background-color: #dbb8ff;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
 
 #quotecarousel {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 15px/45px;
 	margin: 50px 20px 50px 20px;
+	font: #ff8f1f;
+	background-color:#d26900;
+}
+
+#quotecarouselcard {
+	background-color: #ff8f1f;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 15px/45px;
+}
+
+
+#quotecarouselinner {
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: #ffb56b;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 15px/45px;
+}
+
+#quotecarouselcardbody {
+	margin-left: 30px;
+	margin-right: 30px;
+	background: #ffdbb8;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 15px/45px;
 }
 
 
