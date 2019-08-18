@@ -937,7 +937,15 @@ label {
 /* events.html */
 
 #eventcards {
-	margin: 600px 20px 20px 20px;
+	margin-top: 60px;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	width: 100%;
+	height: auto;
+}
+
+.col-sm col-lg {
 	justify-content: center;
 	align-items: center;
 	text-align:center;
