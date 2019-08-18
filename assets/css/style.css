@@ -168,7 +168,7 @@ justify-content: center;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-image: linear-gradient(to right top, #f40780, #f32f8e, #f1449b, #ee55a7, #eb64b2, #eb68b5, #ec6cb9, #ec70bc, #f06cb9, #f468b6, #f764b3, #fb5fb0);
+	background-color: #eaffff;
 }
 
 #homepage1 {
@@ -178,6 +178,27 @@ justify-content: center;
 
 #homediamondimage {
 	border-radius: 200px 10px;
+}
+
+#quotetitle {
+	border-radius: 15px/45px;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#quotetitlejumbotron {
+	border-radius: 15px/45px;
+	background-color: #dbb7ff;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#quotetitlecardbody {
+	border-radius: 15px/45px;
+	font: #6100b8;
+	background-color: #f5eaff;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 /* Zoom-n-rotate Container */
