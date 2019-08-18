@@ -231,6 +231,7 @@ border-radius: 15px/45px;
 }
 
 #quotecarouselcard {
+	color: #b95d00;
 	background-color: #ff8f1f;
 	margin-left: 30px;
 	margin-right: 30px;
@@ -253,6 +254,14 @@ border-radius: 15px/45px;
 	background: #ffdbb8;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 15px/45px;
+}
+
+.blockquote-footer {
+	color: #6d3700;
+}
+
+#carouselExampleIndicators {
+color: #ffdbb8;
 }
 
 
