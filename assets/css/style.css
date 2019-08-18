@@ -59,15 +59,12 @@ html, body {
 
 
 #hometitlecontainer {
-	margin-top: 100px;
+	margin-top: auto;
   position: relative;
 height: auto;
 	width: 100%;
-	border-radius: 15%;
-	border-width:15px;  
-    border-style: double;
-    border-color: #0080ff;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: #64daed;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 .titleimagetext {
@@ -91,6 +88,8 @@ justify-content: center;
 }
 
 #titleimage:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
   -webkit-animation: shake 0.5s;
           animation: shake 0.5s;
   -webkit-animation-iteration-count: infinite;
@@ -161,13 +160,15 @@ justify-content: center;
 }
 
 #homediamondtop {
-	margin-top: 230px;
-	margin-bottom: 230px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	max-width: 100%;
 	height: auto;
+	margin-top: 230px;
+	margin-bottom: 230px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	background-image: linear-gradient(to right top, #f40780, #f32f8e, #f1449b, #ee55a7, #eb64b2, #eb68b5, #ec6cb9, #ec70bc, #f06cb9, #f468b6, #f764b3, #fb5fb0);
 }
 
 #homepage1 {
@@ -184,8 +185,6 @@ justify-content: center;
 
 .img-hover-zoom--zoom-n-rotate #homediamondimage {
   transition: transform .5s ease-in-out;
-  border-style: double;
-    border-color: #ff1493;
 	border-radius: 200px 10px;
 	height: 40%;
 	width: 40%;
@@ -200,7 +199,6 @@ justify-content: center;
 }
 
 #quotecarousel {
-	border: 10px double blue;
 	margin: 50px 20px 50px 20px;
 }
 
@@ -211,7 +209,6 @@ justify-content: center;
 	width: 70%;
 	margin-top: 200px;
 	margin-bottom: 300px;
-	border: 10px double #ff8000;
 	position: relative;
   -webkit-animation-name: example;
   -webkit-animation-duration: 4s;
