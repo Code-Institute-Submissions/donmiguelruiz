@@ -192,6 +192,7 @@ justify-content: center;
 /* The Transformation */
 .img-hover-zoom--zoom-n-rotate:hover img {
   transform: scale(1.7) rotate(25deg);
+  border-radius: 30px 90px;
 }
 
 #quotecarousel {
