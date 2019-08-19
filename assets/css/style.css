@@ -333,7 +333,23 @@ color: #ffdbb8;
 	border-radius: 50px 15px;
 }
 
-
+#homepagebookcarouseljumbotron {
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font: black;
+	border-radius: 50px 15px;
+}	
+	
+#homepagebookcarousel {	
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font: black;
+	border-radius: 50px 15px;
+}
 
 /* homepage */
 
