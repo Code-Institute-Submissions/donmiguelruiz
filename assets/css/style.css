@@ -1031,6 +1031,7 @@ label {
 #eventcards {
 width: 100%;
 	margin: 250px auto 250px auto;
+	background-color: transparent;
 }
 
 small {
@@ -1236,13 +1237,34 @@ small {
 
 /* media.html */
 
+#mediapagetitle {
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	border-color: black;
+	border-width: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#mediapagetitlecard {
+	margin-left: 50%;
+	margin-right: 50%;
+	font: blue;
+	color: blue;
+	margin: 100px 100px 100px 100px;
+	border-color: black;
+	border-width: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
 .embed-responsive {
 	max-width: 100%;
 	height: auto;
 	margin: 0;
 }
 
-/* events.html */
+/* media.html */
 
 /* socialmediabuttons */
 .fab {
