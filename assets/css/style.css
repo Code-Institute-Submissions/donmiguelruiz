@@ -1035,6 +1035,10 @@ label {
 }
 
 #eventcardtransition {
+	font:white;
+	color:white;
+	background-image: linear-gradient(to right top, #f95959, #ef3669, #dd097b, #c10090, #9800a3, #853cc6, #645be5, #0075ff, #00a7ff, #00c9fb, #00e29f, #56f01f);
+	text-align: center;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   transition: width 2s, height 2s, transform 2s;
   margin-left: auto;
@@ -1042,6 +1046,8 @@ label {
 }
 
 #eventcardtransition:hover {
+	opacity: 0.5;
+  filter: alpha(opacity=50); 
   transform: rotate(180deg);
 }
 
