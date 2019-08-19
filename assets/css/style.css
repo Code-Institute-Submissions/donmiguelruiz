@@ -12,7 +12,7 @@ html, body {
 	font-size:1rem;
 	font:black;
 	font-weight:bold;
-	border-width: 10px;
+	border-width: 4px;
 	border-style: solid;
 	border-color: black;
 }
@@ -23,7 +23,7 @@ html, body {
 	font-size:1rem;
 	font:black;
 	font-weight:bold;
-	border-width: 10px;
+	border-width: 4px;
 	border-style: solid;
 	border-color: black;
 	background-color: white;
@@ -35,7 +35,7 @@ html, body {
 	font-size:1rem;
 	font:black;
 	font-weight:bold;
-	border-width: 10px;
+	border-width: 4px;
 	border-style: solid;
 	border-color: black;
 	background-color: white;
@@ -1029,10 +1029,13 @@ label {
 /* events.html */
 
 #eventcards {
-	max-width: 100%;
-	height: auto;
+width: 100%;
 	margin: 250px auto 250px auto;
-	
+}
+
+small {
+	color: white;
+	font:white;
 }
 
 #eventcardtransition {
