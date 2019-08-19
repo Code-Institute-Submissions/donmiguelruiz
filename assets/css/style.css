@@ -6,6 +6,10 @@ html, body {
 
 /* navbar styling */
 
+#navbarwrap {
+	margin-bottom: 400px;
+}
+
 .bg-white {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 15px 50px;
@@ -1238,6 +1242,8 @@ small {
 /* media.html */
 
 #mediapagetitle {
+	top: 300px;
+	bottom: 100px;
 	margin: 0 auto;
 	justify-content: center;
 	text-align: center;
@@ -1267,64 +1273,116 @@ small {
 /* media.html */
 
 /* socialmediabuttons */
-.fab {
-	color: black;
-	border: none;
-	height: 40px;
-	width: 40px;
-	margin: 20px 20px 20px 20px;
-	padding: 8px 8px 8px 8px;
-	border-radius: 50%;
-	font-size: 1.5rem;
-	text-align: center;
-	text-decoration: none;
-	align-items: center;
-	justify-content: center;
-	transition: transform .2s;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image: linear-gradient(to right top, #224bde, #007df9, #009ee8, #00b7bf, #00cb98, #62c366, #94b835, #c1a600, #e1781e, #e8454b, #d11e7a, #9430a3);
-}
-.fab:hover {
-	color: black;
-	opacity: 0.4;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	transform: scale(1.5);
-	text-decoration: none;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-.fab-facebook {
-	color: black;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-.fab-twitter {
-	color: black;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-.fab-instagram {
-	color: black;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
+
 #social {
-	position: fixed;
-	border: 10px double #00ffff;
-	margin-top: 300px;
-	margin-bottom: 200px;
-	background: transparent;
-	max-width: 100%;
-	height: auto;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	text-align: center;
 }
+
+.fab {
+	text-decoration: none;
+	color: black;
+	font-size:1rem;
+	margin: 20px 20px 20px 20px;
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font:black;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 2px;
+	padding: 10px 10px 10px 10px;
+}
+
+.fa-twitter-square {
+	text-decoration: none;
+	color: black;
+	font-size:1rem;
+		margin: 20px 20px 20px 20px;
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font:black;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 2px;
+	padding: 10px 10px 10px 10px;
+}
+
+.fa-facebook-square {
+	text-decoration: none;
+	color: black;
+	font-size:1rem;
+		margin: 20px 20px 20px 20px;
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font:black;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 2px;
+	padding: 10px 10px 10px 10px;
+}
+
+.fa-instagram {
+	text-decoration: none;
+	color: black;
+	font-size:1rem;
+		margin: 20px 20px 20px 20px;
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font:black;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 2px;
+	padding: 10px 10px 10px 10px;
+}
+
+#socialmediabuttons {
+	text-decoration: none;
+	color: black;
+	font-size:1rem;
+		margin: 20px 20px 20px 20px;
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font:black;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 2px;
+	padding: 10px 10px 10px 10px;
+}
+
+#copyright {
+	font-size:1rem;
+	background-color: grey;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font:black;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 /* socialmediabuttons */
