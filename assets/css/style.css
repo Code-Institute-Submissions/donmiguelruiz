@@ -1121,7 +1121,6 @@ label {
 #eventscarddetailedcard4 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	margin: 50px auto 50px 0;
-	margin-bottom: 220px;
   position: relative;
   -webkit-animation: mymove 3s;
           animation: mymove 3s;
