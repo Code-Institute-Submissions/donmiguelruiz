@@ -8,46 +8,55 @@ html, body {
 
 #navbarwrap {
 	margin-bottom: 200px;
+	background-color: transparent;
+}
+
+nav {
+	background-color: transparent;
 }
 
 .navbar fixed-top navbar-light bg-light {
 	background: transparent;
 }
 
+.fixed-top {
+	background-color: transparent;
+}
+
+.navbar-light bg-light {
+	background-color: transparent;
+}
+
+.bg-light {
+	background-color: transparent;
+}
+
 .navbar-brand {
-	color: white;
+	background-color: transparent;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 .navbar-brand:hover {
-	background-color: #f1f1f1;
-	border-color: #f1f1f1;
-	color: white;
+	background-color: transparent;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 .navbar-toggler {
-	background-color: #ffe9ec;
-	color: white;
-	border-color: #5e0010;
+	background-color: transparent;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 }
 .navbar-toggler:hover {
-	background-color: #ff4a6a;
-	border-color: #5e0010;
+	background-color: transparent;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 }
 .nav-item {
-	background-color: #ffe9ec;
-	color: white;
-	border-color: #5e0010;
+	background-color: transparent;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 	text-align: center;
 }
 .nav-item:hover {
-	background-color: #ff4a6a;
-	border-color: #5e0010;
+	background-color: transparent;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 }
