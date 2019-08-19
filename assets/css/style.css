@@ -1029,9 +1029,10 @@ label {
 /* events.html */
 
 #eventcards {
-	margin-top: 60px;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	margin: 250px auto 250px auto;
+	
 }
 
 #eventcardtransition {
@@ -1053,9 +1054,7 @@ label {
 
 #eventscarddetailedcard1 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	margin-left: auto;
-	margin-right: 0;
-	margin-bottom: 220px;
+	margin: 50px 0 50px auto;
   position: relative;
   -webkit-animation: mymove 3s;
           animation: mymove 3s;
@@ -1077,9 +1076,7 @@ label {
 
 #eventscarddetailedcard2 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	margin-left: 0;
-	margin-right: auto;
-	margin-bottom: 220px;
+	margin: 50px auto 50px 0;
   position: relative;
   -webkit-animation: mymove 3s;
           animation: mymove 3s;
@@ -1101,9 +1098,7 @@ label {
 
 #eventscarddetailedcard3 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	margin-left: auto;
-	margin-right: 0;
-	margin-bottom: 220px;
+	margin: 50px 0 50px auto;
   position: relative;
   -webkit-animation: mymove 3s;
           animation: mymove 3s;
@@ -1125,8 +1120,7 @@ label {
 
 #eventscarddetailedcard4 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	margin-left: 0;
-	margin-right: auto;
+	margin: 50px auto 50px 0;
 	margin-bottom: 220px;
   position: relative;
   -webkit-animation: mymove 3s;
@@ -1149,9 +1143,7 @@ label {
 
 #eventscarddetailedcard5 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	margin-left: auto;
-	margin-right: 0;
-	margin-bottom: 220px;
+	margin: 50px 0 50px auto;
   position: relative;
   -webkit-animation: mymove 3s;
           animation: mymove 3s;
@@ -1173,9 +1165,7 @@ label {
 
 #eventscarddetailedcard6 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	margin-left: 0;
-	margin-right: auto;
-	margin-bottom: 220px;
+	margin: 50px auto 50px 0;
   position: relative;
   -webkit-animation: mymove 3s;
           animation: mymove 3s;
@@ -1197,9 +1187,7 @@ label {
 
 #eventscarddetailedcard7 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	margin-left: auto;
-	margin-right: 0;
-	margin-bottom: 220px;
+	margin: 50px 0 50px auto;
   position: relative;
   -webkit-animation: mymove 3s;
           animation: mymove 3s;
@@ -1222,8 +1210,7 @@ label {
 #eventscarddetailedcard8 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	margin-left: 0;
-	margin-right: auto;
-	margin-bottom: 220px;
+	margin: 50px auto 50px 0;
   position: relative;
   -webkit-animation: mymove 3s;
           animation: mymove 3s;
