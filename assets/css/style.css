@@ -13,28 +13,25 @@ html, body {
 /* landing image */
 
 #landingimage {
-	vertical-align: middle;
-	position: relative;
-  text-align: center;
-  color: white;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image: linear-gradient(to right top, #df9292, #e59d99, #eba7a0, #f1b2a8, #f7bdb0, #fac6b5, #fdcfbb, #ffd8c2, #fee1c9, #feead1, #fef3db, #fffbe6);
+	text-align: center;
+  	font: #CE5454;
 }
 
-.card-img {
-	max-width: 100%;
-	height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+#homepagelandingimage {
+	border: white
 }
 
-.card-title {
-	vertical-align: middle;
-	position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.card-group {
+	justify-content: flex-end;
+	align-items: flex-end;
+	text-align: center;
+}
+
+
+#hometitlecard1 {
+	
 }
 
 /* landing image */
