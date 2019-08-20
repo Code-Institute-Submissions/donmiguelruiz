@@ -1,6 +1,6 @@
 html, body {
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: hidden;
 	font-family: 'Shadows Into Light', cursive;
 }
 
@@ -10,6 +10,36 @@ html, body {
 
 /* navbar */
 
+/* landing image */
+
+#landingimage {
+	vertical-align: middle;
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+.card-img {
+	max-width: 100%;
+	height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card-title {
+	vertical-align: middle;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+/* landing image */
 
 /* contactform */
 
