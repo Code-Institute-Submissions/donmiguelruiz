@@ -12,7 +12,7 @@ html, body {
 }
 
 nav {
-	opacity :0.5;
+	opacity :0.85;
 }
 	
 .navbar-toggler {
@@ -29,6 +29,16 @@ nav {
 #navbarNavAltMarkup {
 	outline: none;
 	border-radius: 20%;
+}
+
+.navbar-brand {
+	color: black;
+	opacity: 1;
+}
+
+.nav-item {
+	color: black;
+	opacity: 1;
 }
 
 /* navbar */
