@@ -67,23 +67,6 @@ html, body {
 	color: #FFFADD;
 }
 
-#landingimage {
-	background-color: #FFE5DD;
-	max-width: 100%;
-	height: auto;
-}
-
-#landingimagecontainer {
-	width: 100%;
-	height: 50%;
-}
-
-#homepagelandingimage {
-	width: 100%;
-	height: 25%;
-	box-shadow: 15px 15px 28px 9px #CE5454;
-}
-
 #hometitlecards {
 	background-color:#FFDFD5;
 	margin-top:20px;
