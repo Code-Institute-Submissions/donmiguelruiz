@@ -12,17 +12,18 @@ html, body {
 }
 	
 .navbar-toggler {
-	border-color: black;
+	outline: none;
 	border-radius: 20%;
 }
 
 .navbar-toggler-icon {
-	border-color: black;
 	border-radius: 20%;
+    outline: none;
+
 }
 
 #navbarNavAltMarkup {
-	border-color: black;
+	outline: none;
 	border-radius: 20%;
 }
 
