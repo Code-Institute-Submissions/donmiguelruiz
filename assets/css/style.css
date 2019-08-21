@@ -159,6 +159,84 @@ html, body {
 	box-shadow: 5px 5px 4px 5px #9C928C;
 }
 
+#sitenavigation {
+	background-color: #BD9C9C;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #261010;
+}
+
+#sitenavigationdisplay-4 {
+	background-color: #E6BEBE;
+	border-color: #261010;
+	border-style: double;
+	border-width: 5px;
+}
+
+#sitenavigationlead {
+	background-color: #F8EDED;
+	border-color: #261010;
+	border-style: double;
+	border-width: 5px;
+}
+
+#sitenavigationcontainer {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sitenavigationcardsjumbotron {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sitenavigationcardscontainer {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sitenavigationcardcenter {
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 50px 50px 42px 36px rgba(140,102,89,0.8);
+	background-color:#FFFADD;
+}
+
+#sitenavbutton1 {
+	background-color: #FFBAA3;
+	border-color: #FFBAA3;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#sitenavbutton2 {
+	background-color: #CE5454;
+	border-color: #CE5454;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#sitenavbutton3 {
+	background-color: #4A382D;
+	border-color: #4A382D;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#sitenavbutton4 {
+	background-color: #C9C0AB;
+	border-color: #C9C0AB;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
 
 
 /* landing page */
@@ -201,3 +279,19 @@ label {
 
 
 /* contactform */
+
+/* socialmedia */
+
+#socialmediacontainer {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.footer-copyright text-center py-3 {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* socialmedia */
