@@ -156,7 +156,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #391717;
-	box-shadow: 21px 21px 11px -9px rgba(219,130,130,0.8);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
@@ -164,7 +164,7 @@ html, body {
 #homepagebookmb-3card2 {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 21px 21px 11px -9px rgba(219,130,130,0.8);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #FFFAE3;
@@ -174,7 +174,7 @@ html, body {
 #homepagebookmb-3card3 {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 21px 21px 11px -9px rgba(219,130,130,0.8);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #FFFAE3;
@@ -188,7 +188,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #391717;
-	box-shadow: 21px 21px 11px -9px rgba(219,130,130,0.8);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
@@ -281,32 +281,33 @@ html, body {
 #sitenavigationcardcenter {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 50px 50px 42px 36px rgba(140,102,89,0.8);
+	box-shadow:  15px 15px 4px -5px rgba(189,182,178,0.8);
 	background-color:#FFFADD;
+	color: #391717;
 }
 
 #sitenavbutton1 {
 	background-color: #FFBAA3;
 	border-color: #FFBAA3;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 15px 15px 4px -5px rgba(189,182,178,0.8);
 }
 
 #sitenavbutton2 {
 	background-color: #CE5454;
 	border-color: #CE5454;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 15px 15px 4px -5px rgba(189,182,178,0.8);
 }
 
 #sitenavbutton3 {
 	background-color: #4A382D;
 	border-color: #4A382D;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 15px 15px 4px -5px rgba(189,182,178,0.8);
 }
 
 #sitenavbutton4 {
 	background-color: #C9C0AB;
 	border-color: #C9C0AB;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 15px 15px 4px -5px rgba(189,182,178,0.8);
 }
 
 
