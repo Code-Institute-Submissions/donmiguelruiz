@@ -155,7 +155,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #391717;
-	box-shadow:23px 23px 23px 15px #5D5B51;
+	box-shadow: 21px 21px 11px -9px rgba(219,130,130,0.8);
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
@@ -163,7 +163,7 @@ html, body {
 #homepagebookmb-3card2 {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 25px 25px 20px 5px rgba(255,186,163,0.8);
+	box-shadow: 21px 21px 11px -9px rgba(219,130,130,0.8);
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #FFFAE3;
@@ -173,7 +173,7 @@ html, body {
 #homepagebookmb-3card3 {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 25px 25px 20px 5px rgba(255,186,163,0.8);
+	box-shadow: 21px 21px 11px -9px rgba(219,130,130,0.8);
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #FFFAE3;
@@ -187,7 +187,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #391717;
-	box-shadow:23px 23px 23px 15px #5D5B51;
+	box-shadow: 21px 21px 11px -9px rgba(219,130,130,0.8);
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
