@@ -10,6 +10,10 @@ html, body {
 	margin-bottom: auto;
 	padding-bottom: 20px;
 }
+
+nav {
+	opacity :0.5;
+}
 	
 .navbar-toggler {
 	outline: none;
@@ -127,7 +131,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #391717;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 20px 20px 20px 11px #CE5454;
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
@@ -135,7 +139,7 @@ html, body {
 #homepagebookmb-3card2 {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 20px 20px 20px 11px #CE5454;
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #FFFAE3;
@@ -145,7 +149,7 @@ html, body {
 #homepagebookmb-3card3 {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 20px 20px 20px 11px #CE5454;
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #FFFAE3;
@@ -159,7 +163,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #391717;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 20px 20px 20px 11px #CE5454;
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
@@ -229,19 +233,19 @@ html, body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #46453D;
 }
 
 #sitenavigationcardsjumbotron {
-	background-color: transparent;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: transparent;
 }
 
 #sitenavigationcardscontainer {
-	background-color: transparent;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -252,9 +256,9 @@ html, body {
 #sitenavigationcardcenter {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow:  15px 15px 4px -5px rgba(189,182,178,0.8);
-	background-color:#FFFADD;
-	color: #391717;
+	box-shadow: 20px 20px 20px -7px #CE5454;
+	background-color: #FFCCBC;
+	color: #30241D;
 }
 
 #sitenavbutton1 {
@@ -270,14 +274,14 @@ html, body {
 }
 
 #sitenavbutton3 {
-	background-color: #4A382D;
-	border-color: #4A382D;
+	background-color: #716F6C;
+	border-color: #716F6C;
 	box-shadow: 15px 15px 4px -5px rgba(189,182,178,0.8);
 }
 
 #sitenavbutton4 {
-	background-color: #C9C0AB;
-	border-color: #C9C0AB;
+	background-color: #2F2E29;
+	border-color: #2F2E29;
 	box-shadow: 15px 15px 4px -5px rgba(189,182,178,0.8);
 }
 
