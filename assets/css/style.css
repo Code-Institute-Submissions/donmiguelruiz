@@ -10,9 +10,21 @@ html, body {
 	margin-bottom: auto;
 	padding-bottom: 20px;
 }
+	
+.navbar-toggler {
+	border-color: black;
+	border-radius: 20%;
+}
 
+.navbar-toggler-icon {
+	border-color: black;
+	border-radius: 20%;
+}
 
-
+#navbarNavAltMarkup {
+	border-color: black;
+	border-radius: 20%;
+}
 
 /* navbar */
 
