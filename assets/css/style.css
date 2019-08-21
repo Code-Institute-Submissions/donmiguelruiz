@@ -24,28 +24,39 @@ html, body {
 }
 
 #hometitlecards {
-	background-color:#FFFADD
+	background-color:#FFDFD5;
+}
+
+#homepagecardgroup {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);	
+	background-color:#FFFAE3;
+}
+
+#homecardimagetop {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #hometitlecard1 {
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	color: white;
 	text-align: center;
 	background-color: #4A382D;
 }
 
-.card-img-top {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-
 #hometitlecard2 {
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	color: #30241D;
+	color: white;
 	text-align: center;
-	background-color: #E8E4C9;
+	background-color: #938C7D;
 }
 
 #hometitlecard3 {
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	color: white;
 	text-align: center;
