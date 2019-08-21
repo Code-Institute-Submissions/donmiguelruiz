@@ -13,6 +13,7 @@ html, body {
 
 nav {
 	opacity :0.85;
+	font-size:2rem;
 }
 	
 	
@@ -34,11 +35,14 @@ nav {
 .navbar-brand {
 	color: black;
 	opacity: 1.0;
+	font-size:2rem;
 }
 
 .nav-item {
 	color: black;
 	opacity: 1.0;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 /* navbar */
@@ -252,7 +256,11 @@ nav {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFADD;
+	background-image: url("https://images.unsplash.com/photo-1472173148041-00294f0814a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+  background-repeat: no-repeat;
+  background-size:cover;
+  max-width: 100%;
+  height: auto;
 }
 
 #sitenavigationcardscontainer {
@@ -261,15 +269,16 @@ nav {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFADD;
+  max-width:100%;
+  height: auto;
 }
 
 #sitenavigationcardcenter {
-	margin-left: auto;
-	margin-right: auto;
 	box-shadow: 20px 20px 20px -7px #CE5454;
 	background-color: #FFCCBC;
 	color: #30241D;
+	opacity: 0.75;
+	
 }
 
 #sitenavbutton1 {
