@@ -18,6 +18,33 @@ html, body {
 
 /* landing page */
 
+#landingwriteupjumbotron {
+	margin-top: 50px;
+	max-width: 100%;
+	height: auto;
+	background-color: #E8E4C9;
+	color:#5E2727;
+	border-color: #5E2727;
+	border-style: solid;
+	border-width: 5px;
+}
+
+#landingwriteupcontainer {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#landingtitlecard {
+	background-color: #FFFBE9;
+	color:#5E2727;
+	border-color: #5E2727;
+	border-style: solid;
+	border-width: 5px;
+	font-size: 1rem;
+}
+
+
 #landingimage {
 	top: 50%;
 	left: 50%;
@@ -46,13 +73,6 @@ html, body {
 	margin: 0 auto;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-}
-
-#landingimagetext {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 #landingimagecardimageoverlay {
@@ -63,11 +83,6 @@ html, body {
   filter: alpha(opacity=60); 
 }
 
-#landingimagecardimageoverlay h5 {
-	margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
 
 #hometitlecards {
 	background-color:#FFDFD5;
