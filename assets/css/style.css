@@ -352,6 +352,7 @@ align-items: center;
 	margin: 0 auto;
 	top: 50%;
 	right: 50%;
+	border-radius: 10px;
 }
 
 #bookstitlecard {
@@ -362,21 +363,45 @@ align-items: center;
 	align-items: center;
 	text-align: center;
 	margin: 0 auto;
-	border-color: #F2F3AE;
+	background-image: linear-gradient(to right top, #02011f, #28153d, #5a1852, #8f1259, #c21450, #d72d48, #e9463e, #f75f31, #f97136, #fa813c, #fb9045, #fc9e4f);
 	border-width: 12px;
 }
 
 #bookstitlecardbody {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: #F2F3AE;
+	background-image: linear-gradient(to right top, #f4442e, #f65930, #f86b34, #f97c3a, #fa8b42, #f99a4a, #f9a853, #f8b65f, #f5c76f, #f3d682, #f2e597, #f2f3ae);
 	text-align: center;
 	color: #191836;
-	font: 1rem;
+	font: 2rem;
 	font-weight:bold;
 	border-color: #020122;
-	border-width: 7px;
+	border-width: 5px;
+	border-radius: 15px;
 }
+
+#bookspagebookjumbotron1 {
+	
+}
+
+#bookspagebookjumbotron2 {
+	
+}
+
+#bookspagebookjumbotron3 {
+	
+}
+
+#bookspagebookjumbotron4 {
+	
+}
+
+#bookspagebookjumbotron5 {
+	
+}
+
+
+
 
 /* books page */
 
