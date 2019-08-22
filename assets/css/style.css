@@ -143,6 +143,7 @@ nav {
 margin-top: auto;
 margin-bottom: auto;
 align-items: center;
+border-radius: 0 50px 50px 0;
 }
 
 #fouragreementssidecard {
@@ -150,7 +151,7 @@ align-items: center;
 margin-top: auto;
 margin-bottom: auto;
 align-items: center;
-	
+	border-radius: 50px 0px 0px 50px;
 }
 
 #homepagebookmb-3card1 {
@@ -194,7 +195,7 @@ align-items: center;
 	background-color: #391717;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	color: #FFBAA3;
-	border-radius: 0 50px 50px 0;
+	border-radius: 50px 0px 0px 50px;
 }
 
 #quotecarouseljumbotron {
