@@ -331,6 +331,55 @@ align-items: center;
 
 /* landing page */
 
+/* books page */
+
+#bookstitlecardjumbotron {
+	background-color: #191836;
+	justify-content: center;
+	margin: 0 auto;
+	top: 50%;
+	right: 50%;
+	text-align: center;
+}
+
+#bookstitlecardcontainer {
+	background-color: #F4442E;
+	max-width: 150rem;
+	height: 15rem;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	top: 50%;
+	right: 50%;
+}
+
+#bookstitlecard {
+	background-color: #FC9E4F;
+	max-width: 100rem;
+	height: 12rem;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	border-color: #F2F3AE;
+	border-width: 12px;
+}
+
+#bookstitlecardbody {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #F2F3AE;
+	text-align: center;
+	color: #191836;
+	font: 1rem;
+	font-weight:bold;
+	border-color: #020122;
+	border-width: 7px;
+}
+
+/* books page */
+
 
 /* contactform */
 
