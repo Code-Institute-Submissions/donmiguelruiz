@@ -138,6 +138,21 @@ nav {
 	background-color: transparent;
 }
 
+#threequestionssidecard {
+	background-image: linear-gradient(to right top, #aca49f, #b7a7a0, #c2aaa1, #ceaca4, #d9aea9, #e0b4b0, #e7bbb7, #eec1be, #f2cdc9, #f7dad4, #fbe6e1, #fff2ee);
+margin-top: auto;
+margin-bottom: auto;
+align-items: center;
+}
+
+#fouragreementssidecard {
+	background-image: linear-gradient(to right top, #aca49f, #b7a7a0, #c2aaa1, #ceaca4, #d9aea9, #e0b4b0, #e7bbb7, #eec1be, #f2cdc9, #f7dad4, #fbe6e1, #fff2ee);
+margin-top: auto;
+margin-bottom: auto;
+align-items: center;
+	
+}
+
 #homepagebookmb-3card1 {
 	justify-content: center;
 	align-items: center;
@@ -145,7 +160,7 @@ nav {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #391717;
-	box-shadow: 20px 20px 20px 11px #CE5454;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38); 
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
@@ -153,7 +168,7 @@ nav {
 #homepagebookmb-3card2 {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 20px 20px 20px 11px #CE5454;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #FFFAE3;
@@ -163,7 +178,7 @@ nav {
 #homepagebookmb-3card3 {
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 20px 20px 20px 11px #CE5454;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #FFFAE3;
@@ -177,7 +192,7 @@ nav {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #391717;
-	box-shadow: 20px 20px 20px 11px #CE5454;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
@@ -264,17 +279,18 @@ nav {
 }
 
 #sitenavigationcardscontainer {
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 10px 0;
   max-width:100%;
   height: auto;
   opacity: 0.7;
 }
 
 #sitenavigationcardcenter {
+	margin-left: 20px;
+	margin-right: 20px;
 	color: white;
 	font-weight: bold;
 	opacity: 0.6;
