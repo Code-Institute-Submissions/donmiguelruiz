@@ -54,6 +54,9 @@ nav {
 	background-image: linear-gradient(to right top, #fffadd, #feefce, #fee4c0, #fed8b4, #ffcbab, #fcbd9f, #f8af95, #f4a18c, #eb8e7c, #e27c6e, #d86860, #ce5454);
 	margin-top: 100px;
 	margin-bottom: 30px;
+	align-items: center;
+	text-align: center;
+	width: 100%;
 }
 
 #landingimagehead {
@@ -62,7 +65,7 @@ nav {
 	margin: 0 auto;
 	opacity: 0.7;
 	outline: 6px inset #FFBAA3;
-outline-offset: -30px;
+outline-offset: -15px;
 }
 
 #carouselExampleCaptionshomepagetitle {
