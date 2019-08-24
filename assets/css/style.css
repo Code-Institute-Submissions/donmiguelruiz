@@ -90,6 +90,7 @@ transition: transform .2s;
 	border-width: 5px;
 	text-align: center;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	margin: 10px 10px 10px 10px;
 	
 }
 
@@ -256,70 +257,66 @@ outline-offset: 30px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 	background-color: transparent;
 }
 
-#sitenavigationcardsjumbotron {
+#sitenavcardsjumbotron {
+	max-width: 100%;
 	justify-content: center;
-	align-items: center;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	align-self: stretch;
+	display: flex;
 	height: 100%;
-  margin: 0;
-  background-image: url(https://img.freepik.com/free-vector/valentine-s-day-vector-design-concept_53876-80108.jpg?size=338&ext=jpg);
+  background-image: url(https://image.freepik.com/free-vector/valentine-s-day-vector-design-concept_53876-80108.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  outline: 5px inset #4A382D;
-outline-offset: -45px;
 }
 
-#sitenavigationcardscontainer {
+#sitenavcardscontainer {
+	max-width: 100%;
+	height: auto;
+	justify-content: center;
+	align-self: stretch;
 	display: flex;
-  align-items: stretch;
-  justify-content: space-around;
-  padding: 10px 0;
-  max-width:100%;
-  height: auto;
-  text-align: center;
+	background-color: transparent;
+	align-content: stretch;
 }
 
-#sitenavigationcardcenter {
-	color: white;
-	font-weight: bold;
-	opacity: 0.5;
+.sitenavcardscol {
+	align-self: stretch;
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+
+#sitenavcard {
+background-color: #712E2E;
+color: white;
+font-size: 1rem;
+font-weight: bold;
+opacity: 0.5;
+justify-content: center;
+	align-self: stretch;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+	outline: 5px inset #391717;
+outline-offset: 5px;
+margin: 7px 7px 7px 7px;
+}
+
+#sitenavcardsbutton {
+	border-color: white;
 	background-color: #391717;
-	border-color: white;
-	border-width: 6px;
-	font-size: 1.2rem;
-	
+	color: white;
 }
 
-#sitenavbutton1 {
-	background-color: #FFBAA3;
-	border-color: white;
-	border-width: 4px;
-}
-
-#sitenavbutton2 {
-	background-color: #CE5454;
-	border-color: white;
-	border-width: 4px;
-}
-
-#sitenavbutton3 {
-	background-color: #716F6C;
-	border-color: white;
-	border-width: 4px;
-}
-
-#sitenavbutton4 {
-	background-color: #2F2E29;
-	border-color: white;
-	border-width: 4px;
+#sitenavcardsbutton:hover {
+	opacity: 0.6;
+	background-color: #4D3B3B;
+	border-color:white;
 }
 
 
