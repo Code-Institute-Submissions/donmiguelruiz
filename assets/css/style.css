@@ -112,10 +112,105 @@ transition: transform .2s;
 	
 }
 
+#homepagetitlecarouseljumbotron {
+	background-color: transparent;
+}
+
 
 #carouselExampleCaptionshomepagetitle {
 	height: 400px;
+	background-color:transparent;
 }
+
+#donmiguelmariashriverimage {
+	background-size: cover;
+	height: 100%;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#oprahwinfreyimage {
+	background-size: cover;
+	height: 100%;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#mariashriverslidecontainer {
+	max-width: 100%;
+	height: auto;
+  margin: 0 auto;
+  background-image: url(https://image.freepik.com/free-photo/overhead-view-peach-soft-smooth-foam-wallpaper_23-2148079273.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+ 
+}
+
+#oprahwinfreyslidecontainer {
+	max-width: 100%;
+	height: auto;
+  margin: 0 auto;
+  background-image: url(https://img.freepik.com/free-photo/orange-acrylic-paint-textured-background_53876-88475.jpg?size=626&ext=jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+#mariashrivercarddeck {
+	max-width: 100%;
+	height:auto;
+	opacity: 0.85;
+	margin: 0 auto;
+	
+}
+
+#oprahwinfreycarddeck {
+	max-width: 100%;
+	height:auto;
+	opacity: 0.85;
+	margin: 0 auto;
+
+}
+
+#donmiguelmariashrivercardtextbody {
+    text-align: center;
+    color:#4B1F1F;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+#oprahwinfreytextcard {
+    text-align: center;
+    color:#4B1F1F;
+    font-weight: bold;
+    font-size: 1rem;
+    max-width: 100%;
+	height:auto;
+}
+
+#donmiguelmariashrivercardtextbody {
+    text-align: center;
+    color:#4B1F1F;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#donmiguelmariashrivertextcard {
+    text-align: center;
+    color:#4B1F1F;
+    font-weight: bold;
+    font-size: 1rem;
+    max-width: 100%;
+	height:auto;
+}
+
 
 
 #homepageboookcardsthreequestions {
