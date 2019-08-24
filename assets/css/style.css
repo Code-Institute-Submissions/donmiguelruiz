@@ -2,6 +2,10 @@ html, body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	font-family: 'Shadows Into Light', cursive;
+	background: url(https://image.freepik.com/free-photo/abstract-background-modern-tile-wall_118019-287.jpg);
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
 }
 
 /* navbar */
@@ -53,10 +57,12 @@ nav {
 #landingimagejumbotron {
 	background-image: linear-gradient(to right top, #fffadd, #feefce, #fee4c0, #fed8b4, #ffcbab, #fcbd9f, #f8af95, #f4a18c, #eb8e7c, #e27c6e, #d86860, #ce5454);
 	margin-top: 100px;
-	margin-bottom: 30px;
+	margin-bottom: 300px;
 	align-items: center;
 	text-align: center;
 	width: 100%;
+	outline: 6px inset #4A382D;
+outline-offset: -15px;
 }
 
 #landingimagehead {
@@ -66,52 +72,22 @@ nav {
 	opacity: 0.7;
 	outline: 6px inset #FFBAA3;
 outline-offset: -15px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#landingimagecard {
+	background-image: linear-gradient(to right top, #d26363, #db746d, #e48477, #ec9583, #f4a590, #f7b399, #fac0a3, #fdcdaf, #fbdabc, #fbe6cc, #fcf2dd, #fffcef);
+	border-color:#4A382D;
+	border-width: 5px;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	
 }
 
 #carouselExampleCaptionshomepagetitle {
-	height: 100px;
+	height: 400px;
 }
 
-#hometitlecards {
-	background-color:#FFDFD5;
-	margin-top:20px;
-}
-
-#homepagecardgroup {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);	
-	background-color:#FFFAE3;
-}
-
-#homecardimagetop {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	height: 60%;
-	width: 60%;
-	margin: 0 auto;
-}
-
-#hometitlecard1 {
-	font-size:2vw;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	color: white;
-	text-align: center;
-	background-color: #4A382D;
-}
-
-#hometitlecard2 {
-	font-size:2vw;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	color: white;
-	text-align: center;
-	background-color: #938C7D;
-}
-
-#hometitlecard3 {
-	font-size:2vw;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	color: white;
-	text-align: center;
-	background-color: #4B1F1F;
-}
 
 #homepageboookcardsthreequestions {
 	max-width: 100%;
@@ -200,9 +176,12 @@ align-items: center;
 }
 
 #quotecarousel {
-	box-shadow:35px 35px 15px -5px rgba(48,36,29,0.8);
+	background-image: linear-gradient(to right top, #ce5454, #b35147, #994d3d, #804836, #684231, #6c4938, #6f4f3f, #735647, #946e5c, #b68773, #daa08a, #ffbaa3);
 	height: 300px;
 	width: auto;
+	outline: 6px solid #C9C0AB;
+outline-offset: 30px;
+	
 }
 
 #quotecardheader {
@@ -267,11 +246,12 @@ align-items: center;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url("https://images.unsplash.com/photo-1553714167-d5dddd691160?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
-  background-repeat: no-repeat;
-  background-size:cover;
+	background-image: url(https://image.freepik.com/free-photo/3d-geometric-abstract-background_1048-10384.jpg); 
+	background-size: cover;
   max-width: 100%;
   height: auto;
+  outline: 5px inset #4A382D;
+outline-offset: -45px;
 }
 
 #sitenavigationcardscontainer {
