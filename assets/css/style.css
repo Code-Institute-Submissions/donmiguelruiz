@@ -438,16 +438,25 @@ label {
 
 /* socialmedia */
 
-#socialmediacontainer {
+#footer {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	background-color: transparent;
+	color: white;
+	font-size: 2rem;
 }
 
-.footer-copyright text-center py-3 {
-	text-decoration: none;
-	color: black;
+
+
+
+
+.footer-copyright {
+	font-size: 2rem;
+	color: white;
+	
 }
+
 
 
 /* socialmedia */
