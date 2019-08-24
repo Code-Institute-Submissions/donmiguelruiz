@@ -2,10 +2,15 @@ html, body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	font-family: 'Shadows Into Light', cursive;
-	background: url(https://image.freepik.com/free-photo/abstract-background-modern-tile-wall_118019-287.jpg);
-	background-size: cover;
-	max-width: 100%;
-	height: auto;
+	height: 100%;
+  margin: 0;
+  background-image: url(https://image.freepik.com/free-vector/red-circle-pattern-background-vector_53876-63151.jpg);
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* navbar */
@@ -53,11 +58,19 @@ nav {
 /* landing page */
 
 
+.slideOutRight {
+	height: 100px;
+	width: 300px;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-delay: 2s;
+}
+
 
 #landingimagejumbotron {
 	background-image: linear-gradient(to right top, #fffadd, #feefce, #fee4c0, #fed8b4, #ffcbab, #fcbd9f, #f8af95, #f4a18c, #eb8e7c, #e27c6e, #d86860, #ce5454);
-	margin-top: 100px;
-	margin-bottom: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	align-items: center;
 	text-align: center;
 	width: 100%;
