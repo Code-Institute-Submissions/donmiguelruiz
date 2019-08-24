@@ -5,9 +5,6 @@ html, body {
 	height: 100%;
   margin: 0;
   background-image: url(https://image.freepik.com/free-vector/red-circle-pattern-background-vector_53876-63151.jpg);
-
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,14 +55,6 @@ nav {
 /* landing page */
 
 
-.slideOutRight {
-	height: 100px;
-	width: 300px;
-	animation-iteration-count: infinite;
-	animation-duration: 5s;
-	animation-delay: 2s;
-}
-
 
 #landingimagejumbotron {
 	background-image: linear-gradient(to right top, #fffadd, #feefce, #fee4c0, #fed8b4, #ffcbab, #fcbd9f, #f8af95, #f4a18c, #eb8e7c, #e27c6e, #d86860, #ce5454);
@@ -76,6 +65,7 @@ nav {
 	width: 100%;
 	outline: 6px inset #4A382D;
 outline-offset: -15px;
+opacity: 0.7;
 }
 
 #landingimagehead {
@@ -103,6 +93,7 @@ transition: transform .2s;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	
 }
+
 
 #carouselExampleCaptionshomepagetitle {
 	height: 400px;
@@ -235,6 +226,12 @@ outline-offset: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	color: #261010;
+	height: 100%;
+  margin: 0;
+  background-image: url(https://image.freepik.com/free-photo/purple-fiber-optics-abstract-defocused-background_23-2148241281.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sitenavigationdisplay-4 {
@@ -266,10 +263,12 @@ outline-offset: 30px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(https://image.freepik.com/free-photo/3d-geometric-abstract-background_1048-10384.jpg); 
-	background-size: cover;
-  max-width: 100%;
-  height: auto;
+	height: 100%;
+  margin: 0;
+  background-image: url(https://img.freepik.com/free-vector/valentine-s-day-vector-design-concept_53876-80108.jpg?size=338&ext=jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   outline: 5px inset #4A382D;
 outline-offset: -45px;
 }
@@ -281,7 +280,6 @@ outline-offset: -45px;
   padding: 10px 0;
   max-width:100%;
   height: auto;
-  opacity: 0.7;
 }
 
 #sitenavigationcardcenter {
@@ -289,7 +287,7 @@ outline-offset: -45px;
 	margin-right: 10px;
 	color: white;
 	font-weight: bold;
-	opacity: 0.6;
+	opacity: 0.5;
 	background-color: #391717;
 	border-color: white;
 	border-width: 6px;
