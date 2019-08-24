@@ -101,8 +101,8 @@ transition: transform .2s;
 
 
 #homepageboookcardsthreequestions {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 7px 7px 7px 7px;
+	padding: 7px 7px 7px 7px;
 	max-width: 100%;
 	height: auto;
 	justify-content: center;
@@ -112,6 +112,8 @@ transition: transform .2s;
 }
 
 #homepageboookcardsfouragreements {
+		margin: 7px 7px 7px 7px;
+	padding: 7px 7px 7px 7px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	max-width: 100%;
@@ -129,6 +131,8 @@ border-radius: 0 50px 50px 0;
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 margin-top: auto;
 	margin-bottom: auto;
+		margin: 7px 7px 7px 7px;
+	padding: 7px 7px 7px 7px;
 }
 
 #fouragreementssidecard {
@@ -138,6 +142,8 @@ margin-top: auto;
 align-items: center;
 	border-radius: 50px 0px 0px 50px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+		margin: 7px 7px 7px 7px;
+	padding: 7px 7px 7px 7px;
 }
 
 #homepagebookmb-3card1 {
