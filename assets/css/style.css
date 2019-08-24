@@ -9,6 +9,8 @@ html, body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
 /* navbar */
 #navbar {
 	margin-bottom: 5px;
@@ -96,10 +98,26 @@ nav {
 }
 #homepagetitlecarouseljumbotron {
 	background-color: transparent;
+	margin-bottom: 100px;
+	outline: 5px outset #FFBAA3;
+outline-offset: 15px;
 }
+
+#homepagetitlecarouselcontainer {
+outline: 25px outset #FFBAA3;
+outline-offset: 15px;
+}
+
+.carousel-caption {
+	color: #963E3E;
+}
+
 #carouselExampleCaptionshomepagetitle {
-	height: 400px;
 	background-color:transparent;
+	height: 400px;
+	outline: 15px outset #CE5454;
+outline-offset:60px;
+	
 }
 #donmiguelmariashriverimage {
 	background-size: cover;
@@ -175,8 +193,9 @@ nav {
 	max-width: 100%;
 	height:auto;
 }
+
 #homepageboookcardsthreequestions {
-	margin: 7px 7px 7px 7px;
+	margin: 20px 7px 7px 7px;
 	padding: 7px 7px 7px 7px;
 	max-width: 100%;
 	height: auto;
@@ -422,6 +441,14 @@ nav {
 	border-width: 5px;
 	border-radius: 15px;
 }
+
+#bookscarddeck1jumbotron {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
 /* books page */
 /* contactform */
 #contactform {
@@ -461,10 +488,10 @@ label {
 	text-align: center;
 	background-color: transparent;
 	color: white;
-	font-size: 2rem;
+	font-size: 1rem;
 }
 .footer-copyright {
-	font-size: 2rem;
+	font-size: 1rem;
 	color: white;
 }
 /* socialmedia */
