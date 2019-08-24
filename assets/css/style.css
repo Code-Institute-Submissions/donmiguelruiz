@@ -184,6 +184,8 @@ align-items: center;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #F6DFDF;
 	color:#4B1F1F;
+	outline: 5px inset #FFE5DD;
+outline-offset: 10px;
 }
 
 #homepagebookmb-3card3 {
@@ -194,6 +196,8 @@ align-items: center;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #F6DFDF;
 	color:#4B1F1F;
+	outline: 5px inset #FFE5DD;
+outline-offset: 10px;
 }
 
 #homepagebookmb-3card4 {
