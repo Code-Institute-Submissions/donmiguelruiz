@@ -54,6 +54,24 @@ nav {
 
 /* landing page */
 
+#authortitlehomepagejumbotron {
+		height: 100%;
+  margin-top: 80px;
+  background-color: transparent;
+}
+
+#authortitlehomepagecard {
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  background-image: url(https://image.freepik.com/free-vector/girly-pink-background_53876-85396.jpg);
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #4B1F1F;
+  outline: 5px inset #4B1F1F;
+outline-offset: -10px;
+}
 
 
 #landingimagejumbotron {
