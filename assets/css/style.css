@@ -65,14 +65,13 @@ nav {
 	width: 100%;
 	outline: 6px inset #4A382D;
 outline-offset: -15px;
-opacity: 0.7;
+opacity: 0.85;
 }
 
 #landingimagehead {
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto;
-	opacity: 0.7;
 	outline: 6px inset #FFBAA3;
 outline-offset: -15px;
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -154,8 +153,10 @@ align-items: center;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
-	background-color: #FFFAE3;
+	background-color: #F6DFDF;
 	color:#4B1F1F;
+	outline: 20px outset #F6DFDF;
+outline-offset: 25px;
 }
 
 #homepagebookmb-3card3 {
@@ -164,8 +165,10 @@ align-items: center;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-color: white;
 	border-radius: 10px 10px 10px 10px;
-	background-color: #FFFAE3;
+	background-color: #F6DFDF;
 	color:#4B1F1F;
+	outline: 20px outset #F6DFDF;
+outline-offset: 25px;
 }
 
 #homepagebookmb-3card4 {
@@ -182,8 +185,13 @@ align-items: center;
 
 #quotecarouseljumbotron {
 	max-width: 100%;
-	height: auto;
 	background-color: #5A4A40;
+	height: 100%;
+  margin: 0;
+  background-image: url(https://image.freepik.com/free-vector/blank-red-square-neon-signboard-vector_53876-63157.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #quotecarousel {
@@ -219,7 +227,6 @@ outline-offset: 30px;
 }
 
 #sitenavigation {
-	background-color: #BD9C9C;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -228,10 +235,7 @@ outline-offset: 30px;
 	color: #261010;
 	height: 100%;
   margin: 0;
-  background-image: url(https://image.freepik.com/free-photo/purple-fiber-optics-abstract-defocused-background_23-2148241281.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #4B1F1F;
 }
 
 #sitenavigationdisplay-4 {
