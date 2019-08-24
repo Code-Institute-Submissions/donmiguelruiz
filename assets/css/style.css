@@ -100,6 +100,8 @@ transition: transform .2s;
 
 
 #homepageboookcardsthreequestions {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	max-width: 100%;
 	height: auto;
 	justify-content: center;
@@ -109,6 +111,8 @@ transition: transform .2s;
 }
 
 #homepageboookcardsfouragreements {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	max-width: 100%;
 	height: auto;
 	justify-content: center;
@@ -119,17 +123,17 @@ transition: transform .2s;
 
 #threequestionssidecard {
 	background-image: linear-gradient(to right top, #aca49f, #b7a7a0, #c2aaa1, #ceaca4, #d9aea9, #e0b4b0, #e7bbb7, #eec1be, #f2cdc9, #f7dad4, #fbe6e1, #fff2ee);
-margin-top: auto;
-margin-bottom: auto;
 align-items: center;
 border-radius: 0 50px 50px 0;
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+margin-top: auto;
+	margin-bottom: auto;
 }
 
 #fouragreementssidecard {
 	background-image: linear-gradient(to right top, #aca49f, #b7a7a0, #c2aaa1, #ceaca4, #d9aea9, #e0b4b0, #e7bbb7, #eec1be, #f2cdc9, #f7dad4, #fbe6e1, #fff2ee);
 margin-top: auto;
-margin-bottom: auto;
+	margin-bottom: auto;
 align-items: center;
 	border-radius: 50px 0px 0px 50px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -155,8 +159,6 @@ align-items: center;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #F6DFDF;
 	color:#4B1F1F;
-	outline: 20px outset #F6DFDF;
-outline-offset: 25px;
 }
 
 #homepagebookmb-3card3 {
@@ -167,8 +169,6 @@ outline-offset: 25px;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #F6DFDF;
 	color:#4B1F1F;
-	outline: 20px outset #F6DFDF;
-outline-offset: 25px;
 }
 
 #homepagebookmb-3card4 {
@@ -284,11 +284,10 @@ outline-offset: -45px;
   padding: 10px 0;
   max-width:100%;
   height: auto;
+  text-align: center;
 }
 
 #sitenavigationcardcenter {
-	margin-left: 10px;
-	margin-right: 10px;
 	color: white;
 	font-weight: bold;
 	opacity: 0.5;
