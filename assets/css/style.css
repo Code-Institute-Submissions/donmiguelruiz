@@ -586,119 +586,552 @@ mark {
 	border-radius: 50%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
+
 /* bookscarddeck1 */
+
 /* bookscarddeck2 */
-#bookscarddeck2jumbotron {
+#bookscarddeck1jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image: linear-gradient(to right top, #f77767, #f76e5d, #f76552, #f75c48, #f6523d, #f75a41, #f86145, #f96849, #fc7e5e, #fe9374, #ffa78b, #ffbaa3);
+	background-image:url(../images/booksjumbotronbackground1.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
-	margin: 0;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: #47465E;
+	font-size: 2rem;
 }
-#bookscarddeck2 {
-	font-size: 1rem;
+#bookscarddeck1container {
+	max-width: 100%;
+	height: auto;
+}
+.carddeckbooks1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+#bookscarddeck1 {
 	text-align: center;
 	margin: auto;
+	font-size: 2rem;
 }
-#bookscarddeck2image {
+#deck1card1 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items: stretch;
 	background-size: cover;
-	outline: 10px inset #9C2C1E;
-	outline-offset: -30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-white-hexagon-geometric-background_41814-254.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
 }
-#deck2card1 {
+#deck1card2 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items: stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	text-align: center;
+	background-image:url(https://image.freepik.com/free-vector/galaxy-colorful-holographic-geometric-background_56745-84.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 2rem;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
 }
-#deck2card2 {
+#deck1card3 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items:stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/galaxy-colorful-holographic-geometric-background_56745-84.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 2rem;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
 }
-#deck2card3 {
+#bookscardbutton1 {
+	margin: auto;
+	border-color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 10rem;
+	height: 10rem;
+	margin-top: 5px;
+	line-height: 10rem;
+	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: white;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
 }
+#bookscardbutton1:hover {
+	opacity: 0.5;
+	border-color: white;
+}
+#bookscardbutton2 {
+	margin: auto;
+	border-color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 10rem;
+	height: 10rem;
+	margin-top: 5px;
+	line-height: 10rem;
+	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: white;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+}
+#bookscardbutton2:hover {
+	border-color: white;
+	opacity:0.5;
+}
+mark {
+	background-color: #302F4A;
+	color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+
 /* bookscarddeck2 */
+
 /* bookscarddeck3 */
-#bookscarddeck3jumbotron {
+#bookscarddeck1jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image: linear-gradient(to right top, #f2f3ae, #f2e597, #f3d682, #f5c76f, #f8b65f, #fbad5e, #fda45e, #ff9b60, #ff996c, #ff9878, #fd9883, #f9998d);
+	background-image:url(../images/booksjumbotronbackground1.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
-	margin: 0;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: #47465E;
+	font-size: 2rem;
 }
-#bookscarddeck3 {
-	font-size: 1rem;
-	text-align: center;
-	margin: 0 auto;
-}
-#bookscarddeck3image {
-	background-size: cover;
-	outline: 10px inset #F4442E;
-	outline-offset: -30px;
-}
-#deck3card1 {
-}
-#deck3card2 {
-}
-#deck3card3 {
-}
-/* bookscarddeck3 */
-/* bookscarddeck4 */
-#bookscarddeck4jumbotron {
+#bookscarddeck1container {
 	max-width: 100%;
 	height: auto;
-	background-image: linear-gradient(to right top, #6c6c7f, #7f6b91, #9f6696, #c25c8d, #e05275, #d8486c, #d03e64, #c8335b, #9c2a62, #6c275e, #3f224f, #191836);
+}
+.carddeckbooks1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+#bookscarddeck1 {
+	text-align: center;
+	margin: auto;
+	font-size: 2rem;
+}
+#deck1card1 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items: stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-white-hexagon-geometric-background_41814-254.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
+}
+#deck1card2 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items: stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	text-align: center;
+	background-image:url(https://image.freepik.com/free-vector/galaxy-colorful-holographic-geometric-background_56745-84.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 2rem;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
+}
+#deck1card3 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items:stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/galaxy-colorful-holographic-geometric-background_56745-84.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 2rem;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
+}
+#bookscardbutton1 {
+	margin: auto;
+	border-color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 10rem;
+	height: 10rem;
+	margin-top: 5px;
+	line-height: 10rem;
+	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
-	margin: 0;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: white;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
 }
-#bookscarddeck4 {
-	font-size: 1rem;
-	text-align: center;
-	margin: 0 auto;
+#bookscardbutton1:hover {
+	opacity: 0.5;
+	border-color: white;
 }
-#bookscarddeck4image {
+#bookscardbutton2 {
+	margin: auto;
+	border-color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 10rem;
+	height: 10rem;
+	margin-top: 5px;
+	line-height: 10rem;
+	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
-	outline: 10px inset #191836;
-	outline-offset: -30px;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: white;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
 }
-#deck4card1 {
+#bookscardbutton2:hover {
+	border-color: white;
+	opacity:0.5;
 }
-#deck4card2 {
+mark {
+	background-color: #302F4A;
+	color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-#deck4card3 {
-}
+
+/* bookscarddeck3 */
 /* bookscarddeck4 */
+#bookscarddeck1jumbotron {
+	max-width: 100%;
+	height: auto;
+	background-image:url(../images/booksjumbotronbackground1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: #47465E;
+	font-size: 2rem;
+}
+#bookscarddeck1container {
+	max-width: 100%;
+	height: auto;
+}
+.carddeckbooks1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+#bookscarddeck1 {
+	text-align: center;
+	margin: auto;
+	font-size: 2rem;
+}
+#deck1card1 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items: stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-white-hexagon-geometric-background_41814-254.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
+}
+#deck1card2 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items: stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	text-align: center;
+	background-image:url(https://image.freepik.com/free-vector/galaxy-colorful-holographic-geometric-background_56745-84.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 2rem;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
+}
+#deck1card3 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items:stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/galaxy-colorful-holographic-geometric-background_56745-84.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 2rem;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
+}
+#bookscardbutton1 {
+	margin: auto;
+	border-color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 10rem;
+	height: 10rem;
+	margin-top: 5px;
+	line-height: 10rem;
+	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: white;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+}
+#bookscardbutton1:hover {
+	opacity: 0.5;
+	border-color: white;
+}
+#bookscardbutton2 {
+	margin: auto;
+	border-color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 10rem;
+	height: 10rem;
+	margin-top: 5px;
+	line-height: 10rem;
+	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: white;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+}
+#bookscardbutton2:hover {
+	border-color: white;
+	opacity:0.5;
+}
+mark {
+	background-color: #302F4A;
+	color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+
+/* bookscarddeck4 */
+
 /* bookscarddeck5 */
-#bookscarddeck5jumbotron {
+#bookscarddeck1jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image: linear-gradient(to right top, #ffbaa3, #ffc4a0, #ffce9f, #ffd9a0, #fbe4a4, #f8e39d, #f5e197, #f2e090, #f4d17c, #f6c169, #f9b05a, #fc9e4f);
+	background-image:url(../images/booksjumbotronbackground1.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
-	margin: 0;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: #47465E;
+	font-size: 2rem;
 }
-#bookscarddeck5 {
-	font-size: 1rem;
-	text-align: center;
-	margin: 0 auto;
+#bookscarddeck1container {
+	max-width: 100%;
+	height: auto;
 }
-#bookscarddeck5image {
+.carddeckbooks1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+#bookscarddeck1 {
+	text-align: center;
+	margin: auto;
+	font-size: 2rem;
+}
+#deck1card1 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items: stretch;
 	background-size: cover;
-	outline: 10px inset #FC9E4F;
-	outline-offset: -30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-white-hexagon-geometric-background_41814-254.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
 }
-#deck5card1 {
-	color:#2E1D0F;
+#deck1card2 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items: stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	justify-content: center;
+	text-align: center;
+	background-image:url(https://image.freepik.com/free-vector/galaxy-colorful-holographic-geometric-background_56745-84.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 2rem;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
 }
-#deck5card2 {
+#deck1card3 {
+	margin: auto;
+	width: 13rem;
+	height: 30rem;
+	border-radius: 15px;
+	align-items:stretch;
+	background-size: cover;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/galaxy-colorful-holographic-geometric-background_56745-84.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 2rem;
+	outline: 7px solid #BAB9C2;
+	outline-offset: 10px;
 }
-#deck5card3 {
+#bookscardbutton1 {
+	margin: auto;
+	border-color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 10rem;
+	height: 10rem;
+	margin-top: 5px;
+	line-height: 10rem;
+	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: white;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
 }
+#bookscardbutton1:hover {
+	opacity: 0.5;
+	border-color: white;
+}
+#bookscardbutton2 {
+	margin: auto;
+	border-color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 10rem;
+	height: 10rem;
+	margin-top: 5px;
+	line-height: 10rem;
+	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: white;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+}
+#bookscardbutton2:hover {
+	border-color: white;
+	opacity:0.5;
+}
+mark {
+	background-color: #302F4A;
+	color: white;
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
 /* bookscarddeck5 */
 /* books page */
 /* contactform */
