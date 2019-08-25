@@ -443,6 +443,7 @@ outline-offset:60px;
 	border-radius: 15px;
 }
 
+
 /* bookscarddeck1 */
 
 #bookscarddeck1jumbotron {
@@ -453,6 +454,8 @@ outline-offset:60px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
 }
 
 
@@ -466,10 +469,28 @@ outline-offset:60px;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	outline: 50px inset #302F4A;
-outline-offset: -40px;
 }
 
+#deck1card1 {
+	outline: 5px solid #BAB9C2;
+outline-offset: -20px;
+align-items: stretch;
+background-size: cover;
+}
+
+#deck1card2 {
+	outline: 5px solid #BAB9C2;
+outline-offset: -20px;
+align-items: stretch;
+background-size: cover;
+}
+
+#deck1card3 {
+	outline: 5px solid #BAB9C2;
+outline-offset: -20px;
+align-items:stretch;
+background-size: cover;
+}
 
 
 
@@ -496,10 +517,22 @@ outline-offset: -40px;
 
 #bookscarddeck2image {
 	background-size: cover;
-	outline: 50px inset #9C2C1E;
+	outline: 10px inset #9C2C1E;
 outline-offset: -30px;
+}
+
+#deck2card1 {
 	
 }
+
+#deck2card2 {
+	
+}
+
+#deck2card3 {
+	
+}
+
 
 /* bookscarddeck2 */
 
@@ -525,10 +558,21 @@ outline-offset: -30px;
 
 #bookscarddeck3image {
 	background-size: cover;
-	outline: 50px inset #F4442E;
-outline-offset: -40px;
+	outline: 10px inset #F4442E;
+outline-offset: -30px;
 }
 
+#deck3card1 {
+	
+}
+
+#deck3card2 {
+	
+}
+
+#deck3card3 {
+	
+}
 
 
 
@@ -556,10 +600,21 @@ outline-offset: -40px;
 
 #bookscarddeck4image {
 	background-size: cover;
-	outline: 50px inset #191836;
-outline-offset: -40px;
+	outline: 10px inset #191836;
+outline-offset: -30px;
 }
 
+#deck4card1 {
+	
+}
+
+#deck4card2 {
+	
+}
+
+#deck4card3 {
+	
+}
 
 
 
@@ -587,10 +642,21 @@ outline-offset: -40px;
 
 #bookscarddeck5image {
 	background-size: cover;
-	outline: 50px inset #FC9E4F;
-outline-offset: -40px;
+	outline: 10px inset #FC9E4F;
+outline-offset: -30px;
 }
 
+#deck5card1 {
+	color:#2E1D0F;	
+}
+
+#deck5card2 {
+	
+}
+
+#deck5card3 {
+	
+}
 
 
 
