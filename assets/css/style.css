@@ -431,7 +431,7 @@ outline-offset:60px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin: 0 auto;
+	margin: auto;
 	background-image: linear-gradient(to right top, #02011f, #28153d, #5a1852, #8f1259, #c21450, #d72d48, #e9463e, #f75f31, #f97136, #fa813c, #fb9045, #fc9e4f);
 	border-width: 12px;
 }
@@ -451,11 +451,11 @@ outline-offset:60px;
 #bookscardimagesidecard {
 	border-radius: 50%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	width: 15rem;
-	height: 15rem;
-	margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	width: 11rem;
+	height: 11rem;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 
 #bookscardimagesidecard:hover {
@@ -485,23 +485,29 @@ outline-offset:60px;
 	align-self: stretch;
 	background-color: #47465E;
 	font-size: 2rem;
-	padding: 20px 20px 20px 20px;
+}
+
+#bookscarddeck1container {
+	max-width: 100%;
+	height: auto;
+}
+
+.carddeckbooks1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #bookscarddeck1 {
 	text-align: center;
-	margin: 0 auto;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	font-size: 2rem;
-	padding: 20px 20px 20px 20px;
 	margin: auto;
+	font-size: 2rem;
 }
 
 
 #deck1card1 {
 	margin: auto;
-	width: 15rem;
-	height: 50rem;
+	width: 13rem;
+	height: 30rem;
 	border-radius: 15px;
 align-items: stretch;
 background-size: cover;
@@ -521,8 +527,8 @@ outline-offset: 10px;
 
 #deck1card2 {
 	margin: auto;
-	width: 15rem;
-	height: 50rem;
+	width: 13rem;
+	height: 30rem;
 	border-radius: 15px;
 align-items: stretch;
 background-size: cover;
@@ -539,8 +545,8 @@ outline-offset: 10px;
 
 #deck1card3 {
 	margin: auto;
-	width: 15rem;
-	height: 50rem;
+	width: 13rem;
+	height: 30rem;
 	border-radius: 15px;
 align-items:stretch;
 background-size: cover;
@@ -558,10 +564,10 @@ outline-offset: 10px;
 	border-color: white;
 	border-radius: 50%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	width: 13rem;
-	height: 13rem;
-	margin-top: 100px;
-	line-height: 13rem;
+	width: 11rem;
+	height: 11rem;
+	margin-top: 10px;
+	line-height: 11rem;
 	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -570,10 +576,10 @@ outline-offset: 10px;
 	align-self: stretch;
 	background-color: #47465E;
 	color: black;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	outline: 7px inset #FFC0AB;
-outline-offset: -40px;
+outline-offset: -30px;
 }
 
 #bookscardbutton1:hover {
@@ -586,10 +592,10 @@ outline-offset: -40px;
 	border-color: white;
 	border-radius: 50%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	width: 13rem;
-	height: 13rem;
-	margin-top: 100px;
-	line-height: 13rem;
+	width: 11rem;
+	height: 11rem;
+	margin-top: 10px;
+	line-height: 11rem;
 	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -598,10 +604,10 @@ outline-offset: -40px;
 	align-self: stretch;
 	background-color: white;
 	color: black;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	outline: 7px inset #FFC0AB;
-outline-offset: -40px;
+outline-offset: -30px;
 }
 
 #bookscardbutton2:hover {
@@ -628,7 +634,7 @@ outline-offset: -40px;
 #bookscarddeck2 {
 	font-size: 1rem;
 	text-align: center;
-	margin: 0 auto;
+	margin: auto;
 }
 
 #bookscarddeck2image {
