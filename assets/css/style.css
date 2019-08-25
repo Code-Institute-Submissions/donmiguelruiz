@@ -449,7 +449,7 @@ outline-offset:60px;
 	max-width: 100%;
 	height: auto;
 	margin: 0;
-	background-image: url(https://image.freepik.com/free-photo/abstract-purple-green-fractal-light-background_32678-269.jpg);
+	background-image: linear-gradient(to right top, #f77767, #cc596b, #9a4367, #673159, #372141, #392542, #3c2842, #3e2c43, #6f4a60, #a16a79, #d2908f, #ffbaa3);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -457,8 +457,6 @@ outline-offset:60px;
 
 
 #bookscarddeck1 {
-	width: 50%;
-	height: 50%;
 	font-size: 1rem;
 	text-align: center;
 	margin: 0 auto;
@@ -466,6 +464,10 @@ outline-offset:60px;
 
 #bookscarddeck1image {
 	background-size: cover;
+	height: 100%;
+	width: 100%;
+	outline: 50px inset #302F4A;
+outline-offset: -40px;
 }
 
 
@@ -478,7 +480,7 @@ outline-offset:60px;
 #bookscarddeck2jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image: url(https://image.freepik.com/free-photo/abstract-purple-green-fractal-light-background_32678-269.jpg);
+	background-image: linear-gradient(to right top, #f77767, #f76e5d, #f76552, #f75c48, #f6523d, #f75a41, #f86145, #f96849, #fc7e5e, #fe9374, #ffa78b, #ffbaa3);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -487,8 +489,6 @@ outline-offset:60px;
 }
 
 #bookscarddeck2 {
-	width: 50%;
-	height: 50%;
 	font-size: 1rem;
 	text-align: center;
 	margin: 0 auto;
@@ -496,6 +496,9 @@ outline-offset:60px;
 
 #bookscarddeck2image {
 	background-size: cover;
+	outline: 50px inset #9C2C1E;
+outline-offset: -30px;
+	
 }
 
 /* bookscarddeck2 */
@@ -505,7 +508,7 @@ outline-offset:60px;
 #bookscarddeck3jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image: url(https://image.freepik.com/free-photo/abstract-purple-green-fractal-light-background_32678-269.jpg);
+	background-image: linear-gradient(to right top, #f2f3ae, #f2e597, #f3d682, #f5c76f, #f8b65f, #fbad5e, #fda45e, #ff9b60, #ff996c, #ff9878, #fd9883, #f9998d);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -515,8 +518,6 @@ outline-offset:60px;
 
 
 #bookscarddeck3 {
-	width: 50%;
-	height: 50%;
 	font-size: 1rem;
 	text-align: center;
 	margin: 0 auto;
@@ -524,6 +525,8 @@ outline-offset:60px;
 
 #bookscarddeck3image {
 	background-size: cover;
+	outline: 50px inset #F4442E;
+outline-offset: -40px;
 }
 
 
@@ -531,7 +534,67 @@ outline-offset:60px;
 
 /* bookscarddeck3 */
 
+/* bookscarddeck4 */
 
+#bookscarddeck4jumbotron {
+	max-width: 100%;
+	height: auto;
+	background-image: linear-gradient(to right top, #6c6c7f, #7f6b91, #9f6696, #c25c8d, #e05275, #d8486c, #d03e64, #c8335b, #9c2a62, #6c275e, #3f224f, #191836);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin: 0;
+}
+
+
+#bookscarddeck4 {
+	font-size: 1rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#bookscarddeck4image {
+	background-size: cover;
+	outline: 50px inset #191836;
+outline-offset: -40px;
+}
+
+
+
+
+/* bookscarddeck4 */
+
+/* bookscarddeck5 */
+
+#bookscarddeck5jumbotron {
+	max-width: 100%;
+	height: auto;
+	background-image: linear-gradient(to right top, #ffbaa3, #ffc4a0, #ffce9f, #ffd9a0, #fbe4a4, #f8e39d, #f5e197, #f2e090, #f4d17c, #f6c169, #f9b05a, #fc9e4f);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin: 0;
+}
+
+
+#bookscarddeck5 {
+	font-size: 1rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#bookscarddeck5image {
+	background-size: cover;
+	outline: 50px inset #FC9E4F;
+outline-offset: -40px;
+}
+
+
+
+
+/* bookscarddeck5 */
 
 
 /* books page */
