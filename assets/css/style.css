@@ -453,8 +453,16 @@ outline-offset:60px;
 	margin-bottom: 160px;
 }
 
+#bookscardimagesidecard:hover {
+	opacity: 0.5;
+}
+
 #bookscardimage {
 	border-radius: 15px;
+}
+
+#bookscardimage:hover {
+	opacity: 0.5;
 }
 
 /* bookscarddeck1 */
@@ -463,24 +471,27 @@ outline-offset:60px;
 	max-width: 100%;
 	height: auto;
 	margin: 0;
-	background-image: linear-gradient(to right top, #f77767, #cc596b, #9a4367, #673159, #372141, #392542, #3c2842, #3e2c43, #6f4a60, #a16a79, #d2908f, #ffbaa3);
+	background-image:url(../images/booksjumbotronbackground1.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: stretch;
 	align-self: stretch;
+	background-color: #47465E;
+
 }
- 
 
 #bookscarddeck1 {
 	font-size: 1rem;
 	text-align: center;
 	margin: 0 auto;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	
 }
 
 
 #deck1card1 {
+	width: 22rem;
 	border-radius: 15px;
 align-items: stretch;
 background-size: cover;
@@ -488,21 +499,26 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #deck1card2 {
+	width: 22rem;
 	border-radius: 15px;
 	outline: 5px solid #BAB9C2;
 outline-offset: -20px;
 align-items: stretch;
 background-size: cover;
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+justify-content: center;
+	text-align: center;
 }
 
 #deck1card3 {
+	width: 22rem;
 	border-radius: 15px;
 	outline: 5px solid #BAB9C2;
 outline-offset: -20px;
 align-items:stretch;
 background-size: cover;
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+
 }
 
 #bookscardbutton1 {
@@ -510,11 +526,27 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	width: 18rem;
 	height: 18rem;
-	margin: 0 auto;
 	margin-top: 60px;
 	margin-bottom: 160px;
-	vertical-align: middle;
-	align-content: center;
+	line-height: 18rem;
+	background-image:url(https://image.freepik.com/free-photo/3d-render-honeycomb-white-background-abstract-wall-decorative-bath_74333-274.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: #47465E;
+	color: #302F4A;
+	font-size: 2rem;
+	font-weight: bold;
+	border-color: white;
+	outline: 10px inset #A3A2AE;
+outline-offset: -60px;
+}
+
+#bookscardbutton1:hover {
+	opacity: 0.5;
+	border-color: white;
 }
 
 #bookscardbutton2 {
@@ -522,11 +554,27 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	width: 18rem;
 	height: 18rem;
-	margin: 0 auto;
 	margin-top: 60px;
 	margin-bottom: 160px;
-	vertical-align: middle;
-	align-content: center;
+	line-height: 18rem;
+	background-image:url(https://image.freepik.com/free-photo/3d-render-honeycomb-white-background-abstract-wall-decorative-bath_74333-274.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: stretch;
+	align-self: stretch;
+	background-color: #47465E;
+	color: #302F4A;
+	font-size: 2rem;
+	font-weight: bold;
+	border-color: white;
+	outline: 10px inset #A3A2AE;
+outline-offset: -60px;
+}
+
+#bookscardbutton2:hover {
+	border-color: white;
+	opacity:0.5;
 }
 
 
