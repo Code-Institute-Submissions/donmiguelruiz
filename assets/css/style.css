@@ -450,6 +450,11 @@ outline-offset:60px;
 	height: 18rem;
 	margin: 0 auto;
 	margin-top: 60px;
+	margin-bottom: 160px;
+}
+
+#bookscardimage {
+	border-radius: 15px;
 }
 
 /* bookscarddeck1 */
@@ -465,7 +470,7 @@ outline-offset:60px;
 	align-content: stretch;
 	align-self: stretch;
 }
-
+ 
 
 #bookscarddeck1 {
 	font-size: 1rem;
@@ -477,8 +482,6 @@ outline-offset:60px;
 
 #deck1card1 {
 	border-radius: 15px;
-	outline: 5px solid #BAB9C2;
-outline-offset: -20px;
 align-items: stretch;
 background-size: cover;
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -502,6 +505,29 @@ background-size: cover;
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
+#bookscardbutton1 {
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 18rem;
+	height: 18rem;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 160px;
+	vertical-align: middle;
+	align-content: center;
+}
+
+#bookscardbutton2 {
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 18rem;
+	height: 18rem;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 160px;
+	vertical-align: middle;
+	align-content: center;
+}
 
 
 /* bookscarddeck1 */
