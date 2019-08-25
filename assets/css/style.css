@@ -463,7 +463,7 @@ nav {
 	background-size: cover;
 	align-content: stretch;
 	align-self: stretch;
-	background-color: #47465E;
+	background-color: transparent;
 	font-size: 2rem;
 }
 #bookscarddeck1container {
@@ -590,33 +590,33 @@ mark {
 /* bookscarddeck1 */
 
 /* bookscarddeck2 */
-#bookscarddeck1jumbotron {
+#bookscarddeck2jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image:url(../images/booksjumbotronbackground1.jpg);
+	background-image:url(../images/booksidecard4.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: stretch;
 	align-self: stretch;
-	background-color: #47465E;
+	background-color: transparent;
 	font-size: 2rem;
 }
-#bookscarddeck1container {
+#bookscarddeck2container {
 	max-width: 100%;
 	height: auto;
 }
-.carddeckbooks1 {
+.carddeckbooks2 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 2rem;
 }
-#bookscarddeck1 {
+#bookscarddeck2 {
 	text-align: center;
 	margin: auto;
 	font-size: 2rem;
 }
-#deck1card1 {
+#deck2card1 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -636,7 +636,7 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
-#deck1card2 {
+#deck2card2 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -653,7 +653,7 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
-#deck1card3 {
+#deck2card3 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -727,33 +727,33 @@ mark {
 /* bookscarddeck2 */
 
 /* bookscarddeck3 */
-#bookscarddeck1jumbotron {
+#bookscarddeck3jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image:url(../images/booksjumbotronbackground1.jpg);
+	background-image:url(../images/booksidecard6.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: stretch;
 	align-self: stretch;
-	background-color: #47465E;
+	background-color: transparent;
 	font-size: 2rem;
 }
-#bookscarddeck1container {
+#bookscarddeck3container {
 	max-width: 100%;
 	height: auto;
 }
-.carddeckbooks1 {
+.carddeckbooks3 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 2rem;
 }
-#bookscarddeck1 {
+#bookscarddeck3 {
 	text-align: center;
 	margin: auto;
 	font-size: 2rem;
 }
-#deck1card1 {
+#deck3card1 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -773,7 +773,7 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
-#deck1card2 {
+#deck3card2 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -790,7 +790,7 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
-#deck1card3 {
+#deck3card3 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -862,33 +862,33 @@ mark {
 
 /* bookscarddeck3 */
 /* bookscarddeck4 */
-#bookscarddeck1jumbotron {
+#bookscarddeck4jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image:url(../images/booksjumbotronbackground1.jpg);
+	background-image:url(../images/booksidecard8.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: stretch;
 	align-self: stretch;
-	background-color: #47465E;
+	background-color: transparent;
 	font-size: 2rem;
 }
-#bookscarddeck1container {
+#bookscarddeck4container {
 	max-width: 100%;
 	height: auto;
 }
-.carddeckbooks1 {
+.carddeckbooks4 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 2rem;
 }
-#bookscarddeck1 {
+#bookscarddeck4 {
 	text-align: center;
 	margin: auto;
 	font-size: 2rem;
 }
-#deck1card1 {
+#deck4card1 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -908,7 +908,7 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
-#deck1card2 {
+#deck4card2 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -925,7 +925,7 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
-#deck1card3 {
+#deck4card3 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -999,33 +999,34 @@ mark {
 /* bookscarddeck4 */
 
 /* bookscarddeck5 */
-#bookscarddeck1jumbotron {
+#bookscarddeck5jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image:url(../images/booksjumbotronbackground1.jpg);
+	background-image:url(../images/booksidecard10.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: stretch;
 	align-self: stretch;
-	background-color: #47465E;
+	background-color: transparent;
 	font-size: 2rem;
 }
-#bookscarddeck1container {
+#bookscarddeck5container {
 	max-width: 100%;
 	height: auto;
+	background-color: transparent;
 }
-.carddeckbooks1 {
+.carddeckbooks5 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 2rem;
 }
-#bookscarddeck1 {
+#bookscarddeck5 {
 	text-align: center;
 	margin: auto;
 	font-size: 2rem;
 }
-#deck1card1 {
+#deck5card1 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -1045,7 +1046,7 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
-#deck1card2 {
+#deck5card2 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
@@ -1062,7 +1063,7 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
-#deck1card3 {
+#deck5card3 {
 	margin: auto;
 	width: 13rem;
 	height: 30rem;
