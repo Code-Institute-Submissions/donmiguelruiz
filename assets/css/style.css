@@ -349,6 +349,7 @@ outline-offset:60px;
 	justify-content: center;
 	align-self: stretch;
 	display: flex;
+	margin: 0;
 	height: 100%;
 	background-image: url(https://image.freepik.com/free-vector/valentine-s-day-vector-design-concept_53876-80108.jpg);
 	background-position: center;
@@ -442,10 +443,94 @@ outline-offset:60px;
 	border-radius: 15px;
 }
 
+/* bookscarddeck1 */
+
 #bookscarddeck1jumbotron {
 	max-width: 100%;
 	height: auto;
+	margin: 0;
+	background-image: url(https://image.freepik.com/free-photo/abstract-purple-green-fractal-light-background_32678-269.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+
+#bookscarddeck1 {
+	width: 50%;
+	height: 50%;
+	font-size: 1rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#bookscarddeck1image {
+	background-size: cover;
+}
+
+
+
+
+/* bookscarddeck1 */
+
+/* bookscarddeck2 */
+
+#bookscarddeck2jumbotron {
+	max-width: 100%;
+	height: auto;
+	background-image: url(https://image.freepik.com/free-photo/abstract-purple-green-fractal-light-background_32678-269.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin: 0;
+}
+
+#bookscarddeck2 {
+	width: 50%;
+	height: 50%;
+	font-size: 1rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#bookscarddeck2image {
+	background-size: cover;
+}
+
+/* bookscarddeck2 */
+
+/* bookscarddeck3 */
+
+#bookscarddeck3jumbotron {
+	max-width: 100%;
+	height: auto;
+	background-image: url(https://image.freepik.com/free-photo/abstract-purple-green-fractal-light-background_32678-269.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin: 0;
+}
+
+
+#bookscarddeck3 {
+	width: 50%;
+	height: 50%;
+	font-size: 1rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#bookscarddeck3image {
+	background-size: cover;
+}
+
+
+
+
+/* bookscarddeck3 */
+
 
 
 
