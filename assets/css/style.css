@@ -443,6 +443,14 @@ outline-offset:60px;
 	border-radius: 15px;
 }
 
+#bookscardimagesidecard {
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	width: 18rem;
+	height: 18rem;
+	margin: 0 auto;
+	margin-top: 60px;
+}
 
 /* bookscarddeck1 */
 
@@ -463,33 +471,35 @@ outline-offset:60px;
 	font-size: 1rem;
 	text-align: center;
 	margin: 0 auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
-#bookscarddeck1image {
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-}
 
 #deck1card1 {
+	border-radius: 15px;
 	outline: 5px solid #BAB9C2;
 outline-offset: -20px;
 align-items: stretch;
 background-size: cover;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #deck1card2 {
+	border-radius: 15px;
 	outline: 5px solid #BAB9C2;
 outline-offset: -20px;
 align-items: stretch;
 background-size: cover;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #deck1card3 {
+	border-radius: 15px;
 	outline: 5px solid #BAB9C2;
 outline-offset: -20px;
 align-items:stretch;
 background-size: cover;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 
