@@ -416,12 +416,7 @@ nav {
 #bookstitlecardjumbotron:hover {
 	opacity:0.5;
 }
-#bookstitlecardcontainer {
-	border-radius: 10px;
-}
-#bookstitlecardcontainer:hover {
-	opacity: 0.5;
-}
+
 #bookstitlecard {
 	border-radius: 10px;
 }
@@ -430,10 +425,10 @@ nav {
 }
 #bookstitlecardbody {
 	background-image: linear-gradient(to right top, #e8e7ea, #f1e5ed, #fee3e6, #ffe3d7, #ffe8c8, #ffeac5, #fdedc2, #fbf0bf, #feecc2, #ffe9c6, #ffe6ca, #fee4cf);
+border-radius: 10px;	
+	
 }
-#bookstitlecardbody:hover {
-	opacity:0.5;
-}
+
 #bookscardimagesidecard {
 	border-radius: 50%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
