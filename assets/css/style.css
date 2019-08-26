@@ -133,7 +133,6 @@ nav {
 }
 #homepagetitlecarouseljumbotron {
 	background-color: transparent;
-	margin-bottom: 100px;
 	outline: 5px outset #FFBAA3;
 	outline-offset: 15px;
 }
@@ -159,6 +158,7 @@ nav {
 	height: 400px;
 	outline: 15px outset #CE5454;
 	outline-offset:60px;
+	margin-bottom: 200px;
 }
 #donmiguelmariashriverimage {
 	background-size: cover;
@@ -243,15 +243,17 @@ nav {
 }
 
 #homepagesidecardcolumncard {
+	top: 60px;
+	bottom: 60px;
 	text-align: center;
-	margin: auto;
 	background-image: linear-gradient(to right top, #e8aa95, #edb5a2, #f2c0b0, #f6cbbd, #fad6cb, #fcdbcd, #fee0cf, #ffe5d1, #ffe7c7, #ffeabd, #fceeb4, #f2f3ae);
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	font-size:1rem;
 	font-weight: bold;
 	outline: 8px outset #FFBAA3;
-outline-offset: 20px;
+outline-offset: 8px;
+margin: auto;
 }
 
 #homepagesidecardcolumncard:hover {
@@ -297,7 +299,8 @@ outline-offset: 20px;
 }
 
 #homepagebookcard {
-	margin: auto;
+	top: 60px;
+	bottom: 60px;
 	text-align: center;
 	background-image: linear-gradient(to right top, #f2f3ae, #f4e8a2, #f6de97, #f8d28e, #fac786, #fcc389, #febf8c, #ffbc8f, #ffbf9b, #ffc3a6, #ffc7b1, #ffccbc);
 	border-radius: 10px;
@@ -305,7 +308,8 @@ outline-offset: 20px;
 	font-size:1rem;
 	font-weight: bold;
 	outline: 8px outset #FDC18F;
-outline-offset: 20px;
+outline-offset:8px;
+margin: auto;
 }
 
 #homepagebookcard:hover {
@@ -334,16 +338,20 @@ outline-offset: 20px;
 
 #homepagethreequestionsjumbotron {
 	max-width: 100%;
-	height: auto;
 	margin: 0 auto;
 	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+	height: auto;
 }
 
-
+#homepagethreequestionscontainer {
+	max-width: 100%;
+}
 
 /* homepage 3 questions book section */
 
@@ -352,16 +360,20 @@ outline-offset: 20px;
 
 #homepagefouragreementsjumbotron {
 	max-width: 100%;
-	height: auto;
 	margin: 0 auto;
 	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+	height: auto;
 }
 
-
+#homepagefouragreementscontainer {
+	max-width: 100%;
+}
 
 
 /* homepage 4 agreements book section */
@@ -500,9 +512,21 @@ outline-offset: 20px;
 }
 
 #sitenavcardsbutton {
-	border-color: white;
-	background-color: #391717;
-	color: white;
+	margin: auto;
+	background-image: url(https://image.freepik.com/free-psd/orange-red-squares-background_1297-183.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size:1rem;
+	font-weight: bold;
+	height: 10rem;
+	width: 10rem;
+	color: #FFBAA3;
+	line-height: 9rem;
+	border-color: #391717;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 30px;
 }
 
 #sitenavcardsbutton:hover {
