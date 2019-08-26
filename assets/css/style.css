@@ -24,10 +24,22 @@ nav {
 	outline: none;
 	border-radius: 20%;
 }
+
+.navbar-toggler:hover {
+	background-color: white;
+	color: inherit;
+}
+
 .navbar-toggler-icon {
 	border-radius: 20%;
 	border-color: black;
 }
+
+.navbar-toggler-icon:hover {
+	background-color: white;
+	color: inherit;
+}
+
 #navbarNavAltMarkup {
 	border-color: black;
 	border-radius: 20%;
@@ -36,12 +48,24 @@ nav {
 	color: black;
 	font-size:1rem;
 }
+
+.navbar-brand:hover {
+	background-color: white;
+	color: inherit;
+}
+
 .nav-item {
 	font: 1rem;
 	color: black;
 	margin-left: 30px;
 	margin-right: 30px;
 }
+
+.nav-item:hover {
+	background-color: white;
+	color: inherit;
+}
+
 /* navbar */
 /* landing page */
 #authortitlehomepagejumbotron {
@@ -49,6 +73,11 @@ nav {
 	margin-top: 80px;
 	background-color: transparent;
 }
+
+#authortitlehomepagejumbotron:hover {
+	opacity: 0.5;
+}
+
 #authortitlehomepagecard {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -72,6 +101,11 @@ nav {
 	outline-offset: -15px;
 	opacity: 0.85;
 }
+
+#landingimagejumbotron:hover {
+	opacity:0.5;
+}
+
 #landingimagehead {
 	max-width: 100%;
 	height: auto;
@@ -81,6 +115,7 @@ nav {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	transition: transform .2s;
 }
+
 #landingimagehead:hover {
 	-ms-transform: scale(1.5);
 	/* IE 9 */
@@ -106,9 +141,19 @@ nav {
 	outline: 25px outset #FFBAA3;
 	outline-offset: 15px;
 }
+
+#homepagetitlecarouselcontainer:hover {
+	opacity:0.5;
+}
+
 .carousel-caption {
 	color: #963E3E;
 }
+
+.carousel-caption:hover {
+	opacity:0.5;
+}
+
 #carouselExampleCaptionshomepagetitle {
 	background-color:transparent;
 	height: 400px;
@@ -199,6 +244,11 @@ nav {
 	text-align: center;
 	background-color: transparent;
 }
+
+#homepageboookcardsthreequestions:hover {
+	opacity:0.5;
+}
+
 #homepageboookcardsfouragreements {
 	margin: 7px 7px 7px 7px;
 	padding: 7px 7px 7px 7px;
@@ -211,6 +261,11 @@ nav {
 	text-align: center;
 	background-color: transparent;
 }
+
+#homepageboookcardsfouragreements:hover {
+	opacity:0.5;
+}
+
 #threequestionssidecard {
 	background-image: linear-gradient(to right top, #aca49f, #b7a7a0, #c2aaa1, #ceaca4, #d9aea9, #e0b4b0, #e7bbb7, #eec1be, #f2cdc9, #f7dad4, #fbe6e1, #fff2ee);
 	align-items: center;
@@ -221,6 +276,11 @@ nav {
 	margin: 7px 7px 7px 7px;
 	padding: 7px 7px 7px 7px;
 }
+
+#threequestionssidecard:hover {
+	opacity:0.5;
+}
+
 #fouragreementssidecard {
 	background-image: linear-gradient(to right top, #aca49f, #b7a7a0, #c2aaa1, #ceaca4, #d9aea9, #e0b4b0, #e7bbb7, #eec1be, #f2cdc9, #f7dad4, #fbe6e1, #fff2ee);
 	margin-top: auto;
@@ -231,6 +291,11 @@ nav {
 	margin: 7px 7px 7px 7px;
 	padding: 7px 7px 7px 7px;
 }
+
+#fouragreementssidecard:hover {
+	opacity:0.5;
+}
+
 #homepagebookmb-3card1 {
 	justify-content: center;
 	align-items: center;
@@ -242,6 +307,11 @@ nav {
 	color: #FFBAA3;
 	border-radius: 0 50px 50px 0;
 }
+
+#homepagebookmb-3card1:hover {
+	opacity:0.5;
+}
+
 #homepagebookmb-3card2 {
 	margin-left: auto;
 	margin-right: auto;
@@ -253,6 +323,11 @@ nav {
 	outline: 5px inset #FFE5DD;
 	outline-offset: 10px;
 }
+
+#homepagebookmb-3card2:hover {
+	opacity:0.5;
+}
+
 #homepagebookmb-3card3 {
 	margin-left: auto;
 	margin-right: auto;
@@ -264,6 +339,11 @@ nav {
 	outline: 5px inset #FFE5DD;
 	outline-offset: 10px;
 }
+
+#homepagebookmb-3card3 {
+	opacity:0.5;
+}
+
 #homepagebookmb-3card4 {
 	justify-content: center;
 	align-items: center;
@@ -275,6 +355,11 @@ nav {
 	color: #FFBAA3;
 	border-radius: 50px 0px 0px 50px;
 }
+
+#homepagebookmb-3card4:hover {
+	opacity:0.5;
+}
+
 #quotecarouseljumbotron {
 	max-width: 100%;
 	background-color: #5A4A40;
@@ -292,10 +377,20 @@ nav {
 	outline: 6px solid #C9C0AB;
 	outline-offset: 30px;
 }
+
+#quotecarousel:hover {
+	opacity:0.5;
+}
+
 #quotecardheader {
 	color: #EEECEB;
 	background-color:#391717;
 }
+
+#quotecardheader:hover {
+	opacity:0.5;
+}
+
 #quotescardbody {
 	color: #261010;
 	background-color:#E8E4C9;
@@ -305,11 +400,21 @@ nav {
 	border-radius: 50%;
 	box-shadow: 5px 5px 4px 5px #9C928C;
 }
+
+.carousel-control-prev-icon:hover {
+	opacity:0.5;
+}
+
 .carousel-control-next-icon {
 	color: white;
 	border-radius: 50%;
 	box-shadow: 5px 5px 4px 5px #9C928C;
 }
+
+.carousel-control-next-icon:hover {
+	opacity:0.5;
+}
+
 #sitenavigation {
 	justify-content: center;
 	align-items: center;
@@ -382,16 +487,21 @@ nav {
 	outline-offset: 5px;
 	margin: 7px 7px 7px 7px;
 }
+
+#sitenavcard:hover {
+	opacity:0.5;
+}
+
 #sitenavcardsbutton {
 	border-color: white;
 	background-color: #391717;
 	color: white;
 }
+
 #sitenavcardsbutton:hover {
-	opacity: 0.6;
-	background-color: #4D3B3B;
-	border-color:white;
+	opacity:0.5;
 }
+
 /* landing page */
 /* books page */
 #bookshtmlbackground {
