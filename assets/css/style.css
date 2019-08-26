@@ -93,7 +93,7 @@ nav {
 #landingimagejumbotron {
 	background-image: linear-gradient(to right top, #fffadd, #feefce, #fee4c0, #fed8b4, #ffcbab, #fcbd9f, #f8af95, #f4a18c, #eb8e7c, #e27c6e, #d86860, #ce5454);
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 250px;
 	align-items: center;
 	text-align: center;
 	width: 100%;
@@ -133,13 +133,8 @@ nav {
 }
 #homepagetitlecarouseljumbotron {
 	background-color: transparent;
-	outline: 5px outset #FFBAA3;
-	outline-offset: 15px;
 }
-#homepagetitlecarouselcontainer {
-	outline: 25px outset #FFBAA3;
-	outline-offset: 15px;
-}
+
 
 #homepagetitlecarouselcontainer:hover {
 	opacity:0.5;
@@ -235,152 +230,107 @@ nav {
 	height:auto;
 }
 
-/* 3&4common items */
-
-#homepagesidecardcolumn {
-	text-align: center;
-	margin: auto;
-}
-
-#homepagesidecardcolumncard {
-	width: 18rem;
-	height: 18rem;
-	text-align: center;
-	background-image: linear-gradient(to right top, #e8aa95, #edb5a2, #f2c0b0, #f6cbbd, #fad6cb, #fcdbcd, #fee0cf, #ffe5d1, #ffe7c7, #ffeabd, #fceeb4, #f2f3ae);
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	font-size:1rem;
-	font-weight: bold;
-margin: auto;
-vertical-align:middle;
-}
-
-#homepagesidecardcolumncard:hover {
-	opacity:0.5;
-}
-
-#homepagesidecardcolumncardbody {
-	text-align: center;
-	margin: auto;
-	color:#4A382D;
-	background-image: linear-gradient(to right top, #e8aa95, #edb5a2, #f2c0b0, #f6cbbd, #fad6cb, #fcdbcd, #fee0cf, #ffe5d1, #ffe7c7, #ffeabd, #fceeb4, #f2f3ae);
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	font-size:1rem;
-	font-weight: bold;
-}
-
-#homepagesidecardbutton {
-	margin: auto;
-	background-image: url(https://image.freepik.com/free-psd/orange-red-squares-background_1297-183.jpg);
+#homepagecenterbooksjumbotron {
+	max-width: 100%;
+	margin-top: 200px;
+	height: auto;
+	background-color: #FFBAA3;
+	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
-	font-size:1rem;
+	color: #4B1F1F;
 	font-weight: bold;
-	height: auto;
-	width: 6rem;
-	color: #FFBAA3;
-	line-height: 5rem;
-	border-color: #391717;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	border-radius: 30px;
+	text-align: center;
 }
 
-#homepagesidecardbutton:hover {
+#homepagecenterbookscontainer {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	color: #4B1F1F;
+	font-weight: bold;
+}
+
+#homepagecenterbooksimage {
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 10px;
+}
+
+#homepagecenterbooksimage:hover {
+	opacity:0.5;
+}
+
+#homepagecenterbookscard {
+	text-align: center;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+	background-color: #FFBAA3;
+	background-image: url(https://image.freepik.com/free-psd/abstract-background-design_1297-76.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFADD;
+	font: 2rem;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 10px;
+}
+
+#homepagecenterbookscard:hover {
 	opacity: 0.5;
 }
 
-#homepagebookcardcolumn {
+#homepagecenterbookscardbody {
+	text-align: center;
 	margin: auto;
-	text-align: center;
-}
-
-#homepagebookcard {
-	width: 18rem;
-	height: 18rem;
-	text-align: center;
-	background-image: linear-gradient(to right top, #f2f3ae, #f4e8a2, #f6de97, #f8d28e, #fac786, #fcc389, #febf8c, #ffbc8f, #ffbf9b, #ffc3a6, #ffc7b1, #ffccbc);
-	border-radius: 10px;
+	max-width: 100%;
+	height: auto;
+	background-color: #FFBAA3;
+	background-image: url(https://image.freepik.com/free-psd/abstract-background-design_1297-76.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFADD;
+	font: 2rem;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	font-size:1rem;
-	font-weight: bold;
-margin: auto;
-vertical-align:middle;
+	border-radius: 10px;
 }
 
-#homepagebookcard:hover {
+#homepagecenterbookscardbody:hover {
+	opacity: 0.5;
+}
+
+
+#homepagecenterbooksbutton {
+	text-align: center;
+	line-height: 4rem;
+	align-items: center;
+	height: 5rem;
+	width: 5rem;
+	margin: auto;
+	max-width: 100%;
+	border-radius: 10px;
+	background-color: #FFBAA3;
+	background-image: url(https://image.freepik.com/free-psd/abstract-circle-background_1297-148.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-color: #FFBAA3;
+	font-weight: bold;
+	color: #4B1F1F;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	transition: transform .2s;
+}
+
+#homepagecenterbooksbutton:hover {
 	opacity:0.5;
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
-
-#homepagebookcardbody {
-	margin: auto;
-	text-align: center;
-	background-image: linear-gradient(to right top, #f2f3ae, #f4e8a2, #f6de97, #f8d28e, #fac786, #fcc389, #febf8c, #ffbc8f, #ffbf9b, #ffc3a6, #ffc7b1, #ffccbc);
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	font-size:1rem;
-	font-weight: bold;
-}
-
-#homepagebookcardimage {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-
-
-/* 3&4common items */
-
-/* homepage 3 questions book section */
-
-#homepagethreequestionsjumbotron {
-	max-width: 100%;
-	margin: auto;
-	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	height: auto;
-	align-content: center;
-	justify-content: center;
-}
-
-#homepagethreequestionscontainer {
-	max-width: 100%;
-	align-content: center;
-	text-align: center;
-	justify-content: center;
-}
-
-/* homepage 3 questions book section */
-
-
-/* homepage 4 agreements book section */
-
-#homepagefouragreementsjumbotron {
-	max-width: 100%;
-	margin: auto;
-	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	height: auto;
-	align-content: center;
-	justify-content: center;
-}
-
-#homepagefouragreementscontainer {
-	max-width: 100%;
-	align-content: center;
-	text-align: center;
-	justify-content: center;
-}
-
-
-/* homepage 4 agreements book section */
 
 
 #quotecarouseljumbotron {
@@ -478,6 +428,7 @@ vertical-align:middle;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color:#CE5454;
 }
 #sitenavcardscontainer {
 	max-width: 100%;
@@ -500,7 +451,7 @@ vertical-align:middle;
 	color: white;
 	font-size: 1rem;
 	font-weight: bold;
-	opacity: 0.5;
+	opacity: 0.85;
 	justify-content: center;
 	align-self: stretch;
 	text-align: center;
@@ -531,10 +482,15 @@ vertical-align:middle;
 	border-color: #391717;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 30px;
+	transition: transform .2s;
+	background-color:#CE5454;
 }
 
 #sitenavcardsbutton:hover {
 	opacity:0.5;
+		-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 /* landing page */
@@ -542,7 +498,7 @@ vertical-align:middle;
 #bookshtmlbackground {
 	max-width: 100%;
 	height: auto;
-	background-image:url(../images/bookshtmlfullbackground.jpg);
+	background-image:url(https://image.freepik.com/free-vector/light-purple-pink-vector-abstract-polygonal-template_6869-2386.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -599,7 +555,7 @@ border-radius: 10px;
 #bookscarddeck1jumbotron {
 	max-width: 100%;
 	height: auto;
-	background-image:url(../images/booksjumbotronbackground1.jpg);
+	background-image:url(../images/booksidecard2.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -699,21 +655,26 @@ border-radius: 10px;
 	width: 10rem;
 	height: 10rem;
 	margin-top: 5px;
-	line-height: 10rem;
+	justify-content: center;
 	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	align-content: stretch;
-	align-self: stretch;
+	align-content: center;
+	align-items: center;
 	background-color: white;
 	color: white;
 	font-size: 2rem;
 	font-weight: bold;
+	text-align: center;
+	transition: transform .2s;
 }
 #bookscardbutton1:hover {
 	opacity: 0.5;
 	border-color: white;
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 #bookscardbutton2 {
 	margin: auto;
@@ -723,7 +684,7 @@ border-radius: 10px;
 	width: 10rem;
 	height: 10rem;
 	margin-top: 5px;
-	line-height: 10rem;
+	line-height: 9rem;
 	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -734,10 +695,14 @@ border-radius: 10px;
 	color: white;
 	font-size: 2rem;
 	font-weight: bold;
+	transition: transform .2s;
 }
 #bookscardbutton2:hover {
 	border-color: white;
 	opacity:0.5;
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 mark {
 	background-color: #302F4A;
@@ -1385,6 +1350,9 @@ label {
 }
 #contactformbutton:hover {
 	opacity: 0.7;
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 /* contactform */
 /* socialmedia */
@@ -1400,5 +1368,18 @@ label {
 	font-size: 1rem;
 	color: white;
 }
+
+.fab {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	transition: 0.2s;
+}
+
+.fab:hover {
+	-ms-transform: scale(2.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
+  transform: scale(2.5);
+}
+
+
 /* socialmedia */
 
