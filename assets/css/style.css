@@ -684,17 +684,18 @@ border-radius: 10px;
 	width: 10rem;
 	height: 10rem;
 	margin-top: 5px;
-	line-height: 9rem;
+	justify-content: center;
 	background-image:url(https://image.freepik.com/free-vector/memphis-seamless-patterns-80-90s-abstract-jumble-textures_9202-693.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	align-content: stretch;
-	align-self: stretch;
+	align-content: center;
+	align-items: center;
 	background-color: white;
 	color: white;
 	font-size: 2rem;
 	font-weight: bold;
+	text-align: center;
 	transition: transform .2s;
 }
 #bookscardbutton2:hover {
@@ -1370,6 +1371,7 @@ label {
 }
 
 .fab {
+	border-radius: 50%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	transition: 0.2s;
 }
@@ -1379,6 +1381,15 @@ label {
   -webkit-transform: scale(2.5); /* Safari 3-8 */
   transform: scale(2.5);
 }
+
+.footer-copyright {
+	font-size:1rem;
+}
+
+.footer-copyright:hover {
+	opacity:0.5;
+}
+
 
 
 /* socialmedia */
