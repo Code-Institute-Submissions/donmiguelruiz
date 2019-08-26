@@ -470,6 +470,8 @@ border-radius: 10px;
 	margin-bottom: 30px;
 	font-size: 2rem;
 }
+
+
 #bookscarddeck1 {
 	text-align: center;
 	margin: auto;
@@ -495,6 +497,11 @@ border-radius: 10px;
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck1card1:hover {
+	opacity:0.5;
+}
+
 #deck1card2 {
 	margin: auto;
 	width: 13rem;
@@ -512,6 +519,11 @@ border-radius: 10px;
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck1card2:hover {
+	opacity:0.5;
+}
+
 #deck1card3 {
 	margin: auto;
 	width: 13rem;
@@ -527,6 +539,11 @@ border-radius: 10px;
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck1card3:hover {
+	opacity:0.5;
+}
+
 #bookscardbutton1 {
 	margin: auto;
 	border-color: white;
@@ -611,6 +628,8 @@ mark {
 	margin: auto;
 	font-size: 2rem;
 }
+
+
 #deck2card1 {
 	margin: auto;
 	width: 13rem;
@@ -631,6 +650,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck2card1:hover {
+	opacity:0.5;
+}
+
 #deck2card2 {
 	margin: auto;
 	width: 13rem;
@@ -648,6 +672,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck2card2:hover {
+	opacity:0.5;
+}
+
 #deck2card3 {
 	margin: auto;
 	width: 13rem;
@@ -663,6 +692,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck2card3:hover {
+	opacity:0.5;
+}
+
 #bookscardbutton1 {
 	margin: auto;
 	border-color: white;
@@ -768,6 +802,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck3card1:hover {
+	opacity:0.5;
+}
+
 #deck3card2 {
 	margin: auto;
 	width: 13rem;
@@ -785,6 +824,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck3card2:hover {
+	opacity:0.5;
+}
+
 #deck3card3 {
 	margin: auto;
 	width: 13rem;
@@ -800,6 +844,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck3card3:hover {
+	opacity:0.5;
+}
+
 #bookscardbutton1 {
 	margin: auto;
 	border-color: white;
@@ -903,6 +952,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck4card1:hover {
+	opacity:0.5;
+}
+
 #deck4card2 {
 	margin: auto;
 	width: 13rem;
@@ -920,6 +974,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck4card2:hover {
+	opacity:0.5;
+}
+
 #deck4card3 {
 	margin: auto;
 	width: 13rem;
@@ -935,6 +994,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck4card3:hover {
+	opacity:0.5;
+}
+
 #bookscardbutton1 {
 	margin: auto;
 	border-color: white;
@@ -1041,6 +1105,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck5card1:hover {
+	opacity:0.5;
+}
+
 #deck5card2 {
 	margin: auto;
 	width: 13rem;
@@ -1058,6 +1127,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck5card2:hover {
+	opacity:0.5;
+}
+
 #deck5card3 {
 	margin: auto;
 	width: 13rem;
@@ -1073,6 +1147,11 @@ mark {
 	outline: 7px solid #BAB9C2;
 	outline-offset: 10px;
 }
+
+#deck5card3:hover {
+	opacity:0.5;
+}
+
 #bookscardbutton1 {
 	margin: auto;
 	border-color: white;
