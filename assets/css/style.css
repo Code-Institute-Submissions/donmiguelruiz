@@ -344,7 +344,6 @@ vertical-align:middle;
 	text-align: center;
 	height: auto;
 	align-content: center;
-	align-self: stretch;
 	justify-content: center;
 }
 
@@ -352,7 +351,6 @@ vertical-align:middle;
 	max-width: 100%;
 	align-content: center;
 	text-align: center;
-	align-self: stretch;
 	justify-content: center;
 }
 
@@ -371,7 +369,6 @@ vertical-align:middle;
 	text-align: center;
 	height: auto;
 	align-content: center;
-	align-self: stretch;
 	justify-content: center;
 }
 
@@ -379,7 +376,6 @@ vertical-align:middle;
 	max-width: 100%;
 	align-content: center;
 	text-align: center;
-	align-self: stretch;
 	justify-content: center;
 }
 
