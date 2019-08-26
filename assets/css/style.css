@@ -235,6 +235,57 @@ nav {
 	height:auto;
 }
 
+/* 3&4common items */
+
+#homepagesidecardcolumn {
+	text-align: center;
+	margin: auto;
+}
+
+#homepagesidecardcolumncard {
+	text-align: center;
+	margin: auto;
+	background-image: linear-gradient(to right top, #e8aa95, #edb5a2, #f2c0b0, #f6cbbd, #fad6cb, #fcdbcd, #fee0cf, #ffe5d1, #ffe7c7, #ffeabd, #fceeb4, #f2f3ae);
+}
+
+#homepagesidecardcolumncardbody {
+	text-align: center;
+	margin: auto;
+	font-size: 1rem;
+	color:#4A382D;
+	background-image: linear-gradient(to right top, #e8aa95, #edb5a2, #f2c0b0, #f6cbbd, #fad6cb, #fcdbcd, #fee0cf, #ffe5d1, #ffe7c7, #ffeabd, #fceeb4, #f2f3ae);
+}
+
+#homepagesidecardbutton {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#homepagebookcardcolumn {
+	margin: auto;
+	text-align: center;
+}
+
+#homepagebookcard {
+	margin: auto;
+	text-align: center;
+	background-image: linear-gradient(to right top, #f2f3ae, #f4e8a2, #f6de97, #f8d28e, #fac786, #fcc389, #febf8c, #ffbc8f, #ffbf9b, #ffc3a6, #ffc7b1, #ffccbc);
+}
+
+#homepagebookcardbody {
+	margin: auto;
+	text-align: center;
+	background-image: linear-gradient(to right top, #f2f3ae, #f4e8a2, #f6de97, #f8d28e, #fac786, #fcc389, #febf8c, #ffbc8f, #ffbf9b, #ffc3a6, #ffc7b1, #ffccbc);
+}
+
+
+/* 3&4common items */
 
 /* homepage 3 questions book section */
 
