@@ -246,25 +246,49 @@ nav {
 	text-align: center;
 	margin: auto;
 	background-image: linear-gradient(to right top, #e8aa95, #edb5a2, #f2c0b0, #f6cbbd, #fad6cb, #fcdbcd, #fee0cf, #ffe5d1, #ffe7c7, #ffeabd, #fceeb4, #f2f3ae);
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font-size:1rem;
+	font-weight: bold;
+	outline: 8px outset #FFBAA3;
+outline-offset: 20px;
+}
+
+#homepagesidecardcolumncard:hover {
+	opacity:0.5;
 }
 
 #homepagesidecardcolumncardbody {
 	text-align: center;
 	margin: auto;
-	font-size: 1rem;
 	color:#4A382D;
 	background-image: linear-gradient(to right top, #e8aa95, #edb5a2, #f2c0b0, #f6cbbd, #fad6cb, #fcdbcd, #fee0cf, #ffe5d1, #ffe7c7, #ffeabd, #fceeb4, #f2f3ae);
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font-size:1rem;
+	font-weight: bold;
 }
 
 #homepagesidecardbutton {
-	max-width: 100%;
-	height: auto;
 	margin: auto;
-	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
+	background-image: url(https://image.freepik.com/free-psd/orange-red-squares-background_1297-183.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
+	font-size:1rem;
+	font-weight: bold;
+	height: 10rem;
+	width: 10rem;
+	color: #FFBAA3;
+	line-height: 9rem;
+	border-color: #391717;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 30px;
+}
+
+#homepagesidecardbutton:hover {
+	opacity: 0.5;
 }
 
 #homepagebookcardcolumn {
@@ -276,12 +300,31 @@ nav {
 	margin: auto;
 	text-align: center;
 	background-image: linear-gradient(to right top, #f2f3ae, #f4e8a2, #f6de97, #f8d28e, #fac786, #fcc389, #febf8c, #ffbc8f, #ffbf9b, #ffc3a6, #ffc7b1, #ffccbc);
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font-size:1rem;
+	font-weight: bold;
+	outline: 8px outset #FDC18F;
+outline-offset: 20px;
+}
+
+#homepagebookcard:hover {
+	opacity:0.5;
 }
 
 #homepagebookcardbody {
 	margin: auto;
 	text-align: center;
 	background-image: linear-gradient(to right top, #f2f3ae, #f4e8a2, #f6de97, #f8d28e, #fac786, #fcc389, #febf8c, #ffbc8f, #ffbf9b, #ffc3a6, #ffc7b1, #ffccbc);
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	font-size:1rem;
+	font-weight: bold;
+}
+
+#homepagebookcardimage {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 
