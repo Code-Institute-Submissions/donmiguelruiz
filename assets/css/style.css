@@ -19,11 +19,16 @@ html, body {
 }
 nav {
 	opacity :0.85;
-	font-size:1rem;
+	font-size:2rem;
+	font-weight:bold;
+	color:black;
 }
 .navbar-toggler {
-	outline: none;
+	outline: black;
 	border-radius: 20%;
+	font-size:2rem;
+	font-weight:bold;
+	color:black;
 }
 
 .navbar-toggler:hover {
@@ -34,6 +39,10 @@ nav {
 .navbar-toggler-icon {
 	border-radius: 20%;
 	border-color: black;
+	outline: black;
+	font-size:2rem;
+	color:black;
+	font-weight:bold;
 }
 
 .navbar-toggler-icon:hover {
@@ -44,10 +53,14 @@ nav {
 #navbarNavAltMarkup {
 	border-color: black;
 	border-radius: 20%;
+	color:black;
 }
 .navbar-brand {
-	color: black;
-	font-size:1rem;
+	outline: black;
+	border-radius: 20%;
+	font-size:2rem;
+	font-weight:bold;
+	color:black;
 }
 
 .navbar-brand:hover {
