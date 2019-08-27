@@ -93,7 +93,7 @@ nav {
 #landingimagejumbotron {
 	background-image: linear-gradient(to right top, #fffadd, #feefce, #fee4c0, #fed8b4, #ffcbab, #fcbd9f, #f8af95, #f4a18c, #eb8e7c, #e27c6e, #d86860, #ce5454);
 	margin-top: 50px;
-	margin-bottom: 250px;
+	margin-bottom: 50px;
 	align-items: center;
 	text-align: center;
 	width: 100%;
@@ -135,7 +135,7 @@ nav {
 
 #homepagecenterbooksjumbotron {
 	max-width: 100%;
-	margin-top: 200px;
+	margin-top: 30px;
 	height: auto;
 	background-color: #FFBAA3;
 	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
@@ -172,11 +172,11 @@ nav {
 	max-width: 100%;
 	height: auto;
 	background-color: #FFBAA3;
-	background-image: url(https://image.freepik.com/free-psd/abstract-background-design_1297-76.jpg);
+	background-image: url(https://img.freepik.com/free-vector/red-equalizer-pattern-background-vector_53876-87540.jpg?size=338&ext=jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #FFFADD;
+	color: #FFD9CC;
 	font: 2rem;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 10px;
@@ -192,11 +192,11 @@ nav {
 	max-width: 100%;
 	height: auto;
 	background-color: #FFBAA3;
-	background-image: url(https://image.freepik.com/free-psd/abstract-background-design_1297-76.jpg);
+	background-image: url(https://img.freepik.com/free-vector/red-equalizer-pattern-background-vector_53876-87540.jpg?size=338&ext=jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #FFFADD;
+	color: #FFD9CC;
 	font: 2rem;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 10px;
@@ -217,11 +217,11 @@ nav {
 	max-width: 100%;
 	border-radius: 10px;
 	background-color: #FFBAA3;
-	background-image: url(https://image.freepik.com/free-psd/abstract-circle-background_1297-148.jpg);
+	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-color: #FFBAA3;
+	border-color: transparent;
 	font-weight: bold;
 	color: #4B1F1F;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -233,6 +233,10 @@ nav {
 	-ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
+}
+
+#homepagebookcardsmall {
+	color: white;
 }
 
 
@@ -351,7 +355,7 @@ nav {
 }
 #sitenavcard {
 	background-color: #712E2E;
-	color: white;
+	color: #F2F3AE;
 	font-size: 1rem;
 	font-weight: bold;
 	opacity: 0.85;
@@ -380,7 +384,7 @@ nav {
 	font-weight: bold;
 	height: 10rem;
 	width: 10rem;
-	color: #FFBAA3;
+	color: #F2F3AE;
 	line-height: 9rem;
 	border-color: #391717;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -615,6 +619,10 @@ mark {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
+mark:hover {
+	opacity:0.5;
+}
+
 /* bookscarddeck1 */
 
 /* bookscarddeck2 */
@@ -768,6 +776,10 @@ mark {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
+
+mark:hover {
+	opacity:0.5;
+}
 
 /* bookscarddeck2 */
 
