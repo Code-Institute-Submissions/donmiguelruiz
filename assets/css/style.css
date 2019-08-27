@@ -14,11 +14,16 @@ html, body {
 }
 /* navbar */
 #navbar {
-	margin-bottom: 5px;
-	padding-bottom: 5px;
+	margin-bottom: 0px;
+	padding-bottom: 135px;
 }
+
+.navbar {
+	opacity:0.5;
+	font-size:3rem;
+}
+
 nav {
-	opacity :0.85;
 	font-size:2rem;
 	font-weight:bold;
 	color:black;
@@ -44,6 +49,13 @@ nav {
 	font-size:2rem;
 	color:black;
 	font-weight:bold;
+	margin: 0;
+	height: 100%;
+	background-image: url(https://image.freepik.com/free-photo/gold-metal-brushed-background_38679-1020.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:white;
 }
 
 .navbar-toggler-icon:hover {
