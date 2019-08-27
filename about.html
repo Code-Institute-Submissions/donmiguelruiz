@@ -1,205 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>donmiguelruiz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<title>donmiguelruiz</title>
 </head>
 
 <body>
-  
-<header> 
 
+<div class="backgroundimage" id="abouthtmlbackground">  
+
+<header>
+
+<div class="container-fluid" id="navbar">
+<nav class="navbar navbar-expand-lg fixed-top 
+</nav>navbar-light bg-white">
+<a class="navbar-brand" href="#">don Miguel Ruiz</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+<div class="navbar-nav ml-auto">
+<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+<a class="nav-item nav-link" href="about.html">About</a>
+<a class="nav-item nav-link" href="books.html">Books</a>
+<a class="nav-item nav-link" href="eventsandmedia.html">Events & Media</a>
+<a class="nav-item nav-link" href="contact.html">Contact</a>
+</div>
+</div>
+</div>
 
 </header>
      
 <section>
   
+<div class="jumbotron jumbotron-fluid" id="abouttitlejumbotron">
+  <div class="container" id="abouttitlecontainer">
+    <h1 class="display-4">ABOUT dON MIGUEL RUIZ</h1>
+    <p class="lead">Please read the following section of this website for more information about don Miguel Ruiz:</p>
+    <div class="card mb-3" id="abouttitlecard" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img id="abouttitlecardimage" src="data:image/jpeg;base64,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" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">dON MIGUEL RUIZ</h5>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="introductionjumbotron">
+  <div class="container" id="introductioncontainer">
+    <h1 class="display-4">INTRODUCTION:</h1>
+    <p class="lead">don Miguel Ruiz is a renowned spiritual teacher and internationally bestselling author of the “Toltec Wisdom Series,” including “The Four Agreements,” “The Mastery of Love,” “The Voice of Knowledge,” “The Four Agreements Companion Book,” “The Circle of Fire,” and “The Fifth Agreement.” The Toltec Wisdom books have sold over 12 million copies, and have been published in 46 languages worldwide.
+
+don Miguel has spent the past three decades guiding students to personal freedom through his profound insights regarding the nature of human reality. His newest book, THE TOLTEC ART OF LIFE AND DEATH: A Story of Self Discovery (HarperElixir/HarperCollins) written with Barbara Emrys was published October 27, 2015.</p>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="birthjumbotron">
+  <div class="container" id="birthcontainer">
+    <h1 class="display-4">BIRTH, ANCESTRY & AWAKENING:</h1>
+    <p class="lead">The youngest of thirteen children, don Miguel Ruiz was born in rural Mexico to parents who were healers and practitioners of ancient Toltec traditions. As a young adult, he graduated from medical school in Mexico City and practiced neurosurgery with his older brother in Tijuana. A near-fatal car crash forever changed the direction of his life, however, causing him to leave medicine and to examine the essential truth about life and humanity. With his mother’s help, and through her ancestral teachings, he discovered his own path to awareness, which evolved into a deep understanding of the physical universe and the virtual world of the mind.
+
+Combining Toltec mythology and scientific perspectives, don Miguel has been able to merge ancient wisdom with modern physics and practical common-sense, forging a new philosophy for seekers of truth and personal authenticity. His landmark bestselling book, The Four Agreements, contains practical steps for long-term, personal transformation and has been read by millions around the world.</p>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="recognitionjumbotron">
+  <div class="container" id="recognitioncontainer">
+    <h1 class="display-4">BOOKS PUBLISHED & RECOGNITION:</h1>
+    <p class="lead">First published in 1997, The Four Agreements has since sold over six million copies in the United States and seven million worldwide. It has been translated into 40 languages, appeared on the New York Times bestseller for nearly ten years, and was the 36th bestselling book of the decade. Don Miguel is also the author of The Mastery of Love, The Voice of Knowledge, Prayers, and the New York Times bestseller, The Fifth Agreement, a collaboration with his son, don José Ruiz. Each of his books are international bestsellers.
+
+The wisdom don Miguel has brought to the world has earned him respect around the globe. He has dedicated his life to sharing his message through practical concepts in order to promote transformation and ultimately change lives for the better. Don Miguel is the recipient of numerous recognitions, including a U.S. Air Force ‘challenge coin’ engraved with “The Four Agreements.” He is the recipient of an Honorary Degree in Cultural and Social Education from the American Cultural Institute of Mexico, and referenced as a “national treasure” in his native country.</p>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="personallifejumbotron">
+  <div class="container" id="personallifecontainer">
+    <h1 class="display-4">PERSONAL LIFE:</h1>
+    <p class="lead">don Miguel Ruiz lives in Nevada. He has two sons named don Miguel Ruiz Jr. and don Jose Ruiz, who are both best-selling authors and spiritual teachers like their father.</p>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="aboutpagesocialmediajumbotron">
+  <div class="container">
+    <h1 class="display-4">CONNECT WITH SOCIAL MEDIA:</h1>
+    <p class="lead">Please follow the social media pages listed below to get the latest news about don Miguel Ruiz.</p>
+    <div class="container" id="aboutpagesocialmediacontainerformediacards">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-lg-4" id="aboutpagesocialmediacardcolumn">
+      <div class="card" id="socialmediacard" style="width: 18rem;">
+  <img id="aboutpagesocialmediacardimage" src="https://image.freepik.com/free-vector/vector-marble-texture-design_1235-488.jpg" class="card-img-top" alt="...">
+  <div class="card-body" id="aboutpagesocialmediacardbody">
+    <p class="card-text">FACEBOOK</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-4" id="aboutpagesocialmediacardcolumn">
+      <div class="card" id="socialmediacard" style="width: 18rem;">
+  <img id="aboutpagesocialmediacardimage" src="https://image.freepik.com/free-vector/vector-marble-texture-design_1235-488.jpg" class="card-img-top" alt="...">
+  <div class="card-body" id="aboutpagesocialmediacardbody">
+    <p class="card-text">TWITTER</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-4" id="aboutpagesocialmediacardcolumn">
+      <div class="card" id="socialmediacard" style="width: 18rem;">
+  <img id="aboutpagesocialmediacardimage" src="https://image.freepik.com/free-vector/vector-marble-texture-design_1235-488.jpg" class="card-img-top" alt="...">
+  <div class="card-body" id="aboutpagesocialmediacardbody">
+    <p class="card-text">GOODREADS</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-4" id="aboutpagesocialmediacardcolumn">
+      <div class="card" id="socialmediacard" style="width: 18rem;">
+  <img id="aboutpagesocialmediacardimage" src="https://image.freepik.com/free-vector/vector-marble-texture-design_1235-488.jpg" class="card-img-top" alt="...">
+  <div class="card-body" id="aboutpagesocialmediacardbody">
+    <p class="card-text">AMAZON</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-4" id="aboutpagesocialmediacardcolumn">
+      <div class="card" id="socialmediacard" style="width: 18rem;">
+  <img id="aboutpagesocialmediacardimage" src="https://image.freepik.com/free-vector/vector-marble-texture-design_1235-488.jpg" class="card-img-top" alt="...">
+  <div class="card-body" id="aboutpagesocialmediacardbody">
+    <p class="card-text">INSTAGRAM</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-4" id="aboutpagesocialmediacardcolumn">
+      <div class="card" id="socialmediacard" style="width: 18rem;">
+  <img id="aboutpagesocialmediacardimage" src="https://image.freepik.com/free-vector/vector-marble-texture-design_1235-488.jpg" class="card-img-top" alt="...">
+  <div class="card-body" id="aboutpagesocialmediacardbody">
+    <p class="card-text">CLICK BELOW FOR SOCIAL MEDIA LINKS:</p>
+  </div>
+</div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
  
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <div class="row">
-    <div class="col-8"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-    <div class="col-4"><div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-  </div>
-  </div>
-</div> 
- 
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <div class="row">
-    <div class="col-8"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-    <div class="col-4"><div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-  </div>
-  </div>
-</div> 
-
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <div class="row">
-    <div class="col-8"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-    <div class="col-4"><div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-  </div>
-  </div>
-</div> 
-
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <div class="row">
-    <div class="col-8"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-    <div class="col-4"><div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-  </div>
-  </div>
-</div> 
-
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <div class="row">
-    <div class="col-8"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-    <div class="col-4"><div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-  </div>
-  </div>
-</div> 
-
-
-<div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
-
-  
 </section>
 
 <footer>
 
+<!-- Footer -->
+<div class="jumbotron jumbotron-fluid" id="footer">
+<div class="container-fluid">
+
+<!-- Grid row-->
+<div class="row">
+
+<!-- Grid column -->
+<div class="col-md-12 py-5">
+<div class="mb-5 flex-center">
+
+<!-- Facebook -->
+<a class="fb-ic">
+<i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+<!-- Twitter -->
+<a class="tw-ic">
+<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+<!-- Goodreads-->
+<a class="goodreads-ic">
+<i class="fab fa-goodreads-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+<!--Amazon -->
+<a class="amz-ic">
+<i class="fab fa-amazon fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+<!--Instagram-->
+<a class="ins-ic">
+<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+</div>
+</div>
+<!-- Grid column -->
+
+</div>
+<!-- Grid row-->
+
+</div>
+<!-- Footer Elements -->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2019 Copyright: Coding Student</div>
+
+<!-- Copyright -->
+</div>
+<!-- Footer -->
+</footer> 
 
 
 
-
-</footer>
-
-    
+   
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

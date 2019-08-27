@@ -3,10 +3,11 @@ html, body {
 	overflow-y: auto;
 	font-family: 'Shadows Into Light', cursive;
 }
+
 #indexhtmlbackground {
 	height: 100%;
 	margin: 0;
-	background-image: url(https://image.freepik.com/free-vector/red-circle-pattern-background-vector_53876-63151.jpg);
+	background-image: url(https://image.freepik.com/free-vector/red-black-patterned-background-vector_53876-63162.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -145,6 +146,8 @@ nav {
 	color: #4B1F1F;
 	font-weight: bold;
 	text-align: center;
+	outline: 5px solid #4B1F1F;
+outline-offset: -20px;
 }
 
 #homepagecenterbookscontainer {
@@ -304,8 +307,13 @@ nav {
 	color: #261010;
 	height: 100%;
 	margin: 0;
-	background-color: #4B1F1F;
+	background-image: linear-gradient(to right top, #dcdd9f, #c4b27d, #a88960, #896348, #674032, #663d33, #643b33, #623834, #82524b, #a36e63, #c58b7c, #e8aa95);
 }
+
+#sitenavigation:hover {
+	opacity:0.5;
+}
+
 #sitenavigationdisplay-4 {
 	background-color: #E6BEBE;
 	border-color: #261010;
@@ -1286,8 +1294,6 @@ label {
 }
 
 .fab {
-	border-radius: 50%;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	transition: 0.2s;
 }
 
@@ -1309,3 +1315,202 @@ label {
 
 /* socialmedia */
 
+
+/* aboutpage */
+
+#abouthtmlbackground {
+	background-image:url(../images/aboutpagefullbackground.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+#abouttitlejumbotron {
+	margin-top: 80px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/vector-marble-texture-design_1235-491.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	height: 30rem;
+}
+
+#abouttitlecard {
+	margin: auto;
+	text-align: center;
+	align-self: center;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/marble-texture-seamless-pattern-design-with-golden-geometric-lines_1235-275.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	align-content: center;
+	outline: 10px solid #FFC6B3;
+outline-offset: -5px;
+}
+
+
+
+#introductionjumbotron {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-hexagonal-seamless-pattern-abstract-honeycomb_97458-165.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+
+
+#birthjumbotron {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-hexagonal-seamless-pattern-abstract-honeycomb_97458-165.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+
+
+#recognitionjumbotron {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-hexagonal-seamless-pattern-abstract-honeycomb_97458-165.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+
+#personallifejumbotron {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-hexagonal-seamless-pattern-abstract-honeycomb_97458-165.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+
+#aboutpagesocialmediajumbotron {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-hexagonal-seamless-pattern-abstract-honeycomb_97458-165.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#socialmediacard {
+	margin: auto;
+	border-color: inherit;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#aboutpagesocialmediacardbody {
+	border-color: inherit;
+	border-radius: 40px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/marble-texture-with-golden-geometric-lines-black-white-marbling-surface_1235-396.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: #391717;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#aboutpagesocialmediacardcolumn {
+	margin: auto;
+	text-align: center;
+	align-self: center;
+	justify-content: center;
+}
+
+#aboutpagesocialmediacardimage {
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+
+/* aboutpage */
