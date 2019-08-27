@@ -1245,7 +1245,14 @@ mark {
 
 /* bookscarddeck5 */
 /* books page */
+
+/* contactpage */
+
+
 /* contactform */
+
+
+
 #contactform {
 	margin: 50px 50px 50px 50px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -1278,8 +1285,15 @@ label {
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
 }
+
+
+/* contactpage */
+
 /* contactform */
+
+
 /* socialmedia */
+
 #footer {
 	justify-content: center;
 	align-items: center;
@@ -1346,6 +1360,10 @@ label {
 	height: 30rem;
 }
 
+#abouttitlejumbotron:hover {
+	opacity:0.5;
+}
+
 #abouttitlecard {
 	margin: auto;
 	text-align: center;
@@ -1366,7 +1384,9 @@ label {
 outline-offset: -5px;
 }
 
-
+#abouttitlecard:hover {
+	opacity:0.5;
+}
 
 #introductionjumbotron {
 	margin-top: 20px;
@@ -1469,6 +1489,10 @@ outline-offset: -5px;
 	justify-content: center;
 }
 
+#aboutpagesocialmediajumbotron:hover {
+	opacity: 0.5;
+}
+
 #socialmediacard {
 	margin: auto;
 	border-color: inherit;
@@ -1483,9 +1507,14 @@ outline-offset: -5px;
 	justify-content: center;
 }
 
+#socialmediacard:hover {
+	opacity:0.5;
+}
+
 #aboutpagesocialmediacardbody {
-	border-color: inherit;
-	border-radius: 40px;
+	border-color: #391717;
+	border-width: 15px;
+	border-radius: 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/marble-texture-with-golden-geometric-lines-black-white-marbling-surface_1235-396.jpg);
 	background-position: center;
@@ -1500,6 +1529,10 @@ outline-offset: -5px;
 	justify-content: center;
 }
 
+#aboutpagesocialmediacardbody:hover {
+	opacity:0.5;
+}
+
 #aboutpagesocialmediacardcolumn {
 	margin: auto;
 	text-align: center;
@@ -1512,5 +1545,66 @@ outline-offset: -5px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
+#aboutpagesocialmediacardimage:hover {
+	opacity:0.5;
+}
+
 
 /* aboutpage */
+
+/* eventsandmediahtmlbackground */
+
+.table-responsive {
+	border-radius: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-bee-hive-hexagon-space-background_77417-463.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+thead {
+	border-radius: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-hexagon-space-background_77417-466.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #FFBAA3;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+.example-1 {
+position: relative;
+overflow-y: scroll;
+height: 200px; }
+
+
+/* eventsandmediahtmlbackground */

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -12,8 +13,27 @@
 
 <body>
   
+<div class="backgroundimage" id="eventsandmediahtmlbackground">  
+  
 <header> 
 
+<div class="container-fluid" id="navbar">
+<nav class="navbar navbar-expand-lg fixed-top 
+</nav>navbar-light bg-white">
+<a class="navbar-brand" href="#">don Miguel Ruiz</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+<div class="navbar-nav ml-auto">
+<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+<a class="nav-item nav-link" href="about.html">About</a>
+<a class="nav-item nav-link" href="books.html">Books</a>
+<a class="nav-item nav-link" href="eventsandmedia.html">Events & Media</a>
+<a class="nav-item nav-link" href="contact.html">Contact</a>
+</div>
+</div>
+</div>
 
 </header>
      
@@ -21,14 +41,15 @@
 
 <div class="jumbotron jumbotron-fluid" id="events&mediapagetitle">
   <div class="container">
-    <h1 class="display-4">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <h1 class="display-4">EVENTS & MEDIA</h1>
+    <p class="lead">For events & media about don Miguel Ruiz, please read through the following section of this website:</p>
   </div>
 </div>
 
 
 
-
+<div class="jumbotron jumbotron-fluid" id="eventstable">
+  <div class="container">
 <div class="table-responsive text-nowrap">
         <!--Table-->
         <table class="table table-striped">
@@ -37,12 +58,11 @@
           <thead>
             <tr>
               <th>#</th>
-              <th>Name</th>
-              <th>Surname</th>
-              <th>Country</th>
-              <th>City</th>
-              <th>Position</th>
-              <th>Age</th>
+              <th>Host Name</th>
+              <th>Event Name</th>
+              <th>Event Date(s)</th>
+              <th>Event Time</th>
+              <th>Event Address</th>
             </tr>
           </thead>
           <!--Table head-->
@@ -50,85 +70,41 @@
           <!--Table body-->
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td>Kate</td>
-              <td>Moss</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>23</td>
+              <th scope="row" id="eventsrow1">1</th>
+              <td>don Miguel Ruiz Jr & don Jose Ruiz</td>
+              <td>"The Four Agreements for a Better Life"</td>
+              <td>Saturday, September 7, 2019</td>
+              <td>6:00 PM  8:00 PM</td>
+              <td>Center for Spiritual Living San Jose
+1195 Clark Street San Jose, CA, 95125 United States</td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td>Anna</td>
-              <td>Wintour</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>36</td>
+              <th scope="row" id="eventsrow2">2</th>
+              <td>don Miguel Ruiz Jr & don Jose Ruiz</td>
+              <td>"The Four Agreements for a Better Life"</td>
+              <td>Thursday, September 12, 2019</td>
+              <td>6:30 PM  8:30 PM</td>
+              <td>Cape Cinema
+35 Hope Lane Dennis, MA 02638 United States</td>
             </tr>
             <tr>
-              <th scope="row">3</th>
-              <td>Tom</td>
-              <td>Bond</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>25</td>
+              <th scope="row" id="eventsrow3">3</th>
+              <td>don Miguel Ruiz Jr & don Jose Ruiz</td>
+              <td>"The Four Agreements for a Better Life "</td>
+              <td>Saturday, September 21, 2019</td>
+              <td>4:00 PM  6:00 PM</td>
+              <td>Unity of Dallas
+6525 Forest Lane Dallas, TX, 75230 United States</td>
             </tr>
             <tr>
-              <th scope="row">4</th>
-              <td>Jerry</td>
-              <td>Horwitz</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>41</td>
+              <th scope="row" id="eventsrow4">4</th>
+              <td>Barbara Emrys</td>
+              <td>Conversations with Barbara Emrys</td>
+              <td>Tuesday, September 24, 2019</td>
+              <td>7:00 AM  7:45 AM</td>
+              <td>https://join.freeconferencecall.com/ruizcalls</td>
             </tr>
             <tr>
-              <th scope="row">5</th>
-              <td>Janis</td>
-              <td>Joplin</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>39</td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>Gary</td>
-              <td>Winogrand</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>37</td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td>Angie</td>
-              <td>Smith</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>52</td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td>John</td>
-              <td>Mattis</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>28</td>
-            </tr>
-            <tr>
-              <th scope="row">9</th>
-              <td>Otto</td>
-              <td>Morris</td>
-              <td>USA / The United Kingdom / China / Russia </td>
-              <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
-              <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
-              <td>35</td>
             </tr>
           </tbody>
           <!--Table body-->
@@ -137,18 +113,402 @@
         </table>
         <!--Table-->
       </div>
-</section>
+      </div>
+</div>
+      
 <!--Section: Live preview-->
 
 
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">DETAILS ABOUT EVENTS WITH dON MIGUEL RUIZ AND SONS:</h1>
+    <p class="lead">For detailed information about events held with don Miguel Ruiz and sons, please read the information listed below.</p>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="eventcardjumbotron1">
+  <div class="container">
+    <h1 class="display-4">"The Four Agreements for a Better Life " with don Miguel Ruiz Jr & don Jose Ruiz</h1>
+    <p class="lead">An Inspirational Evening with don Miguel Ruiz Jr & don Jose Ruiz</p>
+    <!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-md-6 mb-4">
+
+    <!-- Exaple 1 -->
+    <div class="card example-1 scrollbar-ripe-malinka">
+      <div class="card-body">
+        <h4 id="section1"><strong>Saturday, September 7, 2019
+6:00 PM  8:00 PM at Center for Spiritual Living San Jose
+1195 Clark Street San Jose, CA, 95125 United States.
+
+</strong></h4>
+        <p>An Inspirational Evening with don Miguel Ruiz Jr & don Jose Ruiz
+
+Date: Saturday, September 07, 2019
+
+Time: 6:00pm to 8:00pm
+
+Location: Center for Spiritual Living San Jose. 1195 Clark Street, San Jose CA 94087
+
+Cost:
+
+VIP ( $65.00 ) VIP tickets will include: a seat in the first 2 rows in the sanctuary, and private meet & greet with don Miguel Jr & don Jose with book signing.
+
+Early Bird ( $55.00$50.00 ) These are regular seats purchased in advance at a discount.Early registration ends on September 7, 2019 at 2:59 am
+
+At the Door ( $55.00 ) These are regular seats purchased on 9/7/19.
+
+Registration ends on September 07, 201
+
+IMAGINE living a happier, fuller, more meaningful life. Imagine a life without conflict, without guilt, without shame . . . a life where you are free to express the real you without fear of being judged by others . . . a life where you love and accept yourself just the way you are. This way of life is entirely possible, and it's in your hands.
+
+“The Four Agreements for a Better Life ” presentation will deepen your understanding and practice of The Four Agreements, and guide you toward the life you really want to live. Unlock the power of these deceptively simple agreements. It's time to live a better life!!
+
+Experience Living the Four Agreements with don Miguel Ruiz Jr and don Jose Ruiz
+
+In the bestselling book the Four Agreements, don Miguel Ruiz gives us the principles that can transform our life into an expression of unconditional love. By discovering the source of our self-limiting beliefs that rob us of joy and create needless suffering in our life, we can then shift our perception with that awareness by applying a powerful code of conduct that can rapidly transform our lives to a new expression of freedom, true happiness and love. The code of conduct is the Four Agreements:
+
+The First Agreement – Be Impeccable with your word
+
+The Second Agreement – Don’t Take Anything Personally
+
+The Third Agreement – Don’t Make Assumptions
+
+The Fourth Agreement – Always do your best
+
+Based on the family’s Toltec wisdom, the Ruiz brothers will share how to apply “The Four Agreements” in our everyday life as an instrument of transformation in this interactive experience. Thus, allowing us to co-create a mutual understanding within the group of each agreement, including the Fifth Agreement- Be Skeptical, But Learn to listen in a way that reflects our personal life. From this point of view, the presentation will be a formless organic experience, as the questions and interactive engagement with those in attendance and will create the foundation of a new dream where unconditional love is not a definition but an experience we can manifest in our life.
+
+- Discover the underlying wisdom of The Four Agreements, and why they have the power to rapidly transform your life to a new experience of freedom, true happiness, and love
+
+- Learn a proven technique to challenge the fear-based beliefs that rob you of happiness and keep you from living the life you really want to live
+
+- Deepen your understanding and practice of The Four Agreements by expanding your awareness of the broader teachings of don Miguel Ruiz
+
+- Empower your life with “impeccable” communication and improve your relationships with everyone – including yourself
+
+</p>
+        <p>Please write to us via the contact section of this website to buy tickets for this event, detailing the name of the event, the location and names of the event hosts.</p>
+      </div>
+    </div>
+    <!-- Exaple 1 -->
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="eventcardjumbotron2">
+  <div class="container">
+    <h1 class="display-4">"The Four Agreements for a Better Life " with don Miguel Ruiz Jr & don Jose Ruiz</h1>
+    <p class="lead">An Inspirational Evening with don Miguel Ruiz Jr & don Jose Ruiz</p>
+    <!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-md-6 mb-4">
+
+    <!-- Exaple 1 -->
+    <div class="card example-1 scrollbar-ripe-malinka">
+      <div class="card-body">
+        <h4 id="section1"><strong>Thursday, September 12, 2019
+6:30 PM  8:30 PM at Cape Cinema
+35 Hope Lane Dennis, MA 02638 United States.</strong></h4>
+        <p>An Inspirational Evening with don Miguel Ruiz Jr & don Jose Ruiz
+
+Date: Thursday, September 12th
+
+Time: 6:30-8:30 PM - Book signing to follow event.
+
+Location: Cape Cinema, 35 Hope Lane, Dennis, MA 02638
+
+Price: $50.00 online with $55.00 at the door
+
+IMAGINE living a happier, fuller, more meaningful life. Imagine a life without conflict, without guilt, without shame . . . a life where you are free to express the real you without fear of being judged by others . . . a life where you love and accept yourself just the way you are. This way of life is entirely possible, and it's in your hands.
+
+“The Four Agreements for a Better Life ” presentation will deepen your understanding and practice of The Four Agreements, and guide you toward the life you really want to live. Unlock the power of these deceptively simple agreements. It's time to live a better life!!
+
+Experience Living the Four Agreements with don Miguel Ruiz Jr and don Jose Ruiz
+
+In the bestselling book the Four Agreements, don Miguel Ruiz gives us the principles that can transform our life into an expression of unconditional love. By discovering the source of our self-limiting beliefs that rob us of joy and create needless suffering in our life, we can then shift our perception with that awareness by applying a powerful code of conduct that can rapidly transform our lives to a new expression of freedom, true happiness and love. The code of conduct is the Four Agreements:
+
+The First Agreement – Be Impeccable with your word
+
+The Second Agreement – Don’t Take Anything Personally
+
+The Third Agreement – Don’t Make Assumptions
+
+The Fourth Agreement – Always do your best
+
+Based on the family’s Toltec wisdom, the Ruiz brothers will share how to apply “The Four Agreements” in our everyday life as an instrument of transformation in this interactive experience. Thus, allowing us to co-create a mutual understanding within the group of each agreement, including the Fifth Agreement- Be Skeptical, But Learn to listen in a way that reflects our personal life. From this point of view, the presentation will be a formless organic experience, as the questions and interactive engagement with those in attendance and will create the foundation of a new dream where unconditional love is not a definition but an experience we can manifest in our life.
+
+- Discover the underlying wisdom of The Four Agreements, and why they have the power to rapidly transform your life to a new experience of freedom, true happiness, and love
+
+- Learn a proven technique to challenge the fear-based beliefs that rob you of happiness and keep you from living the life you really want to live
+
+- Deepen your understanding and practice of The Four Agreements by expanding your awareness of the broader teachings of don Miguel Ruiz
+
+- Empower your life with “impeccable” communication and improve your relationships with everyone – including yourself
+
+</p>
+        <p>Please write to us via the contact section of this website to buy tickets for this event, detailing the name of the event, the location and names of the event hosts.</p>
+      </div>
+    </div>
+    <!-- Exaple 1 -->
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="eventcardjumbotron3">
+  <div class="container">
+    <h1 class="display-4">The Four Agreements for a Better Life " with don Miguel Ruiz Jr & don Jose Ruiz</h1>
+    <p class="lead">An Inspirational Evening with don Miguel Ruiz Jr & don Jose Ruiz.</p>
+    <!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-md-6 mb-4">
+
+    <!-- Exaple 1 -->
+    <div class="card example-1 scrollbar-ripe-malinka">
+      <div class="card-body">
+        <h4 id="section1"><strong>Saturday, September 21, 2019
+4:00 PM  6:00 PM at Unity of Dallas
+6525 Forest Lane Dallas, TX, 75230 United States.</strong></h4>
+        <p>An Inspirational Evening with don Miguel Ruiz Jr & don Jose Ruiz
+
+Date: Saturday, September 21st
+
+Time:
+
+3PM VIP Reception (Only 50 VIP Tickets Available)
+
+4-6 PM Speaking Engagement
+
+Location:
+
+Unity of Dallas
+
+6525 Forest Lane
+
+Dallas, TX 75230
+
+Register for this life changing event HERE!
+
+IMAGINE living a happier, fuller, more meaningful life. Imagine a life without conflict, without guilt, without shame . . . a life where you are free to express the real you without fear of being judged by others . . . a life where you love and accept yourself just the way you are. This way of life is entirely possible, and it's in your hands.
+
+“The Four Agreements for a Better Life ” presentation will deepen your understanding and practice of The Four Agreements, and guide you toward the life you really want to live. Unlock the power of these deceptively simple agreements. It's time to live a better life!!
+
+Experience Living the Four Agreements with don Miguel Ruiz Jr and don Jose Ruiz
+
+In the bestselling book the Four Agreements, don Miguel Ruiz gives us the principles that can transform our life into an expression of unconditional love. By discovering the source of our self-limiting beliefs that rob us of joy and create needless suffering in our life, we can then shift our perception with that awareness by applying a powerful code of conduct that can rapidly transform our lives to a new expression of freedom, true happiness and love. The code of conduct is the Four Agreements:
+
+The First Agreement – Be Impeccable with your word
+
+The Second Agreement – Don’t Take Anything Personally
+
+The Third Agreement – Don’t Make Assumptions
+
+The Fourth Agreement – Always do your best
+
+Based on the family’s Toltec wisdom, the Ruiz brothers will share how to apply “The Four Agreements” in our everyday life as an instrument of transformation in this interactive experience. Thus, allowing us to co-create a mutual understanding within the group of each agreement, including the Fifth Agreement- Be Skeptical, But Learn to listen in a way that reflects our personal life. From this point of view, the presentation will be a formless organic experience, as the questions and interactive engagement with those in attendance and will create the foundation of a new dream where unconditional love is not a definition but an experience we can manifest in our life.
+
+- Discover the underlying wisdom of The Four Agreements, and why they have the power to rapidly transform your life to a new experience of freedom, true happiness, and love
+
+- Learn a proven technique to challenge the fear-based beliefs that rob you of happiness and keep you from living the life you really want to live
+
+- Deepen your understanding and practice of The Four Agreements by expanding your awareness of the broader teachings of don Miguel Ruiz
+
+- Empower your life with “impeccable” communication and improve your relationships with everyone – including yourself.
+
+</p>
+        <p>Please write to us via the contact section of this website to buy tickets for this event, detailing the name of the event, the location and names of the event hosts.</p>
+      </div>
+    </div>
+    <!-- Exaple 1 -->
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="jumbotron jumbotron-fluid" id="eventcardjumbotron4">
+  <div class="container">
+    <h1 class="display-4">Free Online
+Conversations with Barbara Emrys</h1>
+    <p class="lead">Are you’re interested in having a deeper conversation about don Miguel Ruiz’s books?</p>
+    <!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-md-6 mb-4">
+
+    <!-- Exaple 1 -->
+    <div class="card example-1 scrollbar-ripe-malinka">
+      <div class="card-body">
+        <h4 id="section1"><strong>Tuesday, September 24, 2019
+7:00 AM  7:45 AM at https://join.freeconferencecall.com/ruizcalls</strong></h4>
+        <p>Are you’re interested in having a deeper conversation about don Miguel Ruiz’s books?
+We invite you to Conversations with Barbara Emrys
+
+Barbara Emrys, co-author of The Three Questions and The Toltec Art of Life and Death, will begin a series of conversations with you about the Toltec teachings and books by don Miguel Ruiz. Join her free conference call once a month–and bring your awareness to another level! So, don’t miss this gathering, which will include a discussion of don Miguel and Barbara’s new book, The Three Questions. It will be an interactive session, where you may ask questions during the call, or comment below with topics that intrigued you while reading the book!
+
+Mark your calendars for the following Tuesdays!
+
+2019 Dates:  January 22 | Feb 19  |  March 19  |  April 16  |  May 21  |  June 18  | July 23 | August 20 | September 24 | October 22
+
+Time: 7 AM PST (Los Angeles)  you can check your local time here: http://www.thetimezoneconverter.com/
+
+Duration: 45 mins
+
+Location:  Telephone or Online. Charges may apply if you use the call in number. Make sure to download the desktop app if you would like to join us from your computer/phone.
+
+Dial-in number (US): (515) 604-9343
+
+Access code: 650234#
+
+International dial-in numbers: https://fccdl.in/i/ruizcalls
+
+Online meeting ID: ruizcalls
+
+Join the online meeting: https://join.freeconferencecall.com/ruizcalls
+
+Check out our Blog, and read Barbara’s related posts.</p>
+        <p>Please write to us via the contact section of this website to buy tickets for this event, detailing the name of the event, the location and names of the event hosts.</p>
+      </div>
+    </div>
+    <!-- Exaple 1 -->
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">MEDIA INTERVIEWS AND ARTICLES ABOUT dON MIGUEL RUIZ AND SONS:</h1>
+    <p class="lead">For details about media interviews and articles about don Miguel Ruiz and sons, please read through the section listed below:</p>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="mediaembedjumbotron1">
+  <div class="container">
+    <h1 class="display-4">Video title one</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+</div>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="mediaembedjumbotron2">
+  <div class="container">
+    <h1 class="display-4">Video title one</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+</div>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="mediaembedjumbotron3">
+  <div class="container">
+    <h1 class="display-4">Video title one</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+</div>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="mediaembedjumbotron4">
+  <div class="container">
+    <h1 class="display-4">Video title one</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+</div>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid" id="ariclestitlejumbotron">
+  <div class="container">
+    <h1 class="display-4">ARTICLES ABOUT dON MIGUEL RUIZ AND SONS:</h1>
+    <p class="lead">For detailed information about articles with don Miguel Ruiz and sons, please read through the section below:</p>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    
+  </div>
+</div>
 
 
 </section>
 
 <footer>
 
+<!-- Footer -->
+<div class="jumbotron jumbotron-fluid" id="footer">
+<div class="container-fluid">
 
+<!-- Grid row-->
+<div class="row">
 
+<!-- Grid column -->
+<div class="col-md-12 py-5">
+<div class="mb-5 flex-center">
+
+<!-- Facebook -->
+<a class="fb-ic">
+<i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+<!-- Twitter -->
+<a class="tw-ic">
+<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+<!-- Goodreads-->
+<a class="goodreads-ic">
+<i class="fab fa-goodreads-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+<!--Amazon -->
+<a class="amz-ic">
+<i class="fab fa-amazon fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+<!--Instagram-->
+<a class="ins-ic">
+<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+</a>
+</div>
+</div>
+<!-- Grid column -->
+
+</div>
+<!-- Grid row-->
+
+</div>
+<!-- Footer Elements -->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2019 Copyright: Coding Student</div>
+
+<!-- Copyright -->
+</div>
+<!-- Footer -->
 
 </footer>
 
