@@ -29,6 +29,7 @@ nav {
 	font-size:2rem;
 	font-weight:bold;
 	color:black;
+	border-color: black;
 }
 
 .navbar-toggler:hover {
@@ -58,7 +59,7 @@ nav {
 .navbar-brand {
 	outline: black;
 	border-radius: 20%;
-	font-size:2rem;
+	font-size:3rem;
 	font-weight:bold;
 	color:black;
 }
@@ -1356,6 +1357,11 @@ label {
 	align-items: center;
 	justify-content: center;
 	margin: auto;
+}
+
+.btn-outline-white:hover {
+	color:white;
+	opacity:0.5;
 }
 
 .mb-1 {
