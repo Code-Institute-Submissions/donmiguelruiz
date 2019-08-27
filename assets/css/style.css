@@ -131,104 +131,7 @@ nav {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	margin: 10px 10px 10px 10px;
 }
-#homepagetitlecarouseljumbotron {
-	background-color: transparent;
-}
 
-
-#homepagetitlecarouselcontainer:hover {
-	opacity:0.5;
-}
-
-.carousel-caption {
-	color: #963E3E;
-}
-
-.carousel-caption:hover {
-	opacity:0.5;
-}
-
-#carouselExampleCaptionshomepagetitle {
-	background-color:transparent;
-	height: 400px;
-	outline: 15px outset #CE5454;
-	outline-offset:60px;
-	margin-bottom: 200px;
-}
-#donmiguelmariashriverimage {
-	background-size: cover;
-	height: 100%;
-	margin: 0;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-#oprahwinfreyimage {
-	background-size: cover;
-	height: 100%;
-	margin: 0;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-#mariashriverslidecontainer {
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto;
-	background-image: url(https://image.freepik.com/free-photo/overhead-view-peach-soft-smooth-foam-wallpaper_23-2148079273.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-}
-#oprahwinfreyslidecontainer {
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto;
-	background-image: url(https://img.freepik.com/free-photo/orange-acrylic-paint-textured-background_53876-88475.jpg?size=626&ext=jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-}
-#mariashrivercarddeck {
-	max-width: 100%;
-	height:auto;
-	opacity: 0.85;
-	margin: 0 auto;
-}
-#oprahwinfreycarddeck {
-	max-width: 100%;
-	height:auto;
-	opacity: 0.85;
-	margin: 0 auto;
-}
-#donmiguelmariashrivercardtextbody {
-	text-align: center;
-	color:#4B1F1F;
-	font-weight: bold;
-	font-size: 1rem;
-}
-#oprahwinfreytextcard {
-	text-align: center;
-	color:#4B1F1F;
-	font-weight: bold;
-	font-size: 1rem;
-	max-width: 100%;
-	height:auto;
-}
-#donmiguelmariashrivercardtextbody {
-	text-align: center;
-	color:#4B1F1F;
-	font-weight: bold;
-	font-size: 1rem;
-}
-#donmiguelmariashrivertextcard {
-	text-align: center;
-	color:#4B1F1F;
-	font-weight: bold;
-	font-size: 1rem;
-	max-width: 100%;
-	height:auto;
-}
 
 #homepagecenterbooksjumbotron {
 	max-width: 100%;
@@ -424,7 +327,7 @@ nav {
 	display: flex;
 	margin: 0;
 	height: 100%;
-	background-image: url(https://image.freepik.com/free-vector/valentine-s-day-vector-design-concept_53876-80108.jpg);
+	background-image: url(https://image.freepik.com/free-psd/abstract-background-design_1297-74.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -468,7 +371,7 @@ nav {
 
 #sitenavcardsbutton {
 	margin: auto;
-	background-image: url(https://image.freepik.com/free-psd/orange-red-squares-background_1297-183.jpg);
+	background-image: url(https://image.freepik.com/free-psd/multicolor-circle-background-design_1297-151.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
