@@ -1295,19 +1295,24 @@ label {
 /* socialmedia */
 
 #footer {
+	left: 50%;
+	right:50%;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	background-color: transparent;
 	color: white;
 	font-size: 1rem;
+	margin: auto;
 }
 .footer-copyright {
+	margin:auto;
 	font-size: 1rem;
 	color: white;
 }
 
 .fab {
+	margin:auto;
 	transition: 0.2s;
 }
 
@@ -1318,6 +1323,7 @@ label {
 }
 
 .footer-copyright {
+	margin:auto;
 	font-size:1rem;
 }
 
@@ -1325,7 +1331,28 @@ label {
 	opacity:0.5;
 }
 
+.btn-outline-white {
+	font-size: 2rem;
+	height: 5rem;
+	width: 15rem;
+	border-color: white;
+	border-width: 5px;
+	color: white;
+	border-radius: 30px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
 
+.mb-1 {
+	font-size: 1rem;
+	margin:auto;
+}
+
+.mb-1:hover {
+	opacity:0.5;
+}
 
 /* socialmedia */
 
