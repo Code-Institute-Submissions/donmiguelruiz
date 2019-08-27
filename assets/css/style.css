@@ -1615,13 +1615,13 @@ outline-offset: -5px;
 .table-responsive {
 	border-radius: 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/abstract-bee-hive-hexagon-space-background_77417-463.jpg);
+	background-image:url(https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: #FFBAA3;
+	background-color: white;
 	color: black;
 	font-size: 1rem;
 	font-weight: bold;
@@ -1631,13 +1631,13 @@ outline-offset: -5px;
 thead {
 	border-radius: 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/abstract-hexagon-space-background_77417-466.jpg);
+	background-image:url(https://image.freepik.com/free-vector/rectangle-white-background-template_8167-583.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: #FFBAA3;
+	background-color: white;
 	color: black;
 	font-size: 1rem;
 	font-weight: bold;
@@ -1662,7 +1662,28 @@ background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
 .example-1 {
 position: relative;
 overflow-y: scroll;
-height: 200px; }
+height: 200px; 
+}
+
+#eventsandmediapagetitlejumbotron {
+	border-radius: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/seamless-paisley-pattern_1458-284.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #020122;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventsandmediapagetitlecontainer {
+	background-color:white;
+}
 
 
 /* eventsandmediahtmlbackground */
