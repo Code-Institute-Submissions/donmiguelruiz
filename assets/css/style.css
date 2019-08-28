@@ -1612,10 +1612,68 @@ outline-offset: -5px;
 
 /* eventsandmediahtmlbackground */
 
-.table-responsive {
-	border-radius: 30px;
+
+#eventsandmediahtmlbackground {
+background-image:url(https://image.freepik.com/free-photo/seamless-pattern-pink-petals-white-background_23-2147841502.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+}
+
+
+#eventsandmediapagetitlejumbotron {
+	margin-left:50px;
+	margin-right:50px;
+	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg);
+	background-image:url(https://image.freepik.com/free-vector/seamless-paisley-pattern_1458-284.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventsandmediapagetitlecontainer {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity:0.7;
+}
+
+#eventstable {
+	margin-right: 50px;
+	margin-left: 50px;
+		border-radius: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/floral-pattern_1458-425.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+.table-responsive {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-photo/seamless-pattern-pink-petals-white-background_23-2147841502.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1629,9 +1687,9 @@ outline-offset: -5px;
 }
 
 thead {
-	border-radius: 30px;
+	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/rectangle-white-background-template_8167-583.jpg);
+	background-image:url(https://image.freepik.com/free-photo/flowers-composition-pink-rose-flowers-blue-background-top-view_117255-141.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1665,25 +1723,145 @@ overflow-y: scroll;
 height: 200px; 
 }
 
-#eventsandmediapagetitlejumbotron {
-	border-radius: 30px;
+#eventcardtitlejumbotron {
+	margin-right: 50px;
+	margin-left: 50px;
+		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/seamless-paisley-pattern_1458-284.jpg);
+	background-image:url(https://image.freepik.com/free-vector/ethnic-floral-pattern_1458-108.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: #020122;
+	background-color: white;
 	color: #020122;
 	font-size: 2rem;
 	font-weight: bold;
 	justify-content: center;
 }
 
-#eventsandmediapagetitlecontainer {
-	background-color:white;
+#eventcardtitlecontainer {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity:0.7;
 }
 
+#eventcardjumbotron1 {
+	margin-right: 50px;
+	margin-left: 50px;
+		border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/seamless-paisley-pattern_1458-290.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventcardcontainer1 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventcardjumbotron2 {
+	margin-right: 50px;
+	margin-left: 50px;
+		border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/seamless-paisley-pattern_1458-288.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventcardcontainer2 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventcardjumbotron3 {
+	margin-right: 50px;
+	margin-left: 50px;
+		border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/victorian-seamless-pattern_1458-92.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventcardcontainer3 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventcardjumbotron4 {
+	margin-right: 50px;
+	margin-left: 50px;
+		border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/vintage-colorful-floral-background_1458-387.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#eventcardcontainer4 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 2rem;
+	font-weight: bold;
+	justify-content: center;
+}
 
 /* eventsandmediahtmlbackground */
