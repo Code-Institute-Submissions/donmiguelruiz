@@ -14,8 +14,7 @@ html, body {
 }
 /* navbar */
 #navbar {
-	margin-bottom: 0px;
-	padding-bottom: 135px;
+	margin-bottom: 150px;
 }
 
 .navbar {
@@ -34,7 +33,7 @@ nav {
 	font-size:2rem;
 	font-weight:bold;
 	color:black;
-	border-color: black;
+	border-color: white;
 }
 
 .navbar-toggler:hover {
@@ -1624,8 +1623,6 @@ background-image:url(https://image.freepik.com/free-photo/seamless-pattern-pink-
 
 
 #eventsandmediapagetitlejumbotron {
-	margin-left:50px;
-	margin-right:50px;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/seamless-paisley-pattern_1458-284.jpg);
@@ -1636,7 +1633,7 @@ background-image:url(https://image.freepik.com/free-photo/seamless-pattern-pink-
 	text-align: center;
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 }
@@ -1649,12 +1646,10 @@ background-image:url(https://image.freepik.com/free-photo/seamless-pattern-pink-
 	font-size: 2rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity:0.7;
+	opacity:0.8;
 }
 
 #eventstable {
-	margin-right: 50px;
-	margin-left: 50px;
 		border-radius: 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/floral-pattern_1458-425.jpg);
@@ -1724,8 +1719,6 @@ height: 200px;
 }
 
 #eventcardtitlejumbotron {
-	margin-right: 50px;
-	margin-left: 50px;
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/ethnic-floral-pattern_1458-108.jpg);
@@ -1736,7 +1729,7 @@ height: 200px;
 	text-align: center;
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 }
@@ -1746,15 +1739,13 @@ height: 200px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity:0.7;
+	opacity:0.8;
 }
 
 #eventcardjumbotron1 {
-	margin-right: 50px;
-	margin-left: 50px;
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/seamless-paisley-pattern_1458-290.jpg);
@@ -1765,7 +1756,7 @@ height: 200px;
 	text-align: center;
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 }
@@ -1775,14 +1766,13 @@ height: 200px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	opacity: 0.85;
 }
 
 #eventcardjumbotron2 {
-	margin-right: 50px;
-	margin-left: 50px;
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/seamless-paisley-pattern_1458-288.jpg);
@@ -1793,7 +1783,7 @@ height: 200px;
 	text-align: center;
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 }
@@ -1803,14 +1793,13 @@ height: 200px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	opacity: 0.85;
 }
 
 #eventcardjumbotron3 {
-	margin-right: 50px;
-	margin-left: 50px;
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/victorian-seamless-pattern_1458-92.jpg);
@@ -1821,7 +1810,7 @@ height: 200px;
 	text-align: center;
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 }
@@ -1831,14 +1820,13 @@ height: 200px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	opacity: 0.85;
 }
 
 #eventcardjumbotron4 {
-	margin-right: 50px;
-	margin-left: 50px;
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/vintage-colorful-floral-background_1458-387.jpg);
@@ -1849,7 +1837,7 @@ height: 200px;
 	text-align: center;
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 }
@@ -1859,9 +1847,257 @@ height: 200px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
 	color: #020122;
-	font-size: 2rem;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity: 0.85;
+}
+
+.example-1 {
+	background-color: white;
+	border-color: pink;
+	border-width: 10px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+#mediainterviewtitlejumbotron {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/watercolor-pattern_1458-683.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 }
 
+#mediainterviewtitlecontainer {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity:0.8;
+}
+
+
+#mediaembedjumbotron1 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/tropical-palm-leaves-seamless-pattern_1458-727.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#mediaembedcontainer1 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#mediaembedjumbotron2 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/vector-hand-drawn-floral-seamless-pattern-with-textured-flower-wild-flowers-illustration_1458-632.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#mediaembedcontainer2 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#mediaembedjumbotron3 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/floral-seamless-pattern_1458-141.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#mediaembedcontainer3 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#mediaembedjumbotron4 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/monstera-leaves-seamless-pattern-background_1458-725.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#mediaembedcontainer4 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#ariclestitlejumbotron {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/leaves-branch-pattern_1458-114.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#ariclestitlecontainer {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity: 0.8;
+}
+
+#ariclestitlejumbotron1 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/cute-flowers-seamless-pattern_1458-593.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#ariclestitlecontainer1 {
+		border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity: 0.8;
+}
+
+#ariclestitlejumbotron2 {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/spring-floral-pattern_1458-389.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#ariclestitlecontainer2 {
+		border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity: 0.8;
+}
+
+#moreinformationeventsjumbotron {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/leaves-branch-pattern_1458-261.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
+#moreinformationeventscontainer {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: #020122;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity: 0.8;
+}
 /* eventsandmediahtmlbackground */
