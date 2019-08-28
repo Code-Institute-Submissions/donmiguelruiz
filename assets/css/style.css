@@ -1269,29 +1269,88 @@ mark {
 }
 
 /* bookscarddeck5 */
+
 /* books page */
 
 /* contactpage */
 
+#contacthtmlbackground {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/seamless-diamond-pattern-vector-illustration_53876-26123.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	margin:0;
+}
 
-/* contactform */
-
-
+#contactformtitlejumbotron {
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/rose-gold-leaf-pattern-background_1048-7987.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
 
 #contactform {
-	margin: 50px 50px 50px 50px;
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-photo/metallic-background-with-rose-gold-tint_1048-9744.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #7B6B43;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	
 }
 form {
-	border-radius: 20%;
-	justify-content: center;
-	align-items: center;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-texture-background-with-rose-gold-colours_1048-8234.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
 	text-align: center;
+	background-color: #7B6B43;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
 }
 label {
-	justify-content: center;
-	align-items: center;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/abstract-texture-background-with-rose-gold-colours_1048-8234.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
 	text-align: center;
+	background-color: #7B6B43;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
 }
 .contactformbutton {
 	align-items: center;
@@ -1299,10 +1358,23 @@ label {
 	text-align: center;
 }
 #contactformbutton {
-	border: black;
-	color: white;
+	border-radius: 50%;
+	width:4rem;
+	height:4rem;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image: linear-gradient(to right top, #ffbaa3, #d59b82, #ad7d63, #876046, #62442b, #593e24, #4f391d, #463317, #534021, #604e2c, #6e5c37, #7b6b43);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #7B6B43;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
 	transition: 0.2s;
+	border-color: #7B6B43;
 }
 #contactformbutton:hover {
 	opacity: 0.7;
@@ -1311,10 +1383,24 @@ label {
   transform: scale(1.5);
 }
 
+#contactpagecontactsonsjumbotron {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image: url(https://image.freepik.com/free-vector/rose-gold-leaf-pattern-background_1048-7987.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #7B6B43;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+
 
 /* contactpage */
 
-/* contactform */
 
 
 /* socialmedia */
