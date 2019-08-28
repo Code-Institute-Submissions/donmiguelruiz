@@ -13,6 +13,7 @@ html, body {
 	background-size: cover;
 }
 /* navbar */
+
 #navbar {
 	margin-bottom: 150px;
 }
@@ -20,7 +21,6 @@ html, body {
 .navbar {
 	opacity:0.6;
 	font-size:2rem;
-	margin-bottom: 150px;
 }
 
 nav {
@@ -28,7 +28,6 @@ nav {
 	font-weight:bold;
 	color:black;
 	opacity:0.6;
-	margin-bottom: 20px;
 }
 .navbar-toggler {
 	outline: black;
