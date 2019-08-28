@@ -102,10 +102,6 @@ nav {
 	background-color: transparent;
 }
 
-#authortitlehomepagejumbotron:hover {
-	opacity: 0.5;
-}
-
 #authortitlehomepagecard {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -130,9 +126,6 @@ nav {
 	opacity: 0.85;
 }
 
-#landingimagejumbotron:hover {
-	opacity:0.5;
-}
 
 #landingimagehead {
 	max-width: 100%;
@@ -212,9 +205,6 @@ outline-offset: -20px;
 	border-radius: 10px;
 }
 
-#homepagecenterbookscard:hover {
-	opacity: 0.5;
-}
 
 #homepagecenterbookscardbody {
 	text-align: center;
@@ -232,9 +222,6 @@ outline-offset: -20px;
 	border-radius: 10px;
 }
 
-#homepagecenterbookscardbody:hover {
-	opacity: 0.5;
-}
 
 
 #homepagecenterbooksbutton {
@@ -259,7 +246,6 @@ outline-offset: -20px;
 }
 
 #homepagecenterbooksbutton:hover {
-	opacity:0.5;
 	-ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
@@ -289,7 +275,7 @@ outline-offset: -20px;
 }
 
 #quotecarousel:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #quotecardheader {
@@ -298,7 +284,7 @@ outline-offset: -20px;
 }
 
 #quotecardheader:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #quotescardbody {
@@ -312,7 +298,7 @@ outline-offset: -20px;
 }
 
 .carousel-control-prev-icon:hover {
-	opacity:0.5;
+	opacity:0.85;
 }
 
 .carousel-control-next-icon {
@@ -322,7 +308,7 @@ outline-offset: -20px;
 }
 
 .carousel-control-next-icon:hover {
-	opacity:0.5;
+	opacity:0.85;
 }
 
 #sitenavigation {
@@ -338,7 +324,7 @@ outline-offset: -20px;
 }
 
 #sitenavigation:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #sitenavigationdisplay-4 {
@@ -393,7 +379,7 @@ outline-offset: -20px;
 	color: #F2F3AE;
 	font-size: 1rem;
 	font-weight: bold;
-	opacity: 0.85;
+	opacity: 0.9;
 	justify-content: center;
 	align-self: stretch;
 	text-align: center;
@@ -405,7 +391,7 @@ outline-offset: -20px;
 }
 
 #sitenavcard:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #sitenavcardsbutton {
@@ -429,7 +415,6 @@ outline-offset: -20px;
 }
 
 #sitenavcardsbutton:hover {
-	opacity:0.5;
 		-ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
@@ -457,7 +442,7 @@ outline-offset: -20px;
 	text-align: center;
 }
 #bookstitlecardjumbotron:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #bookstitlecard {
@@ -465,7 +450,7 @@ outline-offset: -20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 #bookstitlecard:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 #bookstitlecardbody {
 	color:#191836;
@@ -484,14 +469,14 @@ border-radius: 10px;
 	margin-bottom: 10px;
 }
 #bookscardimagesidecard:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 #bookscardimage {
 	border-radius: 15px;
 	margin: auto;
 }
 #bookscardimage:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 /* bookscarddeck1 */
 #bookscarddeck1jumbotron {
@@ -544,7 +529,7 @@ border-radius: 10px;
 }
 
 #deck1card1:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck1card2 {
@@ -566,7 +551,7 @@ border-radius: 10px;
 }
 
 #deck1card2:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck1card3 {
@@ -586,7 +571,7 @@ border-radius: 10px;
 }
 
 #deck1card3:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #bookscardbutton1 {
@@ -612,7 +597,6 @@ border-radius: 10px;
 	transition: transform .2s;
 }
 #bookscardbutton1:hover {
-	opacity: 0.5;
 	border-color: white;
 	-ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -642,7 +626,6 @@ border-radius: 10px;
 }
 #bookscardbutton2:hover {
 	border-color: white;
-	opacity:0.5;
 	-ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
@@ -655,7 +638,7 @@ mark {
 }
 
 mark:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 /* bookscarddeck1 */
@@ -711,7 +694,7 @@ mark:hover {
 }
 
 #deck2card1:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck2card2 {
@@ -733,7 +716,7 @@ mark:hover {
 }
 
 #deck2card2:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck2card3 {
@@ -753,7 +736,7 @@ mark:hover {
 }
 
 #deck2card3:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #bookscardbutton1 {
@@ -777,7 +760,7 @@ mark:hover {
 	font-weight: bold;
 }
 #bookscardbutton1:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 	border-color: white;
 }
 #bookscardbutton2 {
@@ -802,7 +785,7 @@ mark:hover {
 }
 #bookscardbutton2:hover {
 	border-color: white;
-	opacity:0.5;
+	opacity:0.9;
 }
 mark {
 	background-color: #302F4A;
@@ -813,7 +796,7 @@ mark {
 
 
 mark:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 /* bookscarddeck2 */
@@ -867,7 +850,7 @@ mark:hover {
 }
 
 #deck3card1:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck3card2 {
@@ -889,7 +872,7 @@ mark:hover {
 }
 
 #deck3card2:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck3card3 {
@@ -909,7 +892,7 @@ mark:hover {
 }
 
 #deck3card3:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #bookscardbutton1 {
@@ -933,7 +916,7 @@ mark:hover {
 	font-weight: bold;
 }
 #bookscardbutton1:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 	border-color: white;
 }
 #bookscardbutton2 {
@@ -958,7 +941,7 @@ mark:hover {
 }
 #bookscardbutton2:hover {
 	border-color: white;
-	opacity:0.5;
+	opacity:0.9;
 }
 mark {
 	background-color: #302F4A;
@@ -1017,7 +1000,7 @@ mark {
 }
 
 #deck4card1:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck4card2 {
@@ -1039,7 +1022,7 @@ mark {
 }
 
 #deck4card2:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck4card3 {
@@ -1059,7 +1042,7 @@ mark {
 }
 
 #deck4card3:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #bookscardbutton1 {
@@ -1083,7 +1066,7 @@ mark {
 	font-weight: bold;
 }
 #bookscardbutton1:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 	border-color: white;
 }
 #bookscardbutton2 {
@@ -1108,7 +1091,7 @@ mark {
 }
 #bookscardbutton2:hover {
 	border-color: white;
-	opacity:0.5;
+	opacity:0.9;
 }
 mark {
 	background-color: #302F4A;
@@ -1170,7 +1153,7 @@ mark {
 }
 
 #deck5card1:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck5card2 {
@@ -1192,7 +1175,7 @@ mark {
 }
 
 #deck5card2:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #deck5card3 {
@@ -1212,7 +1195,7 @@ mark {
 }
 
 #deck5card3:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #bookscardbutton1 {
@@ -1236,7 +1219,7 @@ mark {
 	font-weight: bold;
 }
 #bookscardbutton1:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 	border-color: white;
 }
 #bookscardbutton2 {
@@ -1261,7 +1244,7 @@ mark {
 }
 #bookscardbutton2:hover {
 	border-color: white;
-	opacity:0.5;
+	opacity:0.9;
 }
 mark {
 	background-color: #302F4A;
@@ -1380,7 +1363,7 @@ label {
 	border-color: #7B6B43;
 }
 #contactformbutton:hover {
-	opacity: 0.7;
+	opacity: 0.9;
 	-ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
@@ -1461,7 +1444,7 @@ label {
 
 .btn-outline-white:hover {
 	color:white;
-	opacity:0.5;
+	opacity:0.9;
 }
 
 .mb-1 {
@@ -1470,7 +1453,7 @@ label {
 }
 
 .mb-1:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 /* socialmedia */
@@ -1507,7 +1490,7 @@ label {
 }
 
 #abouttitlejumbotron:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #abouttitlecard {
@@ -1531,7 +1514,7 @@ outline-offset: -5px;
 }
 
 #abouttitlecard:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #introductionjumbotron {
@@ -1636,7 +1619,7 @@ outline-offset: -5px;
 }
 
 #aboutpagesocialmediajumbotron:hover {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 
 #socialmediacard {
@@ -1654,7 +1637,7 @@ outline-offset: -5px;
 }
 
 #socialmediacard:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #aboutpagesocialmediacardbody {
@@ -1676,7 +1659,7 @@ outline-offset: -5px;
 }
 
 #aboutpagesocialmediacardbody:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #aboutpagesocialmediacardcolumn {
@@ -1692,7 +1675,7 @@ outline-offset: -5px;
 }
 
 #aboutpagesocialmediacardimage:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 
@@ -1735,7 +1718,7 @@ background-image:url(https://image.freepik.com/free-vector/luxury-3d-damask-patt
 	font-size: 2rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity:0.8;
+	opacity:0.9;
 }
 
 #eventstable {
@@ -1757,7 +1740,7 @@ background-image:url(https://image.freepik.com/free-vector/luxury-3d-damask-patt
 .table-responsive {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/damask-seamless-pattern-background-classical-luxury-old-fashioned-damask-ornament-royal-vic_1217-1127.jpg);
+	background-image:url(https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1773,7 +1756,7 @@ background-image:url(https://image.freepik.com/free-vector/luxury-3d-damask-patt
 thead {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/damask-seamless-pattern-background-classical-luxury-old-fashioned-damask-ornament-royal-vic_1217-1127.jpg);
+	background-image:url(https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1802,9 +1785,18 @@ background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
 background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
 
 .example-1 {
-position: relative;
 overflow-y: scroll;
 height: 200px; 
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: white;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	border-color: pink;
+	border-width: 5px;
+	position:relative;
+	left:50%;
 }
 
 #eventcardtitlejumbotron {
@@ -1824,6 +1816,10 @@ height: 200px;
 }
 
 #eventcardtitlecontainer {
+	margin: auto;
+	align-content: center;
+	text-align: center;
+	align-items: center;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
@@ -1831,7 +1827,7 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity:0.8;
+	opacity:0.9;
 }
 
 #eventcardjumbotron1 {
@@ -1848,9 +1844,12 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	margin: auto;
+	align-items: center;
 }
 
 #eventcardcontainer1 {
+	text-align: center;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
@@ -1858,7 +1857,10 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity: 0.85;
+	opacity: 0.9;
+	margin: auto;
+	align-content: center;
+	align-items: center;
 }
 
 #eventcardjumbotron2 {
@@ -1885,7 +1887,7 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity: 0.85;
+	opacity: 0.9;
 }
 
 #eventcardjumbotron3 {
@@ -1912,7 +1914,7 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity: 0.85;
+	opacity: 0.9;
 }
 
 #eventcardjumbotron4 {
@@ -1939,16 +1941,9 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity: 0.85;
+	opacity: 0.9;
 }
 
-.example-1 {
-	background-color: white;
-	border-color: pink;
-	border-width: 10px;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
 
 #mediainterviewtitlejumbotron {
 	border-radius: 10px;
@@ -1974,7 +1969,7 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity:0.8;
+	opacity:0.9;
 }
 
 
@@ -2106,7 +2101,7 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 #ariclestitlejumbotron1 {
@@ -2133,7 +2128,7 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 #ariclestitlejumbotron2 {
@@ -2160,7 +2155,7 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 #moreinformationeventsjumbotron {
@@ -2187,6 +2182,6 @@ height: 200px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 /* eventsandmediahtmlbackground */
