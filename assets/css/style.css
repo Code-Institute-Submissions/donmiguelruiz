@@ -1276,7 +1276,7 @@ mark {
 
 #contacthtmlbackground {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/seamless-diamond-pattern-vector-illustration_53876-26123.jpg);
+	background-image:url(https://image.freepik.com/free-photo/metallic-background-with-rose-gold-tint_1048-9744.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1292,14 +1292,14 @@ mark {
 	margin: 10px 10px 10px 10px;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/rose-gold-leaf-pattern-background_1048-7987.jpg);
+	background-image:url(https://image.freepik.com/free-vector/brown-vintage-floral-wallpaper_32550-128.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
 	background-color: white;
-	color: white;
+	color: #46332D;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
@@ -1315,8 +1315,8 @@ mark {
 	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: #7B6B43;
-	color: black;
+	background-color: white;
+	color: #FFBAA3;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
@@ -1325,14 +1325,14 @@ mark {
 form {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/abstract-texture-background-with-rose-gold-colours_1048-8234.jpg);
+	background-image:url(https://image.freepik.com/free-vector/damask-seamless-pattern-element-classical-luxury-old-fashioned-damask-ornament_1217-1129.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
 	background-color: #7B6B43;
-	color: black;
+	color: #74554B;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
@@ -1340,14 +1340,14 @@ form {
 label {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/abstract-texture-background-with-rose-gold-colours_1048-8234.jpg);
+	background-image:url(https://image.freepik.com/free-vector/damask-seamless-pattern-element-classical-luxury-old-fashioned-damask-ornament_1217-1129.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
 	background-color: #7B6B43;
-	color: black;
+	color: #74554B;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
@@ -1361,6 +1361,7 @@ label {
 	border-radius: 50%;
 	width:4rem;
 	height:4rem;
+	line-height:3rem;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image: linear-gradient(to right top, #ffbaa3, #d59b82, #ad7d63, #876046, #62442b, #593e24, #4f391d, #463317, #534021, #604e2c, #6e5c37, #7b6b43);
 	background-position: center;
@@ -1385,19 +1386,22 @@ label {
 
 #contactpagecontactsonsjumbotron {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image: url(https://image.freepik.com/free-vector/rose-gold-leaf-pattern-background_1048-7987.jpg);
+	background-image: url(https://image.freepik.com/free-vector/brown-vintage-floral-wallpaper_32550-128.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
 	background-color: #7B6B43;
-	color: white;
+	color: #46332D;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 }
 
+#footer-contactpage {
+	color: #352208;
+}
 
 /* contactpage */
 
