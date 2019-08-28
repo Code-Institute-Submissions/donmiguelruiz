@@ -18,14 +18,17 @@ html, body {
 }
 
 .navbar {
-	opacity:0.5;
-	font-size:3rem;
+	opacity:0.6;
+	font-size:2rem;
+	margin-bottom: 150px;
 }
 
 nav {
 	font-size:2rem;
 	font-weight:bold;
 	color:black;
+	opacity:0.6;
+	margin-bottom: 20px;
 }
 .navbar-toggler {
 	outline: black;
@@ -83,8 +86,8 @@ nav {
 .nav-item {
 	font: 1rem;
 	color: black;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 20px;
+	margin-right:20px;
 }
 
 .nav-item:hover {
