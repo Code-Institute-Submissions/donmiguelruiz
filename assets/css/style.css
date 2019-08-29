@@ -132,7 +132,7 @@ nav {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color:white;
 	color: white;
-	outline: 5px inset #2F3939;
+	outline: 5px inset #1E2423;
 	outline-offset: -15px;
 	opacity:0.9;
 }
@@ -148,13 +148,15 @@ nav {
 
 #landingimagecard {
 	background-size:cover;
-	background-color:#CACECE;
+	background-color:#B9BEBE;
 	align-content:stretch;
-	border-color:#2F3939;
+	border-color:#181D1C;
 	border-width:2px;
 	padding: 10px 10px 10px 10px;
 	margin: 0 auto;
 	border-radius: 10px;
+	outline: 5px solid #EDEEEE;
+outline-offset: -25px;
 }
 
 #landingimagecard:hover {
@@ -185,7 +187,7 @@ nav {
 	text-align: center;
 	outline: 15px solid white;
 outline-offset: -15px;
-opacity:0.8;
+opacity:0.9;
 }
 
 #homepagecenterbookscontainer {
@@ -204,7 +206,7 @@ opacity:0.8;
 }
 
 #homepagecenterbooksimage:hover {
-	opacity:0.5;
+	opacity:0.9;
 }
 
 #homepagecenterbookscard {
@@ -250,24 +252,22 @@ opacity:0.8;
 }
 
 #homepagecenterbooksbutton {
-	text-align: center;
-	line-height: 4rem;
-	align-items: center;
-	height: 3rem;
-	width: 3rem;
-	margin: auto;
-	max-width: 100%;
-	border-radius: 50%;
-	background-color: #404E4D;
-	background-image: linear-gradient(to right top, #ede1da, #d4cec5, #bcbcb2, #a4a9a2, #8e9792, #85918f, #7e8a8b, #798387, #80878e, #898a93, #938d95, #9c9096);
+	margin: 0 auto;
+	background-image: linear-gradient(to right top, #e7d7cd, #cebbb4, #b6a09d, #9d8687, #836d72, #816a70, #7e666d, #7c636b, #907479, #a48587, #b89796, #ccaaa4);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-color: #747E7D;
-	font-weight: bold;
-	color: #4B1F1F;
-	box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
+	text-align: center;
+	font-size:1rem;
+	height: 5rem;
+	width: 5rem;
+	color: #E7D7CD;
+	line-height: 4rem;
+	border-color: #887A82;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 50%;
 	transition: transform .2s;
+	background-color:white;
 }
 
 #homepagecenterbooksbutton:hover {
@@ -360,29 +360,29 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 
 
 #sitenavigation {
+	margin-top:30px;
+	opacity:0.7;
+	background-color: #A8AEAE;
+	color: #404E4D;
+	font-size: 1rem;
+	font-weight: bold;
 	justify-content: center;
-	align-items: center;
+	align-self: stretch;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	color: #261010;
-	height: 100%;
-	margin: 0;
+	vertical-align: middle;
+	align-items: center;
 }
 
-#sitenavigation:hover {
-	opacity:0.9;
-}
 
 #sitenavigationdisplay-4 {
 	background-color: white;
-	border-color: #261010;
+	border-color: #404E4D;
 	border-style: double;
 	border-width: 5px;
 }
 #sitenavigationlead {
 	background-color: white;
-	border-color: #261010;
+	border-color: #404E4D;
 	border-style: double;
 	border-width: 5px;
 }
@@ -439,7 +439,7 @@ outline-offset: -15px;
 }
 
 #sitenavcard:hover {
-	opacity:0.9;
+	opacity:0.7;
 }
 
 #sitenavcardbody {
