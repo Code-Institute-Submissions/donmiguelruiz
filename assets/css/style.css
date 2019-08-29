@@ -501,7 +501,7 @@ outline-offset: -15px;
 	margin:0;
 	background-size:cover;
 	opacity:0.8;
-	outline: 5px solid #4D3843;
+	outline: 5px solid #858E8D;
 outline-offset: -15px;
 }
 #bookstitlecardjumbotron:hover {
@@ -511,7 +511,7 @@ outline-offset: -15px;
 #bookstitlecard {
 	border-radius: 10px;
 	box-shadow:15px 15px 15px -4px #4D3843;
-	outline: 5px solid #4D3843;
+	outline: 5px solid #858E8D;
 outline-offset: 0px;
 }
 #bookstitlecard:hover {
@@ -525,7 +525,7 @@ outline-offset: 0px;
 
 #bookspagebutton {
 	margin: 0 auto;
-	background-image: linear-gradient(to right top, #e7d7cd, #cebbb4, #b6a09d, #9d8687, #836d72, #816a70, #7e666d, #7c636b, #907479, #a48587, #b89796, #ccaaa4);
+	background-image: linear-gradient(to right top, #e5d4d1, #bdb2aa, #959188, #6e7169, #4b524d, #4b524d, #4b534d, #4b534d, #6e7269, #949387, #bdb5a8, #e7d7cd);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -534,9 +534,9 @@ outline-offset: 0px;
 	font-weight: bold;
 	height: 5rem;
 	width: 5rem;
-	color: #E7D7CD;
+	color: #DCDEDE;
 	line-height: 4rem;
-	border-color: #887A82;
+	border-color: #858E8D;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 	transition: transform .2s;
@@ -551,31 +551,35 @@ outline-offset: 0px;
 
 
 #bookpagejumbotron1 {
-	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
+	color:#1E2423;
+	font-size:1rem;
+	background-image:url(https://image.freepik.com/free-vector/invitation-card-with-light-blue-theme_53876-58369.jpg);
 	justify-content: center;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0;
 	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;	
+	opacity:0.9;
+	outline: 5px solid #D2B5AF;
+outline-offset: -15px;
+align-self:center;
+margin: 10px;
+max-width: 100%;
+	height:auto;
 }
 
 #bookscard1 {
+	color:#1E2423;
+	font-size:1rem;
 	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
 	justify-content: center;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	max-width: 100%;
+	height:auto;
 }
 
 #bookscardimage1 {
@@ -584,38 +588,42 @@ outline-offset: -15px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0;
 	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	margin: 0 auto;
+	max-width: 100%;
+	height:auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #bookpagejumbotron2 {
-	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
+	color:#1E2423;
+	font-size:1rem;
+	background-image:url(https://image.freepik.com/free-vector/invitation-card-with-light-blue-theme_53876-58369.jpg);
 	justify-content: center;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
 	width:100%;
-	margin:0;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	opacity:0.9;
+	outline: 5px solid #3D403F;
+outline-offset: -25px;
+margin-left: 15px;
+margin-right:25px;
 }
 
 #bookscard2 {
+	color:#1E2423;
+	font-size:1rem;
 	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
 	justify-content: center;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
 	width:100%;
-	margin:0;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
 	outline: 5px solid #4D3843;
 outline-offset: -15px;
 }
@@ -627,37 +635,41 @@ outline-offset: -15px;
 	background-repeat: no-repeat;
 	text-align: center;
 	width:100%;
-	margin:0;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
 	outline: 5px solid #4D3843;
 outline-offset: -15px;
 }
 
 #bookpagejumbotron3 {
-	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
+	color:#1E2423;
+	font-size:1rem;
+	background-image:url(https://image.freepik.com/free-vector/invitation-card-with-light-blue-theme_53876-58369.jpg);
 	justify-content: center;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
 	width:100%;
-	margin:0;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	opacity:0.9;
+	outline: 5px solid #3D403F;
+outline-offset: -25px;
+margin-left: 15px;
+margin-right:25px;
 }
 
 #bookscard3 {
+	color:#1E2423;
+	font-size:1rem;
 	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
 	justify-content: center;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
 	width:100%;
-	margin:0;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
 	outline: 5px solid #4D3843;
 outline-offset: -15px;
 }
@@ -669,9 +681,8 @@ outline-offset: -15px;
 	background-repeat: no-repeat;
 	text-align: center;
 	width:100%;
-	margin:0;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
 	outline: 5px solid #4D3843;
 outline-offset: -15px;
 }
