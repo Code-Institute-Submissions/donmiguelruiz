@@ -134,7 +134,7 @@ nav {
 	color: white;
 	outline: 5px inset #2F3939;
 	outline-offset: -15px;
-	opacity:0.8;
+	opacity:0.9;
 }
 
 .landingimagecolumn {
@@ -399,11 +399,10 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 	display: flex;
 	margin: 0;
 	height: 100%;
-	background-image: url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	background-color:white;
+	opacity:0.9;
+	outline: 5px solid #39222E;
+outline-offset: -15px;
 }
 #sitenavcardscontainer {
 	max-width: 100%;
@@ -423,7 +422,7 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 }
 #sitenavcard {
 	background-color: white;
-	color: #F2F3AE;
+	color: #260C1A;
 	font-size: 1rem;
 	font-weight: bold;
 	opacity: 0.9;
@@ -432,18 +431,40 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 	text-align: center;
 	vertical-align: middle;
 	align-items: center;
-	outline: 5px inset #391717;
-	outline-offset: 5px;
-	margin: 7px 7px 7px 7px;
+	margin: 15px 15px 15px 15px;
+	border-color: #604D53;
+	border-width:2px;
+	border-radius:10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #sitenavcard:hover {
 	opacity:0.9;
 }
 
+#sitenavcardbody {
+	background-color: white;
+	color: #260C1A;
+	background-image: url(https://image.freepik.com/free-vector/cherry-blossom-frame-card_53876-93701.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	align-self: stretch;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+	margin: 15px 15px 15px 15px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius:10px;
+}
+
 #sitenavcardsbutton {
 	margin: 0 auto;
-	background-image: url();
+	background-image: linear-gradient(to right top, #e7d7cd, #cebbb4, #b6a09d, #9d8687, #836d72, #816a70, #7e666d, #7c636b, #907479, #a48587, #b89796, #ccaaa4);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -452,9 +473,9 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 	font-weight: bold;
 	height: 5rem;
 	width: 5rem;
-	color: #F2F3AE;
+	color: #E7D7CD;
 	line-height: 4rem;
-	border-color: #391717;
+	border-color: #887A82;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 	transition: transform .2s;
