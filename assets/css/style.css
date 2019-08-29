@@ -603,14 +603,14 @@ max-width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0 auto;
 	background-size:cover;
 	opacity:0.9;
-	outline: 5px solid #3D403F;
-outline-offset: -25px;
-margin-left: 15px;
-margin-right:25px;
+	outline: 5px solid #D2B5AF;
+outline-offset: -15px;
+align-self:center;
+margin: 10px;
+max-width: 100%;
+	height:auto;
 }
 
 #bookscard2 {
@@ -621,11 +621,10 @@ margin-right:25px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
 	margin:0 auto;
 	background-size:cover;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	max-width: 100%;
+	height:auto;
 }
 
 #bookscardimage2 {
@@ -634,11 +633,11 @@ outline-offset: -15px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0 auto;
 	background-size:cover;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	margin: 0 auto;
+	max-width: 100%;
+	height:auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #bookpagejumbotron3 {
@@ -649,14 +648,14 @@ outline-offset: -15px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0 auto;
 	background-size:cover;
 	opacity:0.9;
-	outline: 5px solid #3D403F;
-outline-offset: -25px;
-margin-left: 15px;
-margin-right:25px;
+	outline: 5px solid #D2B5AF;
+outline-offset: -15px;
+align-self:center;
+margin: 10px;
+max-width: 100%;
+	height:auto;
 }
 
 #bookscard3 {
@@ -667,11 +666,10 @@ margin-right:25px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
 	margin:0 auto;
 	background-size:cover;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	max-width: 100%;
+	height:auto;
 }
 
 #bookscardimage3 {
@@ -680,12 +678,13 @@ outline-offset: -15px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0 auto;
 	background-size:cover;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	margin: 0 auto;
+	max-width: 100%;
+	height:auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
+
 
 #bookpagejumbotron4 {
 	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
@@ -693,11 +692,12 @@ outline-offset: -15px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0;
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
+	opacity:0.9;
+	outline: 5px solid #858E8D;
 outline-offset: -15px;
 }
 
@@ -707,26 +707,26 @@ outline-offset: -15px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0;
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
+	outline: 5px solid #858E8D;
 outline-offset: -15px;
+align-content:center;
 }
 
 #bookscard4 {
-	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
-	justify-content: center;
-	background-position: center;
-	background-repeat: no-repeat;
-	text-align: center;
-	width:100%;
-	margin:0;
-	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	justify-content:center;
+	text-align:center;
+	align-self:center;
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
+	border-radius: 10px;
+	box-shadow:15px 15px 15px -4px #4D3843;
+	outline: 5px solid #858E8D;
+outline-offset: 0px;
 }
 
 #bookscardimage4 {
@@ -735,26 +735,23 @@ outline-offset: -15px;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0;
+	max-width: 100%;
+	height:auto;
+	margin:0 auto;
 	background-size:cover;
-	opacity:0.8;
 	outline: 5px solid #4D3843;
 outline-offset: -15px;
 }
 
 #bookscardbody4 {
-	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
-	justify-content: center;
-	background-position: center;
-	background-repeat: no-repeat;
 	text-align: center;
-	width:100%;
-	margin:0;
-	background-size:cover;
-	opacity:0.8;
-	outline: 5px solid #4D3843;
-outline-offset: -15px;
+	max-width: 100%;
+	height:auto;
+	margin:0 auto;
+	color:#191836;
+	background-color:white;
+	box-shadow:15px 15px 15px -4px #4D3843;
+
 }
 
 /* books page */
