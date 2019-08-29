@@ -2,16 +2,16 @@ html, body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	font-family: 'Shadows Into Light', cursive;
-}
-
-#indexhtmlbackground {
-	height: 100%;
 	margin: 0;
-	background-image: url(https://image.freepik.com/free-vector/red-black-patterned-background-vector_53876-63162.jpg);
+	height: 100%;
+	background-image: url(../images/websitebackground.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color:#E7D7CD;
 }
+
+
 /* navbar */
 
 #navbar {
@@ -19,22 +19,23 @@ html, body {
 }
 
 .navbar {
-	opacity:0.8;
+	opacity:0.9;
 	font-size:1rem;
+	color:#260C1A;
 }
 
 nav {
 	font-size:1rem;
 	font-weight:bold;
 	color:black;
-	opacity:0.8;
+	opacity:0.9;
 }
 .navbar-toggler {
 	outline: black;
 	border-radius: 20%;
 	font-size:1rem;
 	font-weight:bold;
-	color:black;
+	color:#260C1A;
 	border-color: white;
 }
 
@@ -48,7 +49,7 @@ nav {
 	border-color: black;
 	outline: black;
 	font-size:1rem;
-	color:black;
+	color:#260C1A;
 	font-weight:bold;
 	margin: 0;
 	height: 100%;
@@ -67,14 +68,14 @@ nav {
 #navbarNavAltMarkup {
 	border-color: black;
 	border-radius: 20%;
-	color:black;
+	color:#260C1A;
 }
 .navbar-brand {
 	outline: black;
 	border-radius: 20%;
 	font-size:1rem;
 	font-weight:bold;
-	color:black;
+	color:#260C1A;
 }
 
 .navbar-brand:hover {
@@ -84,7 +85,7 @@ nav {
 
 .nav-item {
 	font: 1rem;
-	color: black;
+	color: #260C1A;
 	margin-left: 20px;
 	margin-right:20px;
 }
@@ -107,67 +108,84 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
-	background-image: url(https://image.freepik.com/free-vector/girly-pink-background_53876-85396.jpg);
-	padding-left: 50px;
-	padding-right: 50px;
-	color: #4B1F1F;
-	outline: 5px inset #4B1F1F;
+	background-color:#D2B5AF;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	outline: 5px inset white;
 	outline-offset: -10px;
+	opacity:0.8;
+	font-size:2rem;
 }
+
+#authortitlehomepagecard:hover {
+	opacity:0.9;
+}
+
 #landingimagejumbotron {
-	background-image: linear-gradient(to right top, #fffadd, #feefce, #fee4c0, #fed8b4, #ffcbab, #fcbd9f, #f8af95, #f4a18c, #eb8e7c, #e27c6e, #d86860, #ce5454);
 	margin-top: 50px;
 	margin-bottom: 50px;
 	align-items: center;
 	text-align: center;
 	width: 100%;
-	outline: 6px inset #4A382D;
-	outline-offset: -15px;
-	opacity: 0.85;
-}
-
-
-#landingimagehead {
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto;
-	outline: 6px inset #FFBAA3;
-	outline-offset: -15px;
+	border-width:5px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	transition: transform .2s;
+	background-color:white;
+	color: white;
+	outline: 5px inset #2F3939;
+	outline-offset: -15px;
+	opacity:0.8;
 }
 
-#landingimagehead:hover {
-	-ms-transform: scale(1.5);
-	/* IE 9 */
-	-webkit-transform: scale(1.5);
-	/* Safari 3-8 */
-	transform: scale(1.5);
+.landingimagecolumn {
+	text-align:center;
+	margin:0 auto;
+	justify-content:center;
+	align-content:stretch;
+	align-self:stretch;
+	background-size:cover;
 }
+
 #landingimagecard {
-	background-image: linear-gradient(to right top, #d26363, #db746d, #e48477, #ec9583, #f4a590, #f7b399, #fac0a3, #fdcdaf, #fbdabc, #fbe6cc, #fcf2dd, #fffcef);
-	border-color:#4A382D;
-	border-width: 5px;
-	text-align: center;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	margin: 10px 10px 10px 10px;
+	background-size:cover;
+	background-color:#CACECE;
+	align-content:stretch;
+	border-color:#2F3939;
+	border-width:2px;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+	border-radius: 10px;
 }
 
+#landingimagecard:hover {
+	opacity:0.9;
+}
+
+#landingimage {
+	width:300px;
+	height:300px;
+	align-self:stretch;
+	background-size:cover;
+	align-content:stretch;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
 
 #homepagecenterbooksjumbotron {
 	max-width: 100%;
 	margin-top: 30px;
 	height: auto;
-	background-color: #FFBAA3;
-	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
+	background-color: #E7D7CD;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #4B1F1F;
 	font-weight: bold;
 	text-align: center;
-	outline: 5px solid #4B1F1F;
-outline-offset: -20px;
+	outline: 5px solid white;
+outline-offset: -15px;
+opacity:0.8;
 }
 
 #homepagecenterbookscontainer {
@@ -191,64 +209,73 @@ outline-offset: -20px;
 
 #homepagecenterbookscard {
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 	max-width: 100%;
 	height: auto;
-	background-color: #FFBAA3;
-	background-image: url(https://img.freepik.com/free-vector/red-equalizer-pattern-background-vector_53876-87540.jpg?size=338&ext=jpg);
+	background-color: white;
+	background-image: url(https://image.freepik.com/free-vector/floral-card_53876-91231.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #FFD9CC;
+	color: #B98B82;
 	font: 2rem;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 10px 10px 12px 6px #747E7D;
 	border-radius: 10px;
+}
+
+#homepagecenterbookscard:hover {
+	opacity:0.9;
 }
 
 
 #homepagecenterbookscardbody {
+	margin-left: 15px;
+	margin-right:15px;
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 	max-width: 100%;
 	height: auto;
-	background-color: #FFBAA3;
-	background-image: url(https://img.freepik.com/free-vector/red-equalizer-pattern-background-vector_53876-87540.jpg?size=338&ext=jpg);
+	background-color: white;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #FFD9CC;
 	font: 2rem;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	border-radius: 10px;
+	box-shadow: 10px 10px 12px 6px #747E7D;
+	border-radius: 30px;
 }
 
-
+#homepagecenterbookscardbody:hover {
+	opacity:0.9;
+}
 
 #homepagecenterbooksbutton {
 	text-align: center;
 	line-height: 4rem;
 	align-items: center;
-	height: 5rem;
-	width: 5rem;
+	height: 3rem;
+	width: 3rem;
 	margin: auto;
 	max-width: 100%;
-	border-radius: 10px;
-	background-color: #FFBAA3;
-	background-image: url(https://image.freepik.com/free-psd/gemetric-background-design_1297-144.jpg);
+	border-radius: 50%;
+	background-color: #404E4D;
+	background-image: linear-gradient(to right top, #ede1da, #d4cec5, #bcbcb2, #a4a9a2, #8e9792, #85918f, #7e8a8b, #798387, #80878e, #898a93, #938d95, #9c9096);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-color: transparent;
+	border-color: #747E7D;
 	font-weight: bold;
 	color: #4B1F1F;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	box-shadow: 10px 10px 12px 6px #747E7D;
 	transition: transform .2s;
 }
 
 #homepagecenterbooksbutton:hover {
+	background-image: linear-gradient(to right top, #ede1da, #d4cec5, #bcbcb2, #a4a9a2, #8e9792, #85918f, #7e8a8b, #798387, #80878e, #898a93, #938d95, #9c9096);
 	-ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
+  border-color: #747E7D;
 }
 
 #homepagebookcardsmall {
@@ -258,16 +285,15 @@ outline-offset: -20px;
 
 #quotecarouseljumbotron {
 	max-width: 100%;
-	background-color: #5A4A40;
+	background-color: white;
 	height: 100%;
 	margin: 0;
-	background-image: url(https://image.freepik.com/free-vector/blank-red-square-neon-signboard-vector_53876-63157.jpg);
+	background-image: url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #quotecarousel {
-	background-image: linear-gradient(to right top, #ce5454, #b35147, #994d3d, #804836, #684231, #6c4938, #6f4f3f, #735647, #946e5c, #b68773, #daa08a, #ffbaa3);
 	height: 300px;
 	width: auto;
 	outline: 6px solid #C9C0AB;
@@ -280,7 +306,7 @@ outline-offset: -20px;
 
 #quotecardheader {
 	color: #EEECEB;
-	background-color:#391717;
+	background-color:white;
 }
 
 #quotecardheader:hover {
@@ -289,7 +315,7 @@ outline-offset: -20px;
 
 #quotescardbody {
 	color: #261010;
-	background-color:#E8E4C9;
+	background-color:white;
 }
 .carousel-control-prev-icon {
 	color: white;
@@ -320,7 +346,6 @@ outline-offset: -20px;
 	color: #261010;
 	height: 100%;
 	margin: 0;
-	background-image: linear-gradient(to right top, #dcdd9f, #c4b27d, #a88960, #896348, #674032, #663d33, #643b33, #623834, #82524b, #a36e63, #c58b7c, #e8aa95);
 }
 
 #sitenavigation:hover {
@@ -328,13 +353,13 @@ outline-offset: -20px;
 }
 
 #sitenavigationdisplay-4 {
-	background-color: #E6BEBE;
+	background-color: white;
 	border-color: #261010;
 	border-style: double;
 	border-width: 5px;
 }
 #sitenavigationlead {
-	background-color: #F8EDED;
+	background-color: white;
 	border-color: #261010;
 	border-style: double;
 	border-width: 5px;
@@ -352,11 +377,11 @@ outline-offset: -20px;
 	display: flex;
 	margin: 0;
 	height: 100%;
-	background-image: url(https://image.freepik.com/free-psd/abstract-background-design_1297-74.jpg);
+	background-image: url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color:#CE5454;
+	background-color:white;
 }
 #sitenavcardscontainer {
 	max-width: 100%;
@@ -375,7 +400,7 @@ outline-offset: -20px;
 	text-align: center;
 }
 #sitenavcard {
-	background-color: #712E2E;
+	background-color: white;
 	color: #F2F3AE;
 	font-size: 1rem;
 	font-weight: bold;
@@ -395,23 +420,23 @@ outline-offset: -20px;
 }
 
 #sitenavcardsbutton {
-	margin: auto;
-	background-image: url(https://image.freepik.com/free-psd/multicolor-circle-background-design_1297-151.jpg);
+	margin: 0 auto;
+	background-image: url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
 	font-size:1rem;
 	font-weight: bold;
-	height: 10rem;
-	width: 10rem;
+	height: 5rem;
+	width: 5rem;
 	color: #F2F3AE;
-	line-height: 9rem;
+	line-height: 4rem;
 	border-color: #391717;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	border-radius: 30px;
+	border-radius: 50%;
 	transition: transform .2s;
-	background-color:#CE5454;
+	background-color:white;
 }
 
 #sitenavcardsbutton:hover {
@@ -425,7 +450,7 @@ outline-offset: -20px;
 #bookshtmlbackground {
 	max-width: 100%;
 	height: auto;
-	background-image:url(https://image.freepik.com/free-vector/light-purple-pink-vector-abstract-polygonal-template_6869-2386.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1392,28 +1417,31 @@ label {
 /* socialmedia */
 
 #footer {
+	height: 50px;
 	left: 50%;
 	right:50%;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	background-color: transparent;
-	color: white;
+	color: #1C0913;
 	font-size: 1rem;
 	margin: auto;
 }
 .footer-copyright {
 	margin:auto;
 	font-size: 1rem;
-	color: white;
+	color: #1C0913;
 }
 
 .fab {
 	margin:auto;
 	transition: 0.2s;
+	color:#1C0913;
 }
 
 .fab:hover {
+	opacity:0.5;
 	-ms-transform: scale(2.5); /* IE 9 */
   -webkit-transform: scale(2.5); /* Safari 3-8 */
   transform: scale(2.5);
@@ -1432,9 +1460,9 @@ label {
 	font-size: 2rem;
 	height: 5rem;
 	width: 15rem;
-	border-color: white;
+	border-color: #1C0913;
 	border-width: 5px;
-	color: white;
+	color: #1C0913;
 	border-radius: 30px;
 	text-align: center;
 	align-items: center;
@@ -1443,8 +1471,8 @@ label {
 }
 
 .btn-outline-white:hover {
-	color:white;
-	opacity:0.9;
+	color:#1C0913;
+	opacity:0.5;
 }
 
 .mb-1 {
