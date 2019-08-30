@@ -796,7 +796,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	font-weight: bold;
 	justify-content: center;
 	opacity:0.9;
-	outline: 5px inset #D2B5AF;
+	outline: 5px inset #747E7D;
 outline-offset: -10px;
 }
 
@@ -887,7 +887,7 @@ label {
 	font-weight: bold;
 	justify-content: center;
 	opacity:0.9;
-	outline: 5px inset #D2B5AF;
+	outline: 5px inset #747E7D;
 outline-offset: -10px;
 }
 
@@ -1148,6 +1148,8 @@ outline-offset: 5px;
 	font-size: 1rem;
 	justify-content: center;
 	opacity:0.8;
+	outline: 5px inset #747E7D;
+outline-offset: -15px;
 }
 
 #eventsandmediapagetitlecontainer {
@@ -1178,6 +1180,8 @@ outline-offset: 5px;
 	font-weight: bold;
 	justify-content: center;
 	opacity:0.9;
+	outline: 5px inset #D2B5AF;
+outline-offset: -15px;
 }
 
 #eventstablecontainer {
@@ -1232,6 +1236,8 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #D2B5AF;
+outline-offset: -15px;
 }
 
 #eventcardtitlecontainer {
@@ -1253,7 +1259,7 @@ thead {
 #mediainterviewtitlejumbotron {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
+	background-image:url(https://image.freepik.com/free-vector/pink-floral-patterned-background-vector_53876-85184.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1264,6 +1270,9 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	opacity:0.8;
+	outline: 5px inset #747E7D;
+outline-offset: -15px;
 }
 
 #mediainterviewtitlecontainer {
@@ -1292,6 +1301,9 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #D2B5AF;
+outline-offset: -15px;
+opacity:0.9;
 }
 
 #mediaembedcontainer1 {
@@ -1302,6 +1314,8 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #4D3843;
+outline-offset: 15px;
 }
 
 #mediaembedjumbotron2 {
@@ -1318,6 +1332,9 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #D2B5AF;
+outline-offset: -15px;
+opacity:0.9;
 }
 
 #mediaembedcontainer2 {
@@ -1328,6 +1345,8 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #4D3843;
+outline-offset: 15px;
 }
 
 #mediaembedjumbotron3 {
@@ -1344,6 +1363,9 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #D2B5AF;
+outline-offset: -15px;
+opacity:0.9;
 }
 
 #mediaembedcontainer3 {
@@ -1354,6 +1376,8 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #4D3843;
+outline-offset: 15px;
 }
 
 #mediaembedjumbotron4 {
@@ -1370,6 +1394,9 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #D2B5AF;
+outline-offset: -15px;
+opacity:0.9;
 }
 
 #mediaembedcontainer4 {
@@ -1380,6 +1407,8 @@ thead {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	outline: 5px inset #4D3843;
+outline-offset: 15px;
 }
 
 /* eventsandmediahtmlbackground */
