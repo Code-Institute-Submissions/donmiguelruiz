@@ -123,17 +123,19 @@ nav {
 }
 
 #landingimagejumbotron {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	align-items: center;
-	text-align: center;
-	width: 100%;
-	border-width:5px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color:white;
-	color: white;
-	outline: 5px inset #1E2423;
-	outline-offset: -15px;
+		text-align: center;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	background-color: white;
+	background-image: url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-36816.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #B98B82;
+	font: 2rem;
+	box-shadow: 10px 10px 12px 6px #747E7D;
+	border-radius: 10px;
 	opacity:0.9;
 }
 
@@ -360,10 +362,12 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 
 
 #sitenavigation {
-	margin-top:30px;
-	opacity:0.7;
-	background-color: #A8AEAE;
-	color: #404E4D;
+	background-color: #232B2A;
+	color: #260C1A;
+	background-image: url(https://image.freepik.com/free-vector/pink-floral-frame_53876-86233.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
@@ -371,6 +375,11 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 	text-align: center;
 	vertical-align: middle;
 	align-items: center;
+	margin: 15px 15px 15px 15px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius:10px;
+	opacity:0.85;
 }
 
 
@@ -1045,7 +1054,6 @@ outline-offset: 5px;
 }
 
 
-
 #recognitionjumbotron {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -1128,19 +1136,18 @@ outline-offset: 5px;
 
 
 #eventsandmediapagetitlejumbotron {
-	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
+	background-image:url(https://image.freepik.com/free-vector/vintage-flower-illustration_53876-32550.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: white;
-	color: #020122;
+	background-color: #332624;
+	color: #1E2423;
 	font-size: 1rem;
-	font-weight: bold;
 	justify-content: center;
+	opacity:0.8;
 }
 
 #eventsandmediapagetitlecontainer {
@@ -1159,7 +1166,7 @@ outline-offset: 5px;
 	height:auto;
 		border-radius: 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
+	background-image:url(https://image.freepik.com/free-vector/illustration-hanging-plant-isolated-white-background_53876-6890.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1170,9 +1177,10 @@ outline-offset: 5px;
 	font-size: 2rem;
 	font-weight: bold;
 	justify-content: center;
+	opacity:0.9;
 }
 
-#eventstablecontaner {
+#eventstablecontainer {
 	max-width:100%;
 	height:auto;
 }
@@ -1209,39 +1217,11 @@ thead {
 	justify-content: center;
 }
 
-.scrollbar-ripe-malinka::-webkit-scrollbar-track {
--webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-background-color: pink;
-border-radius: 10px; }
-
-.scrollbar-ripe-malinka::-webkit-scrollbar {
-width: 12px;
-background-color: pink; }
-
-.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
-border-radius: 10px;
--webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
-background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
-
-.example-1 {
-height: 200px; 
-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: black;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	border-color: pink;
-	border-width: 5px;
-	position:relative;
-	left:50%;
-}
 
 #eventcardtitlejumbotron {
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
+	background-image:url(https://image.freepik.com/free-psd/decorative-calendar-mockup-wall_23-2148174771.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1267,120 +1247,6 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	font-weight: bold;
 	justify-content: center;
 	opacity:0.9;
-}
-
-#eventcardjumbotron1 {
-		border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	margin: auto;
-	align-items: center;
-}
-
-#eventcardcontainer1 {
-	text-align: center;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity: 0.9;
-	margin: auto;
-	align-content: center;
-	align-items: center;
-}
-
-#eventcardjumbotron2 {
-		border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-
-#eventcardcontainer2 {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity: 0.9;
-}
-
-#eventcardjumbotron3 {
-		border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-
-#eventcardcontainer3 {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity: 0.9;
-}
-
-#eventcardjumbotron4 {
-		border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-
-#eventcardcontainer4 {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity: 0.9;
 }
 
 
@@ -1415,7 +1281,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediaembedjumbotron1 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
+	background-image:url(../images/embedbackground.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1441,7 +1307,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediaembedjumbotron2 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
+	background-image:url(../images/embedbackground.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1467,7 +1333,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediaembedjumbotron3 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
+	background-image:url(../images/embedbackground.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1493,7 +1359,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediaembedjumbotron4 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
+	background-image:url(../images/embedbackground.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1516,111 +1382,4 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	justify-content: center;
 }
 
-#ariclestitlejumbotron {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-
-#ariclestitlecontainer {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity: 0.9;
-}
-
-#ariclestitlejumbotron1 {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-
-#ariclestitlecontainer1 {
-		border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity: 0.9;
-}
-
-#ariclestitlejumbotron2 {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-
-#ariclestitlecontainer2 {
-		border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity: 0.9;
-}
-
-#moreinformationeventsjumbotron {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-
-#moreinformationeventscontainer {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity: 0.9;
-}
 /* eventsandmediahtmlbackground */
