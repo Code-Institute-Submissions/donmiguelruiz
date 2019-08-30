@@ -769,25 +769,12 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 
 /* contactpage */
 
-#contacthtmlbackground {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-photo/metallic-background-with-rose-gold-tint_1048-9744.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	height: 100%;
-	width: 100%;
-	margin:0;
-}
 
 #contactformtitlejumbotron {
 	margin: 10px 10px 10px 10px;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/brown-vintage-floral-wallpaper_32550-128.jpg);
+	background-image:url(https://image.freepik.com/free-vector/floral-card_53876-91231.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -798,13 +785,14 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	opacity:0.9;
 }
 
 #contactform {
 	margin: 10px 10px 10px 10px;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-photo/metallic-background-with-rose-gold-tint_1048-9744.jpg);
+	background-image:url(https://image.freepik.com/free-vector/invitation-card-with-light-blue-theme_53876-58369.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -815,12 +803,12 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	
+	opacity:0.9;
 }
 form {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/flowering-rosebush_53876-89133.jpg);
+	background-image:url(https://image.freepik.com/free-vector/invitation-card-with-light-blue-theme_53876-58369.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -848,35 +836,34 @@ label {
 	text-align: center;
 }
 #contactformbutton {
-	border-radius: 50%;
-	width:4rem;
-	height:4rem;
-	line-height:3rem;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image: linear-gradient(to right top, #ffbaa3, #d59b82, #ad7d63, #876046, #62442b, #593e24, #4f391d, #463317, #534021, #604e2c, #6e5c37, #7b6b43);
+	margin: 0 auto;
+	background-image: linear-gradient(to right top, #e5d4d1, #bdb2aa, #959188, #6e7169, #4b524d, #4b524d, #4b534d, #4b534d, #6e7269, #949387, #bdb5a8, #e7d7cd);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	align-content: center;
 	text-align: center;
-	background-color: #7B6B43;
-	color: white;
-	font-size: 1rem;
+	font-size:1rem;
 	font-weight: bold;
-	justify-content: center;
-	transition: 0.2s;
-	border-color: #7B6B43;
+	height: 5rem;
+	width: 5rem;
+	color: #DCDEDE;
+	line-height: 4rem;
+	border-color: #858E8D;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 50%;
+	transition: transform .2s;
+	background-color:white;
 }
+
 #contactformbutton:hover {
-	opacity: 0.9;
-	-ms-transform: scale(1.5); /* IE 9 */
+		-ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
+  transform: scale(1.5); 
 }
 
 #contactpagecontactsonsjumbotron {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image: url(https://image.freepik.com/free-vector/brown-vintage-floral-wallpaper_32550-128.jpg);
+	background-image: url(https://image.freepik.com/free-vector/floral-card_53876-91231.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -887,6 +874,7 @@ label {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	opacity:0.9;
 }
 
 
