@@ -566,6 +566,7 @@ align-self:center;
 margin: 10px;
 max-width: 100%;
 	height:auto;
+	background-color:#0C0F0E;
 }
 
 #bookscard1 {
@@ -611,6 +612,7 @@ align-self:center;
 margin: 10px;
 max-width: 100%;
 	height:auto;
+	background-color:#0C0F0E;
 }
 
 #bookscard2 {
@@ -656,6 +658,7 @@ align-self:center;
 margin: 10px;
 max-width: 100%;
 	height:auto;
+	background-color:#0C0F0E;
 }
 
 #bookscard3 {
@@ -714,6 +717,7 @@ outline-offset: 5px;
 	outline: 5px solid #858E8D;
 outline-offset: 5px;
 align-content:center;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #bookscard4 {
@@ -730,6 +734,7 @@ align-content:center;
 	box-shadow:15px 15px 15px -4px #4D3843;
 	outline: 5px solid #858E8D;
 outline-offset: 0px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #bookscardimage4 {
@@ -743,6 +748,7 @@ outline-offset: 0px;
 	margin:0 auto;
 	background-size:cover;
 	box-shadow:15px 15px 15px -4px #4D3843;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #bookscardbody4 {
@@ -814,7 +820,7 @@ outline-offset: 0px;
 form {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/damask-seamless-pattern-element-classical-luxury-old-fashioned-damask-ornament_1217-1129.jpg);
+	background-image:url(https://image.freepik.com/free-vector/flowering-rosebush_53876-89133.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -828,15 +834,10 @@ form {
 }
 label {
 	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/damask-seamless-pattern-element-classical-luxury-old-fashioned-damask-ornament_1217-1129.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: #7B6B43;
-	color: #74554B;
+	background-color: white;
+	color: black;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
