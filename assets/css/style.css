@@ -1292,7 +1292,9 @@ outline-offset: -15px;
 }
 
 
-#mediaembedjumbotron1 {
+#mediaembedjumbotron {
+	max-width: 100%;
+	height: auto;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(../images/embedbackground.jpg);
@@ -1310,21 +1312,9 @@ outline-offset: -15px;
 outline-offset: -15px;
 }
 
-#mediaembedcontainer1 {
-	width:50%;
-	height:50%;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	outline: 5px inset #4D3843;
-outline-offset: 15px;
-}
-
-#mediaembedjumbotron2 {
+#mediaembedcontainer {
+	max-width: 100%;
+	height: auto;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(../images/embedbackground.jpg);
@@ -1338,86 +1328,15 @@ outline-offset: 15px;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
-	outline: 5px inset #D2B5AF;
-outline-offset: -15px;
-}
-
-#mediaembedcontainer2 {
-	width:50%;
-	height:50%;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
 	outline: 5px inset #4D3843;
 outline-offset: 15px;
 }
 
-#mediaembedjumbotron3 {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(../images/embedbackground.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	outline: 5px inset #D2B5AF;
-outline-offset: -15px;
-}
-
-#mediaembedcontainer3 {
+.embed-responsive {
 	width:50%;
 	height:50%;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	outline: 5px inset #4D3843;
-outline-offset: 15px;
+	margin:auto;
 }
 
-#mediaembedjumbotron4 {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(../images/embedbackground.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	outline: 5px inset #D2B5AF;
-outline-offset: -15px;
-}
-
-#mediaembedcontainer4 {
-	width:50%;
-	height:50%;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: white;
-	color: #020122;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	outline: 5px inset #4D3843;
-outline-offset: 15px;
-}
 
 /* eventsandmediahtmlbackground */
