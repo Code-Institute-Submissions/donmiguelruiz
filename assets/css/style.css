@@ -1126,15 +1126,6 @@ outline-offset: 5px;
 /* eventsandmediahtmlbackground */
 
 
-#eventsandmediahtmlbackground {
-background-image:url();
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-}
-
 
 #eventsandmediapagetitlejumbotron {
 	border-radius: 10px;
@@ -1163,7 +1154,9 @@ background-image:url();
 	opacity:0.9;
 }
 
-#eventstable {
+#eventstablejumbotron {
+	max-width:100%;
+	height:auto;
 		border-radius: 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url();
@@ -1177,6 +1170,11 @@ background-image:url();
 	font-size: 2rem;
 	font-weight: bold;
 	justify-content: center;
+}
+
+#eventstablecontaner {
+	max-width:100%;
+	height:auto;
 }
 
 .table-responsive {
@@ -1227,7 +1225,6 @@ background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
 background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
 
 .example-1 {
-overflow-y: scroll;
 height: 200px; 
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
