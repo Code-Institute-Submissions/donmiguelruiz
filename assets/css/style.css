@@ -774,14 +774,14 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	margin: 10px 10px 10px 10px;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/floral-card_53876-91231.jpg);
+	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: white;
-	color: #46332D;
+	background-color: #260C1A;
+	color: #260C1A;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
@@ -792,30 +792,28 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	margin: 10px 10px 10px 10px;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/invitation-card-with-light-blue-theme_53876-58369.jpg);
+	background-image:url(https://image.freepik.com/free-vector/green-floral-background_53876-67015.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: white;
-	color: #FFBAA3;
+	background-color: #260C1A;
+	color: #260C1A;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
 	opacity:0.9;
+	outline: 5px inset #D2B5AF;
+outline-offset: -10px;
 }
 form {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/invitation-card-with-light-blue-theme_53876-58369.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: #7B6B43;
-	color: #74554B;
+	background-color: white;
+	color: #260C1A;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
@@ -825,7 +823,7 @@ label {
 	align-content: center;
 	text-align: center;
 	background-color: white;
-	color: black;
+	color: #260C1A;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
@@ -846,13 +844,13 @@ label {
 	font-weight: bold;
 	height: 5rem;
 	width: 5rem;
-	color: #DCDEDE;
+	color: #E7D7CD;
 	line-height: 4rem;
 	border-color: #858E8D;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 	transition: transform .2s;
-	background-color:white;
+	background-color:#260C1A;
 }
 
 #contactformbutton:hover {
@@ -862,15 +860,17 @@ label {
 }
 
 #contactpagecontactsonsjumbotron {
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image: url(https://image.freepik.com/free-vector/floral-card_53876-91231.jpg);
+	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-content: center;
 	text-align: center;
-	background-color: #7B6B43;
-	color: #46332D;
+	background-color: #260C1A;
+	color: #260C1A;
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
