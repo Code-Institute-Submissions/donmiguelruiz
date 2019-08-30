@@ -1142,7 +1142,7 @@ outline-offset: 5px;
 
 #eventsandmediapagetitlejumbotron {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/vintage-flower-illustration_53876-32550.jpg);
+	background-image: linear-gradient(to right top, #ccaaa4, #c0a19e, #b49998, #a79092, #9b888b, #9e8c8f, #a19192, #a49596, #b6a7a6, #c9bab7, #dbcdc8, #ede1da);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1264,7 +1264,7 @@ outline-offset: -15px;
 #mediainterviewtitlejumbotron {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/pink-floral-patterned-background-vector_53876-85184.jpg);
+	background-image: linear-gradient(to right top, #ccaaa4, #c0a19e, #b49998, #a79092, #9b888b, #9e8c8f, #a19192, #a49596, #b6a7a6, #c9bab7, #dbcdc8, #ede1da);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
