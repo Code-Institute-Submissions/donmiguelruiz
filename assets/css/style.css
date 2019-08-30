@@ -1251,7 +1251,6 @@ outline-offset: -15px;
 #mediaembedjumbotron {
 	max-width: 100%;
 	height: auto;
-	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	align-content: center;
 	text-align: center;
@@ -1267,7 +1266,6 @@ outline-offset: -15px;
 #mediaembedcontainer {
 	max-width: 100%;
 	height: auto;
-	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(../images/embedbackground.jpg);
 	background-position: center;
