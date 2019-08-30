@@ -363,7 +363,7 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 
 #sitenavigation {
 	background-color: #232B2A;
-	color: #260C1A;
+	color: #200A16;
 	background-image: url(https://image.freepik.com/free-vector/pink-floral-frame_53876-86233.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -388,18 +388,21 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 	border-color: #404E4D;
 	border-style: double;
 	border-width: 5px;
+	color:#200A16;
 }
 #sitenavigationlead {
 	background-color: white;
 	border-color: #404E4D;
 	border-style: double;
 	border-width: 5px;
+	color:#200A16;
 }
 #sitenavigationcontainer {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	background-color: transparent;
+	color:#200A16;
 }
 #sitenavcardsjumbotron {
 	max-width: 100%;
@@ -412,6 +415,7 @@ box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 	opacity:0.9;
 	outline: 5px solid #39222E;
 outline-offset: -15px;
+color:#200A16;
 }
 #sitenavcardscontainer {
 	max-width: 100%;
@@ -421,6 +425,7 @@ outline-offset: -15px;
 	display: flex;
 	background-color: transparent;
 	align-content: stretch;
+	color:#200A16;
 }
 .sitenavcardscol {
 	align-self: stretch;
@@ -431,7 +436,7 @@ outline-offset: -15px;
 }
 #sitenavcard {
 	background-color: white;
-	color: #260C1A;
+	color: black;
 	font-size: 1rem;
 	font-weight: bold;
 	opacity: 0.9;
@@ -453,7 +458,7 @@ outline-offset: -15px;
 
 #sitenavcardbody {
 	background-color: white;
-	color: #260C1A;
+	color: black;
 	background-image: url(https://image.freepik.com/free-vector/cherry-blossom-frame-card_53876-93701.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
