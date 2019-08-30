@@ -738,7 +738,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #bookscardimage4 {
-	background-image:url(https://image.freepik.com/free-vector/seamless-pattern-petals-gray-background_53876-61842.jpg);
+	background-image:url(https://image.freepik.com/free-vector/cherry-blossom-frame-card_53876-93702.jpg);
 	justify-content: center;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -752,7 +752,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 #bookscardbody4 {
-	background-image:url(https://image.freepik.com/free-vector/seamless-pattern-petals-gray-background_53876-61842.jpg);
+	background-image:url(https://image.freepik.com/free-vector/cherry-blossom-frame-card_53876-93702.jpg);
 	justify-content: center;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -762,6 +762,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	margin:0 auto;
 	background-size:cover;
 	box-shadow:15px 15px 15px -4px #4D3843;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 
 }
 
@@ -1126,7 +1127,7 @@ outline-offset: 5px;
 
 
 #eventsandmediahtmlbackground {
-background-image:url(https://image.freepik.com/free-vector/luxury-3d-damask-pattern-wallpaper_32550-156.jpg);
+background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1138,7 +1139,7 @@ background-image:url(https://image.freepik.com/free-vector/luxury-3d-damask-patt
 #eventsandmediapagetitlejumbotron {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/damask-floral-baroque-elements_32550-161.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1165,7 +1166,7 @@ background-image:url(https://image.freepik.com/free-vector/luxury-3d-damask-patt
 #eventstable {
 		border-radius: 30px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/silver-vintage-floral-wallpaper_32550-143.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1181,7 +1182,7 @@ background-image:url(https://image.freepik.com/free-vector/luxury-3d-damask-patt
 .table-responsive {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1197,7 +1198,7 @@ background-image:url(https://image.freepik.com/free-vector/luxury-3d-damask-patt
 thead {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1243,7 +1244,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #eventcardtitlejumbotron {
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/damask-floral-baroque-elements_32550-161.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1274,7 +1275,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #eventcardjumbotron1 {
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/oriental-3d-damask-seamless-pattern_32550-159.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1307,7 +1308,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #eventcardjumbotron2 {
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/oriental-3d-damask-seamless-pattern_32550-159.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1334,7 +1335,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #eventcardjumbotron3 {
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/oriental-3d-damask-seamless-pattern_32550-159.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1361,7 +1362,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #eventcardjumbotron4 {
 		border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/oriental-3d-damask-seamless-pattern_32550-159.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1389,7 +1390,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediainterviewtitlejumbotron {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/damask-floral-baroque-elements_32550-161.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1417,7 +1418,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediaembedjumbotron1 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/oriental-3d-damask-seamless-pattern_32550-159.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1443,7 +1444,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediaembedjumbotron2 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/oriental-3d-damask-seamless-pattern_32550-159.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1469,7 +1470,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediaembedjumbotron3 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/oriental-3d-damask-seamless-pattern_32550-159.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1495,7 +1496,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #mediaembedjumbotron4 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/oriental-3d-damask-seamless-pattern_32550-159.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1521,7 +1522,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #ariclestitlejumbotron {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/damask-floral-baroque-elements_32550-161.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1548,7 +1549,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #ariclestitlejumbotron1 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/dark-damask-seamless-pattern-background-elegant-luxury-texture-wallpapers_1217-1173.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1575,7 +1576,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #ariclestitlejumbotron2 {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/dark-damask-seamless-pattern-background-elegant-luxury-texture-wallpapers_1217-1173.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1602,7 +1603,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 #moreinformationeventsjumbotron {
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/silver-vintage-floral-wallpaper_32550-143.jpg);
+	background-image:url();
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
