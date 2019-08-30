@@ -501,14 +501,11 @@ outline-offset: -15px;
 /* books page */
 
 #bookstitlecardjumbotron {
-	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
+	background-image: linear-gradient(to right top, #ebdfdc, #e7dcda, #e2d8d8, #ded5d6, #d9d2d4, #dad4d5, #dcd5d7, #ddd7d8, #e4dede, #ebe5e4, #f2edea, #f8f4f1);
 	justify-content: center;
-	background-position: center;
-	background-repeat: no-repeat;
 	text-align: center;
 	width:100%;
 	margin:0;
-	background-size:cover;
 	opacity:0.8;
 	outline: 5px solid #858E8D;
 outline-offset: -15px;
@@ -569,13 +566,13 @@ outline-offset: 0px;
 	text-align: center;
 	background-size:cover;
 	opacity:0.9;
-	outline: 5px solid #D2B5AF;
-outline-offset: 5px;
 align-self:center;
 margin: 10px;
 max-width: 100%;
 	height:auto;
 	background-color:#0C0F0E;
+	outline: 5px inset #D3CED0;
+outline-offset: -10px;
 }
 
 #bookscard1 {
@@ -615,8 +612,8 @@ max-width: 100%;
 	text-align: center;
 	background-size:cover;
 	opacity:0.9;
-	outline: 5px solid #D2B5AF;
-outline-offset: 5px;
+	outline: 5px inset #D3CED0;
+outline-offset: -10px;
 align-self:center;
 margin: 10px;
 max-width: 100%;
@@ -661,8 +658,8 @@ max-width: 100%;
 	text-align: center;
 	background-size:cover;
 	opacity:0.9;
-	outline: 5px solid #D2B5AF;
-outline-offset: 5px;
+	outline: 5px inset #D3CED0;
+outline-offset: -10px;
 align-self:center;
 margin: 10px;
 max-width: 100%;
@@ -709,20 +706,17 @@ max-width: 100%;
 	margin:0 auto;
 	background-size:cover;
 	opacity:0.9;
-	outline: 5px solid #858E8D;
-outline-offset: 5px;
+	outline: 5px inset #626E6D;
+outline-offset: -10px;
 }
 
 #morebooksandshopcontainer {
-	background-image:url(https://image.freepik.com/free-vector/greetings-card-with-pink-floral-theme_53876-58371.jpg);
+	background-image: linear-gradient(to right top, #ebdfdc, #e7dcda, #e2d8d8, #ded5d6, #d9d2d4, #dad4d5, #dcd5d7, #ddd7d8, #e4dede, #ebe5e4, #f2edea, #f8f4f1);
 	justify-content: center;
-	background-position: center;
-	background-repeat: no-repeat;
 	text-align: center;
 	max-width:100%;
 	height:auto;
 	margin:0 auto;
-	background-size:cover;
 	outline: 5px solid #858E8D;
 outline-offset: 5px;
 align-content:center;
