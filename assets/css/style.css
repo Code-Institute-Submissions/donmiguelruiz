@@ -925,14 +925,17 @@ outline-offset: -10px;
 .fab {
 	margin:0 auto;
 	transition: 0.2s;
-	color:#1C0913;
+	color: #1C0913;
+	text-decoration:none;
 }
 
 .fab:hover {
+	color: #1C0913;;
 	opacity:0.5;
 	-ms-transform: scale(2.5); /* IE 9 */
   -webkit-transform: scale(2.5); /* Safari 3-8 */
   transform: scale(2.5);
+  text-decoration:none;
 }
 
 .footer-copyright {
