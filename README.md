@@ -1,7 +1,21 @@
-Project Name: donmiguelruiz
-One or two paragraphs providing an overview of your project.
+Project Name: don Miguel Ruiz (User-Centric Frontend Development - Code Institute)
 
-Essentially, this part is your sales pitch.
+Combining Toltec mythology and scientific perspectives, don Miguel has been able to merge ancient wisdom with modern physics and practical common-sense, forging a new philosophy for seekers of truth and personal authenticity. His landmark bestselling book, The Four Agreements, contains practical steps for long-term, personal transformation and has been read by millions around the world.
+
+First published in 1997, The Four Agreements has since sold over six million copies in the United States and seven million worldwide. It has been translated into 40 languages, appeared on the New York Times bestseller for nearly ten years, and was the 36th bestselling book of the decade. Don Miguel is also the author of The Mastery of Love, The Voice of Knowledge, Prayers, and the New York Times bestseller, The Fifth Agreement, a collaboration with his son, don José Ruiz. Each of his books are international bestsellers.
+
+The wisdom don Miguel has brought to the world has earned him respect around the globe. He has dedicated his life to sharing his message through practical concepts in order to promote transformation and ultimately change lives for the better. Don Miguel is the recipient of numerous recognitions, including a U.S. Air Force ‘challenge coin’ engraved with “The Four Agreements.” He is the recipient of an Honorary Degree in Cultural and Social Education from the American Cultural Institute of Mexico, and referenced as a “national treasure” in his native country.
+
+The sole purpose of recreating his website is to demonstrate my web development skills. I aim to give as much information as possible about the author whilst keeping website vistors engaged in meaningful content and a very soothing web-design.
+
+Access to the website:
+
+The website I created can be accessed with the following link:
+
+https://tejalsaldanha.github.io/donmiguelruiz/
+
+![FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png](../images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
+
 
 UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
