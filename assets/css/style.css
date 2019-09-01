@@ -14,62 +14,20 @@ html, body {
 
 /* navbar */
 
-#navbar {
-	margin-bottom: 80px;
-}
-
-.navbar {
-	opacity:0.9;
-	font-size:1rem;
-	color:#260C1A;
-}
 
 nav {
 	font-size:1rem;
 	font-weight:bold;
-	color:black;
+	color: #AC003A;
 	opacity:0.9;
-}
-.navbar-toggler {
-	outline: black;
-	border-radius: 20%;
-	font-size:1rem;
-	font-weight:bold;
-	color:#260C1A;
-	border-color: white;
+	margin-bottom: 80px;
 }
 
-.navbar-toggler:hover {
-	background-color: white;
-	color: inherit;
+.dark-pink-text {
+color: #AC003A;
 }
 
-.navbar-toggler-icon {
-	border-radius: 20%;
-	border-color: black;
-	outline: black;
-	font-size:1rem;
-	color:#260C1A;
-	font-weight:bold;
-	margin: 0;
-	height: 100%;
-	background-image: url(https://image.freepik.com/free-photo/gold-metal-brushed-background_38679-1020.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color:white;
-}
 
-.navbar-toggler-icon:hover {
-	background-color: white;
-	color: inherit;
-}
-
-#navbarNavAltMarkup {
-	border-color: black;
-	border-radius: 20%;
-	color:#260C1A;
-}
 .navbar-brand {
 	outline: black;
 	border-radius: 20%;
@@ -96,6 +54,7 @@ nav {
 }
 
 /* navbar */
+
 /* landing page */
 #authortitlehomepagejumbotron {
 	height: 100%;
