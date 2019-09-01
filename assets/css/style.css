@@ -25,12 +25,18 @@ nav {
 
 .dark-pink-text {
 color: #39222E;
+border-color:#39222E;
+border-width:5px;
+outline-color:#39222E;
+outline-width:5px;
 }
 
 .navbar-toggler {
 border-color:#39222E;
 border-width:5px;
 color: #39222E;
+outline-color:#39222E;
+outline-width:5px;
 }
 
 
