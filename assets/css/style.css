@@ -18,13 +18,19 @@ html, body {
 nav {
 	font-size:1rem;
 	font-weight:bold;
-	color: #AC003A;
+	color: #39222E;
 	opacity:0.9;
 	margin-bottom: 80px;
 }
 
 .dark-pink-text {
-color: #AC003A;
+color: #39222E;
+}
+
+.navbar-toggler {
+border-color:#39222E;
+border-width:5px;
+color: #39222E;
 }
 
 
