@@ -14,11 +14,13 @@ The website I created can be accessed with the following link:
 
 https://tejalsaldanha.github.io/donmiguelruiz/
 
-![FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png]()
 
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+UX:
+
+The reason behind creating this website is to help demonstrate the accomplishments of the author (don Miguel Ruiz) and highlight the effectiveness of his teachings about toltec traditions, both through his books as well as live seminars/interviews. This website is designed to serve anyone who wants to discover more about don Miguel Ruiz and his teachings, his achievements, his books, any upcoming events with him as well as information to contact him. It also has links to his social media pages.
+
+
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
