@@ -14,8 +14,7 @@ The website I created can be accessed with the following link:
 
 https://tejalsaldanha.github.io/donmiguelruiz/
 
-![](/images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
-
+![Multi-device preview](https://raw.githubusercontent.com/TejalSaldanha/donmiguelruiz/master/assets/images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
 
 UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
