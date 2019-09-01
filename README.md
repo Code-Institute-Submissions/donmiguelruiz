@@ -14,11 +14,7 @@ The website I created can be accessed with the following link:
 
 https://tejalsaldanha.github.io/donmiguelruiz/
 
-<<<<<<< HEAD
-
-=======
 ![Multi-device preview](https://raw.githubusercontent.com/TejalSaldanha/donmiguelruiz/master/assets/images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
->>>>>>> ad1a6510669115ff65e31bc3d46a2db589320841
 
 UX:
 
