@@ -14,7 +14,7 @@ The website I created can be accessed with the following link:
 
 https://tejalsaldanha.github.io/donmiguelruiz/
 
-![](images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
+![](/images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
 
 
 UX
