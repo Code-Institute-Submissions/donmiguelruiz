@@ -514,7 +514,7 @@ color:#200A16;
 	margin:0;
 	opacity:0.8;
 	outline: 5px solid #858E8D;
-outline-offset: -15px;
+outline-offset: -5px;
 }
 #bookstitlecardjumbotron:hover {
 	opacity:0.9;
@@ -578,7 +578,7 @@ max-width: 100%;
 	height:auto;
 	background-color:#0C0F0E;
 	outline: 5px inset #D3CED0;
-outline-offset: -10px;
+outline-offset: -5px;
 }
 
 #bookscard1 {
@@ -619,7 +619,7 @@ outline-offset: -10px;
 	background-size:cover;
 	opacity:0.9;
 	outline: 5px inset #D3CED0;
-outline-offset: -10px;
+outline-offset: -5px;
 align-self:center;
 margin: 10px;
 max-width: 100%;
@@ -665,7 +665,7 @@ max-width: 100%;
 	background-size:cover;
 	opacity:0.9;
 	outline: 5px inset #D3CED0;
-outline-offset: -10px;
+outline-offset: -5px;
 align-self:center;
 margin: 10px;
 max-width: 100%;
@@ -713,7 +713,7 @@ max-width: 100%;
 	background-size:cover;
 	opacity:0.9;
 	outline: 5px inset #626E6D;
-outline-offset: -10px;
+outline-offset: -5px;
 }
 
 #morebooksandshopcontainer {
