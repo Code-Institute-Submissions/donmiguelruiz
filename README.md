@@ -26,29 +26,54 @@ don Miguel Ruiz is a website that allows site navigators to access books, storie
 
 The site is user-friendly and provide plenty of external links to resources associated with the author, combining a pleasant shopping experience along with the wisdom shared by the author.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+To sum it up, this website provides the following:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+1) Access to the meaningful teachings of don Miguel Ruiz from toltec traditions.
+2) A brief introduction to the author and some personal information about him.
+3) Details about his books and what they convey.
+4) A link to purchase the books and other accessories sold by the author.
+5) The achievements of the author and any media interviews related to him.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Features:
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+1) This website gives a brief introduction about the author.
+2) It has images highlighting his popularity and accomplishments with his toltec wisdom.
+3) It has a carousel displaying his quotes.
+4) It contains site-navigation buttons in addition to the navbar to describe the different pages/sections in this website.
+5) It has information about external links to create a straight-forward shopping experience for site navigators.
+6) The website also has a list of youtube videos showcasing the media interviews with don Miguel Ruiz. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Existing Features:
+Feature 1 - sign-up link to the website, which allows the users to create an account as well as enroll for the newsletters published by the author.
+Feature 2 - links to the author's social media pages including Facebook, Twitter, Instagram, Goodreads and Amazon.com.
+Feature 3 - a contact form allowing site-navigators to contact the author or send details to book tickets for events conducted with/by him.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
+Features Left to Implement: 
+In the future, I would like to utilise JQuery to provide a more dynamic experience to the navigators of my website.
+
+Another feature idea:
+I would also like to add the `Search` feature, which is not taught as yet in the syllabus.
+
+Technologies used in the creation of this website:
+
+1) HTML5:
+HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup based pattern to it. HTML5 is the fifth and current major version of HTML, and subsumes XHTML. The current standard, the HTML Living Standard is developed by WHATWG, which is made up of the major browser vendors (Apple, Google, Mozilla, and Microsoft), with the Living Standard also existing in an abridged version.
+HTML5 is used in the creation of this website.
+Link to the offical website: https://html.spec.whatwg.org/
+
+2) CSS:
+CSS is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts. Experimental parts are vendor-prefixed and should either be avoided in production environments, or used with extreme caution as both their syntax and semantics can change in the future.
+CSS has been used in the creation of this website.
+Link to the offical website: https://www.w3.org/Style/CSS/
+
+3) Bootstrap 4.3.1:
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components.
+Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter as a framework to encourage consistency across internal tools. Before Bootstrap, various libraries were used for interface development, which led to inconsistencies and a high maintenance burden.
+Bootstrap 4.3.1 has been used in the creation of this website.
+Link to the official website: https://getbootstrap.com/
+
+Testing:
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
