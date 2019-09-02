@@ -56,6 +56,8 @@ https://tejalsaldanha.github.io/donmiguelruiz/
 6) The website also has a list of youtube videos showcasing the media interviews with don Miguel Ruiz. 
 
 _Existing Features:_
+
+
 **Feature 1** - sign-up link to the website, which allows the users to create an account as well as enroll for the newsletters published by the author.
 
 **Feature 2** - links to the author's social media pages including Facebook, Twitter, Instagram, Goodreads and Amazon.com.
