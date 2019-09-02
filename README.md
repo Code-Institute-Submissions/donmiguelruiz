@@ -15,7 +15,7 @@ _Access to the website:_
 
 > https://tejalsaldanha.github.io/donmiguelruiz/
 
-Multi-device preview
+![Multi-device preview](https://raw.githubusercontent.com/TejalSaldanha/donmiguelruiz/master/assets/images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
 
 
 
@@ -172,8 +172,6 @@ _Cloning into Spoon-Knife... remote: Counting objects: 10, done. remote: Compres
 > For more details about running the code locally, please visit the following link:
 
 https://help.github.com/en/articles/cloning-a-repository
-
-![Multi-device preview](https://raw.githubusercontent.com/TejalSaldanha/donmiguelruiz/master/assets/images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
 
 
 
