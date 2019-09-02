@@ -173,6 +173,7 @@ _Cloning into Spoon-Knife... remote: Counting objects: 10, done. remote: Compres
 
 https://help.github.com/en/articles/cloning-a-repository
 
+![Multi-device preview](https://raw.githubusercontent.com/TejalSaldanha/donmiguelruiz/master/assets/images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
 
 
 
