@@ -20,7 +20,11 @@ UX:
 
 The reason behind creating this website is to help demonstrate the accomplishments of the author (don Miguel Ruiz) and highlight the effectiveness of his teachings about toltec traditions, both through his books as well as live seminars/interviews. This website is designed to serve anyone who wants to discover more about don Miguel Ruiz and his teachings, his achievements, his books, any upcoming events with him as well as information to contact him. It also has links to his social media pages.
 
+This website is meant to serve all audiences, ranging from children to the elderly, who find joy in reading spiritual content that is calming and peaceful.
 
+don Miguel Ruiz is a website that allows site navigators to access books, stories, events and the latest news about the author in a very way that is organised and informative.
+
+The site is user-friendly and provide plenty of external links to resources associated with the author, combining a pleasant shopping experience along with the wisdom shared by the author.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
