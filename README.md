@@ -92,7 +92,9 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This website has been deployed using the Github platform at the following address:
+
+https://tejalsaldanha.github.io/donmiguelruiz/
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
@@ -101,10 +103,37 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+Credits:
+
+Content:
+The content for this website was taken from the original site created by the author (don Miguel Ruiz) from thee following web address:
+https://www.miguelruiz.com/
+
+Other information about the author's sons was obtained from the following website dedicated solely to his sons:
+https://www.miguelruizjr.com/
+
+Some information about media interviews and certain aspects of his books published was taken from the following websites:
+1) The Oprah Winfrey Network: http://www.oprah.com/app/own-tv.html
+2) Maria Shriver: https://mariashriver.com/
+3) Youtube: https://www.youtube.com/results?search_query=don+miguel+ruiz
+4) Amazon.com: https://www.amazon.com/Don-Miguel-Ruiz/e/B001JP23NM?ref=sr_ntt_srch_lnk_1&qid=1567420549&sr=8-1
+
+The images used in this site were obtained from https://www.freepik.com/home.
+
+The color scheme for this website was derived from https://coolors.co/404e4d-b98b82-604d53-260c1a-e7d7cd.
+
+The tool utilised to organise the html and css files is https://html-cleaner.com/css/.
+
+The borders and shadows in the website were created with the following tool: https://html-css-js.com/css/generator/box-shadow/.
+
+Additional help was requested from https://slack.com/intl/en-gb/.
+
+A lot of the code was wriiten with information from https://www.w3schools.com/.
+
+Autoprefixer was used to acertain that the site displays correctly on all devices (https://autoprefixer.github.io/).
+
+Mycolor.space was used to add gradients to the website: https://mycolor.space/?hex=%23845EC2&sub=1.
+
+The wireframes were created using Microsoft Powerpoint: https://www.microsoft.com/en-us/p/powerpoint/cfq7ttc0k7c6?activetab=pivot%3aoverviewtab
+
+I received inspiration for this project from the original website created by don Miguel Ruiz.
