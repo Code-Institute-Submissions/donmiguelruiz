@@ -55,17 +55,17 @@ https://tejalsaldanha.github.io/donmiguelruiz/
 5) It has information about external links to create a straight-forward shopping experience for site navigators.
 6) The website also has a list of youtube videos showcasing the media interviews with don Miguel Ruiz. 
 
-_### Existing Features:_
+_Existing Features:_
 **Feature 1** - sign-up link to the website, which allows the users to create an account as well as enroll for the newsletters published by the author.
 
 **Feature 2** - links to the author's social media pages including Facebook, Twitter, Instagram, Goodreads and Amazon.com.
 
 **Feature 3** - a contact form allowing site-navigators to contact the author or send details to book tickets for events conducted with/by him.
 
-_### Features Left to Implement:_ 
+_Features Left to Implement:_ 
 In the future, I would like to utilise JQuery to provide a more dynamic experience to the navigators of my website.
 
-_### Another feature idea:_
+_Another feature idea:_
 I would also like to add the `Search` feature, which is not taught in the syllabus as yet.
 
 
