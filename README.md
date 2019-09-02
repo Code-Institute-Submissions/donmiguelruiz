@@ -96,12 +96,52 @@ This website has been deployed using the Github platform at the following addres
 
 https://tejalsaldanha.github.io/donmiguelruiz/
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+The steps taken to deploy this website are as follows:
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1) The website repository was first created on Github.
+
+2) The repository then had a master branch added to it.
+
+3) The master branch is then set as a publishing source, so that the site is published.
+
+4) On Github, when you navigate your site's repository, the settings section was selected under the repository name.
+
+5) Under the "Source" drop-down menu, I selected "master branch" (or "gh-pages" as the GitHub Pages publishing source).
+
+6) Upon clicking on "Save", the site was published.
+
+For more details about deploying your website, please visit the following link:
+
+https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages.
+
+If the code needs to be run locally, please use the following method step-by-step (This procedure assumes you have already created a repository on GitHub, or have an existing repository owned by someone else you'd like to contribute to.):
+
+1) On GitHub, navigate to the main page of the repository.
+
+2) Under the repository name, click Clone or download.
+
+3) In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+
+4) Open Git Bash.
+
+5) Change the current working directory to the location where you want the cloned directory to be made.
+
+6) Type git clone, and then paste the URL you copied in Step 2.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+7) Press Enter. Your local clone will be created.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+For more details about running the code locally, please visit the following link:
+
+https://help.github.com/en/articles/cloning-a-repository
 
 Credits:
 
