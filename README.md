@@ -74,6 +74,20 @@ Bootstrap 4.3.1 has been used in the creation of this website.
 Link to the official website: https://getbootstrap.com/
 
 Testing:
+
+The website usability tests were conducted using the following parametres and resources:
+
+1) https://www.searchenginewatch.com/2016/09/13/how-to-test-a-website-before-you-launch-a-28-point-checklist/.
+
+2) https://www.intechnic.com/blog/the-best-5-tools-for-website-usability-testing/.
+
+3) https://www.simplilearn.com/how-to-test-your-website-article.
+
+4) https://www.guru99.com/web-application-testing.html.
+
+5) https://www.creativebloq.com/features/7-great-tools-for-testing-your-responsive-web-designs.
+
+-------------------------------------------------------------------------------------------------------------
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -90,6 +104,8 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+----------------------------------------------------------------------------------------------------------------------
 
 Deployment
 This website has been deployed using the Github platform at the following address:
