@@ -732,8 +732,8 @@ outline-offset: 10px;
 
 
 
-/* eventsandmediahtmlbackground */
-#eventsandmediapagetitlejumbotron {
+/* eventsandmedia */
+.eventsandmediapagetitlejumbotron {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image: linear-gradient(to right top, #ccaaa4, #c0a19e, #b49998, #a79092, #9b888b, #9e8c8f, #a19192, #a49596, #b6a7a6, #c9bab7, #dbcdc8, #ede1da);
 	background-position: center;
@@ -750,7 +750,7 @@ outline-offset: 10px;
 	outline-offset: -15px;
 	margin-top: 150px;
 }
-#eventsandmediapagetitlecontainer {
+.eventsandmediapagetitlecontainer {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
 	color: #020122;
@@ -759,7 +759,7 @@ outline-offset: 10px;
 	justify-content: center;
 	opacity:0.9;
 }
-#eventstablejumbotron {
+.eventstablejumbotron {
 	max-width:100%;
 	height:auto;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -778,7 +778,7 @@ outline-offset: 10px;
 	outline: 5px inset #D2B5AF;
 	outline-offset: -15px;
 }
-#eventstablecontainer {
+.eventstablecontainer {
 	max-width:100%;
 	height:auto;
 }
@@ -806,7 +806,7 @@ thead {
 	font-weight: bold;
 	justify-content: center;
 }
-#eventcardtitlejumbotron {
+.eventcardtitlejumbotron {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image: linear-gradient(to right top, #d2b5af, #ab998c, #837d6f, #5f6256, #3f4740, #434a44, #464c47, #4a4f4b, #6f726c, #989790, #c3bdb6, #efe5df);
 	background-position: center;
@@ -822,7 +822,7 @@ thead {
 	outline: 5px inset #D2B5AF;
 	outline-offset: -15px;
 }
-#eventcardtitlecontainer {
+.eventcardtitlecontainer {
 	margin: auto;
 	align-content: center;
 	text-align: center;
@@ -835,7 +835,7 @@ thead {
 	justify-content: center;
 	opacity:0.9;
 }
-#mediainterviewtitlejumbotron {
+.mediainterviewtitlejumbotron {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image: linear-gradient(to right top, #ccaaa4, #c0a19e, #b49998, #a79092, #9b888b, #9e8c8f, #a19192, #a49596, #b6a7a6, #c9bab7, #dbcdc8, #ede1da);
 	background-position: center;
@@ -852,7 +852,7 @@ thead {
 	outline: 5px inset #747E7D;
 	outline-offset: -15px;
 }
-#mediainterviewtitlecontainer {
+.mediainterviewtitlecontainer {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: white;
 	color: #020122;
@@ -861,7 +861,7 @@ thead {
 	justify-content: center;
 	opacity:0.9;
 }
-#mediaembedjumbotron {
+.mediaembedjumbotron {
 	max-width: 100%;
 	height: auto;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -875,7 +875,7 @@ thead {
 	outline: 5px inset #D2B5AF;
 	outline-offset: -15px;
 }
-#mediaembedcontainer {
+.mediaembedcontainer {
 	max-width: 100%;
 	height: auto;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
