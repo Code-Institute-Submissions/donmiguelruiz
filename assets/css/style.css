@@ -93,7 +93,6 @@ html, body {
 	font: 2rem;
 	box-shadow: 10px 10px 12px 6px #747E7D;
 	border-radius: 10px;
-	opacity:0.9;
 }
 
 .landingimagecard {
@@ -115,7 +114,6 @@ html, body {
 outline-offset: 10px;
 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-
 #homepagecenterbooksjumbotron {
 	max-width: 100%;
 	margin-top: 30px;
