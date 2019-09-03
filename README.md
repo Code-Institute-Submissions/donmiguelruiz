@@ -19,6 +19,8 @@ _Access to the website:_
 
 
 
+
+
 ## UX:
 
 * The reason behind creating this website is to help demonstrate the accomplishments of the author (don Miguel Ruiz) and highlight the effectiveness of his teachings about toltec traditions, both through his books as well as live seminars/interviews.
@@ -45,7 +47,10 @@ _Access to the website:_
 
 **(5)** The achievements of the author and any media interviews related to him.
 
-### FEATURES:
+
+
+
+## FEATURES:
 
 * This website gives a brief introduction about the author.
 * It has images highlighting his popularity and accomplishments with his toltec wisdom.
@@ -55,7 +60,7 @@ _Access to the website:_
 * The website also has a list of youtube videos showcasing the media interviews with don Miguel Ruiz.
 
 
-#### *Existing Features:*
+#### *(i) Existing Features:*
 
 _**Feature 1** - sign-up link to the website, which allows the users to create an account as well as enroll for the newsletters published by the author._
 
@@ -63,11 +68,11 @@ _**Feature 2** - links to the author's social media pages including Facebook, Tw
 
 _**Feature 3** - a contact form allowing site-navigators to contact the author or send details to book tickets for events conducted with/by him._
 
-#### *Features Left to Implement:*
+#### *(ii) Features Left to Implement:*
 
 _In the future, I would like to utilize JQuery to provide a more dynamic experience to the navigators of my website._
 
-#### *Another feature idea:*
+#### *(iii) Another feature idea:*
 
 _I would also like to add the Search feature, which is not taught in the syllabus as yet._
 
@@ -120,6 +125,7 @@ https://tejalsaldanha.github.io/donmiguelruiz/
 * Upon clicking on "Save", the site was published.
 
 > For more details about deploying your website, please visit the following link:
+
 https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages.
 
 **If the code needs to be run locally, please use the following method step-by-step (This procedure assumes you have already created a repository on GitHub, or have an existing repository owned by someone else you'd like to contribute to.):**
