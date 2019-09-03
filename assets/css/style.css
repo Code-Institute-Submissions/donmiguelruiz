@@ -447,6 +447,111 @@ outline-offset: 10px;
 }
 /* landing page */
 
+/* aboutpage */
+.abouttitlejumbotron {
+	margin-top: 150px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/sakura-greeting-card_53876-94118.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #B98B82;
+	color: black;
+	font-size: 1rem;
+	justify-content: center;
+	opacity:0.85;
+}
+.abouttitlecard {
+	margin: auto;
+	text-align: center;
+	-ms-grid-row-align: center;
+	    align-self: center;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-color: #FAF7F5;
+	color: #55403C;
+	font-size: 1rem;
+	justify-content: center;
+	align-content: center;
+	outline: 5px solid #55403C;
+	outline-offset: 5px;
+}
+.abouttitlecard:hover {
+	opacity:0.9;
+}
+.aboutpagetitleimage {
+	max-width: 100%;
+	height:auto;
+}
+.aboutpagedetailsjumbotron {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	align-content: center;
+	text-align: center;
+	background-image:url(https://image.freepik.com/free-vector/green-botanical-frame_53876-86234.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #293232;
+	color: black;
+	font-size: 1rem;
+	justify-content: center;
+	width:100%;
+	opacity:0.9;
+}
+.aboutpagedetailscontainer {
+	background-color:white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	align-content: center;
+	text-align: center;
+	color: black;
+	font-size: 1rem;
+	justify-content: center;
+	width:100%;
+	opacity:0.9;
+}
+.aboutpagesocialmediajumbotron {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: inherit;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://img.freepik.com/free-vector/green-floral-background_53876-90874.jpg?size=626&ext=jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #332624;
+	color: black;
+	font-size: 1rem;
+	justify-content: center;
+	opacity:0.85;
+}
+.aboutpagesocialmediajumbotron:hover {
+	opacity: 0.8;
+}
+.aboutpagesocialmediacardcolumn {
+	margin: auto;
+	text-align: center;
+	-ms-grid-row-align: center;
+	    align-self: center;
+	justify-content: center;
+}
+/* aboutpage */
+
 /* books page */
 #bookstitlecardjumbotron {
 	background-image: linear-gradient(to right top, #ebdfdc, #e7dcda, #e2d8d8, #ded5d6, #d9d2d4, #dad4d5, #dcd5d7, #ddd7d8, #e4dede, #ebe5e4, #f2edea, #f8f4f1);
@@ -879,106 +984,7 @@ label {
 	opacity:0.9;
 }
 /* socialmedia */
-/* aboutpage */
-#abouttitlejumbotron {
-	margin-top: 150px;
-	margin-bottom: 20px;
-	border-color: inherit;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/sakura-greeting-card_53876-94118.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: #B98B82;
-	color: black;
-	font-size: 1rem;
-	justify-content: center;
-	opacity:0.85;
-}
-#abouttitlecard {
-	margin: auto;
-	text-align: center;
-	-ms-grid-row-align: center;
-	    align-self: center;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-color: #FAF7F5;
-	color: #55403C;
-	font-size: 1rem;
-	justify-content: center;
-	align-content: center;
-	outline: 5px solid #55403C;
-	outline-offset: 5px;
-}
-#abouttitlecard:hover {
-	opacity:0.9;
-}
-#aboutpagedetailsjumbotron {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-color: inherit;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	align-content: center;
-	text-align: center;
-	background-image:url(https://image.freepik.com/free-vector/green-botanical-frame_53876-86234.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #293232;
-	color: black;
-	font-size: 1rem;
-	justify-content: center;
-	width:100%;
-	opacity:0.9;
-}
-#aboutpagedetailscontainer {
-	background-color:white;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-color: inherit;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	align-content: center;
-	text-align: center;
-	color: black;
-	font-size: 1rem;
-	justify-content: center;
-	width:100%;
-	opacity:0.9;
-}
-#aboutpagesocialmediajumbotron {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-color: inherit;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://img.freepik.com/free-vector/green-floral-background_53876-90874.jpg?size=626&ext=jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: #332624;
-	color: black;
-	font-size: 1rem;
-	justify-content: center;
-	opacity:0.85;
-}
-#aboutpagesocialmediajumbotron:hover {
-	opacity: 0.8;
-}
-#aboutpagesocialmediacardcolumn {
-	margin: auto;
-	text-align: center;
-	-ms-grid-row-align: center;
-	    align-self: center;
-	justify-content: center;
-}
-/* aboutpage */
+
 /* eventsandmediahtmlbackground */
 #eventsandmediapagetitlejumbotron {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
