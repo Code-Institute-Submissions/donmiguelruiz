@@ -243,12 +243,6 @@ outline-offset: 10px;
 	opacity:0.9;
 }
 
-.quotecard {
-	height: 300px;
-	border-radius: 20px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-}
-
 .carousel-inner {
 	height: 300px;
 	border-radius: 20px;
@@ -262,6 +256,30 @@ outline-offset: 10px;
 }
 
 .carousel-item {
+	height: 300px;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+
+.carousel-control-prev-icon {
+	color: white;
+	border-radius: 50%;
+	box-shadow: 5px 5px 4px 5px #9C928C;
+}
+.carousel-control-prev-icon:hover {
+	opacity:0.85;
+}
+.carousel-control-next-icon {
+	color: white;
+	border-radius: 50%;
+	box-shadow: 5px 5px 4px 5px #9C928C;
+}
+.carousel-control-next-icon:hover {
+	opacity:0.85;
+}
+
+.quotecard {
 	height: 300px;
 	border-radius: 20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -282,25 +300,9 @@ outline-offset: 10px;
 	background-color:#F7F6F7;
 	box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 }
-.carousel-control-prev-icon {
-	color: white;
-	border-radius: 50%;
-	box-shadow: 5px 5px 4px 5px #9C928C;
-}
-.carousel-control-prev-icon:hover {
-	opacity:0.85;
-}
-.carousel-control-next-icon {
-	color: white;
-	border-radius: 50%;
-	box-shadow: 5px 5px 4px 5px #9C928C;
-}
-.carousel-control-next-icon:hover {
-	opacity:0.85;
-}
 
 
-#sitenavigation {
+.sitenavigation {
 	background-color: #232B2A;
 	color: #200A16;
 	background-image: linear-gradient(to right top, #4d3843, #453a49, #3c3d4b, #363f4a, #334046, #3f4c50, #4d5859, #5b6464, #798181, #999f9f, #babebe, #dcdede);
@@ -321,7 +323,7 @@ outline-offset: 10px;
 	border-radius:10px;
 	opacity:0.85;
 }
-#sitenavigationdisplay-4 {
+.sitenavigationdisplay-4 {
 	background-color: white;
 	border-color: #404E4D;
 	border-style: double;
@@ -329,7 +331,7 @@ outline-offset: 10px;
 	color:#200A16;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-#sitenavigationlead {
+.sitenavigationlead {
 	background-color: white;
 	border-color: #404E4D;
 	border-style: double;
@@ -337,7 +339,7 @@ outline-offset: 10px;
 	color:#200A16;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-#sitenavigationcontainer {
+.sitenavigationcontainer {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -345,7 +347,7 @@ outline-offset: 10px;
 	color:#200A16;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-#sitenavcardsjumbotron {
+.sitenavcardsjumbotron {
 	max-width: 100%;
 	justify-content: center;
 	align-self: stretch;
@@ -359,7 +361,7 @@ outline-offset: 10px;
 	color:#200A16;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-#sitenavcardscontainer {
+.sitenavcardscontainer {
 	max-width: 100%;
 	height: auto;
 	justify-content: center;
@@ -378,7 +380,7 @@ outline-offset: 10px;
 	text-align: center;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-#sitenavcard {
+.sitenavcard {
 	background-color: white;
 	color: black;
 	font-size: 1rem;
@@ -396,10 +398,10 @@ outline-offset: 10px;
 	border-radius:10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-#sitenavcard:hover {
+.sitenavcard:hover {
 	opacity:0.9;
 }
-#sitenavcardbody {
+.sitenavcardbody {
 	background-color: white;
 	color: black;
 	background-image: url(https://image.freepik.com/free-vector/cherry-blossom-frame-card_53876-93701.jpg);
@@ -419,7 +421,7 @@ outline-offset: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius:10px;
 }
-#sitenavcardsbutton {
+.sitenavcardsbutton {
 	margin: 0 auto;
 	background-image: linear-gradient(to right top, #e7d7cd, #cebbb4, #b6a09d, #9d8687, #836d72, #816a70, #7e666d, #7c636b, #907479, #a48587, #b89796, #ccaaa4);
 	background-position: center;
@@ -438,12 +440,13 @@ outline-offset: 10px;
 	transition: transform .2s;
 	background-color:white;
 }
-#sitenavcardsbutton:hover {
+.sitenavcardsbutton:hover {
 	/* IE 9 */
 	/* Safari 3-8 */
 	transform: scale(1.5);
 }
 /* landing page */
+
 /* books page */
 #bookstitlecardjumbotron {
 	background-image: linear-gradient(to right top, #ebdfdc, #e7dcda, #e2d8d8, #ded5d6, #d9d2d4, #dad4d5, #dcd5d7, #ddd7d8, #e4dede, #ebe5e4, #f2edea, #f8f4f1);
