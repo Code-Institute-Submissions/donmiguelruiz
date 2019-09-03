@@ -106,7 +106,7 @@ html, body {
 	opacity:0.9;
 }
 
-#landingimage {
+.landingimage {
 	padding: 10px 10px 10px 10px;
 	border-radius: 10px;
 	margin: 0 auto;
