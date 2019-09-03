@@ -729,181 +729,8 @@ outline-offset: 10px;
 }
 
 /* books page */
-/* contactpage */
-#contactformtitlejumbotron {
-	margin: 150px 10px 10px 10px;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(../images/contactpage1.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: #260C1A;
-	color: #260C1A;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity:0.9;
-	outline: 5px inset #747E7D;
-	outline-offset: -10px;
-}
-#contactform {
-	margin: 10px 10px 10px 10px;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(https://image.freepik.com/free-vector/green-floral-background_53876-67015.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: #260C1A;
-	color: #260C1A;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity:0.9;
-	outline: 5px inset #D2B5AF;
-	outline-offset: -10px;
-}
-form {
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #260C1A;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-form:hover {
-	opacity:0.9;
-}
-label {
-	border-radius: 10px;
-	align-content: center;
-	text-align: center;
-	background-color: white;
-	color: #260C1A;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-}
-.contactformbutton {
-	align-items: center;
-	justify-content:center;
-	text-align: center;
-	margin: 0 auto;
-	background-image: linear-gradient(to right top, #e5d4d1, #bdb2aa, #959188, #6e7169, #4b524d, #4b524d, #4b534d, #4b534d, #6e7269, #949387, #bdb5a8, #e7d7cd);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-size:1rem;
-	font-weight: bold;
-	height: 5rem;
-	width: 5rem;
-	color: #E7D7CD;
-	line-height: 4rem;
-	border-color: #858E8D;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	border-radius: 50%;
-	transition: transform .2s;
-	background-color:#260C1A;
-}
-.contactformbutton:hover {
-	/* IE 9 */
-	/* Safari 3-8 */
-	transform: scale(1.5);
-}
-#contactpagecontactsonsjumbotron {
-	margin: 10px 10px 10px 10px;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
-	background-image:url(../images/contactpage1.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	align-content: center;
-	text-align: center;
-	background-color: #260C1A;
-	color: #260C1A;
-	font-size: 1rem;
-	font-weight: bold;
-	justify-content: center;
-	opacity:0.9;
-	outline: 5px inset #747E7D;
-	outline-offset: -10px;
-}
-/* contactpage */
-/* socialmedia */
-#footer {
-	max-width:100%;
-	height:auto;
-	left: 50%;
-	right:50%;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background-color: transparent;
-	color: #1C0913;
-	font-size: 1rem;
-	margin: 0 auto;
-}
-.footer-copyright {
-	margin:auto;
-	font-size: 1rem;
-	color: #1C0913;
-}
-.fab {
-	margin:0 auto;
-	transition: 0.2s;
-	color: #1C0913;
-	text-decoration:none;
-}
-.fab:hover {
-	color: #1C0913;
-	;
-	opacity:0.5;
-	/* IE 9 */
-	/* Safari 3-8 */
-	transform: scale(2.5);
-	text-decoration:none;
-}
-.footer-copyright {
-	margin:0 auto;
-	font-size:1rem;
-}
-.footer-copyright:hover {
-	opacity:0.5;
-}
-.btn-outline-white {
-	font-size: 1rem;
-	height: 3rem;
-	width: 8rem;
-	border-color: #1C0913;
-	border-width: 5px;
-	color: #1C0913;
-	border-radius: 30px;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
-}
-.btn-outline-white:hover {
-	color:#1C0913;
-	opacity:0.5;
-}
-.mb-1 {
-	font-size: 1rem;
-	margin:0 auto;
-}
-.mb-1:hover {
-	opacity:0.9;
-}
-/* socialmedia */
+
+
 
 /* eventsandmediahtmlbackground */
 #eventsandmediapagetitlejumbotron {
@@ -1072,3 +899,183 @@ thead {
 	margin:auto;
 }
 /* eventsandmediahtmlbackground */
+
+/* contactpage */
+
+.contactformtitlejumbotron {
+	margin: 150px 10px 10px 10px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(../images/contactpage1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #260C1A;
+	color: #260C1A;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity:0.9;
+	outline: 5px inset #747E7D;
+	outline-offset: -10px;
+}
+.contactform {
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(https://image.freepik.com/free-vector/green-floral-background_53876-67015.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #260C1A;
+	color: #260C1A;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity:0.9;
+	outline: 5px inset #D2B5AF;
+	outline-offset: -10px;
+}
+form {
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #260C1A;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+form:hover {
+	opacity:0.9;
+}
+label {
+	border-radius: 10px;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	color: #260C1A;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+}
+.contactformbutton {
+	align-items: center;
+	justify-content:center;
+	text-align: center;
+	margin: 0 auto;
+	background-image: linear-gradient(to right top, #e5d4d1, #bdb2aa, #959188, #6e7169, #4b524d, #4b524d, #4b534d, #4b534d, #6e7269, #949387, #bdb5a8, #e7d7cd);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size:1rem;
+	font-weight: bold;
+	height: 5rem;
+	width: 5rem;
+	color: #E7D7CD;
+	line-height: 4rem;
+	border-color: #858E8D;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 50%;
+	transition: transform .2s;
+	background-color:#260C1A;
+}
+.contactformbutton:hover {
+	/* IE 9 */
+	/* Safari 3-8 */
+	transform: scale(1.5);
+}
+.contactpagecontactsonsjumbotron {
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(../images/contactpage1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #260C1A;
+	color: #260C1A;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	opacity:0.9;
+	outline: 5px inset #747E7D;
+	outline-offset: -10px;
+}
+/* contactpage */
+
+
+
+/* socialmedia */
+#footer {
+	max-width:100%;
+	height:auto;
+	left: 50%;
+	right:50%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: transparent;
+	color: #1C0913;
+	font-size: 1rem;
+	margin: 0 auto;
+}
+.footer-copyright {
+	margin:auto;
+	font-size: 1rem;
+	color: #1C0913;
+}
+.fab {
+	margin:0 auto;
+	transition: 0.2s;
+	color: #1C0913;
+	text-decoration:none;
+}
+.fab:hover {
+	color: #1C0913;
+	;
+	opacity:0.5;
+	/* IE 9 */
+	/* Safari 3-8 */
+	transform: scale(2.5);
+	text-decoration:none;
+}
+.footer-copyright {
+	margin:0 auto;
+	font-size:1rem;
+}
+.footer-copyright:hover {
+	opacity:0.5;
+}
+.btn-outline-white {
+	font-size: 1rem;
+	height: 3rem;
+	width: 8rem;
+	border-color: #1C0913;
+	border-width: 5px;
+	color: #1C0913;
+	border-radius: 30px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.btn-outline-white:hover {
+	color:#1C0913;
+	opacity:0.5;
+}
+.mb-1 {
+	font-size: 1rem;
+	margin:0 auto;
+}
+.mb-1:hover {
+	opacity:0.9;
+}
+/* socialmedia */
