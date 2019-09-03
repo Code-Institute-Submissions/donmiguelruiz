@@ -581,11 +581,31 @@ outline-offset: 10px;
 	box-shadow:15px 15px 15px -4px #4D3843;
 }
 
+.bookspagebooksjumbotron {
+	width: 100%;
+	margin:0;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(../images/bookpagebackground.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+	background-color: #260C1A;
+	color: #1E2423;
+	font-size: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	outline: 5px inset #604D53;
+	outline-offset: -10px;
+}
+
 .bookspagegridcolumn {
 	text-align: center;
 	justify-content: center;
 	align-items:center;
 	margin: 0 auto;
+	color: #1E2423;
 }
 
 .bookspagebookcard {
@@ -593,10 +613,25 @@ outline-offset: 10px;
 	justify-content: center;
 	align-items:center;
 	margin: 0 auto;
+	width: 100%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	background-image:url(../images/61842.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	background-color: #404E4D;
+	color: #1E2423;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius:10px;
 }
 
 .bookspagebookcovercardbody {
 	margin-top: 10px;
+	color: #1E2423;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius:10px;
 }
 
 .bookspagecardbutton {
@@ -623,6 +658,11 @@ outline-offset: 10px;
 .bookspagecardbutton:hover {
 	border-color: #858E8D;
 	transform: scale(1.5);
+}
+
+.bookspagebookcoverimage {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius:10px;
 }
 
 /* books page */
