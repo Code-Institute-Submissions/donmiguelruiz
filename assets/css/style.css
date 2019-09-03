@@ -303,6 +303,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-style: double;
 	border-width: 5px;
 	color:#200A16;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 #sitenavigationlead {
 	background-color: white;
@@ -310,6 +311,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-style: double;
 	border-width: 5px;
 	color:#200A16;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 #sitenavigationcontainer {
 	justify-content: center;
@@ -317,6 +319,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	text-align: center;
 	background-color: transparent;
 	color:#200A16;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 #sitenavcardsjumbotron {
 	max-width: 100%;
@@ -330,6 +333,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	outline: 5px solid #39222E;
 	outline-offset: -15px;
 	color:#200A16;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 #sitenavcardscontainer {
 	max-width: 100%;
@@ -340,6 +344,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: transparent;
 	align-content: stretch;
 	color:#200A16;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 .sitenavcardscol {
 	align-self: stretch;
@@ -347,6 +352,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	display: flex;
 	align-items: center;
 	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 #sitenavcard {
 	background-color: white;
