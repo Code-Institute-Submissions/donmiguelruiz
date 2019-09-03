@@ -78,7 +78,9 @@ html, body {
 	opacity:0.9;
 }
 #landingimagejumbotron {
-	text-align: center;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
 	margin: 0 auto;
 	max-width: 100%;
 	height: auto;
@@ -93,41 +95,27 @@ html, body {
 	border-radius: 10px;
 	opacity:0.9;
 }
-.landingimagecolumn {
-	text-align:center;
-	margin:0 auto;
-	justify-content:center;
-	align-content:stretch;
-	-ms-grid-row-align:stretch;
-	    align-self:stretch;
-	background-size:cover;
-}
-#landingimagecard {
-	background-size:cover;
-	background-color:#B9BEBE;
-	align-content:stretch;
-	border-color:#181D1C;
-	border-width:2px;
-	padding: 10px 10px 10px 10px;
-	margin: 0 auto;
+
+.landingimagecard {
+	background-color: transparent;
 	border-radius: 10px;
-	outline: 5px solid #EDEEEE;
-	outline-offset: -25px;
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
 }
-#landingimagecard:hover {
+
+.landingimagecard:hover {
 	opacity:0.9;
 }
+
 #landingimage {
-	width:300px;
-	height:300px;
-	-ms-grid-row-align:stretch;
-	    align-self:stretch;
-	background-size:cover;
-	align-content:stretch;
 	padding: 10px 10px 10px 10px;
-	margin: 0 auto;
 	border-radius: 10px;
+	margin: 0 auto;
+	outline: 5px solid #260C1A;
+outline-offset: 10px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
+
 #homepagecenterbooksjumbotron {
 	max-width: 100%;
 	margin-top: 30px;
