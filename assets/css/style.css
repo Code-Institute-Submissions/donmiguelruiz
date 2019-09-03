@@ -581,7 +581,49 @@ outline-offset: 10px;
 	box-shadow:15px 15px 15px -4px #4D3843;
 }
 
+.bookspagegridcolumn {
+	text-align: center;
+	justify-content: center;
+	align-items:center;
+	margin: 0 auto;
+}
 
+.bookspagebookcard {
+	text-align: center;
+	justify-content: center;
+	align-items:center;
+	margin: 0 auto;
+}
+
+.bookspagebookcovercardbody {
+	margin-top: 10px;
+}
+
+.bookspagecardbutton {
+	align-items: center;
+	justify-content:center;
+	text-align: center;
+	margin: 0 auto;
+	background-image: linear-gradient(to right top, #e5d4d1, #bdb2aa, #959188, #6e7169, #4b524d, #4b524d, #4b534d, #4b534d, #6e7269, #949387, #bdb5a8, #e7d7cd);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size:1rem;
+	font-weight: bold;
+	height: 5rem;
+	width: 5rem;
+	color: #E7D7CD;
+	line-height: 4rem;
+	border-color: #858E8D;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	border-radius: 50%;
+	transition: transform .2s;
+	background-color:#260C1A;
+}
+.bookspagecardbutton:hover {
+	border-color: #858E8D;
+	transform: scale(1.5);
+}
 
 /* books page */
 /* contactpage */
@@ -651,14 +693,11 @@ label {
 	align-items: center;
 	justify-content:center;
 	text-align: center;
-}
-#contactformbutton {
 	margin: 0 auto;
 	background-image: linear-gradient(to right top, #e5d4d1, #bdb2aa, #959188, #6e7169, #4b524d, #4b524d, #4b534d, #4b534d, #6e7269, #949387, #bdb5a8, #e7d7cd);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
 	font-size:1rem;
 	font-weight: bold;
 	height: 5rem;
@@ -671,7 +710,7 @@ label {
 	transition: transform .2s;
 	background-color:#260C1A;
 }
-#contactformbutton:hover {
+.contactformbutton:hover {
 	/* IE 9 */
 	/* Safari 3-8 */
 	transform: scale(1.5);
