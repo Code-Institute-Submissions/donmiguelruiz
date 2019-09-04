@@ -10,6 +10,11 @@ html, body {
 	background-size: cover;
 	background-color:#E7D7CD;
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
 /* navbar */
 .navbar {
 	font-size:1rem;
@@ -19,16 +24,16 @@ html, body {
 }
 .navbartogglericon {
 	color: black;
-	border-color:#39222E;
+	border-color:black;
 	border-width:5px;
-	outline-color:#39222E;
+	outline-color:black;
 	outline-width:5px;
 }
 .navbar-toggler {
-	border-color:#39222E;
+	border-color:black;
 	border-width:5px;
 	color: black;
-	outline-color:#39222E;
+	outline-color:black;
 	outline-width:5px;
 }
 .navbar-brand {
