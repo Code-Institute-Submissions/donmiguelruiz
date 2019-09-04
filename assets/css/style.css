@@ -10,7 +10,6 @@ html, body {
 	background-size: cover;
 	background-color:#E7D7CD;
 }
-
 img {
 	max-width: 100%;
 	height: auto;
@@ -97,25 +96,22 @@ img {
 	box-shadow: 10px 10px 12px 6px #747E7D;
 	border-radius: 10px;
 }
-
 .landingimagecard {
 	background-color: transparent;
 	border-radius: 10px;
 	margin: 0 auto;
 	padding: 10px 10px 10px 10px;
 }
-
 .landingimagecard:hover {
 	opacity:0.9;
 }
-
 .landingimage {
 	padding: 10px 10px 10px 10px;
 	border-radius: 10px;
 	margin: 0 auto;
 	outline: 5px solid #260C1A;
-outline-offset: 10px;
-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	outline-offset: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
 .homepagecenterbooksjumbotron {
 	max-width: 100%;
@@ -226,11 +222,10 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	outline: 5px solid #D8BFBA;
 	outline-offset: -20px;
 }
-
 .quotecarousel {
 	border-radius:20px;
 	outline: 5px solid #39222E;
-outline-offset: 10px;
+	outline-offset: 10px;
 	height: 370px;
 }
 .carouselExampleIndicators {
@@ -245,26 +240,21 @@ outline-offset: 10px;
 .carouselExampleIndicators:hover {
 	opacity:0.9;
 }
-
 .carousel-inner {
 	height: 300px;
 	border-radius: 20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-
 .carousel-item active {
 	height: 300px;
 	border-radius: 20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-
 .carousel-item {
 	height: 300px;
 	border-radius: 20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-
-
 .carousel-control-prev-icon {
 	color: white;
 	border-radius: 50%;
@@ -281,13 +271,11 @@ outline-offset: 10px;
 .carousel-control-next-icon:hover {
 	opacity:0.85;
 }
-
 .quotecard {
 	height: 300px;
 	border-radius: 20px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 }
-
 .quotecardheader {
 	border-radius: 20px;
 	color: #39222E;
@@ -303,8 +291,6 @@ outline-offset: 10px;
 	background-color:#F7F6F7;
 	box-shadow: 10px 10px 12px 6px rgba(116,126,125,0.73);
 }
-
-
 .sitenavigation {
 	background-color: #232B2A;
 	color: #200A16;
@@ -316,7 +302,7 @@ outline-offset: 10px;
 	font-weight: bold;
 	justify-content: center;
 	-ms-grid-row-align: stretch;
-	    align-self: stretch;
+	align-self: stretch;
 	text-align: center;
 	vertical-align: middle;
 	align-items: center;
@@ -391,7 +377,7 @@ outline-offset: 10px;
 	opacity: 0.9;
 	justify-content: center;
 	-ms-grid-row-align: stretch;
-	    align-self: stretch;
+	align-self: stretch;
 	text-align: center;
 	vertical-align: middle;
 	align-items: center;
@@ -415,7 +401,7 @@ outline-offset: 10px;
 	font-weight: bold;
 	justify-content: center;
 	-ms-grid-row-align: stretch;
-	    align-self: stretch;
+	align-self: stretch;
 	text-align: center;
 	vertical-align: middle;
 	align-items: center;
@@ -449,7 +435,6 @@ outline-offset: 10px;
 	transform: scale(1.5);
 }
 /* landing page */
-
 /* aboutpage */
 .abouttitlejumbotron {
 	margin-top: 150px;
@@ -473,7 +458,7 @@ outline-offset: 10px;
 	margin: auto;
 	text-align: center;
 	-ms-grid-row-align: center;
-	    align-self: center;
+	align-self: center;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-color: #FAF7F5;
@@ -557,11 +542,10 @@ outline-offset: 10px;
 	margin: auto;
 	text-align: center;
 	-ms-grid-row-align: center;
-	    align-self: center;
+	align-self: center;
 	justify-content: center;
 }
 /* aboutpage */
-
 /* books page */
 .bookstitlecardjumbotron {
 	background-image: linear-gradient(to right top, #ebdfdc, #e7dcda, #e2d8d8, #ded5d6, #d9d2d4, #dad4d5, #dcd5d7, #ddd7d8, #e4dede, #ebe5e4, #f2edea, #f8f4f1);
@@ -590,7 +574,6 @@ outline-offset: 10px;
 	background-color:white;
 	box-shadow:15px 15px 15px -4px #4D3843;
 }
-
 .bookspagebooksjumbotron {
 	width: 100%;
 	margin:0;
@@ -609,7 +592,6 @@ outline-offset: 10px;
 	outline: 5px inset #604D53;
 	outline-offset: -10px;
 }
-
 .bookspagegridcolumn {
 	text-align: center;
 	justify-content: center;
@@ -617,7 +599,6 @@ outline-offset: 10px;
 	margin: 0 auto;
 	color: #1E2423;
 }
-
 .bookspagebookcard {
 	text-align: center;
 	justify-content: center;
@@ -636,14 +617,12 @@ outline-offset: 10px;
 	font-weight: bold;
 	border-radius:10px;
 }
-
 .bookspagebookcovercardbody {
 	margin-top: 10px;
 	color: #1E2423;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius:10px;
 }
-
 .bookspagecardbutton {
 	align-items: center;
 	justify-content:center;
@@ -669,12 +648,10 @@ outline-offset: 10px;
 	border-color: #858E8D;
 	transform: scale(1.5);
 }
-
 .bookspagebookcoverimage {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius:10px;
 }
-
 .morebooksjumbotron {
 	text-align: center;
 	justify-content: center;
@@ -687,7 +664,6 @@ outline-offset: 10px;
 	background-color: #404E4D;
 	opacity:0.9;
 }
-
 .morebookscard {
 	width: 100%;
 	border-radius: 10px;
@@ -702,7 +678,6 @@ outline-offset: 10px;
 	background-size: cover;
 	background-color: #404E4D;
 }
-
 .morebookscardbody {
 	width: 100%;
 	border-radius: 10px;
@@ -711,7 +686,6 @@ outline-offset: 10px;
 	justify-content: center;
 	align-items: center;
 }
-
 .morebookscardbutton {
 	align-items: center;
 	justify-content:center;
@@ -737,11 +711,7 @@ outline-offset: 10px;
 	border-color: #858E8D;
 	transform: scale(1.5);
 }
-
 /* books page */
-
-
-
 /* eventsandmedia */
 .eventsandmediapagetitlejumbotron {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -908,15 +878,12 @@ thead {
 	height:50%;
 	margin:auto;
 }
-
 iframe {
 	width: 560px;
 	height: 315px;
 }
 /* eventsandmediahtmlbackground */
-
 /* contactpage */
-
 .contactformtitlejumbotron {
 	max-width: 100%;
 	height:auto;
@@ -1033,9 +1000,6 @@ label {
 	outline-offset: -10px;
 }
 /* contactpage */
-
-
-
 /* socialmedia */
 .footer {
 	max-width:100%;
