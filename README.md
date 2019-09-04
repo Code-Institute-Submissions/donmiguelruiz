@@ -181,20 +181,23 @@ https://help.github.com/en/articles/cloning-a-repository
 **(5)** The images used in this site were obtained from https://www.freepik.com/home.
 
 
-* The color scheme for this website was derived from https://coolors.co/404e4d-b98b82-604d53-260c1a-e7d7cd.
-
+* The color scheme for this website is derived from https://coolors.co/404e4d-b98b82-604d53-260c1a-e7d7cd.
 * The tool utilized to organize the HTML and CSS files is https://HTML-cleaner.com/css/.
-
-* The borders and shadows in the website were created with the following tool: https://HTML-CSS-js.com/css/generator/box-shadow/.
-
+* The borders and shadows in the website are created with the following tool: https://HTML-CSS-js.com/css/generator/box-shadow/.
 * Additional help was requested from https://slack.com/intl/en-gb/.
-
-* A lot of the code was written with information from https://www.w3schools.com/.
-
-* Autoprefixer was used to ascertain that the site displays correctly on all devices (https://autoprefixer.github.io/).
-
-* Mycolor.space was used to add gradients to the website: https://mycolor.space/?hex=#845EC2&sub=1.
-
+* A lot of the code is written with information from https://www.w3schools.com/.
+* Autoprefixer has been used to ascertain that the site displays correctly on all devices (https://autoprefixer.github.io/).
+* Mycolor.space is used to add gradients to the website: https://mycolor.space/?hex=#845EC2&sub=1.
 * The wire-frames were created using Microsoft Powerpoint: https://www.microsoft.com/en-us/p/powerpoint/cfq7ttc0k7c6?activetab=pivot:overviewtab
+* A lot of my queries were answered using https://stackoverflow.com/.
+* Most of the code is verified using https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Developer_Edition as well as  https://developers.google.com/docs/api/.
+* A lot of inspiration for CSS styling is taken from https://mdbootstrap.com/.
+* The multi-device mock-up on this document is created using https://techsini.com/multi-mockup/.
+* The site is thoroughly created using https://developers.google.com/web/tools/chrome-devtools/.
+* This readme.md document is written using markdownn language from the following link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
+* Tips to add opacity and colors to images have been taken from https://css-tricks.com/.
+* https://www.colorhexa.com/ has been used to match gradient colors.
+* Images and some information about the books published by the author were taken from http://www.amberallen.com/ and https://www.harpercollins.com/9780062391094/the-three-questions/.
+
 
 > I received inspiration for this project from the original website created by don Miguel Ruiz: https://www.miguelruiz.com/.
