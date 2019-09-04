@@ -15,8 +15,7 @@ html, body {
 	font-size:1rem;
 	font-weight:bold;
 	color: #39222E;
-	opacity:0.9;
-	margin-bottom: 200px;
+	margin-bottom: 60px;
 }
 .navbartogglericon {
 	color: #39222E;
@@ -37,7 +36,7 @@ html, body {
 	border-radius: 20%;
 	font-size:1rem;
 	font-weight:bold;
-	color:#260C1A;
+	color:black;
 }
 .navbar-brand:hover {
 	background-color: white;
@@ -45,19 +44,18 @@ html, body {
 }
 .nav-item {
 	font: 1rem;
-	color: #260C1A;
+	color: black;
 	margin-left: 20px;
 	margin-right:20px;
 }
 .nav-item:hover {
 	background-color: white;
-	color: inherit;
+	color: black;
 }
 /* navbar */
 /* landing page */
 .authortitlehomepagejumbotron {
 	height: 100%;
-	margin-top: 80px;
 	background-color: transparent;
 }
 .authortitlehomepagecard {
