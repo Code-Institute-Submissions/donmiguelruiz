@@ -898,6 +898,11 @@ thead {
 	height:50%;
 	margin:auto;
 }
+
+iframe {
+	width: 560px;
+	height: 315px;
+}
 /* eventsandmediahtmlbackground */
 
 /* contactpage */
