@@ -487,6 +487,8 @@ outline-offset: 10px;
 	height:auto;
 }
 .aboutpagedetailsjumbotron {
+	padding-top: 40px;
+	padding-bottom:20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-color: inherit;
@@ -506,6 +508,8 @@ outline-offset: 10px;
 	opacity:0.9;
 }
 .aboutpagedetailscontainer {
+	padding-top: 40px;
+	padding-bottom:20px;
 	background-color:white;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -521,6 +525,8 @@ outline-offset: 10px;
 	opacity:0.9;
 }
 .aboutpagesocialmediajumbotron {
+	padding-top: 40px;
+	padding-bottom: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-color: inherit;
@@ -542,6 +548,7 @@ outline-offset: 10px;
 	opacity: 0.8;
 }
 .aboutpagesocialmediacardcolumn {
+	padding-top: 20px;
 	margin: auto;
 	text-align: center;
 	-ms-grid-row-align: center;
