@@ -14,11 +14,11 @@ html, body {
 .navbar {
 	font-size:1rem;
 	font-weight:bold;
-	color: #39222E;
+	color: black;
 	margin-bottom: 60px;
 }
 .navbartogglericon {
-	color: #39222E;
+	color: black;
 	border-color:#39222E;
 	border-width:5px;
 	outline-color:#39222E;
@@ -27,7 +27,7 @@ html, body {
 .navbar-toggler {
 	border-color:#39222E;
 	border-width:5px;
-	color: #39222E;
+	color: black;
 	outline-color:#39222E;
 	outline-width:5px;
 }
@@ -40,7 +40,7 @@ html, body {
 }
 .navbar-brand:hover {
 	background-color: white;
-	color: inherit;
+	color: black;
 }
 .nav-item {
 	font: 1rem;
