@@ -140,7 +140,7 @@ https://pages.github.com/
 
 * To select master or gh-pages as your publishing source, you must have the branch present in your repository. If you don't have a master or gh-pages branch, you can create them and then return to source settings to change your publishing source.
 
-* 1) On GitHub, navigate to your GitHub Pages site's repository.
+* 1) On GitHub, navigate to the donmiguelruiz repository.
 * 2) Under your repository name, click  Settings.
 * 3) Use the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
 * 4) Click Save.
@@ -157,7 +157,7 @@ https://pages.github.com/
 
 * Tip: If you remove the /docs folder from the master branch after it's enabled, your site won't build and you'll get a page build error message for a missing /docs folder.
 
-* (1) On GitHub, navigate to your GitHub Pages site's repository.
+* (1) On GitHub, navigate to the donmiguelruiz repository.
 * (2) Create a folder in the root of your repository on the master branch called /docs.
 * (3) Under your repository name, click  Settings.
 * (4) Use the Select source drop-down menu to select master branch /docs folder as your GitHub Pages publishing source.
@@ -170,93 +170,30 @@ https://help.github.com/en/articles/configuring-a-publishing-source-for-github-p
 
 **If the code needs to be run locally, please use the following method step-by-step (This procedure assumes you have already created a repository on GitHub, or have an existing repository owned by someone else you'd like to contribute to.):**
 
-* On GitHub, navigate to the main page of the repository.
+* Cloning a repository:
+* When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations.
+* This procedure assumes you have already created a repository on GitHub, or have an existing repository owned by someone else you'd like to contribute to.
+* (1) On GitHub, navigate to the main page of the repository.
 
-* Under the repository name, click Clone or download.
+Note: If the repository is empty, you can manually copy the repository page's URL from your browser and skip to step four.
+* (2) Under the repository name, click Clone or download.
+* (3) In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+* (4) Open Git Bash.
+* (5) Change the current working directory to the location where you want the cloned directory to be made.
+* (6) Type git clone, and then paste the URL you copied in Step 2.
+* $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+* (7) Press Enter. Your local clone will be created.
 
-* In the Clone with HTTPs section, click to copy the clone URL for the repository.
+* Cloning a repository to GitHub Desktop
+On GitHub, navigate to the main page of the repository.
 
-* Open Git Bash.
+* Under your repository name, click  to clone your repository in Desktop. Follow the prompts in GitHub Desktop to complete the clone. For more information, see "Cloning a repository from GitHub to GitHub Desktop." *
 
-* Change the current working directory to the location where you want the cloned directory to be made.
+> For further details, please visit the following link:
 
-* Type git clone, and then paste the URL you copied in Step 2.
-
-_$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY_
-
-_Press Enter. Your local clone will be created._
-
-_$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY_
-
-_Cloning into Spoon-Knife... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done._
-
-> For more details about running the code locally, please visit the following link:
+https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop
 
 https://help.github.com/en/articles/cloning-a-repository
-
-**To create a fork/personal copy of this repository and pull it into your own, follow the steps listed below:**
-
-* (1) Step 1: Set up Git
-* (2) Step 2: Create a local clone of your fork
-* - On GitHub, navigate to your fork of the Spoon-Knife repository.
-* - Under the repository name, click Clone or download.
-* - In the Clone with HTTPs section, click  to copy the clone URL for the repository.
-* - Open Git Bash.
-* - Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of YOUR-USERNAME:
-
-> $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
-
-* - Press Enter. Your local clone will be created.
-
-> $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
-
-> Cloning into `Spoon-Knife`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-
-* Now, you have a local copy of your fork of the Spoon-Knife repository!
-
-* (3) Step 3: Configure Git to sync your fork with the original Spoon-Knife repository
-* When you fork a project in order to propose changes to the original repository, you can configure Git to pull changes from the original, or upstream, repository into the local clone of your fork.
-
-* - On GitHub, navigate to the octocat/Spoon-Knife repository.
-* - Under the repository name, click Clone or download.
-* - In the Clone with HTTPs section, click  to copy the clone URL for the repository.
-* - Open Git Bash.
-* - Change directories to the location of the fork you cloned in Step 2: Create a local clone of your fork.
-
-To go to your home directory, type just cd with no other text.
-To list the files and folders in your current directory, type ls.
-To go into one of your listed directories, type cd your_listed_directory.
-To go up one directory, type cd ...
-
-* - Type git remote -v and press Enter. You'll see the current configured remote repository for your fork.
-
-> $ git remote -v
-> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-
-* - Type git remote add upstream, and then paste the URL you copied in Step 2 and press Enter. It will look like this:
-
-> $ git remote add upstream https://github.com/octocat/Spoon-Knife.git
-
-* - To verify the new upstream repository you've specified for your fork, type git remote -v again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
-
-> $ git remote -v
-> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
-> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
-
-> For detailed steps on how to fork a repository / pull / download this project into your repository, please click on the following links:
-
-> https://help.github.com/en/articles/fork-a-repo#step-1-set-up-git
-
-> https://guides.github.com/activities/forking/
-
-> https://help.github.com/en/articles/merging-an-upstream-repository-into-your-fork
 
 > Additional clarification about Github cloning vs. forking can be found at the following link:
 
