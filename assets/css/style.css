@@ -184,8 +184,9 @@ img {
 	opacity:0.9;
 }
 .homepagecenterbooksbutton {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin: 2rem 2rem 2rem 2rem;
 	margin: 0 auto;
 	background-image: linear-gradient(to right top, #e7d7cd, #cebbb4, #b6a09d, #9d8687, #836d72, #816a70, #7e666d, #7c636b, #907479, #a48587, #b89796, #ccaaa4);
 	background-position: center;
@@ -196,7 +197,6 @@ img {
 	height: 5rem;
 	width: 5rem;
 	color: #E7D7CD;
-	line-height: 4rem;
 	border-color: #887A82;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
@@ -208,7 +208,7 @@ img {
 	/* IE 9 */
 	/* Safari 3-8 */
 	transform: scale(1.5);
-	border-color: #747E7D;
+	border-color: #887A82;
 }
 .homepagebookcardsmall {
 	color: #B98B82;
@@ -414,10 +414,12 @@ img {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius:10px;
 }
-.sitenavcardsbutton {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 0 auto;
+.sitenavcardsbutton  {
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin: 2rem 2rem 2rem 2rem;
+	align-items: center;
+	justify-content: center;
 	background-image: linear-gradient(to right top, #e7d7cd, #cebbb4, #b6a09d, #9d8687, #836d72, #816a70, #7e666d, #7c636b, #907479, #a48587, #b89796, #ccaaa4);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -428,7 +430,6 @@ img {
 	height: 5rem;
 	width: 5rem;
 	color: #E7D7CD;
-	line-height: 4rem;
 	border-color: #887A82;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
@@ -436,8 +437,6 @@ img {
 	background-color:white;
 }
 .sitenavcardsbutton:hover {
-	/* IE 9 */
-	/* Safari 3-8 */
 	transform: scale(1.5);
 	border-color: #887A82;
 }
@@ -631,8 +630,9 @@ img {
 	border-radius:10px;
 }
 .bookspagecardbutton {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin: 2rem 2rem 2rem 2rem;
 	align-items: center;
 	justify-content:center;
 	text-align: center;
@@ -646,7 +646,6 @@ img {
 	height: 5rem;
 	width: 5rem;
 	color: #E7D7CD;
-	line-height: 4rem;
 	border-color: #858E8D;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
@@ -696,8 +695,9 @@ img {
 	align-items: center;
 }
 .morebookscardbutton {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin: 2rem 2rem 2rem 2rem;
 	align-items: center;
 	justify-content:center;
 	text-align: center;
@@ -711,7 +711,6 @@ img {
 	height: 5rem;
 	width: 5rem;
 	color: #E7D7CD;
-	line-height: 4rem;
 	border-color: #858E8D;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
@@ -988,6 +987,7 @@ label {
 .contactformbutton {
 	padding-bottom: 2rem;
 	padding-top: 2rem;
+	margin: 2rem 2rem 2rem 2rem;
 	align-items: center;
 	justify-content:center;
 	text-align: center;
