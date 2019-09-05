@@ -113,23 +113,60 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 https://tejalsaldanha.github.io/donmiguelruiz/
 
-**The steps taken to deploy this website are as follows:**
+**The steps taken to deploy this website on Github are as follows:**
 
-* The website repository was first created on Github.
+* 1) Create a repository: Head over to GitHub and create a new repository named TejalSaldanha.github.io, where username is your TejalSaldanha (or organization name) on GitHub.
 
-* The repository then had a master branch added to it.
+* If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
 
-* The master branch is then set as a publishing source, so that the site is published.
+* 2) Clone the repository - Go to the folder where you want to store your project, and clone the new repository: git clone https://github.com/TejalSaldanha/TejalSaldanha.github.io.
 
-* On Github, when you navigate your site's repository, the settings section was selected under the repository name.
+* 3) donmiguelruiz - Enter the project folder and add an index.html file:
+* cd TejalSaldanha.github.io
+* echo "donmiguelruiz" > index.html
 
-* Under the "Source" drop-down menu, I selected "master branch" (or "gh-pages" as the GitHub Pages publishing source).
+* 4) Push it - Add, commit, and push your changes:
+* git add --all
+* git commit -m "Initial commit"
+* git push -u origin master
 
-* Upon clicking on "Save", the site was published.
+* 5) …and you're done! - Fire up a browser and go to https://tejalsaldanha.github.io/donmiguelruiz/.
 
-> For more details about deploying your website, please visit the following link:
+> For more details about deploying your website, please visit the following links:
 
-https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages.
+https://pages.github.com/
+
+**The steps taken to access the deployed repository are as follows:**
+
+* To select master or gh-pages as your publishing source, you must have the branch present in your repository. If you don't have a master or gh-pages branch, you can create them and then return to source settings to change your publishing source.
+
+* 1) On GitHub, navigate to your GitHub Pages site's repository.
+* 2) Under your repository name, click  Settings.
+* 3) Use the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
+* 4) Click Save.
+
+**Publishing your GitHub Pages site from a /docs folder on your master branch**
+
+* To publish your site's source files from a /docs folder on your master branch, you must have a master branch and your repository must:
+
+* (a) have a /docs folder in the root of the repository
+
+* (b) not follow the repository naming scheme <username>.github.ioor <orgname>.github.io
+
+* GitHub Pages will read everything to publish your site, including the CNAME file, from the /docs folder. For example, when you edit your custom domain through the GitHub Pages settings, the custom domain will write to /docs/CNAME.
+
+* Tip: If you remove the /docs folder from the master branch after it's enabled, your site won't build and you'll get a page build error message for a missing /docs folder.
+
+* (1) On GitHub, navigate to your GitHub Pages site's repository.
+* (2) Create a folder in the root of your repository on the master branch called /docs.
+* (3) Under your repository name, click  Settings.
+* (4) Use the Select source drop-down menu to select master branch /docs folder as your GitHub Pages publishing source.
+* Tip: The master branch /docs folder source setting will not appear as an option if the /docs folder doesn't exist on the master branch.
+* (5) Click Save.
+* 
+> For more details about deploying your website, please visit the following links:
+
+https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
 
 **If the code needs to be run locally, please use the following method step-by-step (This procedure assumes you have already created a repository on GitHub, or have an existing repository owned by someone else you'd like to contribute to.):**
 
