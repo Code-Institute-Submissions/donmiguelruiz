@@ -274,7 +274,7 @@ https://help.github.com/en/articles/creating-a-pull-request
 * The wire-frames were created using Microsoft Powerpoint: https://www.microsoft.com/en-us/p/powerpoint/cfq7ttc0k7c6?activetab=pivot:overviewtab
 * A lot of my queries were answered using https://stackoverflow.com/.
 * Most of the code is verified using https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Developer_Edition as well as  https://developers.google.com/docs/api/.
-* A lot of inspiration for CSS styling is taken from https://mdbootstrap.com/.
+* A lot of inspiration for CSS styling comes from https://mdbootstrap.com/.
 * The multi-device mock-up on this document is created using https://techsini.com/multi-mockup/.
 * The site is thoroughly created using https://developers.google.com/web/tools/chrome-devtools/.
 * This readme.md document is written using markdownn language from the following link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
