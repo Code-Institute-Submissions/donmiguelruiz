@@ -189,7 +189,7 @@ https://pages.github.com/
 
 * (a) have a /docs folder in the root of the repository
 
-* (b) not follow the repository naming scheme <username>.github.ioor <orgname>.github.io
+* (b) not follow the repository naming scheme <username>.github.io or <orgname>.github.io
 
 * GitHub Pages will read everything to publish your site, including the CNAME file, from the /docs folder. For example, when you edit your custom domain through the GitHub Pages settings, the custom domain will write to /docs/CNAME.
 
