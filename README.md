@@ -281,6 +281,6 @@ https://help.github.com/en/articles/creating-a-pull-request
 * Tips to add opacity and colors to images have been taken from https://css-tricks.com/.
 * https://www.colorhexa.com/ has been used to match gradient colors.
 * Images and some information about the books published by the author were taken from http://www.amberallen.com/ and https://www.harpercollins.com/9780062391094/the-three-questions/.
-
+* The favicon was generated with the following website: https://favicon.io/favicon-generator/.
 
 > I received inspiration for this project from the original website created by don Miguel Ruiz: https://www.miguelruiz.com/.
