@@ -96,13 +96,50 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 
 ## TESTING:
-**The website usability tests were conducted using the following parameters and resources:**
+**The website usability tests were thoroughly conducted using the following parameters and resources:**
 
-1) Devtools: https://developers.google.com/web/tools/chrome-devtools/
+* 1) Devtools: https://developers.google.com/web/tools/chrome-devtools/
 
-2) https://www.powermapper.com/
+* The screen sizes tested on devtools are as follows:
 
-3) 
+(1) Galaxy S5
+
+(2) Pixel 2
+
+(3) Pixel 2 XL
+
+(4) iPhone 5/SE
+
+(5) iPhone 6/7/8
+
+(6) iPhone 6/7/7 Plus
+
+(7) iPhone X
+
+(8) iPad
+
+(9) iPad Pro
+
+(10) Desktop/desktop-touch
+
+
+* These devtools were tested on all the five pages of the website and across browsers such as the Internet Explorer, Mozilla Firefox and many others using the following website:
+
+http://browsershots.org/
+
+* The other validators used throughout the website are as follows:
+
+* (1) https://validator.w3.org/
+* (2) https://jigsaw.w3.org/css-validator/
+
+* During the testing session, two broken links were found and fixed on the index.html carousel. The button on the books.html page was found out of place and was aligned using CSS.
+* No errors were found when conducting the following tests on the contact form:
+* Contact form:
+Go to the "Contact Us" page
+Try to submit the empty form and verify that an error message about the required fields appears
+Try to submit the form with an invalid email address and verify that a relevant error message appears
+Try to submit the form with all inputs valid and verify that a success message appears.
+* The website works perfectly fine on all screen sizes and browsers tested with the tools listed above.
 
 
 
