@@ -163,7 +163,8 @@ https://pages.github.com/
 * (4) Use the Select source drop-down menu to select master branch /docs folder as your GitHub Pages publishing source.
 * Tip: The master branch /docs folder source setting will not appear as an option if the /docs folder doesn't exist on the master branch.
 * (5) Click Save.
-* 
+
+
 > For more details about deploying your website, please visit the following links:
 
 https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
@@ -194,8 +195,73 @@ _Cloning into Spoon-Knife... remote: Counting objects: 10, done. remote: Compres
 
 https://help.github.com/en/articles/cloning-a-repository
 
+**To create a fork/personal copy of this repository and pull it into your own, follow the steps listed below:**
 
+* (1) Step 1: Set up Git
+* (2) Step 2: Create a local clone of your fork
+* - On GitHub, navigate to your fork of the Spoon-Knife repository.
+* - Under the repository name, click Clone or download.
+* - In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+* - Open Git Bash.
+* - Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of YOUR-USERNAME:
 
+> $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+
+* - Press Enter. Your local clone will be created.
+
+> $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+* Now, you have a local copy of your fork of the Spoon-Knife repository!
+
+* (3) Step 3: Configure Git to sync your fork with the original Spoon-Knife repository
+* When you fork a project in order to propose changes to the original repository, you can configure Git to pull changes from the original, or upstream, repository into the local clone of your fork.
+
+* - On GitHub, navigate to the octocat/Spoon-Knife repository.
+* - Under the repository name, click Clone or download.
+* - In the Clone with HTTPs section, click  to copy the clone URL for the repository.
+* - Open Git Bash.
+* - Change directories to the location of the fork you cloned in Step 2: Create a local clone of your fork.
+
+To go to your home directory, type just cd with no other text.
+To list the files and folders in your current directory, type ls.
+To go into one of your listed directories, type cd your_listed_directory.
+To go up one directory, type cd ...
+
+* - Type git remote -v and press Enter. You'll see the current configured remote repository for your fork.
+
+> $ git remote -v
+> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+
+* - Type git remote add upstream, and then paste the URL you copied in Step 2 and press Enter. It will look like this:
+
+> $ git remote add upstream https://github.com/octocat/Spoon-Knife.git
+
+* - To verify the new upstream repository you've specified for your fork, type git remote -v again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
+
+> $ git remote -v
+> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+
+> For detailed steps on how to fork a repository / pull / download this project into your repository, please click on the following links:
+
+> https://help.github.com/en/articles/fork-a-repo#step-1-set-up-git
+
+> https://guides.github.com/activities/forking/
+
+> https://help.github.com/en/articles/merging-an-upstream-repository-into-your-fork
+
+> Additional clarification about Github cloning vs. forking can be found at the following link:
+
+https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372
 
 ## CREDITS:
 
