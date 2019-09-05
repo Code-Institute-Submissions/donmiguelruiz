@@ -232,7 +232,7 @@ img {
 	outline-offset: 10px;
 	height: 370px;
 }
-.carouselExampleIndicators {
+#carouselExampleCaptions {
 	height: 300px;
 	width: auto;
 	outline-offset: 30px;
@@ -241,7 +241,7 @@ img {
 	background-color:#230B18;
 	color:#39222E;
 }
-.carouselExampleIndicators:hover {
+#carouselExampleCaptions:hover {
 	opacity:0.9;
 }
 .carousel-inner {
