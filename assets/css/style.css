@@ -184,6 +184,8 @@ img {
 	opacity:0.9;
 }
 .homepagecenterbooksbutton {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin: 0 auto;
 	background-image: linear-gradient(to right top, #e7d7cd, #cebbb4, #b6a09d, #9d8687, #836d72, #816a70, #7e666d, #7c636b, #907479, #a48587, #b89796, #ccaaa4);
 	background-position: center;
