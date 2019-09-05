@@ -131,6 +131,7 @@ http://browsershots.org/
 
 * (1) https://validator.w3.org/
 * (2) https://jigsaw.w3.org/css-validator/
+* A folder with screen-shots from the browser testing is attached to the root directory and named "browsertestingscreenshots".
 
 * During the testing session, two broken links were found and fixed on the index.html carousel. The button on the books.html page was found out of place and was aligned using CSS.
 * No errors were found when conducting the following tests on the contact form:
