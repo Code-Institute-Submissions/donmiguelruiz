@@ -130,7 +130,7 @@ https://tejalsaldanha.github.io/donmiguelruiz/
 * git commit -m "Initial commit"
 * git push -u origin master
 
-* 5) …and you're done! - Fire up a browser and go to https://tejalsaldanha.github.io/donmiguelruiz/.
+* 5)...and you're done! - Fire up a browser and go to https://tejalsaldanha.github.io/donmiguelruiz/.
 
 > For more details about deploying your website, please visit the following links:
 
@@ -195,9 +195,15 @@ https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository
 
 https://help.github.com/en/articles/cloning-a-repository
 
-> Additional clarification about Github cloning vs. forking can be found at the following link:
+> Additional clarification about Github cloning vs. forking can be found at the following links:
 
 https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372
+
+https://help.github.com/en/articles/fork-a-repo
+
+https://help.github.com/en/articles/merging-an-upstream-repository-into-your-fork
+
+https://help.github.com/en/articles/creating-a-pull-request
 
 ## CREDITS:
 

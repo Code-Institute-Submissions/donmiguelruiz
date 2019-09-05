@@ -61,10 +61,17 @@ img {
 /* navbar */
 /* landing page */
 .authortitlehomepagejumbotron {
-	height: 100%;
+	max-width:100%;
+	height:auto;
 	background-color: transparent;
 }
+.authortitlehomepagecontainer {
+	max-width:100%;
+	height:auto;
+}
 .authortitlehomepagecard {
+	max-width:100%;
+	height:auto;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
