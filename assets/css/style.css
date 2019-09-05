@@ -503,7 +503,6 @@ img {
 	color: black;
 	font-size: 1rem;
 	justify-content: center;
-	width:100%;
 	opacity:0.9;
 }
 .aboutpagedetailscontainer {
@@ -561,7 +560,6 @@ img {
 	background-image: linear-gradient(to right top, #ebdfdc, #e7dcda, #e2d8d8, #ded5d6, #d9d2d4, #dad4d5, #dcd5d7, #ddd7d8, #e4dede, #ebe5e4, #f2edea, #f8f4f1);
 	justify-content: center;
 	text-align: center;
-	width:100%;
 	margin-top: 150px;
 	opacity:0.8;
 	outline: 5px solid #858E8D;
@@ -585,7 +583,6 @@ img {
 	box-shadow:15px 15px 15px -4px #4D3843;
 }
 .bookspagebooksjumbotron {
-	width: 100%;
 	margin:0;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(../images/bookpagebackground.jpg);
@@ -614,7 +611,6 @@ img {
 	justify-content: center;
 	align-items:center;
 	margin: 0 auto;
-	width: 100%;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(../images/61842.jpg);
 	background-position: center;
@@ -677,7 +673,6 @@ img {
 	opacity:0.9;
 }
 .morebookscard {
-	width: 100%;
 	border-radius: 10px;
 	margin: 0 auto;
 	text-align: center;
@@ -691,7 +686,6 @@ img {
 	background-color: #404E4D;
 }
 .morebookscardbody {
-	width: 100%;
 	border-radius: 10px;
 	margin: 0 auto;
 	text-align: center;
