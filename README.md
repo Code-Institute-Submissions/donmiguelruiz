@@ -115,7 +115,7 @@ https://tejalsaldanha.github.io/donmiguelruiz/
 
 **The steps taken to deploy this website on Github are as follows:**
 
-* 1) Create a repository: Head over to GitHub and create a new repository named TejalSaldanha.github.io, where username is your TejalSaldanha (or organization name) on GitHub.
+* 1) Create a repository: Head over to GitHub and create a new repository named TejalSaldanha.github.io, where TejalSaldanha is your Username (or organization name) on GitHub.
 
 * If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
 
@@ -163,7 +163,6 @@ https://pages.github.com/
 * (4) Use the Select source drop-down menu to select master branch /docs folder as your GitHub Pages publishing source.
 * Tip: The master branch /docs folder source setting will not appear as an option if the /docs folder doesn't exist on the master branch.
 * (5) Click Save.
-
 
 > For more details about deploying your website, please visit the following links:
 
