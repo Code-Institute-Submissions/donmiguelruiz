@@ -672,7 +672,17 @@ img {
 	background-color: #404E4D;
 	opacity:0.9;
 }
+.morebookscontainer {
+	max-width: 100%;
+	height:auto;
+	text-align:center;
+	align-items:center;
+	justify-content: center;
+	margin: 0 auto;
+}
 .morebookscard {
+	max-width: 100%;
+	height:auto;
 	border-radius: 10px;
 	margin: 0 auto;
 	text-align: center;
