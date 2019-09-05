@@ -938,7 +938,7 @@ iframe {
 	outline-offset: -10px;
 }
 form {
-	padding-top: 4rem;
+	padding: 2rem 2rem 2rem 2rem;
 	max-width: 100%;
 	height:auto;
 	border-radius: 10px;
@@ -955,8 +955,7 @@ form:hover {
 	opacity:0.9;
 }
 label {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding: 2rem 2rem 2rem 2rem;
 	max-width: 100%;
 	height:auto;
 	border-radius: 10px;
