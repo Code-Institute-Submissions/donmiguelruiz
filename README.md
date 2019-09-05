@@ -142,6 +142,8 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 * The website works perfectly fine on all screen sizes and browsers tested with the tools listed above.
 
+* There were no bugs left unfixed.
+
 
 
 
