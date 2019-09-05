@@ -232,7 +232,7 @@ img {
 	outline-offset: 10px;
 	height: 370px;
 }
-#carouselExampleCaptions {
+#carouselExampleIndicators {
 	height: 300px;
 	width: auto;
 	outline-offset: 30px;
@@ -241,7 +241,7 @@ img {
 	background-color:#230B18;
 	color:#39222E;
 }
-#carouselExampleCaptions:hover {
+#carouselExampleIndicators:hover {
 	opacity:0.9;
 }
 .carousel-inner {
@@ -415,6 +415,8 @@ img {
 	border-radius:10px;
 }
 .sitenavcardsbutton {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin: 0 auto;
 	background-image: linear-gradient(to right top, #e7d7cd, #cebbb4, #b6a09d, #9d8687, #836d72, #816a70, #7e666d, #7c636b, #907479, #a48587, #b89796, #ccaaa4);
 	background-position: center;
@@ -629,6 +631,8 @@ img {
 	border-radius:10px;
 }
 .bookspagecardbutton {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	align-items: center;
 	justify-content:center;
 	text-align: center;
@@ -692,6 +696,8 @@ img {
 	align-items: center;
 }
 .morebookscardbutton {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	align-items: center;
 	justify-content:center;
 	text-align: center;
@@ -973,17 +979,18 @@ label {
 	height: 5rem;
 	width: 5rem;
 	color: #E7D7CD;
-	line-height: 4rem;
 	border-color: #858E8D;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 	transition: transform .2s;
 	background-color:#260C1A;
+	border-color: #404E4D;
 }
 .contactformbutton:hover {
 	/* IE 9 */
 	/* Safari 3-8 */
 	transform: scale(1.5);
+	border-color: #404E4D;
 }
 .contactpagecontactsonsjumbotron {
 	margin: 10px 10px 10px 10px;
