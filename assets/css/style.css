@@ -896,9 +896,9 @@ iframe {
 /* eventsandmediahtmlbackground */
 /* contactpage */
 .contactformtitlejumbotron {
+	margin: 0 auto;
 	max-width: 100%;
 	height:auto;
-	margin: 150px 10px 10px 10px;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(../images/contactpage1.jpg);
@@ -916,10 +916,15 @@ iframe {
 	outline: 5px inset #747E7D;
 	outline-offset: -10px;
 }
-.contactform {
+.contactformtitlecontainer {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.contactformjumbotron {
 	max-width: 100%;
 	height:auto;
-	margin: 10px 10px 10px 10px;
+	margin: 0 auto;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(https://image.freepik.com/free-vector/green-floral-background_53876-67015.jpg);
@@ -937,6 +942,11 @@ iframe {
 	outline: 5px inset #D2B5AF;
 	outline-offset: -10px;
 }
+.contactformcontainer {
+	max-width: 100%;
+	height:auto;
+	margin: 0 auto;
+}
 form {
 	padding: 2rem 2rem 2rem 2rem;
 	max-width: 100%;
@@ -950,14 +960,15 @@ form {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	margin: 0 auto;
 }
 form:hover {
 	opacity:0.9;
 }
 label {
-	padding: 2rem 2rem 2rem 2rem;
 	max-width: 100%;
-	height:auto;
+	height: auto;
+	padding: 2rem 2rem 2rem 2rem;
 	border-radius: 10px;
 	align-content: center;
 	text-align: center;
@@ -966,8 +977,11 @@ label {
 	font-size: 1rem;
 	font-weight: bold;
 	justify-content: center;
+	margin: 0 auto;
 }
 .contactformbuttonclass {
+	max-width: 100%;
+	height: auto;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
@@ -987,7 +1001,6 @@ label {
 	height: 5rem;
 	width: 5rem;
 	color: #E7D7CD;
-	border-color: #858E8D;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	border-radius: 50%;
 	transition: transform .2s;
@@ -1001,7 +1014,7 @@ label {
 	border-color: #404E4D;
 }
 .contactpagecontactsonsjumbotron {
-	margin: 10px 10px 10px 10px;
+	margin: 0 auto;
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
 	background-image:url(../images/contactpage1.jpg);
@@ -1018,6 +1031,13 @@ label {
 	opacity:0.9;
 	outline: 5px inset #747E7D;
 	outline-offset: -10px;
+	max-width: 100%;
+	height: auto;
+}
+.contactpagecontactsonscontainer {
+	max-width:100%;
+	height:auto;
+	margin: 0 auto;
 }
 /* contactpage */
 /* socialmedia */
