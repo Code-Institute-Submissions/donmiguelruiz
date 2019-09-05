@@ -187,7 +187,7 @@ Note: If the repository is empty, you can manually copy the repository page's UR
 * Cloning a repository to GitHub Desktop
 On GitHub, navigate to the main page of the repository.
 
-* Under your repository name, click  to clone your repository in Desktop. Follow the prompts in GitHub Desktop to complete the clone. For more information, see "Cloning a repository from GitHub to GitHub Desktop." *
+* Under your repository name, click  to clone your repository in Desktop. Follow the prompts in GitHub Desktop to complete the clone. For more information, see "Cloning a repository from GitHub to GitHub Desktop."
 
 > For further details, please visit the following link:
 
