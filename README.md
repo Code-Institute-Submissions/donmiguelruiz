@@ -13,7 +13,7 @@ _Access to the website:_
 
 **The website I created can be accessed with the following link:**
 
-> https://tejalsaldanha.github.io/donmiguelruiz/
+> [Github](https://tejalsaldanha.github.io/donmiguelruiz/)
 
 ![Multi-device preview](https://raw.githubusercontent.com/TejalSaldanha/donmiguelruiz/master/assets/images/FireShotCapture001-MultiDeviceWebsiteMockupGenerator-techsini.com.png)
 
@@ -125,13 +125,12 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 * These devtools were tested on all the five pages of the website and across browsers such as the Internet Explorer, Mozilla Firefox and many others using the following website:
 
-http://browsershots.org/
+[Browsershot](http://browsershots.org/)
 
 * The other validators used throughout the website are as follows:
 
 * (1) https://validator.w3.org/
 * (2) https://jigsaw.w3.org/css-validator/
-* A folder with screen-shots from the browser testing is attached to the root directory and named "browsertestingscreenshots".
 
 * During the testing session, two broken links were found and fixed on the index.html carousel. The button on the books.html page was found to be out of place and was aligned using CSS.
 * No errors were found when conducting the following tests on the contact form:
@@ -151,7 +150,7 @@ Try to submit the form with all inputs valid and verify that a success message a
 
 **This website has been deployed using the Github platform at the following address:**
 
-https://tejalsaldanha.github.io/donmiguelruiz/
+[Github](https://tejalsaldanha.github.io/donmiguelruiz/)
 
 **The steps taken to deploy this website on Github are as follows:**
 
@@ -161,20 +160,19 @@ https://tejalsaldanha.github.io/donmiguelruiz/
 
 * 2) Clone the repository - Go to the folder where you want to store your project, and clone the new repository: git clone https://github.com/TejalSaldanha/TejalSaldanha.github.io.
 
-* 3) donmiguelruiz - Enter the project folder and add an index.html file:
-* cd TejalSaldanha.github.io
-* echo "donmiguelruiz" > index.html
+* 3) donmiguelruiz - the repository that we created.
 
 * 4) Push it - Add, commit, and push your changes:
-* git add --all
+* git init
+* git add .
 * git commit -m "Initial commit"
-* git push -u origin master
+* git push origin master
 
-* 5)...and you're done! - Fire up a browser and go to https://tejalsaldanha.github.io/donmiguelruiz/.
+* 5)...and you're done! - Fire up a browser and go to https://tejalsaldanha.github.io/donmiguelruiz/
 
 > For more details about deploying your website, please visit the following links:
 
-https://pages.github.com/
+[Github](https://pages.github.com/)
 
 **The steps taken to access the deployed repository are as follows:**
 
@@ -187,26 +185,17 @@ https://pages.github.com/
 
 **Publishing your GitHub Pages site from a /docs folder on your master branch**
 
-* To publish your site's source files from a /docs folder on your master branch, you must have a master branch and your repository must:
-
-* (a) have a /docs folder in the root of the repository
-
-* (b) not follow the repository naming scheme <username>.github.io or <orgname>.github.io
-
-* GitHub Pages will read everything to publish your site, including the CNAME file, from the /docs folder. For example, when you edit your custom domain through the GitHub Pages settings, the custom domain will write to /docs/CNAME.
-
-* Tip: If you remove the /docs folder from the master branch after it's enabled, your site won't build and you'll get a page build error message for a missing /docs folder.
+* To publish your site's source files, you must have a master branch. After confirming that, follow the steps listed below:
 
 * (1) On GitHub, navigate to the donmiguelruiz repository.
 * (2) Create a folder in the root of your repository on the master branch called /docs.
 * (3) Under your repository name, click  Settings.
-* (4) Use the Select source drop-down menu to select master branch /docs folder as your GitHub Pages publishing source.
-* Tip: The master branch /docs folder source setting will not appear as an option if the /docs folder doesn't exist on the master branch.
+* (4) Use the Select source drop-down menu to select master branch as your GitHub Pages publishing source.
 * (5) Click Save.
 
 > For more details about deploying your website, please visit the following links:
 
-https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
+[Github](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
 **If the code needs to be run locally, please use the following method step-by-step (This procedure assumes you have already created a repository on GitHub, or have an existing repository owned by someone else you'd like to contribute to.):**
 
@@ -231,46 +220,46 @@ On GitHub, navigate to the main page of the repository.
 
 > For further details, please visit the following link:
 
-https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop
+[Github](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop)
 
-https://help.github.com/en/articles/cloning-a-repository
+[Github](https://help.github.com/en/articles/cloning-a-repository)
 
 > Additional clarification about Github cloning vs. forking can be found at the following links:
 
-https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372
+[Github](https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372)
 
-https://help.github.com/en/articles/fork-a-repo
+[Github](https://help.github.com/en/articles/fork-a-repo)
 
-https://help.github.com/en/articles/merging-an-upstream-repository-into-your-fork
+[Github](https://help.github.com/en/articles/merging-an-upstream-repository-into-your-fork)
 
-https://help.github.com/en/articles/creating-a-pull-request
+[Github](https://help.github.com/en/articles/creating-a-pull-request)
 
 ## CREDITS:
 
 **Content:** 
 
-* The content for this website was taken from the original site created by the author (don Miguel Ruiz) from the following web address: https://www.miguelruiz.com/
+* The content for this website was taken from the original site created by the author (don Miguel Ruiz) from the following web address: [don Miguel Ruiz](https://www.miguelruiz.com/)
 
-* Other information about the author's sons was obtained from the following website dedicated solely to his sons: https://www.miguelruizjr.com/
+* Other information about the author's sons was obtained from the following website dedicated solely to his sons: [Miguel Ruiz Jr.](https://www.miguelruizjr.com/)
 
 **Some information about media interviews and certain aspects of his books published was taken from the following websites:**
 
-**(1)** The Oprah Winfrey Network: http://www.oprah.com/app/own-tv.html
+**(1)** [The Oprah Winfrey Network](http://www.oprah.com/app/own-tv.html)
 
-**(2)** Maria Shriver: https://mariashriver.com/
+**(2)** [Maria Shriver](https://mariashriver.com/)
 
-**(3)** Youtube: https://www.youtube.com/results?search_query=don+miguel+ruiz
+**(3)** [Youtube](https://www.youtube.com/results?search_query=don+miguel+ruiz)
 
-**(4)** Amazon.com: https://www.amazon.com/Don-Miguel-Ruiz/e/B001JP23NM?ref=sr_ntt_srch_lnk_1&qid=1567420549&sr=8-1
+**(4)** [Amazon.com](https://www.amazon.com/Don-Miguel-Ruiz/e/B001JP23NM?ref=sr_ntt_srch_lnk_1&qid=1567420549&sr=8-1)
 
-**(5)** The images used in this site were obtained from https://www.freepik.com/home.
+**(5)** [The images used in this site were obtained from](https://www.freepik.com/home)
 
 
-* The color scheme for this website is derived from https://coolors.co/404e4d-b98b82-604d53-260c1a-e7d7cd.
+* The color scheme for this website is derived from [Coolors](https://coolors.co/404e4d-b98b82-604d53-260c1a-e7d7cd)
 
-* The tool utilized to organize the HTML and CSS files is https://HTML-cleaner.com/css/.
+* The tool utilized to [organize the HTML and CSS files](https://HTML-cleaner.com/css/)
 
-* The borders and shadows in the website are created with the following tool: https://HTML-CSS-js.com/css/generator/box-shadow/.
+* The borders and shadows in the website are created with the following tool: [Shadows](https://HTML-CSS-js.com/css/generator/box-shadow/)
 
 * Additional help was requested from https://slack.com/intl/en-gb/.
 
