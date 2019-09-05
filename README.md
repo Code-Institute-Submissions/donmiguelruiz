@@ -98,7 +98,7 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 ## TESTING:
 **The website usability tests were thoroughly conducted using the following parameters and resources:**
 
-* 1) Devtools: https://developers.google.com/web/tools/chrome-devtools/
+* Devtools: https://developers.google.com/web/tools/chrome-devtools/
 
 * The screen sizes tested on devtools are as follows:
 
